@@ -10,8 +10,12 @@ public class ARPlacementManager : MonoBehaviour
     ARRaycastManager m_ARRaycestManager;
     static List<ARRaycastHit> raycastHits = new List<ARRaycastHit>();
     public Camera aRCamera;
+
+    // TODO Criar um prefab onde se inserido os objetos no plano
     public GameObject boxPuzzleGameObject;
     public GameObject boxDestinyGameObject;
+
+    // TODO Criar um GameObject spawnObject que sera o objeto que o usuario ira interagir
 
     private void Awake()
     {
