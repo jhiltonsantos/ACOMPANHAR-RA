@@ -3,7 +3,12 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - DestinoEsfera
+  - PecaPuzzleEsfera
+  - PecaPuzzleCaixa
+  - DestinoCaixa
+  - ItemSpawn
   layers:
   - Default
   - TransparentFX
@@ -11,9 +16,9 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
+  - ObjectMove
+  - ObjectDestiny
+  - ItemSpawn
   - 
   - 
   - 
@@ -40,4 +45,10 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: ObjectMove
+    uniqueID: 2694994571
+    locked: 0
+  - name: ObjectDestiny
+    uniqueID: 3218056165
     locked: 0

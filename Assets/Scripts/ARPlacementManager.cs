@@ -15,6 +15,8 @@ public class ARPlacementManager : MonoBehaviour
     public GameObject boxPuzzleGameObject;
     public GameObject boxDestinyGameObject;
 
+    private Vector3 destinationOffset = new Vector3(0f, 0f, 1f);
+
     // TODO Criar um GameObject spawnObject que sera o objeto que o usuario ira interagir
 
     private void Awake()
@@ -36,7 +38,7 @@ public class ARPlacementManager : MonoBehaviour
             Pose hitPose = raycastHits[0].pose;
             Vector3 positionToBePlaced = hitPose.position;
             boxPuzzleGameObject.transform.position = positionToBePlaced;
-            boxDestinyGameObject.transform.position = positionToBePlaced;
+            boxDestinyGameObject.transform.position = positionToBePlaced + destinationOffset;
         }
     }
 }

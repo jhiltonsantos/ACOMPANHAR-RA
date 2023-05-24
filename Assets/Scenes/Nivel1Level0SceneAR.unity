@@ -606,7 +606,7 @@ Transform:
   m_Children:
   - {fileID: 1012310553}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &440099668
 GameObject:
@@ -751,7 +751,7 @@ Transform:
   m_Children:
   - {fileID: 1805938207}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &655247662
 GameObject:
@@ -2349,7 +2349,7 @@ GameObject:
   - component: {fileID: 1805938204}
   - component: {fileID: 1805938208}
   m_Layer: 0
-  m_Name: Destino Caixa
+  m_Name: Destino
   m_TagString: DestinoCaixa
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
