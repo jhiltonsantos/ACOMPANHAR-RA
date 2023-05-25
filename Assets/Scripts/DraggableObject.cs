@@ -11,8 +11,8 @@ public class DraggableObject : MonoBehaviour
     public bool isBeingDragged;
     private Rigidbody rb;
     private Vector3 initialPosition;
-
     public Transform correctDestination; // Referência ao objeto do destino
+    private bool isPlacedOnDestination; // Indica se o objeto foi colocado no destino
 
     void Start()
     {
@@ -62,6 +62,7 @@ public class DraggableObject : MonoBehaviour
     {
         isBeingDragged = true;
         rb.isKinematic = true;
+        isPlacedOnDestination = false; // Reinicia a flag de colocação no destino
     }
 
     private void StopDragging()
@@ -69,8 +70,14 @@ public class DraggableObject : MonoBehaviour
         isBeingDragged = false;
         rb.isKinematic = false;
 
-        if (!ObjectCorrectPosition())
+        if (isPlacedOnDestination)
         {
+            // Objeto colocado no destino corretamente
+            // Você pode adicionar qualquer lógica adicional aqui, se necessário
+        }
+        else
+        {
+            // Objeto não foi colocado no destino corretamente
             ResetPosition();
         }
     }
@@ -80,23 +87,19 @@ public class DraggableObject : MonoBehaviour
         transform.position = initialPosition;
     }
 
-    private bool ObjectCorrectPosition()
+    private void OnTriggerEnter(Collider other)
     {
-        // Implemente a lógica para verificar se o objeto está na posição correta do destino
-        // Retorne true se estiver na posição correta, caso contrário, retorne false
-
-        // Por exemplo, você pode comparar a posição do objeto com a posição correta do destino:
-        float distanceThreshold = 0.1f; // A distância máxima permitida entre o objeto e o destino para considerá-lo como posição correta
-
-        // Verifica se o objeto está próximo o suficiente da posição correta
-        float distance = Vector3.Distance(transform.position, correctDestination.position);
-        if (distance <= distanceThreshold)
+        if (other.CompareTag("DestinoCaixa"))
         {
-            return true;
+            isPlacedOnDestination = true;
         }
-        else
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.CompareTag("DestinoCaixa"))
         {
-            return false;
+            isPlacedOnDestination = false;
         }
     }
 }

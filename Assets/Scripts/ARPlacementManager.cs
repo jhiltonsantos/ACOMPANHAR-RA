@@ -6,23 +6,19 @@ using UnityEngine.XR.ARSubsystems;
 
 public class ARPlacementManager : MonoBehaviour
 {
-
     ARRaycastManager m_ARRaycestManager;
     static List<ARRaycastHit> raycastHits = new List<ARRaycastHit>();
     public Camera aRCamera;
-
-    // TODO Criar um prefab onde se inserido os objetos no plano
     public GameObject boxPuzzleGameObject;
     public GameObject boxDestinyGameObject;
-
-    private Vector3 destinationOffset = new Vector3(0f, 0f, 1f);
-
-    // TODO Criar um GameObject spawnObject que sera o objeto que o usuario ira interagir
+    public Vector3 destinationOffset = new Vector3(0f, 0f, 1f);
+    public float minPlaneDistance = 0.5f;
 
     private void Awake()
     {
         m_ARRaycestManager = GetComponent<ARRaycastManager>();
     }
+    
     void Start()
     {
 

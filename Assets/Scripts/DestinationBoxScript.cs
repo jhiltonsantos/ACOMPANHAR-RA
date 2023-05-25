@@ -4,30 +4,29 @@ public class DestinationBoxScript : MonoBehaviour
 {
     public string objectCorrectTag = "PecaPuzzleCaixa";
     public Color correctColor;
-
     private Material originalMaterial;
-    private new Renderer renderer;
+    private Renderer objectRenderer;
 
     private void Start()
     {
-        renderer = GetComponent<Renderer>();
-        originalMaterial = renderer.material;
+        objectRenderer = GetComponent<Renderer>();
+        originalMaterial = objectRenderer.material;
     }
 
     private void OnTriggerEnter(Collider other)
     {
-        DraggableObject draggableObject = other.GetComponent<DraggableObject>();
-
-        if (draggableObject != null && draggableObject.isBeingDragged)
+        if (other.CompareTag(objectCorrectTag))
         {
-            if (other.CompareTag(objectCorrectTag))
+            Debug.Log("OnTriggerEnter: Object entered destination box.");
+            DraggableObject draggableObject = other.GetComponent<DraggableObject>();
+            if (draggableObject != null && draggableObject.isBeingDragged)
             {
                 GameManagerScript gameManager = FindObjectOfType<GameManagerScript>();
                 if (gameManager != null)
                 {
                     gameManager.IncrementObjectCorrect();
                     Destroy(draggableObject.gameObject);
-                    renderer.material.color = correctColor;
+                    objectRenderer.material.color = correctColor;
                 }
             }
         }
@@ -35,17 +34,18 @@ public class DestinationBoxScript : MonoBehaviour
 
     private void OnTriggerExit(Collider other)
     {
-        DraggableObject draggableObject = other.GetComponent<DraggableObject>();
-
-        if (draggableObject != null && !draggableObject.isBeingDragged)
+        if (other.CompareTag(objectCorrectTag))
         {
-            if (other.CompareTag(objectCorrectTag))
+            Debug.Log("OnTriggerExit: Object exited destination box.");
+            DraggableObject draggableObject = other.GetComponent<DraggableObject>();
+            if (draggableObject != null && !draggableObject.isBeingDragged)
             {
                 GameManagerScript gameManager = FindObjectOfType<GameManagerScript>();
                 if (gameManager != null)
                 {
                     gameManager.DecrementObjectCorrect();
-                    renderer.material = originalMaterial;
+                    objectRenderer.material = originalMaterial;
+                    draggableObject.ResetPosition();
                 }
             }
         }
