@@ -14,9 +14,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Nivel1Level0SceneAR.unity
     guid: 02b52f9dd856a4347b70ef74637b1301
-  - enabled: 0
-    path: Assets/Scenes/Nivel1Level1Scene.unity
-    guid: b10196c2efe14984e885933f98e4dc8b
+  - enabled: 1
+    path: Assets/Scenes/Nivel1Level1SceneAR.unity
+    guid: d842da43391735a48a251ce2c3d33459
   m_configObjects:
     Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: 744b813df90924c169af73489b8325de,
       type: 2}

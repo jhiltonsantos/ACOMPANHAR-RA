@@ -63,7 +63,8 @@
             "fullManagedTypeName": "",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/Nivel1Level0SceneAR.unity"
+                "Assets/Scenes/Nivel1Level0SceneAR.unity",
+                "Assets/Scenes/Nivel1Level1SceneAR.unity"
             ]
         },
         {
@@ -72,7 +73,8 @@
             "fullManagedTypeName": "",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/Nivel1Level0SceneAR.unity"
+                "Assets/Scenes/Nivel1Level0SceneAR.unity",
+                "Assets/Scenes/Nivel1Level1SceneAR.unity"
             ]
         },
         {
@@ -95,7 +97,8 @@
             "fullManagedTypeName": "",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/Nivel1Level0SceneAR.unity"
+                "Assets/Scenes/Nivel1Level0SceneAR.unity",
+                "Assets/Scenes/Nivel1Level1SceneAR.unity"
             ]
         },
         {
@@ -104,7 +107,8 @@
             "fullManagedTypeName": "",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/Nivel1Level0SceneAR.unity"
+                "Assets/Scenes/Nivel1Level0SceneAR.unity",
+                "Assets/Scenes/Nivel1Level1SceneAR.unity"
             ]
         },
         {
@@ -120,7 +124,8 @@
             "fullManagedTypeName": "",
             "moduleName": "AI",
             "usedInScenes": [
-                "Assets/Scenes/Nivel1Level0SceneAR.unity"
+                "Assets/Scenes/Nivel1Level0SceneAR.unity",
+                "Assets/Scenes/Nivel1Level1SceneAR.unity"
             ]
         },
         {
@@ -220,7 +225,8 @@
             "fullManagedTypeName": "UnityEditor.MonoScript",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/Nivel1Level0SceneAR.unity"
+                "Assets/Scenes/Nivel1Level0SceneAR.unity",
+                "Assets/Scenes/Nivel1Level1SceneAR.unity"
             ]
         },
         {
@@ -271,7 +277,8 @@
             "fullManagedTypeName": "UnityEngine.Behaviour",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/Nivel1Level0SceneAR.unity"
+                "Assets/Scenes/Nivel1Level0SceneAR.unity",
+                "Assets/Scenes/Nivel1Level1SceneAR.unity"
             ]
         },
         {
@@ -280,7 +287,8 @@
             "fullManagedTypeName": "UnityEngine.BoxCollider",
             "moduleName": "Physics",
             "usedInScenes": [
-                "Assets/Scenes/Nivel1Level0SceneAR.unity"
+                "Assets/Scenes/Nivel1Level0SceneAR.unity",
+                "Assets/Scenes/Nivel1Level1SceneAR.unity"
             ]
         },
         {
@@ -289,7 +297,8 @@
             "fullManagedTypeName": "UnityEngine.Camera",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/Nivel1Level0SceneAR.unity"
+                "Assets/Scenes/Nivel1Level0SceneAR.unity",
+                "Assets/Scenes/Nivel1Level1SceneAR.unity"
             ]
         },
         {
@@ -298,7 +307,8 @@
             "fullManagedTypeName": "UnityEngine.Canvas",
             "moduleName": "UI",
             "usedInScenes": [
-                "Assets/Scenes/Nivel1Level0SceneAR.unity"
+                "Assets/Scenes/Nivel1Level0SceneAR.unity",
+                "Assets/Scenes/Nivel1Level1SceneAR.unity"
             ]
         },
         {
@@ -307,7 +317,8 @@
             "fullManagedTypeName": "UnityEngine.CanvasRenderer",
             "moduleName": "UI",
             "usedInScenes": [
-                "Assets/Scenes/Nivel1Level0SceneAR.unity"
+                "Assets/Scenes/Nivel1Level0SceneAR.unity",
+                "Assets/Scenes/Nivel1Level1SceneAR.unity"
             ]
         },
         {
@@ -316,7 +327,8 @@
             "fullManagedTypeName": "UnityEngine.Collider",
             "moduleName": "Physics",
             "usedInScenes": [
-                "Assets/Scenes/Nivel1Level0SceneAR.unity"
+                "Assets/Scenes/Nivel1Level0SceneAR.unity",
+                "Assets/Scenes/Nivel1Level1SceneAR.unity"
             ]
         },
         {
@@ -325,7 +337,8 @@
             "fullManagedTypeName": "UnityEngine.Component",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/Nivel1Level0SceneAR.unity"
+                "Assets/Scenes/Nivel1Level0SceneAR.unity",
+                "Assets/Scenes/Nivel1Level1SceneAR.unity"
             ]
         },
         {
@@ -334,7 +347,8 @@
             "fullManagedTypeName": "UnityEngine.Cubemap",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/Nivel1Level0SceneAR.unity"
+                "Assets/Scenes/Nivel1Level0SceneAR.unity",
+                "Assets/Scenes/Nivel1Level1SceneAR.unity"
             ]
         },
         {
@@ -357,7 +371,8 @@
             "fullManagedTypeName": "UnityEngine.Font",
             "moduleName": "TextRendering",
             "usedInScenes": [
-                "Assets/Scenes/Nivel1Level0SceneAR.unity"
+                "Assets/Scenes/Nivel1Level0SceneAR.unity",
+                "Assets/Scenes/Nivel1Level1SceneAR.unity"
             ]
         },
         {
@@ -366,7 +381,8 @@
             "fullManagedTypeName": "UnityEngine.GameObject",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/Nivel1Level0SceneAR.unity"
+                "Assets/Scenes/Nivel1Level0SceneAR.unity",
+                "Assets/Scenes/Nivel1Level1SceneAR.unity"
             ]
         },
         {
@@ -396,7 +412,8 @@
             "fullManagedTypeName": "UnityEngine.Light",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/Nivel1Level0SceneAR.unity"
+                "Assets/Scenes/Nivel1Level0SceneAR.unity",
+                "Assets/Scenes/Nivel1Level1SceneAR.unity"
             ]
         },
         {
@@ -405,7 +422,8 @@
             "fullManagedTypeName": "UnityEngine.LightmapSettings",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/Nivel1Level0SceneAR.unity"
+                "Assets/Scenes/Nivel1Level0SceneAR.unity",
+                "Assets/Scenes/Nivel1Level1SceneAR.unity"
             ]
         },
         {
@@ -414,7 +432,8 @@
             "fullManagedTypeName": "UnityEngine.LineRenderer",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/Nivel1Level0SceneAR.unity"
+                "Assets/Scenes/Nivel1Level0SceneAR.unity",
+                "Assets/Scenes/Nivel1Level1SceneAR.unity"
             ]
         },
         {
@@ -423,7 +442,8 @@
             "fullManagedTypeName": "UnityEngine.Material",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/Nivel1Level0SceneAR.unity"
+                "Assets/Scenes/Nivel1Level0SceneAR.unity",
+                "Assets/Scenes/Nivel1Level1SceneAR.unity"
             ]
         },
         {
@@ -432,7 +452,8 @@
             "fullManagedTypeName": "UnityEngine.Mesh",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/Nivel1Level0SceneAR.unity"
+                "Assets/Scenes/Nivel1Level0SceneAR.unity",
+                "Assets/Scenes/Nivel1Level1SceneAR.unity"
             ]
         },
         {
@@ -441,7 +462,8 @@
             "fullManagedTypeName": "UnityEngine.MeshCollider",
             "moduleName": "Physics",
             "usedInScenes": [
-                "Assets/Scenes/Nivel1Level0SceneAR.unity"
+                "Assets/Scenes/Nivel1Level0SceneAR.unity",
+                "Assets/Scenes/Nivel1Level1SceneAR.unity"
             ]
         },
         {
@@ -450,7 +472,8 @@
             "fullManagedTypeName": "UnityEngine.MeshFilter",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/Nivel1Level0SceneAR.unity"
+                "Assets/Scenes/Nivel1Level0SceneAR.unity",
+                "Assets/Scenes/Nivel1Level1SceneAR.unity"
             ]
         },
         {
@@ -459,7 +482,8 @@
             "fullManagedTypeName": "UnityEngine.MeshRenderer",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/Nivel1Level0SceneAR.unity"
+                "Assets/Scenes/Nivel1Level0SceneAR.unity",
+                "Assets/Scenes/Nivel1Level1SceneAR.unity"
             ]
         },
         {
@@ -468,7 +492,8 @@
             "fullManagedTypeName": "UnityEngine.MonoBehaviour",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/Nivel1Level0SceneAR.unity"
+                "Assets/Scenes/Nivel1Level0SceneAR.unity",
+                "Assets/Scenes/Nivel1Level1SceneAR.unity"
             ]
         },
         {
@@ -477,7 +502,8 @@
             "fullManagedTypeName": "UnityEngine.Object",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/Nivel1Level0SceneAR.unity"
+                "Assets/Scenes/Nivel1Level0SceneAR.unity",
+                "Assets/Scenes/Nivel1Level1SceneAR.unity"
             ]
         },
         {
@@ -493,7 +519,8 @@
             "fullManagedTypeName": "UnityEngine.RectTransform",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/Nivel1Level0SceneAR.unity"
+                "Assets/Scenes/Nivel1Level0SceneAR.unity",
+                "Assets/Scenes/Nivel1Level1SceneAR.unity"
             ]
         },
         {
@@ -502,7 +529,8 @@
             "fullManagedTypeName": "UnityEngine.Renderer",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/Nivel1Level0SceneAR.unity"
+                "Assets/Scenes/Nivel1Level0SceneAR.unity",
+                "Assets/Scenes/Nivel1Level1SceneAR.unity"
             ]
         },
         {
@@ -518,7 +546,8 @@
             "fullManagedTypeName": "UnityEngine.RenderSettings",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/Nivel1Level0SceneAR.unity"
+                "Assets/Scenes/Nivel1Level0SceneAR.unity",
+                "Assets/Scenes/Nivel1Level1SceneAR.unity"
             ]
         },
         {
@@ -527,7 +556,8 @@
             "fullManagedTypeName": "UnityEngine.Rigidbody",
             "moduleName": "Physics",
             "usedInScenes": [
-                "Assets/Scenes/Nivel1Level0SceneAR.unity"
+                "Assets/Scenes/Nivel1Level0SceneAR.unity",
+                "Assets/Scenes/Nivel1Level1SceneAR.unity"
             ]
         },
         {
@@ -536,7 +566,8 @@
             "fullManagedTypeName": "UnityEngine.Shader",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/Nivel1Level0SceneAR.unity"
+                "Assets/Scenes/Nivel1Level0SceneAR.unity",
+                "Assets/Scenes/Nivel1Level1SceneAR.unity"
             ]
         },
         {
@@ -552,7 +583,8 @@
             "fullManagedTypeName": "UnityEngine.Sprite",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/Nivel1Level0SceneAR.unity"
+                "Assets/Scenes/Nivel1Level0SceneAR.unity",
+                "Assets/Scenes/Nivel1Level1SceneAR.unity"
             ]
         },
         {
@@ -561,7 +593,8 @@
             "fullManagedTypeName": "UnityEngine.TextAsset",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/Nivel1Level0SceneAR.unity"
+                "Assets/Scenes/Nivel1Level0SceneAR.unity",
+                "Assets/Scenes/Nivel1Level1SceneAR.unity"
             ]
         },
         {
@@ -570,7 +603,8 @@
             "fullManagedTypeName": "UnityEngine.Texture",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/Nivel1Level0SceneAR.unity"
+                "Assets/Scenes/Nivel1Level0SceneAR.unity",
+                "Assets/Scenes/Nivel1Level1SceneAR.unity"
             ]
         },
         {
@@ -579,7 +613,8 @@
             "fullManagedTypeName": "UnityEngine.Texture2D",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/Nivel1Level0SceneAR.unity"
+                "Assets/Scenes/Nivel1Level0SceneAR.unity",
+                "Assets/Scenes/Nivel1Level1SceneAR.unity"
             ]
         },
         {
@@ -588,7 +623,8 @@
             "fullManagedTypeName": "UnityEngine.Transform",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/Nivel1Level0SceneAR.unity"
+                "Assets/Scenes/Nivel1Level0SceneAR.unity",
+                "Assets/Scenes/Nivel1Level1SceneAR.unity"
             ]
         },
         {

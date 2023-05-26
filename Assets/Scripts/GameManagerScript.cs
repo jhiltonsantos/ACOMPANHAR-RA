@@ -75,5 +75,17 @@ public class GameManagerScript : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
+    public void ContinueLevel(string nextScene) {
+        DraggableObject[] draggableObjects = FindObjectsOfType<DraggableObject>();
+        foreach (DraggableObject draggableObject in draggableObjects)
+        {
+            draggableObject.ResetPosition();
+        }
+
+        objectCorrect = 0;
+
+        SceneManager.LoadScene(nextScene);
+    }
+
     #endregion
 }

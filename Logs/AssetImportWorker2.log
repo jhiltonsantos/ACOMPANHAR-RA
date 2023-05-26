@@ -15,7 +15,7 @@ C:/Users/jhilt/Desktop/Unity3D/ACOMPANHAR_TEACCH
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-54476
+55089
 Successfully changed project path to: C:/Users/jhilt/Desktop/Unity3D/ACOMPANHAR_TEACCH
 C:/Users/jhilt/Desktop/Unity3D/ACOMPANHAR_TEACCH
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ C:/Users/jhilt/Desktop/Unity3D/ACOMPANHAR_TEACCH
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [241888] Host "[IP] 192.168.150.35 [Port] 0 [Flags] 2 [Guid] 1008273236 [EditorId] 1008273236 [Version] 1048832 [Id] WindowsEditor(7,Hilton-Windows) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [9404] Host "[IP] 192.168.150.29 [Port] 0 [Flags] 2 [Guid] 2794116321 [EditorId] 2794116321 [Version] 1048832 [Id] WindowsEditor(7,Hilton-Windows) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [241888] Host "[IP] 192.168.150.35 [Port] 0 [Flags] 2 [Guid] 1008273236 [EditorId] 1008273236 [Version] 1048832 [Id] WindowsEditor(7,Hilton-Windows) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [9404] Host "[IP] 192.168.150.29 [Port] 0 [Flags] 2 [Guid] 2794116321 [EditorId] 2794116321 [Version] 1048832 [Id] WindowsEditor(7,Hilton-Windows) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 102.50 ms, found 10 plugins.
+Refreshing native plugins compatible for Editor in 118.27 ms, found 10 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.25f1 (68ef2c4f8861)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/Resources/UnitySubsystems
@@ -67,84 +67,84 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56292
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56904
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005892 seconds.
+Registered in 0.004379 seconds.
 Native extension for WindowsStandalone target not found
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 Native extension for iOS target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 285 ms
-Refreshing native plugins compatible for Editor in 89.95 ms, found 10 plugins.
+Android Extension - Scanning For ADB Devices 191 ms
+Refreshing native plugins compatible for Editor in 91.61 ms, found 10 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.895 seconds
+- Completed reload, in  0.779 seconds
 Domain Reload Profiling:
-	ReloadAssembly (895ms)
-		BeginReloadAssembly (72ms)
+	ReloadAssembly (779ms)
+		BeginReloadAssembly (80ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (735ms)
-			LoadAssemblies (70ms)
+		EndReloadAssembly (618ms)
+			LoadAssemblies (78ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (94ms)
+			SetupTypeCache (90ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (23ms)
-			SetupLoadedEditorAssemblies (573ms)
+			RebuildScriptCaches (21ms)
+			SetupLoadedEditorAssemblies (465ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (377ms)
+				InitializePlatformSupportModulesInManaged (269ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (90ms)
+				RefreshPlugins (92ms)
 				BeforeProcessingInitializeOnLoad (1ms)
 				ProcessInitializeOnLoadAttributes (70ms)
-				ProcessInitializeOnLoadMethodAttributes (35ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006829 seconds.
+Registered in 0.006355 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\jhilt\Desktop\Unity3D\ACOMPANHAR_TEACCH\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\jhilt\Desktop\Unity3D\ACOMPANHAR_TEACCH\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 122.87 ms, found 10 plugins.
+Refreshing native plugins compatible for Editor in 88.14 ms, found 10 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Package Manager log level set to [2]
 Mono: successfully reloaded assembly
-- Completed reload, in  1.325 seconds
+- Completed reload, in  1.041 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1326ms)
-		BeginReloadAssembly (116ms)
+	ReloadAssembly (1042ms)
+		BeginReloadAssembly (97ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (20ms)
-		EndReloadAssembly (1103ms)
-			LoadAssemblies (92ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (855ms)
+			LoadAssemblies (83ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (305ms)
+			SetupTypeCache (246ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (111ms)
-			SetupLoadedEditorAssemblies (496ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (444ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (35ms)
+				InitializePlatformSupportModulesInManaged (24ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (123ms)
-				BeforeProcessingInitializeOnLoad (101ms)
-				ProcessInitializeOnLoadAttributes (217ms)
+				RefreshPlugins (88ms)
+				BeforeProcessingInitializeOnLoad (95ms)
+				ProcessInitializeOnLoadAttributes (216ms)
 				ProcessInitializeOnLoadMethodAttributes (16ms)
 				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
@@ -156,12 +156,12 @@ Worker process is ready to serve import requests
 Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
 Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.94 ms, found 10 plugins.
+Refreshing native plugins compatible for Editor in 0.96 ms, found 10 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4278 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 55 unused Assets / (0.7 MB). Loaded Objects now: 4718.
-Memory consumption went from 158.1 MB to 157.4 MB.
-Total: 3.362700 ms (FindLiveObjects: 0.380900 ms CreateObjectMapping: 0.124300 ms MarkObjects: 2.632200 ms  DeleteObjects: 0.224500 ms)
+Unloading 4281 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 55 unused Assets / (0.7 MB). Loaded Objects now: 4722.
+Memory consumption went from 158.5 MB to 157.9 MB.
+Total: 3.411700 ms (FindLiveObjects: 0.380800 ms CreateObjectMapping: 0.119900 ms MarkObjects: 2.676600 ms  DeleteObjects: 0.233500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -173,55 +173,22 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 108461.664787 seconds.
+  path: Assets/Scenes/Nivel1Level0SceneAR.unity
+  artifactKey: Guid(02b52f9dd856a4347b70ef74637b1301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Nivel1Level0SceneAR.unity using Guid(02b52f9dd856a4347b70ef74637b1301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67f8c36112bc76c1688ee0775a935814') in 0.009578 seconds 
 ========================================================================
 Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007241 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\jhilt\Desktop\Unity3D\ACOMPANHAR_TEACCH\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\jhilt\Desktop\Unity3D\ACOMPANHAR_TEACCH\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 1.00 ms, found 10 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.012 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1013ms)
-		BeginReloadAssembly (134ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (38ms)
-		EndReloadAssembly (795ms)
-			LoadAssemblies (88ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (254ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (60ms)
-			SetupLoadedEditorAssemblies (341ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (26ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (78ms)
-				ProcessInitializeOnLoadAttributes (208ms)
-				ProcessInitializeOnLoadMethodAttributes (21ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
 Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
 Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Refreshing native plugins compatible for Editor in 4.96 ms, found 10 plugins.
+Refreshing native plugins compatible for Editor in 9.38 ms, found 10 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4233 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 45 unused Assets / (405.3 KB). Loaded Objects now: 4722.
-Memory consumption went from 154.2 MB to 153.8 MB.
-Total: 3.463100 ms (FindLiveObjects: 0.370600 ms CreateObjectMapping: 0.114600 ms MarkObjects: 2.735200 ms  DeleteObjects: 0.241400 ms)
+Unloading 45 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (385.2 KB). Loaded Objects now: 4723.
+Memory consumption went from 70.0 MB to 69.6 MB.
+Total: 4.557600 ms (FindLiveObjects: 0.781800 ms CreateObjectMapping: 0.161700 ms MarkObjects: 3.373400 ms  DeleteObjects: 0.239900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -235,125 +202,40 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 199296.790895 seconds.
-  path: Assets/UI/Spinner Selection Screen/Arrow_Left.png
-  artifactKey: Guid(deacb1302b5e3604bab367ec4cf26018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI/Spinner Selection Screen/Arrow_Left.png using Guid(deacb1302b5e3604bab367ec4cf26018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8f5f78bda46d515737f02a80b05a362') in 0.100158 seconds 
+  Time since last request: 221.468993 seconds.
+  path: Assets/Scenes/Nivel1Level0SceneAR.unity
+  artifactKey: Guid(02b52f9dd856a4347b70ef74637b1301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Nivel1Level0SceneAR.unity using Guid(02b52f9dd856a4347b70ef74637b1301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40a17263b63ec2afce7040fff38685b3') in 0.002496 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/UI/Spinner Selection Screen/Button_ReadyPressed.png
-  artifactKey: Guid(a14e5a92337a1c847963459373735128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI/Spinner Selection Screen/Button_ReadyPressed.png using Guid(a14e5a92337a1c847963459373735128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5296d6229574b4757a4a5aa817cf4744') in 0.033808 seconds 
+  Time since last request: 208.125141 seconds.
+  path: Assets/Scenes/Nivel1Level0SceneAR.unity
+  artifactKey: Guid(02b52f9dd856a4347b70ef74637b1301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Nivel1Level0SceneAR.unity using Guid(02b52f9dd856a4347b70ef74637b1301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc4f61b84a67cc073414ab187157d906') in 0.002214 seconds 
+========================================================================
+Received Prepare
+Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Refreshing native plugins compatible for Editor in 8.34 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 44 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (385.2 KB). Loaded Objects now: 4723.
+Memory consumption went from 69.9 MB to 69.5 MB.
+Total: 3.678200 ms (FindLiveObjects: 0.381700 ms CreateObjectMapping: 0.112500 ms MarkObjects: 2.954400 ms  DeleteObjects: 0.228900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/UI/HealthBar/healthBar_spinner_01_flipped.png
-  artifactKey: Guid(2cb3c683a7d23e14f945a45d523e48aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI/HealthBar/healthBar_spinner_01_flipped.png using Guid(2cb3c683a7d23e14f945a45d523e48aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4643c407e8606f70fbae6f691f09e88') in 0.028457 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/UI/Spinner Selection Screen/flare.png
-  artifactKey: Guid(8cfd788ef7bbc3e498bf95369b0878f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI/Spinner Selection Screen/flare.png using Guid(8cfd788ef7bbc3e498bf95369b0878f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e764f6882006a7ca8b3d6ae5559bdbe') in 0.019416 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/UI/EntrySection/EntrySection_BottomEdge.png
-  artifactKey: Guid(c67311317900aab459244c351d2a2ae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI/EntrySection/EntrySection_BottomEdge.png using Guid(c67311317900aab459244c351d2a2ae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1251ac12217537d72705a8a131191c4') in 0.015154 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/UI/Username Entry Screen/InputField_NameEntryBox.png
-  artifactKey: Guid(600b9ae2892c23f4f9f8b398bbf524e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI/Username Entry Screen/InputField_NameEntryBox.png using Guid(600b9ae2892c23f4f9f8b398bbf524e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d86dbebfe4bf6afa79d3a2b15bd232f') in 0.022381 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/UI/Username Entry Screen/Button_Confirm_01.png
-  artifactKey: Guid(59eea12a9ea045b4a811ce2e08650ddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI/Username Entry Screen/Button_Confirm_01.png using Guid(59eea12a9ea045b4a811ce2e08650ddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a99c26b2be0a4dd7985ddda930db915d') in 0.024414 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/UI/Spinner Selection Screen/Button_Cancel.png
-  artifactKey: Guid(2d05abac8c5b4824382f2f4bcbe89918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI/Spinner Selection Screen/Button_Cancel.png using Guid(2d05abac8c5b4824382f2f4bcbe89918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b72a4812cf211714376d8d534d7ad5f1') in 0.024144 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/UI/Spinner Selection Screen/YellowDiamond.png
-  artifactKey: Guid(580bca8f2beec53498a43c2ae106ff65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI/Spinner Selection Screen/YellowDiamond.png using Guid(580bca8f2beec53498a43c2ae106ff65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '025aa1029b6ad2799413943cbbd66ebe') in 0.017681 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/UI/Spinner Selection Screen/GreenGlow.png
-  artifactKey: Guid(2f7b4c37861f58046b91bb9bb13fc5de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI/Spinner Selection Screen/GreenGlow.png using Guid(2f7b4c37861f58046b91bb9bb13fc5de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5367804b9d2d7775337df3868ae25ece') in 0.187038 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/UI/Spinner Selection Screen/Button_Ready.png
-  artifactKey: Guid(6cb017c458090fd4d843c1cad422e7ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI/Spinner Selection Screen/Button_Ready.png using Guid(6cb017c458090fd4d843c1cad422e7ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cae7f08bb620f4e936e3a6695eb873f') in 0.025509 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/UI/Username Entry Screen/Button_Confirm_02.png
-  artifactKey: Guid(d20b26deb24796a4a83148bc5ee94206) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI/Username Entry Screen/Button_Confirm_02.png using Guid(d20b26deb24796a4a83148bc5ee94206) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28ef046e6269dc6013c6fb3b73c23b0e') in 0.024022 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/UI/Spinner Selection Screen/SideBanner_Left.png
-  artifactKey: Guid(b19d6b4022fecdd48ab26098f38b57fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI/Spinner Selection Screen/SideBanner_Left.png using Guid(b19d6b4022fecdd48ab26098f38b57fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b0486f5d37de14330644d015ea65c36') in 0.028646 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/UI/Username Entry Screen/Text_EnterGame.png
-  artifactKey: Guid(3ae0053c03d202842968b049ddc2d2c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI/Username Entry Screen/Text_EnterGame.png using Guid(3ae0053c03d202842968b049ddc2d2c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86480d9c7302fd2a384529a8afae4e06') in 0.020375 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/UI/Spinner Selection Screen/SideBanner_Right.png
-  artifactKey: Guid(b2f2a5072f8c21945935d04c9fc934d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI/Spinner Selection Screen/SideBanner_Right.png using Guid(b2f2a5072f8c21945935d04c9fc934d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ec066cf9240b723887dcd0118fccbdb') in 0.023578 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/UI/HealthBar/HealthBar_fill_flipped.png
-  artifactKey: Guid(09bd13cd02183b44aa7ee02a8577d81a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI/HealthBar/HealthBar_fill_flipped.png using Guid(09bd13cd02183b44aa7ee02a8577d81a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ca922ba9ea3c84edd5ed503837af6e2') in 0.020374 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/UI/Underglow_Blue.png
-  artifactKey: Guid(e7f5b1403387acd4e826d2daf51e4eaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI/Underglow_Blue.png using Guid(e7f5b1403387acd4e826d2daf51e4eaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06443fd919a23a1a83d7ac8f748d01ce') in 0.108082 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/UI/EntrySection/EntrySection.png
-  artifactKey: Guid(43e6c2f300357be41be89ae4f1438fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI/EntrySection/EntrySection.png using Guid(43e6c2f300357be41be89ae4f1438fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79473896afc05c32866227e766a367a6') in 0.033039 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/_ARPortal/Source Files/UI/Icons/Icon_LuckyCharm.png
-  artifactKey: Guid(d7631395d636b6c459836deaac5bfa84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_ARPortal/Source Files/UI/Icons/Icon_LuckyCharm.png using Guid(d7631395d636b6c459836deaac5bfa84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53a3651f5b8cbcc1b63b886f85f10da9') in 0.052849 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/UI/EntrySection/EntrySection_complete.png
-  artifactKey: Guid(7099383adb91d2a4e8947f4a2f5bbc1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI/EntrySection/EntrySection_complete.png using Guid(7099383adb91d2a4e8947f4a2f5bbc1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbb11b91d29c0d5e559b378ce93a1bbf') in 0.026725 seconds 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+  Time since last request: 225.566237 seconds.
+  path: Assets/Scenes/Nivel1Level0SceneAR.unity
+  artifactKey: Guid(02b52f9dd856a4347b70ef74637b1301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Nivel1Level0SceneAR.unity using Guid(02b52f9dd856a4347b70ef74637b1301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd4e4d5a363998a89b8d74c7f7774a0c') in 0.002357 seconds 
