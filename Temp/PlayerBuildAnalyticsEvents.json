@@ -3,8 +3,8 @@
     {
       "type": "il2cppData",
       "msg": {
-        "build_event_id": "8ea6b8f76b8e1d144b5d9cc840940faa",
-        "node_executed": false,
+        "build_event_id": "6e2550546d6343a4b8ec35d3cf58c977",
+        "node_executed": true,
         "attribute_total_count_eager_static_constructor": 8,
         "attribute_total_count_set_option": 0,
         "attribute_total_count_generate_into_own_cpp_file": 0,
@@ -40,22 +40,27 @@
     {
       "type": "playerBuildTimingData",
       "msg": {
-        "build_event_id": "8ea6b8f76b8e1d144b5d9cc840940faa",
-        "build_player": 22379,
-        "preprocess_player": 277,
-        "produce_player_script_assemblies": 1944,
-        "build_scripts_dlls": 617,
-        "writing_asset_files": 130,
-        "postprocess_built_player": 10011,
-        "node_summary_table": []
+        "build_event_id": "6e2550546d6343a4b8ec35d3cf58c977",
+        "build_player": 40939,
+        "preprocess_player": 241,
+        "produce_player_script_assemblies": 2260,
+        "build_scripts_dlls": 416,
+        "writing_asset_files": 156,
+        "postprocess_built_player": 27213,
+        "node_summary_table": [
+          {
+            "name": "Csc",
+            "duration": 131
+          }
+        ]
       },
       "version": 1
     },
     {
       "type": "unityLinkerData",
       "msg": {
-        "build_event_id": "8ea6b8f76b8e1d144b5d9cc840940faa",
-        "node_executed": false,
+        "build_event_id": "6e2550546d6343a4b8ec35d3cf58c977",
+        "node_executed": true,
         "attribute_marked_count_always_link_assembly": 1,
         "attribute_swept_count_always_link_assembly": 0,
         "attribute_total_count_always_link_assembly": 1,
@@ -78,10 +83,10 @@
         "attribute_marked_count_dynamic_dependency": 11,
         "attribute_swept_count_dynamic_dependency": -11,
         "assembly_counts_total_in": 99,
-        "assembly_counts_link": 33,
+        "assembly_counts_link": 34,
         "assembly_counts_copy": 14,
-        "assembly_counts_delete": 52,
-        "assembly_counts_total_out": 47,
+        "assembly_counts_delete": 51,
+        "assembly_counts_total_out": 48,
         "unresolved_stubbing_total_count": 0,
         "unresolved_stubbing_missing_interface_method_count": 0,
         "unresolved_stubbing_missing_abstract_class_method_count": 0,
@@ -105,8 +110,8 @@
         "link_xml_assembly_preserve_all_core_count": 0,
         "link_xml_assembly_preserve_all_user_count": 0,
         "engine_module_total_in": 63,
-        "engine_module_deleted": 37,
-        "engine_module_total_out": 26,
+        "engine_module_deleted": 36,
+        "engine_module_total_out": 27,
         "option_rule_set": "Conservative",
         "option_enable_report": false,
         "option_enable_snapshot": false,

@@ -1,16 +1,16 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR.ARFoundation;
+using UnityEngine.SceneManagement;
 public class ARPlacementAndPlaneDetectionController : MonoBehaviour
 {
     ARPlaneManager m_ARPlaneManager;
     ARPlacementManager m_ARPlacementManager;
-
     public GameObject placeButton;
     public GameObject adjustButton;
+    public GameObject closeButton;
     public GameObject raycastCenterImage;
     public GameObject scaleSlider;
+    
 
     private void Awake()
     {
@@ -23,6 +23,7 @@ public class ARPlacementAndPlaneDetectionController : MonoBehaviour
         scaleSlider.SetActive(true);
         raycastCenterImage.SetActive(true);
         adjustButton.SetActive(false);
+        closeButton.SetActive(true);
     }
 
     public void DisableARPlacementAndPlaneDetection()
@@ -47,6 +48,10 @@ public class ARPlacementAndPlaneDetectionController : MonoBehaviour
         scaleSlider.SetActive(true);
         raycastCenterImage.SetActive(true);
         adjustButton.SetActive(false);
+    }
+
+    public void CloseButtonEnable() {
+        SceneManager.LoadScene("SelectorNivelScene");
     }
 
     private void SetAllPlanesActiveOrDeactive(bool value)

@@ -37,7 +37,6 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\ARPlacementAndPlaneDetectionController.cs" />
-     <Compile Include="Assets\Scripts\NivelMenuScipt.cs" />
      <Compile Include="Assets\ExampleAssets\Scripts\ARFeatheredPlaneMeshVisualizer.cs" />
      <Compile Include="Assets\Scripts\CubeObjectScript.cs" />
      <Compile Include="Assets\Scripts\DraggableObject.cs" />
@@ -48,6 +47,8 @@
      <Compile Include="Assets\Scripts\MenuManagerScript.cs" />
      <Compile Include="Assets\Scripts\DestinationBoxScript.cs" />
      <Compile Include="Assets\Scripts\ARPlacementManager.cs" />
+     <Compile Include="Assets\Scripts\SelectorNivelMenuScript.cs" />
+     <Compile Include="Assets\Scripts\DestinationObjectChildrenScript.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />

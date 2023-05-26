@@ -5,6 +5,6 @@ public class MenuManagerScript : MonoBehaviour
 {
     public void StartGame()
     {
-        SceneManager.LoadScene("Nivel1Level0SceneAR");
+        SceneManager.LoadScene("SelectorNivelScene");
     }
 }

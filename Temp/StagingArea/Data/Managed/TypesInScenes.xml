@@ -7,7 +7,9 @@
 		<type fullname="DestinationBoxScript" preserve="nothing"/>
 		<type fullname="DraggableObject" preserve="nothing"/>
 		<type fullname="GameManagerScript" preserve="nothing"/>
+		<type fullname="MenuManagerScript" preserve="nothing"/>
 		<type fullname="ScaleController" preserve="nothing"/>
+		<type fullname="SelectorNivelMenuScript" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="Unity.InputSystem">
 		<type fullname="UnityEngine.InputSystem.InputSettings" preserve="nothing"/>
@@ -77,6 +79,8 @@
 		<type fullname="UnityEditor.TagManager" preserve="nothing"/>
 		<type fullname="UnityEditor.TimeManager" preserve="nothing"/>
 		<type fullname="UnityEditor.VFXManager" preserve="nothing"/>
+		<type fullname="UnityEngine.AudioBehaviour" preserve="nothing"/>
+		<type fullname="UnityEngine.AudioListener" preserve="nothing"/>
 		<type fullname="UnityEngine.Behaviour" preserve="nothing"/>
 		<type fullname="UnityEngine.BoxCollider" preserve="nothing"/>
 		<type fullname="UnityEngine.Camera" preserve="nothing"/>

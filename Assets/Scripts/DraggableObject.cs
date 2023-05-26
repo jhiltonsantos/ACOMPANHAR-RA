@@ -7,18 +7,15 @@ public class DraggableObject : MonoBehaviour
 {
     private ARRaycastManager raycastManager;
     private List<ARRaycastHit> hits = new List<ARRaycastHit>();
-    private Vector2 touchPosition;
     public bool isBeingDragged;
     private Rigidbody rb;
-    private Vector3 initialPosition;
-    public Transform correctDestination; // Referência ao objeto do destino
-    private bool isPlacedOnDestination; // Indica se o objeto foi colocado no destino
+    private DestinationBoxScript destinationBoxScript;
 
     void Start()
     {
         raycastManager = FindObjectOfType<ARRaycastManager>();
         rb = GetComponent<Rigidbody>();
-        initialPosition = transform.position;
+        destinationBoxScript = FindObjectOfType<DestinationBoxScript>();
     }
 
     void Update()
@@ -62,7 +59,6 @@ public class DraggableObject : MonoBehaviour
     {
         isBeingDragged = true;
         rb.isKinematic = true;
-        isPlacedOnDestination = false; // Reinicia a flag de colocação no destino
     }
 
     private void StopDragging()
@@ -70,36 +66,34 @@ public class DraggableObject : MonoBehaviour
         isBeingDragged = false;
         rb.isKinematic = false;
 
-        if (isPlacedOnDestination)
+        if (destinationBoxScript != null && !destinationBoxScript.IsObjectCorrect(gameObject))
         {
-            // Objeto colocado no destino corretamente
-            // Você pode adicionar qualquer lógica adicional aqui, se necessário
-        }
-        else
-        {
-            // Objeto não foi colocado no destino corretamente
             ResetPosition();
         }
     }
 
     public void ResetPosition()
     {
-        transform.position = initialPosition;
+        Camera mainCamera = Camera.main;
+        Vector3 cameraCenter = mainCamera.ViewportToWorldPoint(new Vector3(0.5f, 0.5f, mainCamera.nearClipPlane));
+        // Define a posição do objeto a posição do centro da câmera
+        transform.position = cameraCenter;
     }
 
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("DestinoCaixa"))
         {
-            isPlacedOnDestination = true;
+            GameManagerScript gameManager = FindObjectOfType<GameManagerScript>();
+            if (gameManager != null)
+            {
+                gameManager.IncrementObjectCorrect();
+                gameObject.SetActive(false);
+            }
         }
-    }
-
-    private void OnTriggerExit(Collider other)
-    {
-        if (other.CompareTag("DestinoCaixa"))
+        else
         {
-            isPlacedOnDestination = false;
+            ResetPosition();
         }
     }
 }
