@@ -37,6 +37,9 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\ARPlacementAndPlaneDetectionController.cs" />
+     <Compile Include="Assets\Scripts\ARPlacementAndPlaneDetectionPhase2.cs" />
+     <Compile Include="Assets\Scripts\DestinationBoxPhase2Script.cs" />
+     <Compile Include="Assets\Scripts\DraggableObjectPhase2.cs" />
      <Compile Include="Assets\ExampleAssets\Scripts\ARFeatheredPlaneMeshVisualizer.cs" />
      <Compile Include="Assets\Scripts\CubeObjectScript.cs" />
      <Compile Include="Assets\Scripts\DraggableObject.cs" />
@@ -44,14 +47,11 @@
      <Compile Include="Assets\Scripts\ScaleController.cs" />
      <Compile Include="Assets\Scripts\SelectorNivelMenuScript.cs" />
      <Compile Include="Assets\ExampleAssets\Scripts\AnchorCreator.cs" />
+     <Compile Include="Assets\Scripts\ARPlacementManagerPhase2.cs" />
      <Compile Include="Assets\Scripts\MenuManagerScript.cs" />
+     <Compile Include="Assets\Scripts\GameManagerPhase2.cs" />
      <Compile Include="Assets\Scripts\DestinationBoxScript.cs" />
      <Compile Include="Assets\Scripts\ARPlacementManager.cs" />
-     <Compile Include="Assets\Scripts\GameManagerPhase2.cs" />
-     <Compile Include="Assets\Scripts\DestinationBoxPhase2Script.cs" />
-     <Compile Include="Assets\Scripts\DraggableObjectPhase2.cs" />
-     <Compile Include="Assets\Scripts\ARPlacementManagerPhase2.cs" />
-     <Compile Include="Assets\Scripts\ARPlacementAndPlaneDetectionPhase2.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />

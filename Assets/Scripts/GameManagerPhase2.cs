@@ -11,7 +11,6 @@ public class GameManagerPhase2 : MonoBehaviour
     public TextMeshProUGUI messageText;
     public Button resetButton;
     public Image uIInformPanel;
-    private int objectsReachedDestination = 0;
     public List<string> tagsObjectsHaveMove;
 
     public List<DestinationBoxPhase2Script> destinationBoxes = new List<DestinationBoxPhase2Script>();
@@ -20,7 +19,7 @@ public class GameManagerPhase2 : MonoBehaviour
     {
         totalObjects = CountObjects();
         HideMessage();
-    }
+    } // OK
 
     private int CountObjects()
     {
@@ -33,78 +32,32 @@ public class GameManagerPhase2 : MonoBehaviour
                 count++;
             }
         }
+        foreach (DestinationBoxPhase2Script destination in destinationBoxes)
+        {
+            count++;
+        }
         return count;
-    }
+    } // OK
 
 
     public void IncrementObjectsCorrect()
     {
         objectsCorrect++;
         CheckWin();
-    }
+    } // OK
 
     public void DecrementObjectsCorrect()
     {
         objectsCorrect--;
-    }
-
-    public void ObjectReachedDestination()
-    {
-        objectsReachedDestination++;
-
-        // Verificar se todos os destinos estão ativados
-        bool allDestinationsActivated = true;
-        foreach (DestinationBoxPhase2Script destinationBox in destinationBoxes)
-        {
-            if (!destinationBox.isActivated)
-            {
-                allDestinationsActivated = false;
-                break;
-            }
-        }
-
-        if (objectsReachedDestination == totalObjects && allDestinationsActivated)
-        {
-            CheckWin();
-        }
-    }
-
-    public bool IsObjectAlreadyActivated(GameObject draggableObject)
-    {
-        string objectTag = draggableObject.tag;
-
-        foreach (DestinationBoxPhase2Script destinationBox in destinationBoxes)
-        {
-            if (destinationBox.isActivated && destinationBox.activatedObjectTag == objectTag)
-            {
-                return true;
-            }
-        }
-
-        return false;
-    }
-
-    public bool IsDestinationBoxActivated(DestinationBoxPhase2Script destinationBox)
-    {
-        string destinationTag = destinationBox.activatedObjectTag;
-
-        foreach (string tag in tagsObjectsHaveMove)
-        {
-            if (destinationBox.isActivated && destinationTag == tag)
-            {
-                return true;
-            }
-        }
-        return false;
-    }
+    } // OK
 
     public void CheckWin()
     {
-        if (objectsCorrect == totalObjects && objectsReachedDestination == totalObjects)
+        if (objectsCorrect == totalObjects)
         {
             ShowMessage("Nível Concluído", "Reiniciar");
         }
-    }
+    } // OK
 
     public void ResetLevel()
     {
@@ -120,10 +73,9 @@ public class GameManagerPhase2 : MonoBehaviour
         }
 
         objectsCorrect = 0;
-        objectsReachedDestination = 0;
 
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-    }
+    } // OK
 
     public void ContinueLevel(string nextScene)
     {
@@ -134,10 +86,9 @@ public class GameManagerPhase2 : MonoBehaviour
         }
 
         objectsCorrect = 0;
-        objectsReachedDestination = 0;
 
         SceneManager.LoadScene(nextScene);
-    }
+    } // OK
 
     #region UI Callback Manager
     void HideMessage()
@@ -145,7 +96,7 @@ public class GameManagerPhase2 : MonoBehaviour
         messageText.gameObject.SetActive(false);
         resetButton.gameObject.SetActive(false);
         uIInformPanel.gameObject.SetActive(false);
-    }
+    } // OK
 
     public void ShowMessage(string message, string buttonText)
     {
@@ -155,6 +106,6 @@ public class GameManagerPhase2 : MonoBehaviour
         messageText.gameObject.SetActive(true);
         resetButton.gameObject.SetActive(true);
         uIInformPanel.gameObject.SetActive(true);
-    }
+    } // OK
     #endregion
 }

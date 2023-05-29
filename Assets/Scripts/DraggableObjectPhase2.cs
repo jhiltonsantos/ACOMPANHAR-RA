@@ -66,11 +66,7 @@ public class DraggableObjectPhase2 : MonoBehaviour
         isBeingDragged = false;
         rb.isKinematic = false;
 
-        if (destinationBoxScript != null && destinationBoxScript.isActivated && destinationBoxScript.activatedObjectTag == gameObject.tag)
-        {
-            gameObject.SetActive(false);
-        }
-        else
+        if (destinationBoxScript != null && !destinationBoxScript.IsObjectCorrect(gameObject))
         {
             ResetPosition();
         }
@@ -91,7 +87,6 @@ public class DraggableObjectPhase2 : MonoBehaviour
             if (gameManager != null)
             {
                 gameManager.IncrementObjectsCorrect();
-                gameManager.ObjectReachedDestination();
                 gameObject.SetActive(false);
             }
         }

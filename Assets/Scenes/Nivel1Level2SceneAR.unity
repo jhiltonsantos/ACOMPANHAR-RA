@@ -939,6 +939,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 545684700}
   m_PrefabAsset: {fileID: 0}
+--- !u!137 &545684702 stripped
+SkinnedMeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 3849066302963691125, guid: 88793c700e879484ab567e205a57e62d,
+    type: 3}
+  m_PrefabInstance: {fileID: 545684700}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &569893422
 GameObject:
   m_ObjectHideFlags: 0
@@ -2161,9 +2167,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf726b10e58f12b46a366d3602f1fb0e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  objectCorrectTag1: PecaCaixa1
+  objectCorrectTag2: PecaCaixa2
   correctColor: {r: 0, g: 0.99215686, b: 0.03670123, a: 1}
-  isActivated: 0
-  activatedObjectTag: 
+  changeMaterialSameMovingObject1: {fileID: 2100000, guid: dc043a9656f81bc488510dcda2b382ab,
+    type: 2}
+  changeMaterialSameMovingObject2: {fileID: 2100000, guid: 185ca34253615de44926902d54fb6f1d,
+    type: 2}
+  sAObjectRenderer: {fileID: 545684702}
+  findObjectRenderer: Animal_Chick/SA_Animal_Chick
 --- !u!65 &1148726307
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2540,6 +2552,12 @@ PrefabInstance:
 --- !u!4 &1304977265 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3849066302975492575, guid: 88793c700e879484ab567e205a57e62d,
+    type: 3}
+  m_PrefabInstance: {fileID: 1304977264}
+  m_PrefabAsset: {fileID: 0}
+--- !u!137 &1304977266 stripped
+SkinnedMeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 3849066302963691125, guid: 88793c700e879484ab567e205a57e62d,
     type: 3}
   m_PrefabInstance: {fileID: 1304977264}
   m_PrefabAsset: {fileID: 0}
@@ -3432,9 +3450,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf726b10e58f12b46a366d3602f1fb0e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  objectCorrectTag1: PecaCaixa1
+  objectCorrectTag2: PecaCaixa2
   correctColor: {r: 0.003921569, g: 0.9921569, b: 0, a: 1}
-  isActivated: 0
-  activatedObjectTag: 
+  changeMaterialSameMovingObject1: {fileID: 2100000, guid: dc043a9656f81bc488510dcda2b382ab,
+    type: 2}
+  changeMaterialSameMovingObject2: {fileID: 2100000, guid: 185ca34253615de44926902d54fb6f1d,
+    type: 2}
+  sAObjectRenderer: {fileID: 1304977266}
+  findObjectRenderer: Animal_Chick/SA_Animal_Chick
 --- !u!1 &2063195817
 GameObject:
   m_ObjectHideFlags: 0

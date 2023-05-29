@@ -1,52 +1,58 @@
+using System;
 using UnityEngine;
 
 public class DestinationBoxPhase2Script : MonoBehaviour
 {
-    public Color correctColor;
     private Material originalMaterial;
     private Renderer objectRenderer;
-    public bool isActivated = false;
-    public string activatedObjectTag;
-
     private GameManagerPhase2 gameManager;
-    private bool isSecondBoxActivated = false;
+    public string objectCorrectTag1;
+    public string objectCorrectTag2;
+    public Color correctColor;
+
+    // Propriedades para alterar o material do objeto
+    public Material changeMaterialSameMovingObject1;
+    public Material changeMaterialSameMovingObject2;
+    public Renderer sAObjectRenderer;
+    public string findObjectRenderer;
 
     private void Start()
     {
         objectRenderer = GetComponent<Renderer>();
         originalMaterial = objectRenderer.material;
-
+        sAObjectRenderer = transform.Find(findObjectRenderer).GetComponent<Renderer>();
         gameManager = FindObjectOfType<GameManagerPhase2>();
     }
 
     private void OnTriggerEnter(Collider other)
     {
-        if (!isActivated && (other.CompareTag("PecaCaixa1") || other.CompareTag("PecaCaixa2")))
+        if (other.CompareTag(objectCorrectTag1))
         {
-            ActivateDestination(other.gameObject);
-        }
-    }
-
-    private void ActivateDestination(GameObject draggableObject)
-    {
-        DraggableObjectPhase2 draggableObjectScript = draggableObject.GetComponent<DraggableObjectPhase2>();
-        if (draggableObjectScript != null && draggableObjectScript.isBeingDragged)
-        {
-            if (gameManager != null)
+            DraggableObjectPhase2 draggableObject1 = other.GetComponent<DraggableObjectPhase2>();
+            if (draggableObject1 != null && draggableObject1.isBeingDragged)
             {
-                if (!gameManager.IsObjectAlreadyActivated(draggableObject))
+                GameManagerPhase2 gameManagerPhase2 = FindAnyObjectByType<GameManagerPhase2>();
+                if (gameManagerPhase2 != null)
                 {
-                    gameManager.ObjectReachedDestination();
-                    gameManager.IncrementObjectsCorrect();
-                    isActivated = true;
-                    activatedObjectTag = draggableObject.tag;
+                    gameManagerPhase2.IncrementObjectsCorrect();
+                    Destroy(draggableObject1.gameObject);
                     objectRenderer.material.color = correctColor;
-
-                    if (!isSecondBoxActivated)
-                    {
-                        isSecondBoxActivated = true;
-                        gameManager.CheckWin();
-                    }
+                    ChangeMaterialDestination(objectCorrectTag1);
+                }
+            }
+        }
+        else if (other.CompareTag(objectCorrectTag2))
+        {
+            DraggableObjectPhase2 draggableObject2 = other.GetComponent<DraggableObjectPhase2>();
+            if (draggableObject2 != null && draggableObject2.isBeingDragged)
+            {
+                GameManagerPhase2 gameManagerPhase2 = FindAnyObjectByType<GameManagerPhase2>();
+                if (gameManagerPhase2 != null)
+                {
+                    gameManagerPhase2.IncrementObjectsCorrect();
+                    Destroy(draggableObject2.gameObject);
+                    objectRenderer.material.color = correctColor;
+                    ChangeMaterialDestination(objectCorrectTag2);
                 }
             }
         }
@@ -54,26 +60,62 @@ public class DestinationBoxPhase2Script : MonoBehaviour
 
     private void OnTriggerExit(Collider other)
     {
-        if (isActivated && (other.CompareTag("PecaCaixa1") || other.CompareTag("PecaCaixa2")))
+        if (other.CompareTag(objectCorrectTag1) || other.CompareTag(objectCorrectTag2))
         {
-            DraggableObjectPhase2 draggableObject = other.GetComponent<DraggableObjectPhase2>();
-            if (draggableObject != null && !draggableObject.isBeingDragged)
+            DraggableObjectPhase2 draggableObject1 = other.GetComponent<DraggableObjectPhase2>();
+            DraggableObjectPhase2 draggableObject2 = other.GetComponent<DraggableObjectPhase2>();
+            if (draggableObject1 != null && draggableObject1.isBeingDragged || draggableObject2 != null && draggableObject2.isBeingDragged)
             {
-                if (gameManager != null)
+                if (gameManager != null && draggableObject1)
                 {
                     gameManager.DecrementObjectsCorrect();
+                    objectRenderer.material = originalMaterial;
+                    draggableObject1.ResetPosition();
+                    draggableObject1.gameObject.SetActive(true);
                     ResetBoxMaterial();
-                    isActivated = false;
-                    activatedObjectTag = string.Empty;
+                }
+                else if (gameManager != null && draggableObject2)
+                {
+                    gameManager.DecrementObjectsCorrect();
+                    objectRenderer.material = originalMaterial;
+                    draggableObject2.ResetPosition();
+                    draggableObject2.gameObject.SetActive(true);
+                    ResetBoxMaterial();
                 }
             }
         }
     }
 
+    private void ChangeMaterialDestination(string tag)
+    {
+
+        if (sAObjectRenderer != null && tag == objectCorrectTag1)
+        {
+            sAObjectRenderer.material = changeMaterialSameMovingObject1;
+        }
+        else if (sAObjectRenderer != null && tag == objectCorrectTag2)
+        {
+            sAObjectRenderer.material = changeMaterialSameMovingObject2;
+        }
+
+    }
+
     public void ResetBoxMaterial()
     {
-        isActivated = false;
         objectRenderer.material = originalMaterial;
-        isSecondBoxActivated = false;
+    }
+
+    public bool IsObjectCorrect(GameObject draggableObject)
+    {
+        if (draggableObject.CompareTag(objectCorrectTag1) || draggableObject.CompareTag(objectCorrectTag2))
+        {
+            DraggableObjectPhase2 draggableObjectComponent = draggableObject.GetComponent<DraggableObjectPhase2>();
+            if (draggableObjectComponent != null && draggableObjectComponent.isBeingDragged)
+            {
+                return true;
+            }
+        }
+        return false;
+
     }
 }
