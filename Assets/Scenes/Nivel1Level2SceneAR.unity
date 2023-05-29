@@ -1974,7 +1974,9 @@ MonoBehaviour:
   messageText: {fileID: 1482042522}
   resetButton: {fileID: 1556703607}
   uIInformPanel: {fileID: 241945273}
-  tagsObjectsHaveMove: []
+  tagsObjectsHaveMove:
+  - PecaCaixa1
+  - PecaCaixa2
   destinationBoxes: []
 --- !u!1 &1139273494
 GameObject:
@@ -2126,7 +2128,7 @@ GameObject:
   - component: {fileID: 1148726306}
   m_Layer: 0
   m_Name: Destino 2
-  m_TagString: DestinoCaixaPhase2
+  m_TagString: DestinoCaixa
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

@@ -12,7 +12,7 @@ public class GameManagerPhase2 : MonoBehaviour
     public Button resetButton;
     public Image uIInformPanel;
     private int objectsReachedDestination = 0;
-    public string[] tagsObjectsHaveMove;
+    public List<string> tagsObjectsHaveMove;
 
     public List<DestinationBoxPhase2Script> destinationBoxes = new List<DestinationBoxPhase2Script>();
 
@@ -25,12 +25,17 @@ public class GameManagerPhase2 : MonoBehaviour
     private int CountObjects()
     {
         int count = 0;
-        foreach (string tag in tagsObjectsHaveMove)
+        DraggableObjectPhase2[] draggableObjects = FindObjectsOfType<DraggableObjectPhase2>();
+        foreach (DraggableObjectPhase2 draggableObject in draggableObjects)
         {
-            count += GameObject.FindGameObjectsWithTag(tag).Length;
+            if (tagsObjectsHaveMove.Contains(draggableObject.tag))
+            {
+                count++;
+            }
         }
         return count;
     }
+
 
     public void IncrementObjectsCorrect()
     {
@@ -66,7 +71,6 @@ public class GameManagerPhase2 : MonoBehaviour
 
     public bool IsObjectAlreadyActivated(GameObject draggableObject)
     {
-        DestinationBoxPhase2Script[] destinationBoxes = FindObjectsOfType<DestinationBoxPhase2Script>();
         string objectTag = draggableObject.tag;
 
         foreach (DestinationBoxPhase2Script destinationBox in destinationBoxes)
@@ -82,9 +86,11 @@ public class GameManagerPhase2 : MonoBehaviour
 
     public bool IsDestinationBoxActivated(DestinationBoxPhase2Script destinationBox)
     {
+        string destinationTag = destinationBox.activatedObjectTag;
+
         foreach (string tag in tagsObjectsHaveMove)
         {
-            if (destinationBox.isActivated && destinationBox.activatedObjectTag == tag)
+            if (destinationBox.isActivated && destinationTag == tag)
             {
                 return true;
             }
@@ -94,23 +100,9 @@ public class GameManagerPhase2 : MonoBehaviour
 
     public void CheckWin()
     {
-        if (objectsReachedDestination == totalObjects)
+        if (objectsCorrect == totalObjects && objectsReachedDestination == totalObjects)
         {
-            // Verificar se todos os destinos estão ativados
-            bool allDestinationsActivated = true;
-            foreach (DestinationBoxPhase2Script destinationBox in destinationBoxes)
-            {
-                if (!destinationBox.isActivated)
-                {
-                    allDestinationsActivated = false;
-                    break;
-                }
-            }
-
-            if (allDestinationsActivated)
-            {
-                ShowMessage("Nível Concluído", "Reiniciar");
-            }
+            ShowMessage("Nível Concluído", "Reiniciar");
         }
     }
 

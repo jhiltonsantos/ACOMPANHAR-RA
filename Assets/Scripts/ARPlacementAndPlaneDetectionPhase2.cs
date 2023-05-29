@@ -9,6 +9,7 @@ public class ARPlacementAndPlaneDetectionPhase2 : MonoBehaviour
     ARPlaneManager m_ARPlaneManager;
     ARPlacementManagerPhase2 m_ARPlacementManager;
     private List<ARPlane> activePlanes = new List<ARPlane>();
+
     public GameObject placeButton;
     public GameObject adjustButton;
     public GameObject closeButton;

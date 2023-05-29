@@ -8,10 +8,15 @@ public class DestinationBoxPhase2Script : MonoBehaviour
     public bool isActivated = false;
     public string activatedObjectTag;
 
+    private GameManagerPhase2 gameManager;
+    private bool isSecondBoxActivated = false;
+
     private void Start()
     {
         objectRenderer = GetComponent<Renderer>();
         originalMaterial = objectRenderer.material;
+
+        gameManager = FindObjectOfType<GameManagerPhase2>();
     }
 
     private void OnTriggerEnter(Collider other)
@@ -27,16 +32,21 @@ public class DestinationBoxPhase2Script : MonoBehaviour
         DraggableObjectPhase2 draggableObjectScript = draggableObject.GetComponent<DraggableObjectPhase2>();
         if (draggableObjectScript != null && draggableObjectScript.isBeingDragged)
         {
-            GameManagerPhase2 gameManager = FindObjectOfType<GameManagerPhase2>();
             if (gameManager != null)
             {
                 if (!gameManager.IsObjectAlreadyActivated(draggableObject))
                 {
+                    gameManager.ObjectReachedDestination();
                     gameManager.IncrementObjectsCorrect();
                     isActivated = true;
                     activatedObjectTag = draggableObject.tag;
                     objectRenderer.material.color = correctColor;
-                    gameManager.ObjectReachedDestination(); // Adicionado para verificar vitória
+
+                    if (!isSecondBoxActivated)
+                    {
+                        isSecondBoxActivated = true;
+                        gameManager.CheckWin();
+                    }
                 }
             }
         }
@@ -49,7 +59,6 @@ public class DestinationBoxPhase2Script : MonoBehaviour
             DraggableObjectPhase2 draggableObject = other.GetComponent<DraggableObjectPhase2>();
             if (draggableObject != null && !draggableObject.isBeingDragged)
             {
-                GameManagerPhase2 gameManager = FindObjectOfType<GameManagerPhase2>();
                 if (gameManager != null)
                 {
                     gameManager.DecrementObjectsCorrect();
@@ -65,5 +74,6 @@ public class DestinationBoxPhase2Script : MonoBehaviour
     {
         isActivated = false;
         objectRenderer.material = originalMaterial;
+        isSecondBoxActivated = false;
     }
 }

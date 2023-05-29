@@ -9,28 +9,31 @@ public class DraggableObjectPhase2 : MonoBehaviour
     private List<ARRaycastHit> hits = new List<ARRaycastHit>();
     public bool isBeingDragged;
     private Rigidbody rb;
-    private DestinationBoxPhase2Script destinationBoxPhase2Script;
+    private DestinationBoxPhase2Script destinationBoxScript;
 
-    private void Start()
+    void Start()
     {
         raycastManager = FindObjectOfType<ARRaycastManager>();
         rb = GetComponent<Rigidbody>();
-        destinationBoxPhase2Script = FindObjectOfType<DestinationBoxPhase2Script>();
+        destinationBoxScript = GetComponentInParent<DestinationBoxPhase2Script>();
     }
 
-    private void Update()
+    void Update()
     {
-        if (isBeingDragged && Input.touchCount > 0)
+        if (isBeingDragged)
         {
-            Touch touch = Input.GetTouch(0);
+            if (Input.touchCount > 0)
+            {
+                Touch touch = Input.GetTouch(0);
 
-            if (touch.phase == TouchPhase.Moved)
-            {
-                MoveObject(touch);
-            }
-            else if (touch.phase == TouchPhase.Ended)
-            {
-                StopDragging();
+                if (touch.phase == TouchPhase.Moved)
+                {
+                    MoveObject(touch);
+                }
+                else if (touch.phase == TouchPhase.Ended)
+                {
+                    StopDragging();
+                }
             }
         }
     }
@@ -63,7 +66,11 @@ public class DraggableObjectPhase2 : MonoBehaviour
         isBeingDragged = false;
         rb.isKinematic = false;
 
-        if (destinationBoxPhase2Script != null)
+        if (destinationBoxScript != null && destinationBoxScript.isActivated && destinationBoxScript.activatedObjectTag == gameObject.tag)
+        {
+            gameObject.SetActive(false);
+        }
+        else
         {
             ResetPosition();
         }
@@ -78,20 +85,14 @@ public class DraggableObjectPhase2 : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("DestinoCaixa") || other.CompareTag("DestinoCaixaPhase2"))
+        if (other.CompareTag("DestinoCaixa"))
         {
             GameManagerPhase2 gameManager = FindObjectOfType<GameManagerPhase2>();
             if (gameManager != null)
             {
-                if (!gameManager.IsObjectAlreadyActivated(gameObject))
-                {
-                    gameManager.ObjectReachedDestination();
-                    gameObject.SetActive(false);
-                }
-                else
-                {
-                    ResetPosition();
-                }
+                gameManager.IncrementObjectsCorrect();
+                gameManager.ObjectReachedDestination();
+                gameObject.SetActive(false);
             }
         }
         else

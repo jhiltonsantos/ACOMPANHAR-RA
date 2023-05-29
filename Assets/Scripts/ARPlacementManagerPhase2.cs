@@ -23,7 +23,6 @@ public class ARPlacementManagerPhase2 : MonoBehaviour
         m_ARRaycastManager = GetComponent<ARRaycastManager>();
         gameManager = FindObjectOfType<GameManagerPhase2>();
 
-        // Encontra todas as instâncias dos objetos destino e adiciona à lista
         DestinationBoxPhase2Script[] destinationBoxScripts = FindObjectsOfType<DestinationBoxPhase2Script>();
         foreach (DestinationBoxPhase2Script destinationBoxScript in destinationBoxScripts)
         {
