@@ -4,14 +4,16 @@ using UnityEngine.SceneManagement;
 
 public class SelectorNivelMenuScript : MonoBehaviour
 {
-    public void SelectNivel0()
-    {
-        SceneManager.LoadScene("Nivel1Level0SceneAR");
-    }
-
+    public string scene1;
+    public string scene2;
     public void SelectNivel1()
     {
-        SceneManager.LoadScene("Nivel1Level1SceneAR");
+        SceneManager.LoadScene(scene1);
+    }
+
+    public void SelectNivel2()
+    {
+        SceneManager.LoadScene(scene2);
     }
 
     public void ReturnMainScreen()

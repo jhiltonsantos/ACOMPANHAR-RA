@@ -9,6 +9,9 @@ TagManager:
   - PecaPuzzleCaixa
   - DestinoCaixa
   - ItemSpawn
+  - DestinoCaixaPhase2
+  - PecaCaixa1
+  - PecaCaixa2
   layers:
   - Default
   - TransparentFX

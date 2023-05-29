@@ -2,16 +2,20 @@
 	<assembly fullname="Assembly-CSharp" ignoreIfMissing="1">
 		<type fullname="ARPlacementAndPlaneDetectionController">
 			<method name="CloseButtonEnable"/>
+			<method name="DisableARPlacementAndPlaneDetection"/>
+			<method name="EnableARPlacementAndPlaneDetection"/>
+		</type>
+		<type fullname="ARPlacementAndPlaneDetectionPhase2">
 			<method name="CloseButtonEnable"/>
 			<method name="DisableARPlacementAndPlaneDetection"/>
-			<method name="DisableARPlacementAndPlaneDetection"/>
 			<method name="EnableARPlacementAndPlaneDetection"/>
-			<method name="EnableARPlacementAndPlaneDetection"/>
+		</type>
+		<type fullname="GameManagerPhase2">
+			<method name="ContinueLevel"/>
+			<method name="ResetLevel"/>
 		</type>
 		<type fullname="GameManagerScript">
 			<method name="ContinueLevel"/>
-			<method name="ContinueLevel"/>
-			<method name="ResetLevel"/>
 			<method name="ResetLevel"/>
 		</type>
 		<type fullname="MenuManagerScript">
@@ -19,8 +23,8 @@
 		</type>
 		<type fullname="SelectorNivelMenuScript">
 			<method name="ReturnMainScreen"/>
-			<method name="SelectNivel0"/>
-			<method name="SelectNivel0"/>
+			<method name="SelectNivel1"/>
+			<method name="SelectNivel2"/>
 		</type>
 	</assembly>
 </linker>

@@ -3,10 +3,12 @@ using UnityEngine.XR.ARFoundation;
 using UnityEngine.SceneManagement;
 using System.Collections.Generic;
 
-public class ARPlacementAndPlaneDetectionController : MonoBehaviour
+public class ARPlacementAndPlaneDetectionPhase2 : MonoBehaviour
 {
+    ARSessionOrigin m_ARSessionOrigin;
     ARPlaneManager m_ARPlaneManager;
-    ARPlacementManager m_ARPlacementManager;
+    ARPlacementManagerPhase2 m_ARPlacementManager;
+    private List<ARPlane> activePlanes = new List<ARPlane>();
     public GameObject placeButton;
     public GameObject adjustButton;
     public GameObject closeButton;
@@ -16,16 +18,14 @@ public class ARPlacementAndPlaneDetectionController : MonoBehaviour
     // Tamanho mínimo e máximo do plano (em metros)
     public float minPlaneSize = 0.5f;
     public float maxPlaneSize = 2f;
-
     // Distância mínima entre os planos para evitar sobreposição (em metros)
     public float minDistance = 1f;
 
-    private List<ARPlane> activePlanes = new List<ARPlane>();
-
     private void Awake()
     {
-        m_ARPlaneManager = GetComponent<ARPlaneManager>();
-        m_ARPlacementManager = GetComponent<ARPlacementManager>();
+        m_ARSessionOrigin = GetComponent<ARSessionOrigin>();
+        m_ARPlaneManager = m_ARSessionOrigin.GetComponent<ARPlaneManager>();
+        m_ARPlacementManager = m_ARSessionOrigin.GetComponent<ARPlacementManagerPhase2>();
     }
 
     void Start()
@@ -126,6 +126,11 @@ public class ARPlacementAndPlaneDetectionController : MonoBehaviour
             if (isOverlapping)
             {
                 plane.gameObject.SetActive(false);
+            }
+            else
+            {
+                // Reativar o plano se não estiver mais sobreposto
+                plane.gameObject.SetActive(true);
             }
         }
     }

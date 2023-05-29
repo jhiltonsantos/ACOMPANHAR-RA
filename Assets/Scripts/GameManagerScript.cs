@@ -7,6 +7,7 @@ public class GameManagerScript : MonoBehaviour
 {
     public int objectCorrect = 0;
     public int totalObjects = 0;
+    public string tagObjectHasMove;
     public TextMeshProUGUI messageText;
     public Button resetButton;
     public Image uIInformPanel;
@@ -19,7 +20,7 @@ public class GameManagerScript : MonoBehaviour
 
     private int LengthObjects()
     {
-        return GameObject.FindGameObjectsWithTag("PecaPuzzleCaixa").Length;
+        return GameObject.FindGameObjectsWithTag(tagObjectHasMove).Length;
     }
 
     public void IncrementObjectCorrect()
@@ -42,6 +43,32 @@ public class GameManagerScript : MonoBehaviour
         }
     }
 
+    public void ResetLevel()
+    {
+        DraggableObject[] draggableObjects = FindObjectsOfType<DraggableObject>();
+        foreach (DraggableObject draggableObject in draggableObjects)
+        {
+            draggableObject.ResetPosition();
+        }
+
+        objectCorrect = 0;
+
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
+
+    public void ContinueLevel(string nextScene)
+    {
+        DraggableObject[] draggableObjects = FindObjectsOfType<DraggableObject>();
+        foreach (DraggableObject draggableObject in draggableObjects)
+        {
+            draggableObject.ResetPosition();
+        }
+
+        objectCorrect = 0;
+
+        SceneManager.LoadScene(nextScene);
+    }
+
     #region UI Callback Manager
     void HideMessage()
     {
@@ -59,31 +86,5 @@ public class GameManagerScript : MonoBehaviour
         uIInformPanel.gameObject.SetActive(true);
 
     }
-
-    public void ResetLevel()
-    {
-        DraggableObject[] draggableObjects = FindObjectsOfType<DraggableObject>();
-        foreach (DraggableObject draggableObject in draggableObjects)
-        {
-            draggableObject.ResetPosition();
-        }
-
-        objectCorrect = 0;
-
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-    }
-
-    public void ContinueLevel(string nextScene) {
-        DraggableObject[] draggableObjects = FindObjectsOfType<DraggableObject>();
-        foreach (DraggableObject draggableObject in draggableObjects)
-        {
-            draggableObject.ResetPosition();
-        }
-
-        objectCorrect = 0;
-
-        SceneManager.LoadScene(nextScene);
-    }
-
     #endregion
 }

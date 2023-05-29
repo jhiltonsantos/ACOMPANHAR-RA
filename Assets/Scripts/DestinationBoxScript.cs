@@ -2,21 +2,19 @@ using UnityEngine;
 
 public class DestinationBoxScript : MonoBehaviour
 {
-    public string objectCorrectTag = "PecaPuzzleCaixa";
+    public string objectCorrectTag;
     public Color correctColor;
     private Material originalMaterial;
     private Renderer objectRenderer;
-    public Material newMaterial;
-    private Renderer saAnimalChickRenderer;
+    public Material changeMaterialSameMovingObject;
+    public Renderer sAObjectRenderer;
+    public string findObjectRenderer;
 
     private void Start()
     {
         objectRenderer = GetComponent<Renderer>();
         originalMaterial = objectRenderer.material;
-        // Coloando a cor do objeto inicial como preto
-        objectRenderer.material.color = Color.black;
-        // Encontrar o Renderer do objeto SA_Animal_Chick
-        saAnimalChickRenderer = transform.Find("Animal_Chick/SA_Animal_Chick").GetComponent<Renderer>();
+        sAObjectRenderer = transform.Find(findObjectRenderer).GetComponent<Renderer>();
     }
 
     private void OnTriggerEnter(Collider other)
@@ -58,7 +56,6 @@ public class DestinationBoxScript : MonoBehaviour
         }
     }
 
-
     public bool IsObjectCorrect(GameObject draggableObject)
     {
         // Verifica se o objeto caixa está correto
@@ -76,20 +73,19 @@ public class DestinationBoxScript : MonoBehaviour
         return false;
     }
 
-     private void ChangeSAAnimalChickMaterial()
+    public void ChangeSAAnimalChickMaterial()
     {
-        if (saAnimalChickRenderer != null)
+        if (sAObjectRenderer != null)
         {
-            saAnimalChickRenderer.material = newMaterial; // Alterar o material do objeto SA_Animal_Chick
+            sAObjectRenderer.material = changeMaterialSameMovingObject; // Alterar o material do objeto
         }
     }
 
-    private void ResetSAAnimalChickMaterial()
+    public void ResetSAAnimalChickMaterial()
     {
-        if (saAnimalChickRenderer != null)
+        if (sAObjectRenderer != null)
         {
-            saAnimalChickRenderer.material = originalMaterial; // Redefinir o material do objeto SA_Animal_Chick
+            sAObjectRenderer.material = originalMaterial; // Redefinir o material do objeto
         }
     }
-
 }

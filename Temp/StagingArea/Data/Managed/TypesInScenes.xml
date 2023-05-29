@@ -2,10 +2,15 @@
 	<assembly fullname="Assembly-CSharp">
 		<type fullname="AnchorCreator" preserve="nothing"/>
 		<type fullname="ARPlacementAndPlaneDetectionController" preserve="nothing"/>
+		<type fullname="ARPlacementAndPlaneDetectionPhase2" preserve="nothing"/>
 		<type fullname="ARPlacementManager" preserve="nothing"/>
+		<type fullname="ARPlacementManagerPhase2" preserve="nothing"/>
 		<type fullname="CubeObjectScript" preserve="nothing"/>
+		<type fullname="DestinationBoxPhase2Script" preserve="nothing"/>
 		<type fullname="DestinationBoxScript" preserve="nothing"/>
 		<type fullname="DraggableObject" preserve="nothing"/>
+		<type fullname="DraggableObjectPhase2" preserve="nothing"/>
+		<type fullname="GameManagerPhase2" preserve="nothing"/>
 		<type fullname="GameManagerScript" preserve="nothing"/>
 		<type fullname="MenuManagerScript" preserve="nothing"/>
 		<type fullname="ScaleController" preserve="nothing"/>
@@ -69,6 +74,7 @@
 		<type fullname="UnityEngine.XR.OpenXR.Features.RuntimeDebugger.RuntimeDebuggerOpenXRFeature" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="UnityEngine">
+		<type fullname="UnityEditor.Animations.AnimatorController" preserve="nothing"/>
 		<type fullname="UnityEditor.AudioManager" preserve="nothing"/>
 		<type fullname="UnityEditor.InputManager" preserve="nothing"/>
 		<type fullname="UnityEditor.MonoManager" preserve="nothing"/>
@@ -79,8 +85,11 @@
 		<type fullname="UnityEditor.TagManager" preserve="nothing"/>
 		<type fullname="UnityEditor.TimeManager" preserve="nothing"/>
 		<type fullname="UnityEditor.VFXManager" preserve="nothing"/>
+		<type fullname="UnityEngine.AnimationClip" preserve="nothing"/>
+		<type fullname="UnityEngine.Animator" preserve="nothing"/>
 		<type fullname="UnityEngine.AudioBehaviour" preserve="nothing"/>
 		<type fullname="UnityEngine.AudioListener" preserve="nothing"/>
+		<type fullname="UnityEngine.Avatar" preserve="nothing"/>
 		<type fullname="UnityEngine.Behaviour" preserve="nothing"/>
 		<type fullname="UnityEngine.BoxCollider" preserve="nothing"/>
 		<type fullname="UnityEngine.Camera" preserve="nothing"/>
@@ -100,6 +109,7 @@
 		<type fullname="UnityEngine.MeshFilter" preserve="nothing"/>
 		<type fullname="UnityEngine.MeshRenderer" preserve="nothing"/>
 		<type fullname="UnityEngine.MonoBehaviour" preserve="nothing"/>
+		<type fullname="UnityEngine.Motion" preserve="nothing"/>
 		<type fullname="UnityEngine.Object" preserve="nothing"/>
 		<type fullname="UnityEngine.QualitySettings" preserve="nothing"/>
 		<type fullname="UnityEngine.RectTransform" preserve="nothing"/>
@@ -107,7 +117,9 @@
 		<type fullname="UnityEngine.Rendering.GraphicsSettings" preserve="nothing"/>
 		<type fullname="UnityEngine.RenderSettings" preserve="nothing"/>
 		<type fullname="UnityEngine.Rigidbody" preserve="nothing"/>
+		<type fullname="UnityEngine.RuntimeAnimatorController" preserve="nothing"/>
 		<type fullname="UnityEngine.Shader" preserve="nothing"/>
+		<type fullname="UnityEngine.SkinnedMeshRenderer" preserve="nothing"/>
 		<type fullname="UnityEngine.Sprite" preserve="nothing"/>
 		<type fullname="UnityEngine.TextAsset" preserve="nothing"/>
 		<type fullname="UnityEngine.Texture" preserve="nothing"/>
