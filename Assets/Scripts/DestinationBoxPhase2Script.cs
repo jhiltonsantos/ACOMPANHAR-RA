@@ -23,7 +23,8 @@ public class DestinationBoxPhase2Script : MonoBehaviour
         sAObjectRenderer = transform.Find(findObjectRenderer).GetComponent<Renderer>();
         gameManager = FindObjectOfType<GameManagerPhase2>();
     }
-
+    
+    #region "Estado dos objetos"
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag(objectCorrectTag1))
@@ -36,6 +37,7 @@ public class DestinationBoxPhase2Script : MonoBehaviour
                 {
                     gameManagerPhase2.IncrementObjectsCorrect();
                     Destroy(draggableObject1.gameObject);
+                    DisableCollision(gameObject);
                     objectRenderer.material.color = correctColor;
                     ChangeMaterialDestination(objectCorrectTag1);
                 }
@@ -51,6 +53,7 @@ public class DestinationBoxPhase2Script : MonoBehaviour
                 {
                     gameManagerPhase2.IncrementObjectsCorrect();
                     Destroy(draggableObject2.gameObject);
+                    DisableCollision(gameObject);
                     objectRenderer.material.color = correctColor;
                     ChangeMaterialDestination(objectCorrectTag2);
                 }
@@ -83,6 +86,17 @@ public class DestinationBoxPhase2Script : MonoBehaviour
                     ResetBoxMaterial();
                 }
             }
+        }
+    }
+
+    #endregion
+
+    private void DisableCollision(GameObject gameObject)
+    {
+        Collider collider = gameObject.GetComponent<Collider>();
+        if (collider != null)
+        {
+            collider.enabled = false;
         }
     }
 
