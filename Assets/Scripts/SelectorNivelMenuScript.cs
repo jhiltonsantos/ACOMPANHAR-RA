@@ -1,19 +1,18 @@
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using System.Collections.Generic;
 
 public class SelectorNivelMenuScript : MonoBehaviour
 {
-    public string scene1;
-    public string scene2;
-    public void SelectNivel1()
-    {
-        SceneManager.LoadScene(scene1);
-    }
+    public List<string> levelScenes = new List<string>();
 
-    public void SelectNivel2()
+    public void SelectNivel(int index)
     {
-        SceneManager.LoadScene(scene2);
+        if (index >= 0 && index < levelScenes.Count)
+        {
+            SceneManager.LoadScene(levelScenes[index]);
+        }
     }
 
     public void ReturnMainScreen()
