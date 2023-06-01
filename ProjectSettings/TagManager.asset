@@ -4,14 +4,13 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - DestinoEsfera
-  - PecaPuzzleEsfera
   - PecaPuzzleCaixa
   - DestinoCaixa
   - ItemSpawn
   - DestinoCaixaPhase2
   - PecaCaixa1
   - PecaCaixa2
+  - PecaCaixa3
   layers:
   - Default
   - TransparentFX
