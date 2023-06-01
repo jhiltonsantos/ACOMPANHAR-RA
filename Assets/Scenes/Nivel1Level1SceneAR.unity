@@ -1730,6 +1730,7 @@ MonoBehaviour:
   messageText: {fileID: 1482042522}
   resetButton: {fileID: 1556703607}
   uIInformPanel: {fileID: 241945273}
+  arPlaneManager: {fileID: 1187207914}
 --- !u!1 &1139273494
 GameObject:
   m_ObjectHideFlags: 0
@@ -1987,7 +1988,7 @@ MonoBehaviour:
   aRCamera: {fileID: 1441732226}
   boxPuzzleGameObject: {fileID: 1012310548}
   boxDestinyGameObject: {fileID: 1805938202}
-  destinationOffset: {x: 0, y: 0, z: 1}
+  destinationOffset: {x: 0, y: 0, z: 1.3}
 --- !u!114 &1187207918
 MonoBehaviour:
   m_ObjectHideFlags: 0

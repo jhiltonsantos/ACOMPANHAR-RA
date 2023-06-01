@@ -3,6 +3,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using System.Collections.Generic;
+using UnityEngine.XR.ARFoundation;
 
 public class GameManagerPhase3 : MonoBehaviour
 {
@@ -12,14 +13,14 @@ public class GameManagerPhase3 : MonoBehaviour
     public Button resetButton;
     public Image uIInformPanel;
     public List<string> tagsObjectsHaveMove;
-
+    public ARPlaneManager arPlaneManager;
     public List<DestinationBoxPhase3Script> destinationBoxes = new List<DestinationBoxPhase3Script>();
 
     public void Start()
     {
         totalObjects = CountObjects();
         HideMessage();
-    } // OK
+    }
 
     private int CountObjects()
     {
@@ -73,9 +74,10 @@ public class GameManagerPhase3 : MonoBehaviour
         }
 
         objectsCorrect = 0;
-
+        // Reset AR Planes
+        ResetARPlanes();
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-    } // OK
+    }
 
     public void ContinueLevel(string nextScene)
     {
@@ -86,9 +88,21 @@ public class GameManagerPhase3 : MonoBehaviour
         }
 
         objectsCorrect = 0;
-
+        // Reset AR Planes
+        ResetARPlanes();
         SceneManager.LoadScene(nextScene);
-    } // OK
+    }
+
+    private void ResetARPlanes()
+    {
+        if (arPlaneManager != null)
+        {
+            arPlaneManager.enabled = false;
+            arPlaneManager.SetTrackablesActive(false);
+            arPlaneManager.enabled = true;
+            arPlaneManager.SetTrackablesActive(true);
+        }
+    }
 
     #region UI Callback Manager
     void HideMessage()

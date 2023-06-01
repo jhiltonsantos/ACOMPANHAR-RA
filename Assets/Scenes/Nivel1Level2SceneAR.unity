@@ -1983,6 +1983,7 @@ MonoBehaviour:
   tagsObjectsHaveMove:
   - PecaCaixa1
   - PecaCaixa2
+  arPlaneManager: {fileID: 1187207914}
   destinationBoxes: []
 --- !u!1 &1139273494
 GameObject:

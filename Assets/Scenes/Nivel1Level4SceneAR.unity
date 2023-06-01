@@ -2094,6 +2094,7 @@ MonoBehaviour:
   - PecaCaixa2
   - PecaCaixa3
   destinationBoxes: []
+  arPlaneManager: {fileID: 1187207914}
 --- !u!1001 &1094482823
 PrefabInstance:
   m_ObjectHideFlags: 0

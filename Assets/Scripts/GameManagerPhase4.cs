@@ -3,6 +3,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using System.Collections.Generic;
+using UnityEngine.XR.ARFoundation;
 
 public class GameManagerPhase4 : MonoBehaviour
 {
@@ -12,14 +13,14 @@ public class GameManagerPhase4 : MonoBehaviour
     public Button resetButton;
     public Image uIInformPanel;
     public List<string> tagsObjectsHaveMove;
-
     public List<DestinationBoxPhase4Script> destinationBoxes = new List<DestinationBoxPhase4Script>();
+    public ARPlaneManager arPlaneManager;
 
     public void Start()
     {
         totalObjects = CountObjects();
         HideMessage();
-    } // OK
+    }
 
     private int CountObjects()
     {
@@ -37,19 +38,19 @@ public class GameManagerPhase4 : MonoBehaviour
             count++;
         }
         return count;
-    } // OK
+    }
 
 
     public void IncrementObjectsCorrect()
     {
         objectsCorrect++;
         CheckWin();
-    } // OK
+    }
 
     public void DecrementObjectsCorrect()
     {
         objectsCorrect--;
-    } // OK
+    }
 
     public void CheckWin()
     {
@@ -57,7 +58,7 @@ public class GameManagerPhase4 : MonoBehaviour
         {
             ShowMessage("Nível Concluído", "Reiniciar");
         }
-    } // OK
+    }
 
     public void ResetLevel()
     {
@@ -71,11 +72,11 @@ public class GameManagerPhase4 : MonoBehaviour
         {
             destinationBox.ResetBoxMaterial();
         }
-
         objectsCorrect = 0;
-
+        // Reset AR Planes
+        ResetARPlanes();
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-    } // OK
+    }
 
     public void ContinueLevel(string nextScene)
     {
@@ -84,11 +85,22 @@ public class GameManagerPhase4 : MonoBehaviour
         {
             draggableObject.ResetPosition();
         }
-
         objectsCorrect = 0;
-
+        // Reset AR Planes
+        ResetARPlanes();
         SceneManager.LoadScene(nextScene);
-    } // OK
+    }
+
+    private void ResetARPlanes()
+    {
+        if (arPlaneManager != null)
+        {
+            arPlaneManager.enabled = false;
+            arPlaneManager.SetTrackablesActive(false);
+            arPlaneManager.enabled = true;
+            arPlaneManager.SetTrackablesActive(true);
+        }
+    }
 
     #region UI Callback Manager
     void HideMessage()
@@ -96,7 +108,7 @@ public class GameManagerPhase4 : MonoBehaviour
         messageText.gameObject.SetActive(false);
         resetButton.gameObject.SetActive(false);
         uIInformPanel.gameObject.SetActive(false);
-    } // OK
+    }
 
     public void ShowMessage(string message, string buttonText)
     {
@@ -106,6 +118,6 @@ public class GameManagerPhase4 : MonoBehaviour
         messageText.gameObject.SetActive(true);
         resetButton.gameObject.SetActive(true);
         uIInformPanel.gameObject.SetActive(true);
-    } // OK
+    }
     #endregion
 }

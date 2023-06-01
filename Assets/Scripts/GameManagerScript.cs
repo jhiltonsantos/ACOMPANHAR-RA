@@ -2,6 +2,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using UnityEngine.XR.ARFoundation;
 
 public class GameManagerScript : MonoBehaviour
 {
@@ -11,6 +12,7 @@ public class GameManagerScript : MonoBehaviour
     public TextMeshProUGUI messageText;
     public Button resetButton;
     public Image uIInformPanel;
+    public ARPlaneManager arPlaneManager;
 
     void Start()
     {
@@ -52,7 +54,8 @@ public class GameManagerScript : MonoBehaviour
         }
 
         objectCorrect = 0;
-
+        // Reset AR Planes
+        ResetARPlanes();
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
@@ -65,8 +68,20 @@ public class GameManagerScript : MonoBehaviour
         }
 
         objectCorrect = 0;
-
+        // Reset AR Planes
+        ResetARPlanes();
         SceneManager.LoadScene(nextScene);
+    }
+
+    private void ResetARPlanes()
+    {
+        if (arPlaneManager != null)
+        {
+            arPlaneManager.enabled = false;
+            arPlaneManager.SetTrackablesActive(false);
+            arPlaneManager.enabled = true;
+            arPlaneManager.SetTrackablesActive(true);
+        }
     }
 
     #region UI Callback Manager
