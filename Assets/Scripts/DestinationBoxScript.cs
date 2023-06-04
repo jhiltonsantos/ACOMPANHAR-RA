@@ -3,7 +3,6 @@ using UnityEngine;
 public class DestinationBoxScript : MonoBehaviour
 {
     public string objectCorrectTag;
-    public Color correctColor;
     private Material originalMaterial;
     private Renderer objectRenderer;
     public Material changeMaterialSameMovingObject;
@@ -29,7 +28,6 @@ public class DestinationBoxScript : MonoBehaviour
                 {
                     gameManager.IncrementObjectCorrect();
                     Destroy(draggableObject.gameObject);
-                    objectRenderer.material.color = correctColor;
                     ChangeSAAnimalChickMaterial();
                 }
             }

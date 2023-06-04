@@ -10,36 +10,39 @@ EditorBuildSettings:
     guid: 03be7cf141fa9694a8a927024e095e2c
   - enabled: 1
     path: Assets/Scenes/SelectorNivelScene.unity
+    guid: a50c62a603335834eaa26ae567a5b6cb
+  - enabled: 1
+    path: Assets/Scenes/SelectorNivel1LevelScene.unity
     guid: 5da3601fd23747f4f94690990a2628b6
   - enabled: 1
-    path: Assets/Scenes/Nivel1Level1SceneAR.unity
+    path: Assets/Scenes/Nivel1Levels/Nivel1Level1SceneAR.unity
     guid: 02b52f9dd856a4347b70ef74637b1301
   - enabled: 1
-    path: Assets/Scenes/Nivel1Level2SceneAR.unity
+    path: Assets/Scenes/Nivel1Levels/Nivel1Level2SceneAR.unity
     guid: 756374c41b573264681dea35c904b058
   - enabled: 1
-    path: Assets/Scenes/Nivel1Level3SceneAR.unity
+    path: Assets/Scenes/Nivel1Levels/Nivel1Level3SceneAR.unity
     guid: 2009b5d5902348449890041cc36f18c2
   - enabled: 1
-    path: Assets/Scenes/Nivel1Level4SceneAR.unity
+    path: Assets/Scenes/Nivel1Levels/Nivel1Level4SceneAR.unity
     guid: 77570befdbd7b3741a1db7ae1970043f
   - enabled: 1
-    path: Assets/Scenes/Nivel1Level5SceneAR.unity
+    path: Assets/Scenes/Nivel1Levels/Nivel1Level5SceneAR.unity
     guid: 2cc0c56d3b108b54fb8ce2048f182908
   - enabled: 1
-    path: Assets/Scenes/Nivel1Level6SceneAR.unity
+    path: Assets/Scenes/Nivel1Levels/Nivel1Level6SceneAR.unity
     guid: bdcdf38c1523cb940b64a68e7031ae97
   - enabled: 1
-    path: Assets/Scenes/Nivel1Level7SceneAR.unity
+    path: Assets/Scenes/Nivel1Levels/Nivel1Level7SceneAR.unity
     guid: 393e60f87b99c1541b60a22a0cffebaf
   - enabled: 1
-    path: Assets/Scenes/Nivel1Level8SceneAR.unity
+    path: Assets/Scenes/Nivel1Levels/Nivel1Level8SceneAR.unity
     guid: 7d83dc186716e354f85a67f3a5ecda21
   - enabled: 1
-    path: Assets/Scenes/Nivel1Level9SceneAR.unity
+    path: Assets/Scenes/Nivel1Levels/Nivel1Level9SceneAR.unity
     guid: f7d82997014ffd14793d2bbec3ad2df3
   - enabled: 1
-    path: Assets/Scenes/Nivel1Level10SceneAR.unity
+    path: Assets/Scenes/Nivel1Levels/Nivel1Level10SceneAR.unity
     guid: 872e0095688a36248b6d28785ef05a9a
   m_configObjects:
     Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: 744b813df90924c169af73489b8325de,

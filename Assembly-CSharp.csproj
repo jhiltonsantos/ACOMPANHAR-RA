@@ -62,6 +62,9 @@
      <Compile Include="Assets\Scripts\GameManagerPhase2.cs" />
      <Compile Include="Assets\Scripts\DestinationBoxScript.cs" />
      <Compile Include="Assets\Scripts\ARPlacementManager.cs" />
+     <Compile Include="Assets\Scripts\SelectorLevelsMenuScript.cs" />
+     <Compile Include="Assets\Scripts\ReturnButtonEventScript.cs" />
+     <Compile Include="Assets\Scripts\GameManagerPhase1.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />

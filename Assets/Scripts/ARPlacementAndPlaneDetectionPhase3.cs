@@ -74,7 +74,7 @@ public class ARPlacementAndPlaneDetectionPhase3 : MonoBehaviour
 
     public void CloseButtonEnable()
     {
-        SceneManager.LoadScene("SelectorNivelScene");
+        SceneManager.LoadScene("SelectorNivel1LevelScene");
     }
 
     public void SetButtonsDisable()
