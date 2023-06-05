@@ -14,8 +14,8 @@ public class GameManagerPhase2 : MonoBehaviour
     public Image uIInformPanel;
     public List<string> tagsObjectsHaveMove;
     public ARPlaneManager arPlaneManager;
-
     public List<DestinationBoxPhase2Script> destinationBoxes = new List<DestinationBoxPhase2Script>();
+    public ARPlacementAndPlaneDetectionPhase2 aRPlacementAndPlaneDetectionController;
 
     public void Start()
     {
@@ -111,7 +111,7 @@ public class GameManagerPhase2 : MonoBehaviour
         messageText.gameObject.SetActive(false);
         resetButton.gameObject.SetActive(false);
         uIInformPanel.gameObject.SetActive(false);
-    } // OK
+    }
 
     public void ShowMessage(string message, string buttonText)
     {
@@ -121,6 +121,9 @@ public class GameManagerPhase2 : MonoBehaviour
         messageText.gameObject.SetActive(true);
         resetButton.gameObject.SetActive(true);
         uIInformPanel.gameObject.SetActive(true);
-    } // OK
+        
+        // Desabilita os botões de ajuste e inserir
+        aRPlacementAndPlaneDetectionController.SetButtonsDisable();
+    }
     #endregion
 }

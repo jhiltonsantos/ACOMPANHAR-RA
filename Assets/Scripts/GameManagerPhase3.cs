@@ -14,6 +14,7 @@ public class GameManagerPhase3 : MonoBehaviour
     public Image uIInformPanel;
     public List<string> tagsObjectsHaveMove;
     public ARPlaneManager arPlaneManager;
+    public ARPlacementAndPlaneDetectionPhase3 aRPlacementAndPlaneDetectionController;
     public List<DestinationBoxPhase3Script> destinationBoxes = new List<DestinationBoxPhase3Script>();
 
     public void Start()
@@ -120,6 +121,8 @@ public class GameManagerPhase3 : MonoBehaviour
         messageText.gameObject.SetActive(true);
         resetButton.gameObject.SetActive(true);
         uIInformPanel.gameObject.SetActive(true);
-    } // OK
+
+        aRPlacementAndPlaneDetectionController.SetButtonsDisable();
+    }
     #endregion
 }

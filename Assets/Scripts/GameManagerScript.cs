@@ -13,6 +13,7 @@ public class GameManagerScript : MonoBehaviour
     public Button resetButton;
     public Image uIInformPanel;
     public ARPlaneManager arPlaneManager;
+    public ARPlacementAndPlaneDetectionController aRPlacementAndPlaneDetectionController;
 
     void Start()
     {
@@ -99,6 +100,8 @@ public class GameManagerScript : MonoBehaviour
         messageText.gameObject.SetActive(true);
         resetButton.gameObject.SetActive(true);
         uIInformPanel.gameObject.SetActive(true);
+        
+        aRPlacementAndPlaneDetectionController.SetButtonsDisable();
 
     }
     #endregion

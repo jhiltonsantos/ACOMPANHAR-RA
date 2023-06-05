@@ -8,7 +8,6 @@ public class DestinationBoxPhase2Script : MonoBehaviour
     private GameManagerPhase2 gameManager;
     public string objectCorrectTag1;
     public string objectCorrectTag2;
-    public Color correctColor;
 
     // Propriedades para alterar o material do objeto
     public Material changeMaterialSameMovingObject1;
@@ -38,7 +37,6 @@ public class DestinationBoxPhase2Script : MonoBehaviour
                     gameManagerPhase2.IncrementObjectsCorrect();
                     Destroy(draggableObject1.gameObject);
                     DisableCollision(gameObject);
-                    objectRenderer.material.color = correctColor;
                     ChangeMaterialDestination(objectCorrectTag1);
                 }
             }
@@ -54,7 +52,6 @@ public class DestinationBoxPhase2Script : MonoBehaviour
                     gameManagerPhase2.IncrementObjectsCorrect();
                     Destroy(draggableObject2.gameObject);
                     DisableCollision(gameObject);
-                    objectRenderer.material.color = correctColor;
                     ChangeMaterialDestination(objectCorrectTag2);
                 }
             }
