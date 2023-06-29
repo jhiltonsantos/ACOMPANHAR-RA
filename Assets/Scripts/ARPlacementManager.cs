@@ -10,7 +10,9 @@ public class ARPlacementManager : MonoBehaviour
     public Camera aRCamera;
     public GameObject boxPuzzleGameObject;
     public GameObject boxDestinyGameObject;
-    public Vector3 destinationOffset = new Vector3(0f, 0f, 1f);
+
+    public Vector3 objectOffset = new Vector3(0f, 0f, 0f);
+    public Vector3 destinationOffset = new Vector3(0f, 0f, 0f);
 
     private void Awake()
     {
@@ -26,7 +28,7 @@ public class ARPlacementManager : MonoBehaviour
         {
             Pose hitPose = raycastHits[0].pose;
             Vector3 positionToBePlaced = hitPose.position;
-            boxPuzzleGameObject.transform.position = positionToBePlaced;
+            boxPuzzleGameObject.transform.position = positionToBePlaced + objectOffset;
             boxDestinyGameObject.transform.position = positionToBePlaced + destinationOffset;
         }
     }

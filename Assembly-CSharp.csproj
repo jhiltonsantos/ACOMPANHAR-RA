@@ -41,6 +41,7 @@
      <Compile Include="Assets\Scripts\DestinationBoxPhase2Script.cs" />
      <Compile Include="Assets\Scripts\ARPlacementAndPlaneDetectionPhase4.cs" />
      <Compile Include="Assets\Scripts\ARPlacementManagerPhase4.cs" />
+     <Compile Include="Assets\Scripts\GameManagerPhase1.cs" />
      <Compile Include="Assets\Scripts\DraggableObjectPhase2.cs" />
      <Compile Include="Assets\ExampleAssets\Scripts\ARFeatheredPlaneMeshVisualizer.cs" />
      <Compile Include="Assets\Scripts\GameManagerPhase4.cs" />
@@ -55,16 +56,15 @@
      <Compile Include="Assets\Scripts\SelectorNivelMenuScript.cs" />
      <Compile Include="Assets\Scripts\DestinationBoxPhase3Script.cs" />
      <Compile Include="Assets\ExampleAssets\Scripts\AnchorCreator.cs" />
+     <Compile Include="Assets\Scripts\SelectorLevelsMenuScript.cs" />
      <Compile Include="Assets\Scripts\ARPlacementManagerPhase2.cs" />
      <Compile Include="Assets\Scripts\MenuManagerScript.cs" />
      <Compile Include="Assets\Scripts\DraggableObjectPhase4.cs" />
      <Compile Include="Assets\Scripts\DraggableObjectPhase3.cs" />
      <Compile Include="Assets\Scripts\GameManagerPhase2.cs" />
      <Compile Include="Assets\Scripts\DestinationBoxScript.cs" />
-     <Compile Include="Assets\Scripts\ARPlacementManager.cs" />
-     <Compile Include="Assets\Scripts\SelectorLevelsMenuScript.cs" />
      <Compile Include="Assets\Scripts\ReturnButtonEventScript.cs" />
-     <Compile Include="Assets\Scripts\GameManagerPhase1.cs" />
+     <Compile Include="Assets\Scripts\ARPlacementManager.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
