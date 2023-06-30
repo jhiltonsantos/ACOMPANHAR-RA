@@ -41,8 +41,7 @@ public class GameManagerScript : MonoBehaviour
     {
         if (objectCorrect == totalObjects)
         {
-            Debug.Log("Finalizou");
-            ShowMessage("Nível Concluído", "Reiniciar");
+            ShowMessage("Fase Concluída", "Reiniciar");
         }
     }
 
