@@ -15,7 +15,7 @@ C:/Users/jhilt/Desktop/Unity3D/ACOMPANHAR_TEACCH
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-52015
+58068
 Successfully changed project path to: C:/Users/jhilt/Desktop/Unity3D/ACOMPANHAR_TEACCH
 C:/Users/jhilt/Desktop/Unity3D/ACOMPANHAR_TEACCH
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ C:/Users/jhilt/Desktop/Unity3D/ACOMPANHAR_TEACCH
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [17712] Host "[IP] 192.168.150.10 [Port] 0 [Flags] 2 [Guid] 3374787430 [EditorId] 3374787430 [Version] 1048832 [Id] WindowsEditor(7,Hilton-Windows) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [25312] Host "[IP] 192.168.150.21 [Port] 0 [Flags] 2 [Guid] 1839892107 [EditorId] 1839892107 [Version] 1048832 [Id] WindowsEditor(7,Hilton-Windows) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [17712] Host "[IP] 192.168.150.10 [Port] 0 [Flags] 2 [Guid] 3374787430 [EditorId] 3374787430 [Version] 1048832 [Id] WindowsEditor(7,Hilton-Windows) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [25312] Host "[IP] 192.168.150.21 [Port] 0 [Flags] 2 [Guid] 1839892107 [EditorId] 1839892107 [Version] 1048832 [Id] WindowsEditor(7,Hilton-Windows) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 96.23 ms, found 10 plugins.
+Refreshing native plugins compatible for Editor in 527.42 ms, found 10 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.25f1 (68ef2c4f8861)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/Resources/UnitySubsystems
@@ -67,86 +67,86 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56048
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56140
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005784 seconds.
+Registered in 0.256144 seconds.
 Native extension for WindowsStandalone target not found
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 Native extension for iOS target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 226 ms
-Refreshing native plugins compatible for Editor in 114.86 ms, found 10 plugins.
+Android Extension - Scanning For ADB Devices 327 ms
+Refreshing native plugins compatible for Editor in 90.26 ms, found 10 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.824 seconds
+- Completed reload, in  5.552 seconds
 Domain Reload Profiling:
-	ReloadAssembly (824ms)
-		BeginReloadAssembly (68ms)
+	ReloadAssembly (5552ms)
+		BeginReloadAssembly (3310ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (674ms)
-			LoadAssemblies (66ms)
+		EndReloadAssembly (1696ms)
+			LoadAssemblies (3311ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (87ms)
+			SetupTypeCache (912ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (22ms)
-			SetupLoadedEditorAssemblies (523ms)
+			SetupLoadedEditorAssemblies (713ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (305ms)
+				InitializePlatformSupportModulesInManaged (516ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (115ms)
+				RefreshPlugins (90ms)
 				BeforeProcessingInitializeOnLoad (1ms)
 				ProcessInitializeOnLoadAttributes (69ms)
-				ProcessInitializeOnLoadMethodAttributes (32ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.007321 seconds.
+Registered in 1.319162 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\jhilt\Desktop\Unity3D\ACOMPANHAR_TEACCH\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\jhilt\Desktop\Unity3D\ACOMPANHAR_TEACCH\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 95.17 ms, found 10 plugins.
+Refreshing native plugins compatible for Editor in 90.55 ms, found 10 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Package Manager log level set to [2]
 Mono: successfully reloaded assembly
-- Completed reload, in  1.093 seconds
+- Completed reload, in  5.457 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1093ms)
-		BeginReloadAssembly (94ms)
+	ReloadAssembly (5458ms)
+		BeginReloadAssembly (101ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (17ms)
-		EndReloadAssembly (909ms)
-			LoadAssemblies (81ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (5223ms)
+			LoadAssemblies (3724ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (247ms)
+			SetupTypeCache (804ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (66ms)
-			SetupLoadedEditorAssemblies (457ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (608ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (26ms)
+				InitializePlatformSupportModulesInManaged (24ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (95ms)
-				BeforeProcessingInitializeOnLoad (97ms)
-				ProcessInitializeOnLoadAttributes (218ms)
+				RefreshPlugins (91ms)
+				BeforeProcessingInitializeOnLoad (98ms)
+				ProcessInitializeOnLoadAttributes (373ms)
 				ProcessInitializeOnLoadMethodAttributes (16ms)
-				AfterProcessingInitializeOnLoad (4ms)
+				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (5ms)
@@ -155,13 +155,15 @@ Platform modules already initialized, skipping
 Worker process is ready to serve import requests
 Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
 Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.98 ms, found 10 plugins.
+Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.97 ms, found 10 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4298 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 53 unused Assets / (0.6 MB). Loaded Objects now: 4764.
-Memory consumption went from 173.0 MB to 172.4 MB.
-Total: 3.675700 ms (FindLiveObjects: 0.426000 ms CreateObjectMapping: 0.122800 ms MarkObjects: 2.894300 ms  DeleteObjects: 0.231600 ms)
+Unloading 4325 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 53 unused Assets / (0.8 MB). Loaded Objects now: 4791.
+Memory consumption went from 177.7 MB to 176.8 MB.
+Total: 3.968800 ms (FindLiveObjects: 0.590000 ms CreateObjectMapping: 0.129300 ms MarkObjects: 2.917400 ms  DeleteObjects: 0.331200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -174,415 +176,150 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Prepare
-Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Refreshing native plugins compatible for Editor in 13.33 ms, found 10 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 43 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 42 unused Assets / (328.1 KB). Loaded Objects now: 4765.
-Memory consumption went from 83.9 MB to 83.6 MB.
-Total: 56.929700 ms (FindLiveObjects: 0.512400 ms CreateObjectMapping: 0.130300 ms MarkObjects: 55.884400 ms  DeleteObjects: 0.401400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 609106.351726 seconds.
+  path: Assets/_ARPortal/Source Files/Materials/LibraryStreet/Lights.mat
+  artifactKey: Guid(b72dfca27f52f3d4aa06e196f3c2fd87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ARPortal/Source Files/Materials/LibraryStreet/Lights.mat using Guid(b72dfca27f52f3d4aa06e196f3c2fd87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f48e62703a7f8629bb2aa670b62470d2') in 0.185438 seconds 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006997 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\jhilt\Desktop\Unity3D\ACOMPANHAR_TEACCH\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\jhilt\Desktop\Unity3D\ACOMPANHAR_TEACCH\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 1.04 ms, found 10 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.086 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1087ms)
-		BeginReloadAssembly (250ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (93ms)
-		EndReloadAssembly (738ms)
-			LoadAssemblies (109ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (262ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (36ms)
-			SetupLoadedEditorAssemblies (313ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (26ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (69ms)
-				ProcessInitializeOnLoadAttributes (192ms)
-				ProcessInitializeOnLoadMethodAttributes (18ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Platform modules already initialized, skipping
-Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Refreshing native plugins compatible for Editor in 6.26 ms, found 10 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4250 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 42 unused Assets / (330.8 KB). Loaded Objects now: 4769.
-Memory consumption went from 168.8 MB to 168.5 MB.
-Total: 3.347300 ms (FindLiveObjects: 0.362200 ms CreateObjectMapping: 0.107800 ms MarkObjects: 2.676100 ms  DeleteObjects: 0.200700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/_ARPortal/Source Files/Materials/DefaultPlaneMaterials/Plane_Blue.mat
+  artifactKey: Guid(1ac4e7ab1ab77a0429ae02e46ba6f559) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ARPortal/Source Files/Materials/DefaultPlaneMaterials/Plane_Blue.mat using Guid(1ac4e7ab1ab77a0429ae02e46ba6f559) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'feeaf417a1ba54a8f966259d3383598a') in 0.026820 seconds 
 ========================================================================
-Received Prepare
-Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Refreshing native plugins compatible for Editor in 12.84 ms, found 10 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 42 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 42 unused Assets / (328.3 KB). Loaded Objects now: 4769.
-Memory consumption went from 84.3 MB to 84.0 MB.
-Total: 3.489300 ms (FindLiveObjects: 0.365600 ms CreateObjectMapping: 0.112200 ms MarkObjects: 2.777000 ms  DeleteObjects: 0.233600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/_ARPortal/Source Files/Materials/LibraryStreet/Sky.mat
+  artifactKey: Guid(7f6998e7d5a0f1844a5f117d2892fab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ARPortal/Source Files/Materials/LibraryStreet/Sky.mat using Guid(7f6998e7d5a0f1844a5f117d2892fab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1513f196cb2801d5fa138d051c5f868e') in 0.022009 seconds 
 ========================================================================
-Received Prepare
-Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Refreshing native plugins compatible for Editor in 8.10 ms, found 10 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 42 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 42 unused Assets / (328.4 KB). Loaded Objects now: 4769.
-Memory consumption went from 84.0 MB to 83.7 MB.
-Total: 3.198600 ms (FindLiveObjects: 0.329900 ms CreateObjectMapping: 0.108300 ms MarkObjects: 2.573100 ms  DeleteObjects: 0.186700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Course Library/_Source_Files/Materials/PolygonPrototype_Texture_01.mat
+  artifactKey: Guid(0e55cea975bb5cc459efeb5c843a1673) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/_Source_Files/Materials/PolygonPrototype_Texture_01.mat using Guid(0e55cea975bb5cc459efeb5c843a1673) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '520bca16c952d3c3d16230c15c1de21d') in 0.174414 seconds 
 ========================================================================
-Received Prepare
-Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Refreshing native plugins compatible for Editor in 10.73 ms, found 10 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 42 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 42 unused Assets / (328.4 KB). Loaded Objects now: 4769.
-Memory consumption went from 84.0 MB to 83.7 MB.
-Total: 3.463600 ms (FindLiveObjects: 0.385100 ms CreateObjectMapping: 0.110900 ms MarkObjects: 2.747000 ms  DeleteObjects: 0.220000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/_ARPortal/Source Files/Materials/Other/PortalWindow.mat
+  artifactKey: Guid(3926db375cfab3543a46d5f436d6a0ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ARPortal/Source Files/Materials/Other/PortalWindow.mat using Guid(3926db375cfab3543a46d5f436d6a0ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '245f360433283803d7ac9b52dc65aa9d') in 0.023261 seconds 
 ========================================================================
-Received Prepare
-Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Refreshing native plugins compatible for Editor in 9.03 ms, found 10 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 42 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 42 unused Assets / (328.4 KB). Loaded Objects now: 4769.
-Memory consumption went from 84.0 MB to 83.7 MB.
-Total: 3.381300 ms (FindLiveObjects: 0.382500 ms CreateObjectMapping: 0.113300 ms MarkObjects: 2.668200 ms  DeleteObjects: 0.216700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Course Library/_Source_Files/Materials/SimpleFarmer_FarmersWife_White.mat
+  artifactKey: Guid(f2244f371edf0a14797a9553523b4042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/_Source_Files/Materials/SimpleFarmer_FarmersWife_White.mat using Guid(f2244f371edf0a14797a9553523b4042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '084f9524ab80267fcea9602686f0f6b8') in 0.034445 seconds 
 ========================================================================
-Received Prepare
-Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Refreshing native plugins compatible for Editor in 11.61 ms, found 10 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 42 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 42 unused Assets / (328.5 KB). Loaded Objects now: 4769.
-Memory consumption went from 84.0 MB to 83.7 MB.
-Total: 3.148300 ms (FindLiveObjects: 0.334100 ms CreateObjectMapping: 0.108800 ms MarkObjects: 2.514400 ms  DeleteObjects: 0.190400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Course Library/_Source_Files/Materials/SimpleFarmer_FarmersDaughter_White.mat
+  artifactKey: Guid(0c7f1429da34c444198f6065762e0e22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/_Source_Files/Materials/SimpleFarmer_FarmersDaughter_White.mat using Guid(0c7f1429da34c444198f6065762e0e22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdf118f6b999001f5e00b8b63350b721') in 0.031491 seconds 
 ========================================================================
-Received Prepare
-Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Refreshing native plugins compatible for Editor in 8.01 ms, found 10 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 42 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 42 unused Assets / (328.3 KB). Loaded Objects now: 4769.
-Memory consumption went from 84.0 MB to 83.7 MB.
-Total: 3.284800 ms (FindLiveObjects: 0.330900 ms CreateObjectMapping: 0.110200 ms MarkObjects: 2.654000 ms  DeleteObjects: 0.189200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/_ARPortal/Source Files/Materials/LibraryStreet/SophieHelmet_Material.mat
+  artifactKey: Guid(5734f3ff4206b7c4d98ea3e4dfbf184a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ARPortal/Source Files/Materials/LibraryStreet/SophieHelmet_Material.mat using Guid(5734f3ff4206b7c4d98ea3e4dfbf184a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86bc17b1af866882f67b5d0cced93251') in 0.023074 seconds 
 ========================================================================
-Received Prepare
-Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Refreshing native plugins compatible for Editor in 9.10 ms, found 10 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 42 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 42 unused Assets / (328.4 KB). Loaded Objects now: 4769.
-Memory consumption went from 84.0 MB to 83.7 MB.
-Total: 3.391100 ms (FindLiveObjects: 0.351000 ms CreateObjectMapping: 0.110200 ms MarkObjects: 2.715300 ms  DeleteObjects: 0.214100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/_ARPortal/Source Files/Materials/LibraryStreet/Street_Glass.mat
+  artifactKey: Guid(46553aad8b469884da651032b5a557d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ARPortal/Source Files/Materials/LibraryStreet/Street_Glass.mat using Guid(46553aad8b469884da651032b5a557d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f21a4e0805ffe6c2eaa375de42f881e') in 0.022557 seconds 
 ========================================================================
-Received Prepare
-Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Refreshing native plugins compatible for Editor in 8.87 ms, found 10 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 42 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 42 unused Assets / (328.6 KB). Loaded Objects now: 4769.
-Memory consumption went from 84.0 MB to 83.7 MB.
-Total: 3.382500 ms (FindLiveObjects: 0.339300 ms CreateObjectMapping: 0.118400 ms MarkObjects: 2.691200 ms  DeleteObjects: 0.232700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/_ARPortal/Source Files/Materials/WitchesHut/MainMaterial.mat
+  artifactKey: Guid(4cd56185754fe384a9265b6647bab8d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ARPortal/Source Files/Materials/WitchesHut/MainMaterial.mat using Guid(4cd56185754fe384a9265b6647bab8d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01b7ab0650f78ebfc2322f3f529c6d10') in 0.023824 seconds 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009856 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\jhilt\Desktop\Unity3D\ACOMPANHAR_TEACCH\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\jhilt\Desktop\Unity3D\ACOMPANHAR_TEACCH\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 1.10 ms, found 10 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.055 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1057ms)
-		BeginReloadAssembly (239ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (10ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (92ms)
-		EndReloadAssembly (735ms)
-			LoadAssemblies (109ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (254ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (35ms)
-			SetupLoadedEditorAssemblies (315ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (26ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (68ms)
-				ProcessInitializeOnLoadAttributes (187ms)
-				ProcessInitializeOnLoadMethodAttributes (25ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Platform modules already initialized, skipping
-Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Refreshing native plugins compatible for Editor in 7.12 ms, found 10 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4250 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 42 unused Assets / (331.0 KB). Loaded Objects now: 4773.
-Memory consumption went from 168.9 MB to 168.6 MB.
-Total: 6.007800 ms (FindLiveObjects: 0.610000 ms CreateObjectMapping: 0.171100 ms MarkObjects: 4.745500 ms  DeleteObjects: 0.479700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Course Library/_Source_Files/Materials/SimpleFarmer_FarmWrangler_Black.mat
+  artifactKey: Guid(65e4e762346e95740bd35a8681cf201b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/_Source_Files/Materials/SimpleFarmer_FarmWrangler_Black.mat using Guid(65e4e762346e95740bd35a8681cf201b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bfd388c806cb65103407cb1c1619452') in 0.030265 seconds 
 ========================================================================
-Received Prepare
-Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Refreshing native plugins compatible for Editor in 8.78 ms, found 10 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 42 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 42 unused Assets / (328.5 KB). Loaded Objects now: 4773.
-Memory consumption went from 84.4 MB to 84.1 MB.
-Total: 3.364500 ms (FindLiveObjects: 0.351300 ms CreateObjectMapping: 0.115300 ms MarkObjects: 2.683200 ms  DeleteObjects: 0.214000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Course Library/Materials/Material_Sand.mat
+  artifactKey: Guid(93e992a0e91224b459e143b0f7d6458d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/Materials/Material_Sand.mat using Guid(93e992a0e91224b459e143b0f7d6458d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0601eb23d5d726ff3a46a9ab44ea873') in 0.074535 seconds 
 ========================================================================
-Received Prepare
-Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Refreshing native plugins compatible for Editor in 10.98 ms, found 10 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 42 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 42 unused Assets / (328.5 KB). Loaded Objects now: 4773.
-Memory consumption went from 84.1 MB to 83.7 MB.
-Total: 25.466900 ms (FindLiveObjects: 0.733400 ms CreateObjectMapping: 0.119600 ms MarkObjects: 24.344100 ms  DeleteObjects: 0.268800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/_ARPortal/Source Files/Materials/LibraryStreet/Street_Props.mat
+  artifactKey: Guid(edf0bc13ff9f20643afa09d76a806497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ARPortal/Source Files/Materials/LibraryStreet/Street_Props.mat using Guid(edf0bc13ff9f20643afa09d76a806497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11e1c4b68a6ffa530060b8b9253761d7') in 0.020856 seconds 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006349 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\jhilt\Desktop\Unity3D\ACOMPANHAR_TEACCH\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\jhilt\Desktop\Unity3D\ACOMPANHAR_TEACCH\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 0.99 ms, found 10 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.053 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1054ms)
-		BeginReloadAssembly (214ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (84ms)
-		EndReloadAssembly (744ms)
-			LoadAssemblies (111ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (269ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (33ms)
-			SetupLoadedEditorAssemblies (300ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (25ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (68ms)
-				ProcessInitializeOnLoadAttributes (183ms)
-				ProcessInitializeOnLoadMethodAttributes (18ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Platform modules already initialized, skipping
-Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Refreshing native plugins compatible for Editor in 4.97 ms, found 10 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4250 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 42 unused Assets / (331.0 KB). Loaded Objects now: 4777.
-Memory consumption went from 168.9 MB to 168.6 MB.
-Total: 3.638900 ms (FindLiveObjects: 0.463800 ms CreateObjectMapping: 0.139400 ms MarkObjects: 2.812100 ms  DeleteObjects: 0.222700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Course Library/_Source_Files/Materials/SimpleFarmer_FarmersDaughter_Black.mat
+  artifactKey: Guid(61942ec8e12335c43ac778231c8826ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/_Source_Files/Materials/SimpleFarmer_FarmersDaughter_Black.mat using Guid(61942ec8e12335c43ac778231c8826ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b07be5584bacc6748d0b997d0417f5cc') in 0.031558 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/_ARPortal/Source Files/Materials/DefaultPlaneMaterials/Plane_Green.mat
+  artifactKey: Guid(aec7cef319fae5b45a43fba1c0c64c94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ARPortal/Source Files/Materials/DefaultPlaneMaterials/Plane_Green.mat using Guid(aec7cef319fae5b45a43fba1c0c64c94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5755c9d88b182c21307c815cf3530606') in 0.029423 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Course Library/_Source_Files/Materials/SimpleFarmer_Farmer_Black.mat
+  artifactKey: Guid(c5b056f991dee584ca5d821ee302a75c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/_Source_Files/Materials/SimpleFarmer_Farmer_Black.mat using Guid(c5b056f991dee584ca5d821ee302a75c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28b209e075d8744a16d2fae196ad6b90') in 0.030524 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Course Library/_Source_Files/Materials/SimpleForestAnimals.mat
+  artifactKey: Guid(3a8e94ada76e7834fb4d110ccc0cb438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/_Source_Files/Materials/SimpleForestAnimals.mat using Guid(3a8e94ada76e7834fb4d110ccc0cb438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25418685ff69ffb8966865734107c9ca') in 0.057639 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Course Library/Materials/Material_Grass.mat
+  artifactKey: Guid(9b26aa4c2da90d044a06b2433bc35441) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/Materials/Material_Grass.mat using Guid(9b26aa4c2da90d044a06b2433bc35441) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4a260fa6d4b6f5c71de2e220b12bf3b') in 0.071680 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Course Library/_Source_Files/Materials/SimpleAnimalsFarm.mat
+  artifactKey: Guid(07c132c0bbd4fb74fa29015a08bae59a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/_Source_Files/Materials/SimpleAnimalsFarm.mat using Guid(07c132c0bbd4fb74fa29015a08bae59a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab2a9a2c37c69c2a00275142a9d12a43') in 0.034560 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/_ARPortal/Source Files/Materials/WitchesHut/SkyboxBlue.mat
+  artifactKey: Guid(9d81c7b60e253ea43b041160eedc2f92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ARPortal/Source Files/Materials/WitchesHut/SkyboxBlue.mat using Guid(9d81c7b60e253ea43b041160eedc2f92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71398529623c41f80e40a8cb93b8d63a') in 0.081654 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Course Library/_Source_Files/Materials/SimpleFarmer_Farmer_Brown.mat
+  artifactKey: Guid(c7dc13a277837244ab9dc2cb1a5fa64c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/_Source_Files/Materials/SimpleFarmer_Farmer_Brown.mat using Guid(c7dc13a277837244ab9dc2cb1a5fa64c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cb25f02496cad3217f7c3b8001a252d') in 0.024537 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Course Library/_Source_Files/Materials/SimpleFarmer_FarmWrangler_White.mat
+  artifactKey: Guid(6c2adac898f90124bb6bddade00b8760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/_Source_Files/Materials/SimpleFarmer_FarmWrangler_White.mat using Guid(6c2adac898f90124bb6bddade00b8760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40f83ce60f534635c9975c61c7bcc493') in 0.029293 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 25.059795 seconds.
+  path: Assets/_ARPortal/Source Files/Materials/LibraryStreet/Street_Windows_On.mat
+  artifactKey: Guid(28334b4778eda6c42b78f4810598cb8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ARPortal/Source Files/Materials/LibraryStreet/Street_Windows_On.mat using Guid(28334b4778eda6c42b78f4810598cb8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecc6ce21d84d218ae29f8efd0e284100') in 0.021906 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/_ARPortal/Source Files/Materials/LibraryStreet/Street_WindowsDarker.mat
+  artifactKey: Guid(b50fa5796beb61645a0b9b086dfde360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ARPortal/Source Files/Materials/LibraryStreet/Street_WindowsDarker.mat using Guid(b50fa5796beb61645a0b9b086dfde360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '381a662c1ce562d05dd690b8394cba1c') in 0.020340 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

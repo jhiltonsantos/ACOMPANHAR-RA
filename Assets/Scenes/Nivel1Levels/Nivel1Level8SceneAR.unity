@@ -713,17 +713,17 @@ PrefabInstance:
     - target: {fileID: 7371467692777121997, guid: 1ae51e0ce1730564b97c4c79e27e0ede,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.05
+      value: 0.06
       objectReference: {fileID: 0}
     - target: {fileID: 7371467692777121997, guid: 1ae51e0ce1730564b97c4c79e27e0ede,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.05
+      value: 0.06
       objectReference: {fileID: 0}
     - target: {fileID: 7371467692777121997, guid: 1ae51e0ce1730564b97c4c79e27e0ede,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.05
+      value: 0.06
       objectReference: {fileID: 0}
     - target: {fileID: 7371467692777121997, guid: 1ae51e0ce1730564b97c4c79e27e0ede,
         type: 3}
@@ -1513,15 +1513,15 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 847109636}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: -1, z: 0, w: 0}
   m_LocalPosition: {x: 1, y: 0, z: 0}
-  m_LocalScale: {x: 0.39999998, y: 0.39999998, z: 0.39999998}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 1164611234}
   m_Father: {fileID: 425491639}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -180, z: 0}
 --- !u!54 &847109638
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1886,15 +1886,15 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1012310548}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: -1, z: 0, w: 0}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.4, y: 0.4, z: 0.4}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 117012401}
   m_Father: {fileID: 425491639}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -180, z: 0}
 --- !u!54 &1012310555
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2232,7 +2232,7 @@ Transform:
   m_GameObject: {fileID: 1148726304}
   m_LocalRotation: {x: 0, y: -1, z: 0, w: 0}
   m_LocalPosition: {x: 6, y: 0, z: 0}
-  m_LocalScale: {x: 0.7, y: 0.7, z: 0.7}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 226860381}
@@ -2253,10 +2253,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectCorrectTag1: PecaCaixa1
   objectCorrectTag2: PecaCaixa2
-  correctColor: {r: 0, g: 0.99215686, b: 0.03670123, a: 1}
   changeMaterialSameMovingObject1: {fileID: 2100000, guid: 185ca34253615de44926902d54fb6f1d,
     type: 2}
-  changeMaterialSameMovingObject2: {fileID: 2100000, guid: 9d9526852cc4b0b42bf5de686168e78d,
+  changeMaterialSameMovingObject2: {fileID: 2100000, guid: 07c132c0bbd4fb74fa29015a08bae59a,
     type: 2}
   sAObjectRenderer: {fileID: 226860382}
   findObjectRenderer: Animal_Cow_White/CowRig_ROOTSHJnt/SA_Animals_Cow_White
@@ -2414,7 +2413,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 9d9526852cc4b0b42bf5de686168e78d, type: 2}
+      objectReference: {fileID: 2100000, guid: 185ca34253615de44926902d54fb6f1d, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1ae51e0ce1730564b97c4c79e27e0ede, type: 3}
 --- !u!4 &1164611234 stripped
@@ -2459,7 +2458,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 788587e994f1943f3856c1c332db429b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_AnchorPrefab: {fileID: 0}
 --- !u!114 &1187207912
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2560,10 +2558,10 @@ MonoBehaviour:
   box2GameObject: {fileID: 847109636}
   destiny1GameObject: {fileID: 1805938202}
   destiny2GameObject: {fileID: 1148726304}
-  destination1Offset: {x: -0.5, y: 0, z: 2}
-  destination2Offset: {x: 1, y: 0, z: 2}
-  boxOffset1: {x: -0.5, y: 0, z: 0}
-  boxOffset2: {x: 1, y: 0, z: 0}
+  destination1Offset: {x: 1, y: 0, z: 1.6}
+  destination2Offset: {x: 1, y: 0, z: 0}
+  boxOffset1: {x: -1, y: 0, z: 1.6}
+  boxOffset2: {x: -1, y: 0, z: 0}
 --- !u!114 &1187207921
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2581,6 +2579,7 @@ MonoBehaviour:
   closeButton: {fileID: 780322568}
   raycastCenterImage: {fileID: 986923333}
   scaleSlider: {fileID: 957108989}
+  selectCloseButtonScreen: SelectorNivel1LevelScene
   minPlaneSize: 0.5
   maxPlaneSize: 2
   minDistance: 1
@@ -2949,17 +2948,17 @@ PrefabInstance:
     - target: {fileID: 7371467692777121997, guid: 1ae51e0ce1730564b97c4c79e27e0ede,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.05
+      value: 0.06
       objectReference: {fileID: 0}
     - target: {fileID: 7371467692777121997, guid: 1ae51e0ce1730564b97c4c79e27e0ede,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.05
+      value: 0.06
       objectReference: {fileID: 0}
     - target: {fileID: 7371467692777121997, guid: 1ae51e0ce1730564b97c4c79e27e0ede,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.05
+      value: 0.06
       objectReference: {fileID: 0}
     - target: {fileID: 7371467692777121997, guid: 1ae51e0ce1730564b97c4c79e27e0ede,
         type: 3}
@@ -3220,7 +3219,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "N\xEDvel Conclu\xEDdo"
+  m_text: "Fase Conclu\xEDda"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -3704,7 +3703,7 @@ Transform:
   m_GameObject: {fileID: 1805938202}
   m_LocalRotation: {x: 0, y: -1, z: 0, w: 0}
   m_LocalPosition: {x: 5, y: 0, z: 0}
-  m_LocalScale: {x: 0.7, y: 0.7, z: 0.7}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 1411173830}
@@ -3725,10 +3724,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectCorrectTag1: PecaCaixa1
   objectCorrectTag2: PecaCaixa2
-  correctColor: {r: 0.003921569, g: 0.9921569, b: 0, a: 1}
   changeMaterialSameMovingObject1: {fileID: 2100000, guid: 185ca34253615de44926902d54fb6f1d,
     type: 2}
-  changeMaterialSameMovingObject2: {fileID: 2100000, guid: 9d9526852cc4b0b42bf5de686168e78d,
+  changeMaterialSameMovingObject2: {fileID: 2100000, guid: 07c132c0bbd4fb74fa29015a08bae59a,
     type: 2}
   sAObjectRenderer: {fileID: 1411173831}
   findObjectRenderer: Animal_Cow_White/CowRig_ROOTSHJnt/SA_Animals_Cow_White

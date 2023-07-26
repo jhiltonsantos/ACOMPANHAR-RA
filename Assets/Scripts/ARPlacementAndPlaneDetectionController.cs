@@ -12,6 +12,7 @@ public class ARPlacementAndPlaneDetectionController : MonoBehaviour
     public GameObject closeButton;
     public GameObject raycastCenterImage;
     public GameObject scaleSlider;
+    public string selectCloseButtonScreen;
 
     // Tamanho mínimo e máximo do plano (em metros)
     public float minPlaneSize = 0.5f;
@@ -73,7 +74,7 @@ public class ARPlacementAndPlaneDetectionController : MonoBehaviour
 
     public void CloseButtonEnable()
     {
-        SceneManager.LoadScene("SelectorNivel1LevelScene");
+        SceneManager.LoadScene(selectCloseButtonScreen);
     }
 
     public void SetButtonsDisable()

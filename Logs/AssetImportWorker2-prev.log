@@ -15,7 +15,7 @@ C:/Users/jhilt/Desktop/Unity3D/ACOMPANHAR_TEACCH
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-60252
+58068
 Successfully changed project path to: C:/Users/jhilt/Desktop/Unity3D/ACOMPANHAR_TEACCH
 C:/Users/jhilt/Desktop/Unity3D/ACOMPANHAR_TEACCH
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ C:/Users/jhilt/Desktop/Unity3D/ACOMPANHAR_TEACCH
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [2428] Host "[IP] 192.168.150.34 [Port] 0 [Flags] 2 [Guid] 2289475554 [EditorId] 2289475554 [Version] 1048832 [Id] WindowsEditor(7,Hilton-Windows) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [26016] Host "[IP] 192.168.150.21 [Port] 0 [Flags] 2 [Guid] 169583104 [EditorId] 169583104 [Version] 1048832 [Id] WindowsEditor(7,Hilton-Windows) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [2428] Host "[IP] 192.168.150.34 [Port] 0 [Flags] 2 [Guid] 2289475554 [EditorId] 2289475554 [Version] 1048832 [Id] WindowsEditor(7,Hilton-Windows) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [26016] Host "[IP] 192.168.150.21 [Port] 0 [Flags] 2 [Guid] 169583104 [EditorId] 169583104 [Version] 1048832 [Id] WindowsEditor(7,Hilton-Windows) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 100.89 ms, found 10 plugins.
+Refreshing native plugins compatible for Editor in 155.42 ms, found 10 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.25f1 (68ef2c4f8861)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/Resources/UnitySubsystems
@@ -62,106 +62,108 @@ Direct3D:
     Renderer: Radeon RX 5500 XT (ID=0x7340)
     Vendor:   ATI
     VRAM:     8151 MB
-    Driver:   31.0.14051.5006
+    Driver:   31.0.14057.5006
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56948
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56252
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004562 seconds.
+Registered in 0.006552 seconds.
 Native extension for WindowsStandalone target not found
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 Native extension for iOS target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 282 ms
-Refreshing native plugins compatible for Editor in 88.61 ms, found 10 plugins.
+Android Extension - Scanning For ADB Devices 243 ms
+Refreshing native plugins compatible for Editor in 95.62 ms, found 10 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.907 seconds
+- Completed reload, in  0.953 seconds
 Domain Reload Profiling:
-	ReloadAssembly (907ms)
-		BeginReloadAssembly (72ms)
+	ReloadAssembly (953ms)
+		BeginReloadAssembly (95ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (744ms)
-			LoadAssemblies (71ms)
+		EndReloadAssembly (759ms)
+			LoadAssemblies (94ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (103ms)
+			SetupTypeCache (142ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (26ms)
-			SetupLoadedEditorAssemblies (568ms)
+			SetupLoadedEditorAssemblies (537ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (374ms)
+				InitializePlatformSupportModulesInManaged (334ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (89ms)
+				RefreshPlugins (96ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (70ms)
-				ProcessInitializeOnLoadMethodAttributes (33ms)
+				ProcessInitializeOnLoadAttributes (71ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006444 seconds.
+Registered in 0.006813 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\jhilt\Desktop\Unity3D\ACOMPANHAR_TEACCH\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\jhilt\Desktop\Unity3D\ACOMPANHAR_TEACCH\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 86.53 ms, found 10 plugins.
+Refreshing native plugins compatible for Editor in 90.27 ms, found 10 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Package Manager log level set to [2]
 Mono: successfully reloaded assembly
-- Completed reload, in  1.102 seconds
+- Completed reload, in  1.070 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1102ms)
-		BeginReloadAssembly (95ms)
+	ReloadAssembly (1071ms)
+		BeginReloadAssembly (93ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (17ms)
-		EndReloadAssembly (911ms)
-			LoadAssemblies (80ms)
+		EndReloadAssembly (890ms)
+			LoadAssemblies (79ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (245ms)
+			SetupTypeCache (251ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (62ms)
-			SetupLoadedEditorAssemblies (472ms)
+			RebuildScriptCaches (63ms)
+			SetupLoadedEditorAssemblies (450ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (25ms)
+				InitializePlatformSupportModulesInManaged (23ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (87ms)
-				BeforeProcessingInitializeOnLoad (97ms)
-				ProcessInitializeOnLoadAttributes (241ms)
-				ProcessInitializeOnLoadMethodAttributes (18ms)
+				RefreshPlugins (90ms)
+				BeforeProcessingInitializeOnLoad (95ms)
+				ProcessInitializeOnLoadAttributes (221ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
 				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
 Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.97 ms, found 10 plugins.
+Refreshing native plugins compatible for Editor in 1.03 ms, found 10 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4295 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 53 unused Assets / (0.6 MB). Loaded Objects now: 4758.
-Memory consumption went from 172.6 MB to 172.0 MB.
-Total: 4.987100 ms (FindLiveObjects: 0.333000 ms CreateObjectMapping: 0.122600 ms MarkObjects: 4.286000 ms  DeleteObjects: 0.244400 ms)
+Unloading 4325 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 53 unused Assets / (0.8 MB). Loaded Objects now: 4791.
+Memory consumption went from 177.7 MB to 176.8 MB.
+Total: 3.791000 ms (FindLiveObjects: 0.529100 ms CreateObjectMapping: 0.144500 ms MarkObjects: 2.803600 ms  DeleteObjects: 0.312700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -175,50 +177,34 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 15150.288561 seconds.
-  path: Assets/Course Library/Food/Food_Wine_01.prefab
-  artifactKey: Guid(ca03aa5ab3af9f147aa60e7b8d131fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Course Library/Food/Food_Wine_01.prefab using Guid(ca03aa5ab3af9f147aa60e7b8d131fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8b9a69da820adaac5c5f0a922209dfb') in 0.100754 seconds 
+  Time since last request: 609132.646420 seconds.
+  path: Assets/_ARPortal/Source Files/Materials/LibraryStreet/Street_Trash.mat
+  artifactKey: Guid(3f9bf1f9b29abfb46a3b5c4a13448d77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ARPortal/Source Files/Materials/LibraryStreet/Street_Trash.mat using Guid(3f9bf1f9b29abfb46a3b5c4a13448d77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdb9b93136b1b2a8934ddad6f82bf96d') in 0.106389 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.257981 seconds.
-  path: Assets/Course Library/Food/Food_Organic_Pear_02.prefab
-  artifactKey: Guid(4949a22a2c444b0459d7289aae77be28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Course Library/Food/Food_Organic_Pear_02.prefab using Guid(4949a22a2c444b0459d7289aae77be28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3e453a6efa331b124a303e4446d13ee') in 0.053464 seconds 
+  Time since last request: 61.546880 seconds.
+  path: Assets/Scenes/Nivel1Levels/Nivel1Level4SceneAR.unity
+  artifactKey: Guid(77570befdbd7b3741a1db7ae1970043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Nivel1Levels/Nivel1Level4SceneAR.unity using Guid(77570befdbd7b3741a1db7ae1970043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e624d2c1939a9f8fe3a4db112780141b') in 0.009440 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.951591 seconds.
-  path: Assets/Course Library/Food/Food_Fish_Cooked.prefab
-  artifactKey: Guid(245ebd2bf811d4f45a1d5dcd8c327131) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Course Library/Food/Food_Fish_Cooked.prefab using Guid(245ebd2bf811d4f45a1d5dcd8c327131) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3f7ceea20a43be4c9a0827219d4d90e') in 0.024703 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.241410 seconds.
-  path: Assets/Course Library/Food/Food_Cookie_01.prefab
-  artifactKey: Guid(10d25933610222845ad3760a855829c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Course Library/Food/Food_Cookie_01.prefab using Guid(10d25933610222845ad3760a855829c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1523b955d6f4c4b890dc0a6f4a351f8') in 0.018801 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 61.668036 seconds.
-  path: Assets/Prefabs/Food_Banana_01.prefab
-  artifactKey: Guid(6318f756164bea049a5a3948f997bace) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Food_Banana_01.prefab using Guid(6318f756164bea049a5a3948f997bace) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a376b44bacb3ee1b0a133254db50948') in 0.119796 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 254.978239 seconds.
-  path: Assets/Materials/Battletop_01_Blades.mat
-  artifactKey: Guid(3452ec75851eb9342ac7fb765172ad96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Battletop_01_Blades.mat using Guid(3452ec75851eb9342ac7fb765172ad96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1f72b0dacbef800942c38b8979bbf72') in 0.035230 seconds 
+  Time since last request: 34.775294 seconds.
+  path: Assets/Scenes/Nivel1Levels/Nivel1Level5SceneAR.unity
+  artifactKey: Guid(2cc0c56d3b108b54fb8ce2048f182908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Nivel1Levels/Nivel1Level5SceneAR.unity using Guid(2cc0c56d3b108b54fb8ce2048f182908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e23391f5a7f7ba0a5a2162abba097dcf') in 0.001613 seconds 
 ========================================================================
 Received Prepare
 Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
 Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Refreshing native plugins compatible for Editor in 10.05 ms, found 10 plugins.
+Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Refreshing native plugins compatible for Editor in 9.42 ms, found 10 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 43 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 42 unused Assets / (328.4 KB). Loaded Objects now: 4800.
-Memory consumption went from 84.2 MB to 83.9 MB.
-Total: 4.277100 ms (FindLiveObjects: 0.665400 ms CreateObjectMapping: 0.160200 ms MarkObjects: 3.253100 ms  DeleteObjects: 0.197700 ms)
+Unloading 43 unused Assets / (0.6 MB). Loaded Objects now: 4832.
+Memory consumption went from 86.5 MB to 85.9 MB.
+Total: 3.791500 ms (FindLiveObjects: 0.405400 ms CreateObjectMapping: 0.128000 ms MarkObjects: 2.940800 ms  DeleteObjects: 0.316600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -234,12 +220,14 @@ AssetImportParameters requested are different than current active one (requested
 Received Prepare
 Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
 Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Refreshing native plugins compatible for Editor in 10.65 ms, found 10 plugins.
+Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Refreshing native plugins compatible for Editor in 9.31 ms, found 10 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 42 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 42 unused Assets / (328.4 KB). Loaded Objects now: 4800.
-Memory consumption went from 84.1 MB to 83.8 MB.
-Total: 4.961100 ms (FindLiveObjects: 0.504600 ms CreateObjectMapping: 0.135500 ms MarkObjects: 4.082300 ms  DeleteObjects: 0.237600 ms)
+Unloading 43 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (0.6 MB). Loaded Objects now: 4832.
+Memory consumption went from 86.5 MB to 85.9 MB.
+Total: 4.525600 ms (FindLiveObjects: 0.397400 ms CreateObjectMapping: 0.127500 ms MarkObjects: 3.655100 ms  DeleteObjects: 0.344700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -255,12 +243,14 @@ AssetImportParameters requested are different than current active one (requested
 Received Prepare
 Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
 Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Refreshing native plugins compatible for Editor in 8.61 ms, found 10 plugins.
+Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Refreshing native plugins compatible for Editor in 8.78 ms, found 10 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 42 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 42 unused Assets / (328.6 KB). Loaded Objects now: 4800.
-Memory consumption went from 84.1 MB to 83.8 MB.
-Total: 3.697200 ms (FindLiveObjects: 0.391100 ms CreateObjectMapping: 0.123900 ms MarkObjects: 2.960800 ms  DeleteObjects: 0.220700 ms)
+Unloading 43 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (0.6 MB). Loaded Objects now: 4832.
+Memory consumption went from 86.5 MB to 85.9 MB.
+Total: 6.290600 ms (FindLiveObjects: 0.407700 ms CreateObjectMapping: 0.124700 ms MarkObjects: 5.161700 ms  DeleteObjects: 0.595100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -274,53 +264,189 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005980 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\jhilt\Desktop\Unity3D\ACOMPANHAR_TEACCH\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\jhilt\Desktop\Unity3D\ACOMPANHAR_TEACCH\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 1.04 ms, found 10 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.959 seconds
-Domain Reload Profiling:
-	ReloadAssembly (960ms)
-		BeginReloadAssembly (130ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (38ms)
-		EndReloadAssembly (752ms)
-			LoadAssemblies (85ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (253ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (36ms)
-			SetupLoadedEditorAssemblies (338ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (27ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (74ms)
-				ProcessInitializeOnLoadAttributes (207ms)
-				ProcessInitializeOnLoadMethodAttributes (21ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Platform modules already initialized, skipping
 Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
 Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Refreshing native plugins compatible for Editor in 5.45 ms, found 10 plugins.
+Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Refreshing native plugins compatible for Editor in 8.98 ms, found 10 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4247 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 42 unused Assets / (330.5 KB). Loaded Objects now: 4803.
-Memory consumption went from 168.9 MB to 168.5 MB.
-Total: 3.454300 ms (FindLiveObjects: 0.390200 ms CreateObjectMapping: 0.117400 ms MarkObjects: 2.730400 ms  DeleteObjects: 0.215200 ms)
+Unloading 43 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (0.6 MB). Loaded Objects now: 4832.
+Memory consumption went from 86.5 MB to 85.9 MB.
+Total: 3.938300 ms (FindLiveObjects: 0.402800 ms CreateObjectMapping: 0.128900 ms MarkObjects: 3.078700 ms  DeleteObjects: 0.327100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Refreshing native plugins compatible for Editor in 9.94 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 43 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (0.6 MB). Loaded Objects now: 4832.
+Memory consumption went from 86.5 MB to 85.9 MB.
+Total: 4.110700 ms (FindLiveObjects: 0.428200 ms CreateObjectMapping: 0.128800 ms MarkObjects: 3.211300 ms  DeleteObjects: 0.341500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Refreshing native plugins compatible for Editor in 10.36 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 43 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (0.6 MB). Loaded Objects now: 4832.
+Memory consumption went from 86.5 MB to 85.9 MB.
+Total: 4.242000 ms (FindLiveObjects: 0.440600 ms CreateObjectMapping: 0.134100 ms MarkObjects: 3.296900 ms  DeleteObjects: 0.369500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Refreshing native plugins compatible for Editor in 9.95 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 43 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (0.6 MB). Loaded Objects now: 4832.
+Memory consumption went from 86.5 MB to 85.9 MB.
+Total: 4.991400 ms (FindLiveObjects: 0.439700 ms CreateObjectMapping: 0.129800 ms MarkObjects: 4.042000 ms  DeleteObjects: 0.378800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2471.191741 seconds.
+  path: Assets/_ARPortal/Source Files/Materials/JohnLemon/BedRoom/Wall_Bedroom.mat
+  artifactKey: Guid(bbf5b462adf34e04798ee6ccd70f8a6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ARPortal/Source Files/Materials/JohnLemon/BedRoom/Wall_Bedroom.mat using Guid(bbf5b462adf34e04798ee6ccd70f8a6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6991e0645db7c6fce373d4b8412ef902') in 0.024329 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/_ARPortal/Source Files/Materials/JohnLemon/BedRoom/Wardrobe.mat
+  artifactKey: Guid(428af083c7adcb44db078bcfc4a64008) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ARPortal/Source Files/Materials/JohnLemon/BedRoom/Wardrobe.mat using Guid(428af083c7adcb44db078bcfc4a64008) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '913f67ecc3e9dad6afd1fab0514520d9') in 0.020073 seconds 
+========================================================================
+Received Prepare
+Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Refreshing native plugins compatible for Editor in 8.59 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 43 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (0.6 MB). Loaded Objects now: 4832.
+Memory consumption went from 86.5 MB to 85.9 MB.
+Total: 4.139300 ms (FindLiveObjects: 0.388800 ms CreateObjectMapping: 0.165100 ms MarkObjects: 3.215700 ms  DeleteObjects: 0.369000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Refreshing native plugins compatible for Editor in 9.95 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 43 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (0.6 MB). Loaded Objects now: 4832.
+Memory consumption went from 86.5 MB to 85.9 MB.
+Total: 4.530000 ms (FindLiveObjects: 0.411200 ms CreateObjectMapping: 0.133300 ms MarkObjects: 3.604100 ms  DeleteObjects: 0.380400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Refreshing native plugins compatible for Editor in 9.42 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 43 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (0.6 MB). Loaded Objects now: 4832.
+Memory consumption went from 86.5 MB to 85.9 MB.
+Total: 5.250100 ms (FindLiveObjects: 1.681500 ms CreateObjectMapping: 0.172200 ms MarkObjects: 3.044600 ms  DeleteObjects: 0.350800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Refreshing native plugins compatible for Editor in 11.13 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 43 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (0.6 MB). Loaded Objects now: 4832.
+Memory consumption went from 86.5 MB to 85.9 MB.
+Total: 4.219100 ms (FindLiveObjects: 0.409300 ms CreateObjectMapping: 0.129900 ms MarkObjects: 3.291000 ms  DeleteObjects: 0.387800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 

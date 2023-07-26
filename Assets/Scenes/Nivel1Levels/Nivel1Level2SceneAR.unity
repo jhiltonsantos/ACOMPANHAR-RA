@@ -1707,7 +1707,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: dc043a9656f81bc488510dcda2b382ab, type: 2}
+      objectReference: {fileID: 2100000, guid: 185ca34253615de44926902d54fb6f1d, type: 2}
     - target: {fileID: 3849066302975023399, guid: 88793c700e879484ab567e205a57e62d,
         type: 3}
       propertyPath: m_Name
@@ -2250,7 +2250,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectCorrectTag1: PecaCaixa1
   objectCorrectTag2: PecaCaixa2
-  changeMaterialSameMovingObject1: {fileID: 2100000, guid: dc043a9656f81bc488510dcda2b382ab,
+  changeMaterialSameMovingObject1: {fileID: 2100000, guid: 07c132c0bbd4fb74fa29015a08bae59a,
     type: 2}
   changeMaterialSameMovingObject2: {fileID: 2100000, guid: 185ca34253615de44926902d54fb6f1d,
     type: 2}
@@ -2477,6 +2477,7 @@ MonoBehaviour:
   closeButton: {fileID: 780322568}
   raycastCenterImage: {fileID: 986923333}
   scaleSlider: {fileID: 957108989}
+  selectCloseButtonScreen: SelectorNivel1LevelScene
   minPlaneSize: 0.5
   maxPlaneSize: 2
   minDistance: 1
@@ -3684,7 +3685,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectCorrectTag1: PecaCaixa1
   objectCorrectTag2: PecaCaixa2
-  changeMaterialSameMovingObject1: {fileID: 2100000, guid: dc043a9656f81bc488510dcda2b382ab,
+  changeMaterialSameMovingObject1: {fileID: 2100000, guid: 07c132c0bbd4fb74fa29015a08bae59a,
     type: 2}
   changeMaterialSameMovingObject2: {fileID: 2100000, guid: 185ca34253615de44926902d54fb6f1d,
     type: 2}

@@ -13,6 +13,7 @@ public class GameManagerPhase1 : MonoBehaviour
     public Button resetButton;
     public Image uIInformPanel;
     public ARPlaneManager arPlaneManager;
+    public ARPlacementAndPlaneDetectionController aRPlacementAndPlaneDetectionController;
 
     void Start()
     {
@@ -40,8 +41,7 @@ public class GameManagerPhase1 : MonoBehaviour
     {
         if (objectCorrect == totalObjects)
         {
-            Debug.Log("Finalizou");
-            ShowMessage("Nível Concluído");
+            ShowMessage("Fase Concluída", "Reiniciar");
         }
     }
 
@@ -91,13 +91,18 @@ public class GameManagerPhase1 : MonoBehaviour
         resetButton.gameObject.SetActive(false);
         uIInformPanel.gameObject.SetActive(false);
     }
-    public void ShowMessage(string message)
+    public void ShowMessage(string message, string buttonText)
     {
         messageText.text = message;
+        resetButton.GetComponentInChildren<TextMeshProUGUI>().text = buttonText;
+
         messageText.gameObject.SetActive(true);
         resetButton.gameObject.SetActive(true);
         uIInformPanel.gameObject.SetActive(true);
-
+        
+        // Desabilita os botões de ajuste e inserir
+        aRPlacementAndPlaneDetectionController.SetButtonsDisable();
     }
     #endregion
+
 }

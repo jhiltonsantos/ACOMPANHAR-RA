@@ -1650,15 +1650,15 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1012310548}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.4, y: 0.4, z: 0.4}
+  m_LocalRotation: {x: 0, y: -1, z: 0, w: 0}
+  m_LocalPosition: {x: 0.971, y: 0, z: 0}
+  m_LocalScale: {x: 0.7, y: 0.7, z: 0.7}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 459656609}
   m_Father: {fileID: 425491639}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -180, z: 0}
 --- !u!114 &1012310554
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1911,7 +1911,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 788587e994f1943f3856c1c332db429b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_AnchorPrefab: {fileID: 0}
 --- !u!114 &1187207912
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1997,7 +1996,8 @@ MonoBehaviour:
   aRCamera: {fileID: 1441732226}
   boxPuzzleGameObject: {fileID: 1012310548}
   boxDestinyGameObject: {fileID: 1805938202}
-  destinationOffset: {x: 0, y: 0, z: 2}
+  objectOffset: {x: -0.7, y: 0, z: 0}
+  destinationOffset: {x: 0.7, y: 0, z: 0}
 --- !u!114 &1187207918
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2015,6 +2015,7 @@ MonoBehaviour:
   closeButton: {fileID: 780322568}
   raycastCenterImage: {fileID: 986923333}
   scaleSlider: {fileID: 957108989}
+  selectCloseButtonScreen: SelectorNivel1LevelScene
   minPlaneSize: 0.5
   maxPlaneSize: 2
   minDistance: 0.5
@@ -2458,7 +2459,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "N\xEDvel Conclu\xEDdo"
+  m_text: "Fase Conclu\xEDda"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2951,17 +2952,17 @@ PrefabInstance:
     - target: {fileID: 4630215165337291001, guid: f07f0ffe6dea90b40a675ee634a3ce09,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4630215165337291001, guid: f07f0ffe6dea90b40a675ee634a3ce09,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4630215165337291001, guid: f07f0ffe6dea90b40a675ee634a3ce09,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4630215165337291001, guid: f07f0ffe6dea90b40a675ee634a3ce09,
         type: 3}
