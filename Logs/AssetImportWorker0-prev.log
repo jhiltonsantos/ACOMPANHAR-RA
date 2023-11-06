@@ -15,7 +15,7 @@ C:/Users/jhilt/Desktop/Unity3D/ACOMPANHAR_TEACCH
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-58068
+57463
 Successfully changed project path to: C:/Users/jhilt/Desktop/Unity3D/ACOMPANHAR_TEACCH
 C:/Users/jhilt/Desktop/Unity3D/ACOMPANHAR_TEACCH
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ C:/Users/jhilt/Desktop/Unity3D/ACOMPANHAR_TEACCH
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [5872] Host "[IP] 192.168.150.21 [Port] 0 [Flags] 2 [Guid] 1839892107 [EditorId] 1839892107 [Version] 1048832 [Id] WindowsEditor(7,Hilton-Windows) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [24500] Host "[IP] 192.168.150.31 [Port] 0 [Flags] 2 [Guid] 1920390248 [EditorId] 1920390248 [Version] 1048832 [Id] WindowsEditor(7,Hilton-Windows) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [5872] Host "[IP] 192.168.150.21 [Port] 0 [Flags] 2 [Guid] 1839892107 [EditorId] 1839892107 [Version] 1048832 [Id] WindowsEditor(7,Hilton-Windows) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [24500] Host "[IP] 192.168.150.31 [Port] 0 [Flags] 2 [Guid] 1920390248 [EditorId] 1920390248 [Version] 1048832 [Id] WindowsEditor(7,Hilton-Windows) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 527.42 ms, found 10 plugins.
+Refreshing native plugins compatible for Editor in 127.14 ms, found 10 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.25f1 (68ef2c4f8861)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/Resources/UnitySubsystems
@@ -62,90 +62,90 @@ Direct3D:
     Renderer: Radeon RX 5500 XT (ID=0x7340)
     Vendor:   ATI
     VRAM:     8151 MB
-    Driver:   31.0.14057.5006
+    Driver:   31.0.22017.1011
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56228
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56252
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.256113 seconds.
+Registered in 0.008261 seconds.
 Native extension for WindowsStandalone target not found
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 Native extension for iOS target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 327 ms
-Refreshing native plugins compatible for Editor in 90.22 ms, found 10 plugins.
+Android Extension - Scanning For ADB Devices 2376 ms
+Refreshing native plugins compatible for Editor in 103.08 ms, found 10 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  5.552 seconds
+- Completed reload, in  3.172 seconds
 Domain Reload Profiling:
-	ReloadAssembly (5552ms)
-		BeginReloadAssembly (3310ms)
+	ReloadAssembly (3172ms)
+		BeginReloadAssembly (102ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (1697ms)
-			LoadAssemblies (3311ms)
+		EndReloadAssembly (2941ms)
+			LoadAssemblies (99ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (912ms)
+			SetupTypeCache (145ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (22ms)
-			SetupLoadedEditorAssemblies (714ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (2705ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (516ms)
+				InitializePlatformSupportModulesInManaged (2494ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (90ms)
+				RefreshPlugins (103ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (68ms)
-				ProcessInitializeOnLoadMethodAttributes (38ms)
+				ProcessInitializeOnLoadAttributes (71ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 1.318451 seconds.
+Registered in 0.007288 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\jhilt\Desktop\Unity3D\ACOMPANHAR_TEACCH\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\jhilt\Desktop\Unity3D\ACOMPANHAR_TEACCH\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 89.55 ms, found 10 plugins.
+Refreshing native plugins compatible for Editor in 99.22 ms, found 10 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Package Manager log level set to [2]
 Mono: successfully reloaded assembly
-- Completed reload, in  5.457 seconds
+- Completed reload, in  1.200 seconds
 Domain Reload Profiling:
-	ReloadAssembly (5457ms)
-		BeginReloadAssembly (101ms)
+	ReloadAssembly (1200ms)
+		BeginReloadAssembly (115ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (18ms)
-		EndReloadAssembly (5223ms)
-			LoadAssemblies (3725ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (979ms)
+			LoadAssemblies (98ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (807ms)
+			SetupTypeCache (272ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (53ms)
-			SetupLoadedEditorAssemblies (601ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (524ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (23ms)
+				InitializePlatformSupportModulesInManaged (26ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (90ms)
-				BeforeProcessingInitializeOnLoad (97ms)
-				ProcessInitializeOnLoadAttributes (369ms)
-				ProcessInitializeOnLoadMethodAttributes (16ms)
+				RefreshPlugins (99ms)
+				BeforeProcessingInitializeOnLoad (116ms)
+				ProcessInitializeOnLoadAttributes (258ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
 				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -157,13 +157,13 @@ Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pip
 Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
 Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
 Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 0.98 ms, found 10 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 1.57 ms, found 10 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4325 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 53 unused Assets / (0.8 MB). Loaded Objects now: 4791.
 Memory consumption went from 177.7 MB to 176.8 MB.
-Total: 3.928400 ms (FindLiveObjects: 0.600100 ms CreateObjectMapping: 0.130500 ms MarkObjects: 2.852500 ms  DeleteObjects: 0.344300 ms)
+Total: 4.421900 ms (FindLiveObjects: 0.461600 ms CreateObjectMapping: 0.140900 ms MarkObjects: 3.481800 ms  DeleteObjects: 0.336000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -177,440 +177,545 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 609088.933758 seconds.
-  path: Assets/Scenes/Nivel1Levels/Nivel1Level5SceneAR.unity
-  artifactKey: Guid(2cc0c56d3b108b54fb8ce2048f182908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Nivel1Levels/Nivel1Level5SceneAR.unity using Guid(2cc0c56d3b108b54fb8ce2048f182908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08e9e782d4f42423420e0049851c203f') in 0.015714 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 17.392346 seconds.
-  path: Assets/_ARPortal/Source Files/Materials/JohnLemon/Corridor/Light_Glass.mat
-  artifactKey: Guid(ad772c18882dae54588173e6f0b86d7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_ARPortal/Source Files/Materials/JohnLemon/Corridor/Light_Glass.mat using Guid(ad772c18882dae54588173e6f0b86d7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a76323c6e0e1fc836a6d6fdc07f1bf1') in 0.188593 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
+  Time since last request: 457194.988009 seconds.
   path: Assets/Course Library/_Source_Files/Materials/SimpleFarmer_FarmWrangler_Brown.mat
   artifactKey: Guid(7a5d1b44e630ef9498b98de16848fed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Course Library/_Source_Files/Materials/SimpleFarmer_FarmWrangler_Brown.mat using Guid(7a5d1b44e630ef9498b98de16848fed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb59df9d6156005796f1b5747aee09eb') in 0.037937 seconds 
+Start importing Assets/Course Library/_Source_Files/Materials/SimpleFarmer_FarmWrangler_Brown.mat using Guid(7a5d1b44e630ef9498b98de16848fed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb59df9d6156005796f1b5747aee09eb') in 0.143970 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/XR/BACKUP/Course Library/Materials/Material_Grass.mat
+  artifactKey: Guid(42b224efc5a8c4863a87e224a72bb1ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/BACKUP/Course Library/Materials/Material_Grass.mat using Guid(42b224efc5a8c4863a87e224a72bb1ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9c8465e15e2b7d77daf56c38805c8b5') in 0.178444 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/XR/BACKUP/Course Library/_Source_Files/Materials/PolygonPrototype_Texture_01.mat
+  artifactKey: Guid(41680dad0f0243748b4e228f49a2e3c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/BACKUP/Course Library/_Source_Files/Materials/PolygonPrototype_Texture_01.mat using Guid(41680dad0f0243748b4e228f49a2e3c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7197d8793d0cf92d8b482eed68640a32') in 0.079633 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/_ARPortal/Source Files/Materials/LibraryStreet/SelfIlluminated.mat
+  artifactKey: Guid(19942dc07062fb44a864e182a1c119f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ARPortal/Source Files/Materials/LibraryStreet/SelfIlluminated.mat using Guid(19942dc07062fb44a864e182a1c119f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68ad5e7e277fa50958e9f48186e623f9') in 0.026185 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Course Library/_Source_Files/Materials/PolygonPrototype_Texture_01.mat
+  artifactKey: Guid(0e55cea975bb5cc459efeb5c843a1673) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/_Source_Files/Materials/PolygonPrototype_Texture_01.mat using Guid(0e55cea975bb5cc459efeb5c843a1673) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '520bca16c952d3c3d16230c15c1de21d') in 0.057013 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000020 seconds.
-  path: Assets/_ARPortal/Source Files/Materials/LibraryStreet/SelfIlluminated.mat
-  artifactKey: Guid(19942dc07062fb44a864e182a1c119f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_ARPortal/Source Files/Materials/LibraryStreet/SelfIlluminated.mat using Guid(19942dc07062fb44a864e182a1c119f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68ad5e7e277fa50958e9f48186e623f9') in 0.021699 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/ExampleAssets/Materials/PlacedCubeMat.mat
-  artifactKey: Guid(89748fefec0c4f244902fb77b17f9496) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Materials/PlacedCubeMat.mat using Guid(89748fefec0c4f244902fb77b17f9496) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5df1007819ad0e63f95d037d12160dad') in 0.028201 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/_ARPortal/Source Files/Materials/LibraryStreet/SignLibraryBacking.mat
-  artifactKey: Guid(c4417bc547d542f49a9e56672e9075a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_ARPortal/Source Files/Materials/LibraryStreet/SignLibraryBacking.mat using Guid(c4417bc547d542f49a9e56672e9075a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60c6b7cbcbaa0d16fa4b0596120ef75d') in 0.032466 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Course Library/_Source_Files/Materials/SimpleFarmer_FarmersWife_Brown.mat
-  artifactKey: Guid(512c8aa10e573354bb73f697a40c3803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Course Library/_Source_Files/Materials/SimpleFarmer_FarmersWife_Brown.mat using Guid(512c8aa10e573354bb73f697a40c3803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5852e28f484af9243232ef123d8c1f6') in 0.043952 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/_ARPortal/Source Files/Materials/Other/Semitransparent_Particle_Mat.mat
-  artifactKey: Guid(03d9586609ce8ba41bae9d9572dba421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_ARPortal/Source Files/Materials/Other/Semitransparent_Particle_Mat.mat using Guid(03d9586609ce8ba41bae9d9572dba421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e840b3aeed11b9081c6cf7abce20495c') in 0.023299 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Course Library/_Source_Files/Materials/SimpleFarmer_FarmersDaughter_Brown.mat
-  artifactKey: Guid(481532fdb68875c488b0490e81f49982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Course Library/_Source_Files/Materials/SimpleFarmer_FarmersDaughter_Brown.mat using Guid(481532fdb68875c488b0490e81f49982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7641eb6a4fcf408593478ef639e5419f') in 0.021114 seconds 
+  path: Assets/XR/BACKUP/_ARPortal/Source Files/Materials/LibraryStreet/Street_Props.mat
+  artifactKey: Guid(3e07052cdab2b584f84b54d568b283ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/BACKUP/_ARPortal/Source Files/Materials/LibraryStreet/Street_Props.mat using Guid(3e07052cdab2b584f84b54d568b283ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20882e31467dc8ac2c7a91145869a258') in 0.020324 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000021 seconds.
   path: Assets/_ARPortal/Source Files/Materials/DefaultPlaneMaterials/Plane_Red.mat
   artifactKey: Guid(caad45ab0690e9040b183a24416429f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_ARPortal/Source Files/Materials/DefaultPlaneMaterials/Plane_Red.mat using Guid(caad45ab0690e9040b183a24416429f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd4a7b92b5a9240c13d19110b9f17293') in 0.022050 seconds 
+Start importing Assets/_ARPortal/Source Files/Materials/DefaultPlaneMaterials/Plane_Red.mat using Guid(caad45ab0690e9040b183a24416429f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd4a7b92b5a9240c13d19110b9f17293') in 0.017779 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/XR/BACKUP/Course Library/_Source_Files/Materials/SimpleFarmer_FarmersWife_Brown.mat
+  artifactKey: Guid(dea8da5c59fb63f43bdae7f3ae6f83e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/BACKUP/Course Library/_Source_Files/Materials/SimpleFarmer_FarmersWife_Brown.mat using Guid(dea8da5c59fb63f43bdae7f3ae6f83e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e38cb4421e1d8c87f07e09b97ac97be') in 0.026716 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/XR/BACKUP/_ARPortal/Source Files/Materials/LibraryStreet/Street_Glass.mat
+  artifactKey: Guid(5fcb564079a2cb54ca655432bab96bbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/BACKUP/_ARPortal/Source Files/Materials/LibraryStreet/Street_Glass.mat using Guid(5fcb564079a2cb54ca655432bab96bbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '240ac4330cad21143cd074adf6284c15') in 0.017879 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/_ARPortal/Source Files/Materials/JohnLemon/DiningRoom/Monster_Lamp.mat
+  artifactKey: Guid(b82e75001075bf3478c2d76a6ca88630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ARPortal/Source Files/Materials/JohnLemon/DiningRoom/Monster_Lamp.mat using Guid(b82e75001075bf3478c2d76a6ca88630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42c4bcb00217af7fb2455a8d971cd9cc') in 0.017446 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/XR/BACKUP/Course Library/_Source_Files/Materials/SimpleFarmer_FarmersDaughter_Brown.mat
+  artifactKey: Guid(cc347604e888272408e91697907628e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/BACKUP/Course Library/_Source_Files/Materials/SimpleFarmer_FarmersDaughter_Brown.mat using Guid(cc347604e888272408e91697907628e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c6f691c97233041b6343194b5cd7e8e') in 0.025536 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/XR/BACKUP/Course Library/Materials/Material_Sand.mat
+  artifactKey: Guid(16176c138e4da4678ad7e9a9dd39429d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/BACKUP/Course Library/Materials/Material_Sand.mat using Guid(16176c138e4da4678ad7e9a9dd39429d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da6bbbaf85de19583715251c39197147') in 0.087131 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/_ARPortal/Source Files/Materials/LibraryStreet/Lights.mat
+  artifactKey: Guid(b72dfca27f52f3d4aa06e196f3c2fd87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ARPortal/Source Files/Materials/LibraryStreet/Lights.mat using Guid(b72dfca27f52f3d4aa06e196f3c2fd87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f48e62703a7f8629bb2aa670b62470d2') in 0.028627 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/_ARPortal/Source Files/Materials/JohnLemon/Corridor/Rugs.mat
+  artifactKey: Guid(efcf031990a2cfe458c1e0144af4289a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ARPortal/Source Files/Materials/JohnLemon/Corridor/Rugs.mat using Guid(efcf031990a2cfe458c1e0144af4289a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '402619bace2de6ccfc911e8dd2453809') in 0.028868 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Course Library/_Source_Files/Materials/SimpleFarmer_FarmWrangler_Black.mat
+  artifactKey: Guid(65e4e762346e95740bd35a8681cf201b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/_Source_Files/Materials/SimpleFarmer_FarmWrangler_Black.mat using Guid(65e4e762346e95740bd35a8681cf201b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bfd388c806cb65103407cb1c1619452') in 0.027119 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Course Library/_Source_Files/Materials/SimpleDogs.mat
+  artifactKey: Guid(802d47d29a661f348b6dc85f9b94814a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/_Source_Files/Materials/SimpleDogs.mat using Guid(802d47d29a661f348b6dc85f9b94814a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bc6821b868ac83858c8c4f0e0436a22') in 0.046500 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/XR/BACKUP/_ARPortal/Source Files/Materials/LibraryStreet/Sky.mat
+  artifactKey: Guid(be214e1a53e041e479a363208c1ac0ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/BACKUP/_ARPortal/Source Files/Materials/LibraryStreet/Sky.mat using Guid(be214e1a53e041e479a363208c1ac0ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6f0a7ae026c8a5018bc13cc0b68c6b7') in 0.017414 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/_ARPortal/Source Files/Materials/DefaultPlaneMaterials/Plane_Green.mat
+  artifactKey: Guid(aec7cef319fae5b45a43fba1c0c64c94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ARPortal/Source Files/Materials/DefaultPlaneMaterials/Plane_Green.mat using Guid(aec7cef319fae5b45a43fba1c0c64c94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5755c9d88b182c21307c815cf3530606') in 0.017019 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/XR/BACKUP/Course Library/_Source_Files/Materials/SimpleFarmer_FarmWrangler_Black.mat
+  artifactKey: Guid(9d9526852cc4b0b42bf5de686168e78d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/BACKUP/Course Library/_Source_Files/Materials/SimpleFarmer_FarmWrangler_Black.mat using Guid(9d9526852cc4b0b42bf5de686168e78d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4694f71682d0d745f4b51f20ceb74194') in 0.021813 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000027 seconds.
-  path: Assets/_ARPortal/Source Files/Materials/JohnLemon/Corridor/PictureFrame.mat
-  artifactKey: Guid(0f22d991d251feb49979544613ba7221) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_ARPortal/Source Files/Materials/JohnLemon/Corridor/PictureFrame.mat using Guid(0f22d991d251feb49979544613ba7221) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '426a5b9d35a7bcf83b1520cb170810b3') in 0.023136 seconds 
+  path: Assets/XR/BACKUP/_ARPortal/Source Files/Materials/JohnLemon/Corridor/PictureFrame.mat
+  artifactKey: Guid(e709f83e862ff314e8258b7a60c45ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/BACKUP/_ARPortal/Source Files/Materials/JohnLemon/Corridor/PictureFrame.mat using Guid(e709f83e862ff314e8258b7a60c45ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bba5706501e0871658eb5412ad56728') in 0.023129 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/_ARPortal/Source Files/Materials/JohnLemon/DiningRoom/Monster_Lamp.mat
-  artifactKey: Guid(b82e75001075bf3478c2d76a6ca88630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_ARPortal/Source Files/Materials/JohnLemon/DiningRoom/Monster_Lamp.mat using Guid(b82e75001075bf3478c2d76a6ca88630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42c4bcb00217af7fb2455a8d971cd9cc') in 0.023938 seconds 
+  Time since last request: 0.000026 seconds.
+  path: Assets/_ARPortal/Source Files/Materials/JohnLemon/Corridor/Light_Glass.mat
+  artifactKey: Guid(ad772c18882dae54588173e6f0b86d7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ARPortal/Source Files/Materials/JohnLemon/Corridor/Light_Glass.mat using Guid(ad772c18882dae54588173e6f0b86d7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a76323c6e0e1fc836a6d6fdc07f1bf1') in 0.018598 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/XR/BACKUP/_ARPortal/Source Files/Materials/LibraryStreet/SophieHelmet_Material.mat
+  artifactKey: Guid(69ca672fcff8fbf40841b4e52a9e1935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/BACKUP/_ARPortal/Source Files/Materials/LibraryStreet/SophieHelmet_Material.mat using Guid(69ca672fcff8fbf40841b4e52a9e1935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd99dc96912140dbc3104267db0566071') in 0.008692 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Course Library/Materials/Material_Grass.mat
+  artifactKey: Guid(9b26aa4c2da90d044a06b2433bc35441) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/Materials/Material_Grass.mat using Guid(9b26aa4c2da90d044a06b2433bc35441) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4a260fa6d4b6f5c71de2e220b12bf3b') in 0.120233 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/XR/BACKUP/Course Library/_Source_Files/Materials/SimpleFarmer_Farmer_Brown.mat
+  artifactKey: Guid(d4f57b669d9639544b1d50ba3f22dbe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/BACKUP/Course Library/_Source_Files/Materials/SimpleFarmer_Farmer_Brown.mat using Guid(d4f57b669d9639544b1d50ba3f22dbe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd62600a62931235263414d7493bf1694') in 0.025012 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Course Library/_Source_Files/Materials/SimpleFarmer_Farmer_Brown.mat
+  artifactKey: Guid(c7dc13a277837244ab9dc2cb1a5fa64c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/_Source_Files/Materials/SimpleFarmer_Farmer_Brown.mat using Guid(c7dc13a277837244ab9dc2cb1a5fa64c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cb25f02496cad3217f7c3b8001a252d') in 0.015298 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Course Library/_Source_Files/Materials/SimpleFarmer_FarmWrangler_White.mat
+  artifactKey: Guid(6c2adac898f90124bb6bddade00b8760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/_Source_Files/Materials/SimpleFarmer_FarmWrangler_White.mat using Guid(6c2adac898f90124bb6bddade00b8760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40f83ce60f534635c9975c61c7bcc493') in 0.025528 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/XR/BACKUP/_ARPortal/Source Files/Materials/LibraryStreet/Street_Elements.mat
+  artifactKey: Guid(5226bb16013699744bfe2de899087f8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/BACKUP/_ARPortal/Source Files/Materials/LibraryStreet/Street_Elements.mat using Guid(5226bb16013699744bfe2de899087f8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30c9f38818e962e503a7026e0a941e0f') in 0.008238 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/XR/BACKUP/Course Library/_Source_Files/Materials/SimpleAnimalsFarm.mat
+  artifactKey: Guid(185ca34253615de44926902d54fb6f1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/BACKUP/Course Library/_Source_Files/Materials/SimpleAnimalsFarm.mat using Guid(185ca34253615de44926902d54fb6f1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf489fc6435acb7eaa804c84686d3fab') in 0.024935 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/_ARPortal/Source Files/Materials/LibraryStreet/SignLibraryBacking.mat
+  artifactKey: Guid(c4417bc547d542f49a9e56672e9075a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ARPortal/Source Files/Materials/LibraryStreet/SignLibraryBacking.mat using Guid(c4417bc547d542f49a9e56672e9075a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60c6b7cbcbaa0d16fa4b0596120ef75d') in 0.018969 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/XR/BACKUP/Course Library/_Source_Files/Materials/SimpleFarmer_FarmWrangler_White.mat
+  artifactKey: Guid(6bc0b76677d86c84bae40c11173940a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/BACKUP/Course Library/_Source_Files/Materials/SimpleFarmer_FarmWrangler_White.mat using Guid(6bc0b76677d86c84bae40c11173940a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6504072f43697779ffb172b747ac6efc') in 0.014144 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Course Library/_Source_Files/Materials/SimpleFarmer_FarmersDaughter_Brown.mat
+  artifactKey: Guid(481532fdb68875c488b0490e81f49982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/_Source_Files/Materials/SimpleFarmer_FarmersDaughter_Brown.mat using Guid(481532fdb68875c488b0490e81f49982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7641eb6a4fcf408593478ef639e5419f') in 0.012716 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000021 seconds.
-  path: Assets/Course Library/_Source_Files/Materials/SimpleFarmer_Farmer_White.mat
-  artifactKey: Guid(875f83dbaf90dd74a80271c8a316d2a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Course Library/_Source_Files/Materials/SimpleFarmer_Farmer_White.mat using Guid(875f83dbaf90dd74a80271c8a316d2a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bccdda8d45caf718e2d1d8a37c5b089b') in 0.032065 seconds 
+  path: Assets/XR/BACKUP/_ARPortal/Source Files/Materials/LibraryStreet/SelfIlluminated.mat
+  artifactKey: Guid(7533dae667f00d0498451b7a11783453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/BACKUP/_ARPortal/Source Files/Materials/LibraryStreet/SelfIlluminated.mat using Guid(7533dae667f00d0498451b7a11783453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3e40b87a7a09960b4955aaadd0bc842') in 0.008694 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/XR/BACKUP/_ARPortal/Source Files/Materials/JohnLemon/DiningRoom/Monster_Lamp.mat
+  artifactKey: Guid(a63ef733125d6e04394962301d501be9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/BACKUP/_ARPortal/Source Files/Materials/JohnLemon/DiningRoom/Monster_Lamp.mat using Guid(a63ef733125d6e04394962301d501be9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63a4b3c531f7795eae03accae0e044a9') in 0.008473 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/XR/BACKUP/_ARPortal/Source Files/Materials/LibraryStreet/SignLibraryBacking.mat
+  artifactKey: Guid(20b596d4ca76b7642bf4151c68e9df40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/BACKUP/_ARPortal/Source Files/Materials/LibraryStreet/SignLibraryBacking.mat using Guid(20b596d4ca76b7642bf4151c68e9df40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a24c5c6630bc8c972c4c53b3d86836b3') in 0.008418 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/_ARPortal/Source Files/Materials/JohnLemon/Corridor/PictureFrame.mat
+  artifactKey: Guid(0f22d991d251feb49979544613ba7221) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ARPortal/Source Files/Materials/JohnLemon/Corridor/PictureFrame.mat using Guid(0f22d991d251feb49979544613ba7221) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '426a5b9d35a7bcf83b1520cb170810b3') in 0.008023 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.105128 seconds.
+  path: Assets/_ARPortal/Source Files/Materials/WitchesHut/MainMaterial.mat
+  artifactKey: Guid(4cd56185754fe384a9265b6647bab8d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ARPortal/Source Files/Materials/WitchesHut/MainMaterial.mat using Guid(4cd56185754fe384a9265b6647bab8d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01b7ab0650f78ebfc2322f3f529c6d10') in 0.017869 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000020 seconds.
   path: Assets/Course Library/_Source_Files/Materials/SimpleFarmer_FarmersWife_Black.mat
   artifactKey: Guid(1100fbf62f8f9654cb1b21a029809d04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Course Library/_Source_Files/Materials/SimpleFarmer_FarmersWife_Black.mat using Guid(1100fbf62f8f9654cb1b21a029809d04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f7bd073b42382cec555aaf0c76fbf66') in 0.027912 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/_ARPortal/Source Files/Materials/JohnLemon/Corridor/Rugs.mat
-  artifactKey: Guid(efcf031990a2cfe458c1e0144af4289a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_ARPortal/Source Files/Materials/JohnLemon/Corridor/Rugs.mat using Guid(efcf031990a2cfe458c1e0144af4289a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '402619bace2de6ccfc911e8dd2453809') in 0.023369 seconds 
+Start importing Assets/Course Library/_Source_Files/Materials/SimpleFarmer_FarmersWife_Black.mat using Guid(1100fbf62f8f9654cb1b21a029809d04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f7bd073b42382cec555aaf0c76fbf66') in 0.014861 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000022 seconds.
-  path: Assets/Course Library/_Source_Files/Materials/SimpleDogs.mat
-  artifactKey: Guid(802d47d29a661f348b6dc85f9b94814a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Course Library/_Source_Files/Materials/SimpleDogs.mat using Guid(802d47d29a661f348b6dc85f9b94814a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bc6821b868ac83858c8c4f0e0436a22') in 0.053960 seconds 
+  path: Assets/XR/BACKUP/_ARPortal/Source Files/Materials/Other/Semitransparent_Particle_Mat.mat
+  artifactKey: Guid(e0b286352b57945cda3f337df7df5add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/BACKUP/_ARPortal/Source Files/Materials/Other/Semitransparent_Particle_Mat.mat using Guid(e0b286352b57945cda3f337df7df5add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e65ba0718ff00907f3a2fa58230f6e9') in 0.008900 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Fonts/SharpsGF SDF.asset
-  artifactKey: Guid(39dd1e70615df63438e3b3ba764c6e22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fonts/SharpsGF SDF.asset using Guid(39dd1e70615df63438e3b3ba764c6e22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45d3feab05a1473dbc7ea3199995e1f2') in 0.079705 seconds 
+  Time since last request: 0.000024 seconds.
+  path: Assets/Course Library/Materials/Material_Sand.mat
+  artifactKey: Guid(93e992a0e91224b459e143b0f7d6458d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/Materials/Material_Sand.mat using Guid(93e992a0e91224b459e143b0f7d6458d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0601eb23d5d726ff3a46a9ab44ea873') in 0.066587 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/_ARPortal/Source Files/Materials/LibraryStreet/Street_PropsTrees.mat
-  artifactKey: Guid(3be207c8542138b4b85827de3e08d107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_ARPortal/Source Files/Materials/LibraryStreet/Street_PropsTrees.mat using Guid(3be207c8542138b4b85827de3e08d107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db56185c496fbe94e451337ded27de01') in 0.022225 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Course Library/_Source_Files/Materials/SimpleShopInteriors.mat
-  artifactKey: Guid(04f61994025314946b9f4a41a4e7b535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Course Library/_Source_Files/Materials/SimpleShopInteriors.mat using Guid(04f61994025314946b9f4a41a4e7b535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1deeb7ce457421e4d6156b09b9641edb') in 0.038777 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Course Library/Materials/Material_Gravel.mat
-  artifactKey: Guid(aab00825104a1bb4d985da79b0938cc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Course Library/Materials/Material_Gravel.mat using Guid(aab00825104a1bb4d985da79b0938cc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '710c657968213715f6b74b4de8e6086c') in 0.126966 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Course Library/_Source_Files/Materials/SimpleItems.mat
-  artifactKey: Guid(093a94dc4ca47a74ab817cb4fc39cc5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Course Library/_Source_Files/Materials/SimpleItems.mat using Guid(093a94dc4ca47a74ab817cb4fc39cc5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56f9caa408e69fe6b8f0503033477036') in 0.028443 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/_ARPortal/Source Files/Materials/LibraryStreet/Street_Metal.mat
-  artifactKey: Guid(4af6f2a1e4c2683408cc0adae7e6adfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_ARPortal/Source Files/Materials/LibraryStreet/Street_Metal.mat using Guid(4af6f2a1e4c2683408cc0adae7e6adfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '715f9162169f88fe17e71d8e853b8034') in 0.019839 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/_ARPortal/Source Files/Materials/LibraryStreet/Street_Elements.mat
-  artifactKey: Guid(9f06fe7df27291c44abdb4f97bf923d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_ARPortal/Source Files/Materials/LibraryStreet/Street_Elements.mat using Guid(9f06fe7df27291c44abdb4f97bf923d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5036a4fb49b4720f3755d764300fc1dc') in 0.019629 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/_ARPortal/Source Files/Materials/LibraryStreet/SelfIlluminatedRed.mat
-  artifactKey: Guid(09519f979a46a424d9fa965c33cf10cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_ARPortal/Source Files/Materials/LibraryStreet/SelfIlluminatedRed.mat using Guid(09519f979a46a424d9fa965c33cf10cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5fce999de19f76ab26be1c9ff7aa48a') in 0.020372 seconds 
+  Time since last request: 0.000025 seconds.
+  path: Assets/XR/BACKUP/_ARPortal/Source Files/Materials/LibraryStreet/SophieBody_Material.mat
+  artifactKey: Guid(85688d6410671b0449fe4f2e5bd0a185) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/BACKUP/_ARPortal/Source Files/Materials/LibraryStreet/SophieBody_Material.mat using Guid(85688d6410671b0449fe4f2e5bd0a185) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1286261a7a724074063723bce13e69a') in 0.008055 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000031 seconds.
-  path: Assets/_ARPortal/Source Files/Materials/LibraryStreet/SophieBody_Material.mat
-  artifactKey: Guid(0a06751997ee56448b9b3ce1855efb5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_ARPortal/Source Files/Materials/LibraryStreet/SophieBody_Material.mat using Guid(0a06751997ee56448b9b3ce1855efb5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd318e0a797f0f81dbff434f5052a78ab') in 0.027257 seconds 
+  path: Assets/_ARPortal/Source Files/Materials/LibraryStreet/Street_PropsTrees.mat
+  artifactKey: Guid(3be207c8542138b4b85827de3e08d107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ARPortal/Source Files/Materials/LibraryStreet/Street_PropsTrees.mat using Guid(3be207c8542138b4b85827de3e08d107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db56185c496fbe94e451337ded27de01') in 0.018018 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/ExampleAssets/Materials/PlaneMat.mat
-  artifactKey: Guid(0ab39d4a3d55a014bb9a7f48229d9ef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Materials/PlaneMat.mat using Guid(0ab39d4a3d55a014bb9a7f48229d9ef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b656d36b7cb3c04ce21f81a0aafa6fbe') in 0.019917 seconds 
+  Time since last request: 0.000024 seconds.
+  path: Assets/XR/BACKUP/_ARPortal/Source Files/Materials/LibraryStreet/SelfIlluminatedRed.mat
+  artifactKey: Guid(791d34b4986acd74aa1fbda7f55d40ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/BACKUP/_ARPortal/Source Files/Materials/LibraryStreet/SelfIlluminatedRed.mat using Guid(791d34b4986acd74aa1fbda7f55d40ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e36957ed444aca1d4b0cad859847020') in 0.020217 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Course Library/Materials/Material_Concrete.mat
-  artifactKey: Guid(d1e96bb7d313c8741bc7e440ff5d7c79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Course Library/Materials/Material_Concrete.mat using Guid(d1e96bb7d313c8741bc7e440ff5d7c79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99040bdc4734d51400d034b717c86c38') in 0.080294 seconds 
+  Time since last request: 0.000025 seconds.
+  path: Assets/XR/BACKUP/Course Library/_Source_Files/Materials/SimpleFarmer_Farmer_Black.mat
+  artifactKey: Guid(4ffb04dab08f3bc46b4bae49c8873e63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/BACKUP/Course Library/_Source_Files/Materials/SimpleFarmer_Farmer_Black.mat using Guid(4ffb04dab08f3bc46b4bae49c8873e63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca3a70833855d2276dec48b36e07ba30') in 0.027896 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 25.037547 seconds.
-  path: Assets/_ARPortal/Source Files/Materials/LibraryStreet/Street_Windows_Off.mat
-  artifactKey: Guid(b9eecb3db458bdf41b2fea96f0564125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_ARPortal/Source Files/Materials/LibraryStreet/Street_Windows_Off.mat using Guid(b9eecb3db458bdf41b2fea96f0564125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61e785bbd76f773e2b5e4ebef06b36fb') in 0.022685 seconds 
+  Time since last request: 0.000026 seconds.
+  path: Assets/XR/BACKUP/_ARPortal/Source Files/Materials/WitchesHut/MainMaterial.mat
+  artifactKey: Guid(b087163334465c846aaae5f8ba363f50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/BACKUP/_ARPortal/Source Files/Materials/WitchesHut/MainMaterial.mat using Guid(b087163334465c846aaae5f8ba363f50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f92d091272361af048704e2edb196528') in 0.008919 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/_ARPortal/Source Files/Materials/JohnLemon/DiningRoom/Table.mat
-  artifactKey: Guid(1e3ec60099e404645a2a0f3ed3b6adf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_ARPortal/Source Files/Materials/JohnLemon/DiningRoom/Table.mat using Guid(1e3ec60099e404645a2a0f3ed3b6adf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '460e2eff18ed97c5b29e87b8c64bc886') in 0.020998 seconds 
-========================================================================
-Received Prepare
-Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Refreshing native plugins compatible for Editor in 8.29 ms, found 10 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 43 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 43 unused Assets / (0.6 MB). Loaded Objects now: 4834.
-Memory consumption went from 86.8 MB to 86.2 MB.
-Total: 3.703100 ms (FindLiveObjects: 0.413400 ms CreateObjectMapping: 0.126300 ms MarkObjects: 2.887300 ms  DeleteObjects: 0.275600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Refreshing native plugins compatible for Editor in 8.31 ms, found 10 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 43 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 43 unused Assets / (0.6 MB). Loaded Objects now: 4834.
-Memory consumption went from 86.8 MB to 86.2 MB.
-Total: 4.207900 ms (FindLiveObjects: 0.471200 ms CreateObjectMapping: 0.130300 ms MarkObjects: 3.292800 ms  DeleteObjects: 0.312300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Refreshing native plugins compatible for Editor in 10.79 ms, found 10 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 43 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 43 unused Assets / (0.6 MB). Loaded Objects now: 4834.
-Memory consumption went from 86.8 MB to 86.2 MB.
-Total: 3.935900 ms (FindLiveObjects: 0.388400 ms CreateObjectMapping: 0.126600 ms MarkObjects: 3.087900 ms  DeleteObjects: 0.331900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Refreshing native plugins compatible for Editor in 8.77 ms, found 10 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 43 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 43 unused Assets / (0.6 MB). Loaded Objects now: 4834.
-Memory consumption went from 86.8 MB to 86.2 MB.
-Total: 3.896300 ms (FindLiveObjects: 0.424100 ms CreateObjectMapping: 0.136100 ms MarkObjects: 2.997500 ms  DeleteObjects: 0.337900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Refreshing native plugins compatible for Editor in 10.11 ms, found 10 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 43 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 43 unused Assets / (0.6 MB). Loaded Objects now: 4834.
-Memory consumption went from 86.8 MB to 86.2 MB.
-Total: 4.177100 ms (FindLiveObjects: 0.399400 ms CreateObjectMapping: 0.118600 ms MarkObjects: 3.300400 ms  DeleteObjects: 0.357900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Refreshing native plugins compatible for Editor in 17.56 ms, found 10 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 43 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 43 unused Assets / (0.6 MB). Loaded Objects now: 4834.
-Memory consumption went from 86.8 MB to 86.2 MB.
-Total: 13.290100 ms (FindLiveObjects: 1.708800 ms CreateObjectMapping: 1.374000 ms MarkObjects: 9.678500 ms  DeleteObjects: 0.527100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Refreshing native plugins compatible for Editor in 8.96 ms, found 10 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 43 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 43 unused Assets / (0.6 MB). Loaded Objects now: 4834.
-Memory consumption went from 86.8 MB to 86.2 MB.
-Total: 4.320000 ms (FindLiveObjects: 0.423300 ms CreateObjectMapping: 0.130800 ms MarkObjects: 3.430100 ms  DeleteObjects: 0.335200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  Time since last request: 0.000025 seconds.
+  path: Assets/XR/BACKUP/Course Library/_Source_Files/Materials/SimpleFarmer_FarmersDaughter_Black.mat
+  artifactKey: Guid(e4d5a3e7cf15bcd4a919ec0bb9c42188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/BACKUP/Course Library/_Source_Files/Materials/SimpleFarmer_FarmersDaughter_Black.mat using Guid(e4d5a3e7cf15bcd4a919ec0bb9c42188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ff683a7c232c7e5091935efe7775fe2') in 0.015685 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2567.591205 seconds.
-  path: Assets/_ARPortal/Source Files/Materials/JohnLemon/Corridor/Wall_Corridor.mat
-  artifactKey: Guid(bf1be7cf09a0cae41bff4171b8cd05c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_ARPortal/Source Files/Materials/JohnLemon/Corridor/Wall_Corridor.mat using Guid(bf1be7cf09a0cae41bff4171b8cd05c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19978c92e5079e1a363a6a6bc42fd3f5') in 0.023900 seconds 
+  Time since last request: 0.000031 seconds.
+  path: Assets/XR/BACKUP/Course Library/_Source_Files/Materials/SimpleForestAnimals.mat
+  artifactKey: Guid(a47734c228690c7408645b04cd1a2550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/BACKUP/Course Library/_Source_Files/Materials/SimpleForestAnimals.mat using Guid(a47734c228690c7408645b04cd1a2550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b7a7725268bd26018aab1a840540c72') in 0.028609 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/XR/BACKUP/Course Library/_Source_Files/Materials/SimpleItems.mat
+  artifactKey: Guid(dc043a9656f81bc488510dcda2b382ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/BACKUP/Course Library/_Source_Files/Materials/SimpleItems.mat using Guid(dc043a9656f81bc488510dcda2b382ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '666c58e18d1018ba088f49efcdce6324') in 0.029447 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/_ARPortal/Source Files/Materials/LibraryStreet/Street_Metal.mat
+  artifactKey: Guid(4af6f2a1e4c2683408cc0adae7e6adfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ARPortal/Source Files/Materials/LibraryStreet/Street_Metal.mat using Guid(4af6f2a1e4c2683408cc0adae7e6adfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '715f9162169f88fe17e71d8e853b8034') in 0.018168 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/_ARPortal/Source Files/Materials/WitchesHut/SkyboxBlue.mat
+  artifactKey: Guid(9d81c7b60e253ea43b041160eedc2f92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ARPortal/Source Files/Materials/WitchesHut/SkyboxBlue.mat using Guid(9d81c7b60e253ea43b041160eedc2f92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71398529623c41f80e40a8cb93b8d63a') in 0.047576 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.790120 seconds.
+  path: Assets/Materials/Battletop_01_Blades.mat
+  artifactKey: Guid(3452ec75851eb9342ac7fb765172ad96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Battletop_01_Blades.mat using Guid(3452ec75851eb9342ac7fb765172ad96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1f72b0dacbef800942c38b8979bbf72') in 0.017473 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/XR/BACKUP/Course Library/_Source_Files/FBX/Materials/lambert1.mat
+  artifactKey: Guid(097992b1569f73f41bf9b20907ba7d4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/BACKUP/Course Library/_Source_Files/FBX/Materials/lambert1.mat using Guid(097992b1569f73f41bf9b20907ba7d4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3101c2c1d992ee06b353ba2a64f7121c') in 0.028982 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/_ARPortal/Source Files/Materials/JohnLemon/Characters/JohnPBR.mat
+  artifactKey: Guid(77f6c9a27a186354fbec9e4e3073cf89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ARPortal/Source Files/Materials/JohnLemon/Characters/JohnPBR.mat using Guid(77f6c9a27a186354fbec9e4e3073cf89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c0e8e82a923f7f2373bf78ef59843dc') in 0.020555 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Course Library/_Source_Files/FBX/Materials/lambert1.mat
+  artifactKey: Guid(5a3c9716588f3124390deb21c9edf750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/_Source_Files/FBX/Materials/lambert1.mat using Guid(5a3c9716588f3124390deb21c9edf750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66d358263df15640bc266bb35416681d') in 0.011459 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/XR/BACKUP/_ARPortal/Source Files/Materials/LibraryStreet/LibrarySignLighting.mat
+  artifactKey: Guid(b01f7bb16b0a98d468fe214ce6890f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/BACKUP/_ARPortal/Source Files/Materials/LibraryStreet/LibrarySignLighting.mat using Guid(b01f7bb16b0a98d468fe214ce6890f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9c5b8b7ab0d4ed8ffe751951c21849d') in 0.019502 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/XR/BACKUP/_ARPortal/Source Files/Materials/JohnLemon/Characters/JohnToonShaded.mat
+  artifactKey: Guid(9b6f1127929af58439659354d1009264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/BACKUP/_ARPortal/Source Files/Materials/JohnLemon/Characters/JohnToonShaded.mat using Guid(9b6f1127929af58439659354d1009264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1c2e337f1b5349fa52a17b42618cefc') in 0.017303 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/XR/BACKUP/_ARPortal/Source Files/Materials/LibraryStreet/Grass.mat
+  artifactKey: Guid(13ccc8a06d3b00e418dcafa32f410e38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/BACKUP/_ARPortal/Source Files/Materials/LibraryStreet/Grass.mat using Guid(13ccc8a06d3b00e418dcafa32f410e38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1974cef02daf63c0bf891afe1ffe5067') in 0.016792 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/XR/BACKUP/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+  artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/BACKUP/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65a7dbb825926c28fc31bb57500d9cd4') in 0.072875 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/_ARPortal/Source Files/Materials/JohnLemon/VFX/Emissive.mat
+  artifactKey: Guid(8e3b15f4b0318b04f84ef0a4a1e4218b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ARPortal/Source Files/Materials/JohnLemon/VFX/Emissive.mat using Guid(8e3b15f4b0318b04f84ef0a4a1e4218b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'deb202e25b32561f7ce096f5eb400e35') in 0.017802 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/XR/BACKUP/_ARPortal/Source Files/Materials/WitchesHut/Glass.mat
+  artifactKey: Guid(5aa6af6012af4f64bbbdec0165f4556d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/BACKUP/_ARPortal/Source Files/Materials/WitchesHut/Glass.mat using Guid(5aa6af6012af4f64bbbdec0165f4556d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f04266e27e77f347bd44ec5666992d4c') in 0.017634 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/XR/BACKUP/TextMesh Pro/Fonts/LiberationSans.ttf
+  artifactKey: Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/BACKUP/TextMesh Pro/Fonts/LiberationSans.ttf using Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f3113df9c64817575ac1b2596df0c09') in 0.029325 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Packages/com.unity.xr.arfoundation/Materials/DebugFace.mat
+  artifactKey: Guid(35bd980c8f2234e3d8b640e25a677d65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.xr.arfoundation/Materials/DebugFace.mat using Guid(35bd980c8f2234e3d8b640e25a677d65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '786a87c595a7f313527ced65e70b5d8d') in 0.023758 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/_ARPortal/Source Files/Materials/JohnLemon/DiningRoom/Floor.mat
+  artifactKey: Guid(8b7c776cbdf71924f9b66c944bb4ed61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ARPortal/Source Files/Materials/JohnLemon/DiningRoom/Floor.mat using Guid(8b7c776cbdf71924f9b66c944bb4ed61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b185a2cd8a57e71981e25eb3f527962') in 0.016283 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
+  artifactKey: Guid(ed274f89a38016149a8278a57efbe102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat using Guid(ed274f89a38016149a8278a57efbe102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84b041ba94ad87c84e13cc71eef7c043') in 0.036932 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000022 seconds.
+  path: Assets/Fonts/ethnocentric rg.ttf
+  artifactKey: Guid(fc76f944702d372449f68129a076dd71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/ethnocentric rg.ttf using Guid(fc76f944702d372449f68129a076dd71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c57f123fe5e8514b405d6441b50f559d') in 0.020916 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/XR/BACKUP/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
+  artifactKey: Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/BACKUP/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat using Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7e717512d4f8495cdd90086d4ba8095') in 0.063453 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/XR/BACKUP/_ARPortal/Source Files/Materials/LibraryStreet/GroundIndicatorCircle.mat
+  artifactKey: Guid(c932e02159be2df4e83a5d19d6b86041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/BACKUP/_ARPortal/Source Files/Materials/LibraryStreet/GroundIndicatorCircle.mat using Guid(c932e02159be2df4e83a5d19d6b86041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db8cd438d851a4c557665e79ef03f33a') in 0.008933 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/_ARPortal/Source Files/Materials/JohnLemon/Characters/Light_Cone.mat
+  artifactKey: Guid(69d4c6c313c584a4e834c142a0377726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ARPortal/Source Files/Materials/JohnLemon/Characters/Light_Cone.mat using Guid(69d4c6c313c584a4e834c142a0377726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '143681d0cde2e50054f23bc332e34a50') in 0.009325 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Fonts/ethnocentric rg SDF.asset
+  artifactKey: Guid(dac26dc60cc21c248b15a0d377e0dc4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/ethnocentric rg SDF.asset using Guid(dac26dc60cc21c248b15a0d377e0dc4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f66a3cd8938ec6d3330f0cb5bf3ebe57') in 0.130916 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/_ARPortal/Source Files/Materials/JohnLemon/Characters/GhostShaderTest.mat
+  artifactKey: Guid(af7fc3f1399333a43bd2cd731adc8f6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ARPortal/Source Files/Materials/JohnLemon/Characters/GhostShaderTest.mat using Guid(af7fc3f1399333a43bd2cd731adc8f6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77d0beae06f3cb9a57d74fda55af514b') in 0.010231 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/ExampleAssets/Models/cube.fbx
+  artifactKey: Guid(7979c3827ab8a9a40b4379c4b027f031) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Models/cube.fbx using Guid(7979c3827ab8a9a40b4379c4b027f031) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3146976abe27a772a94a9bcbb5b92ea') in 0.089389 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.881343 seconds.
+  path: Assets/XR/BACKUP/Course Library/_Source_Files/FBX/Items_Cookie_01.fbx
+  artifactKey: Guid(d2d314c911e4af5408b077dfed69013d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/BACKUP/Course Library/_Source_Files/FBX/Items_Cookie_01.fbx using Guid(d2d314c911e4af5408b077dfed69013d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e83424c6cf747769317a17cb986b622b') in 0.021792 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Course Library/_Source_Files/FBX/SI_Food_Organic_Apple_03.fbx
+  artifactKey: Guid(63c6f98ef697aa64a94fdf0cb834f29c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/_Source_Files/FBX/SI_Food_Organic_Apple_03.fbx using Guid(63c6f98ef697aa64a94fdf0cb834f29c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e7d4e5026d7795c89c31b49f6b8674a') in 0.022488 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/XR/BACKUP/Course Library/_Source_Files/FBX/SimpleFarm_Characters.fbx
+  artifactKey: Guid(aaf0205bbf9d1a4458899575eed1c962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/BACKUP/Course Library/_Source_Files/FBX/SimpleFarm_Characters.fbx using Guid(aaf0205bbf9d1a4458899575eed1c962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '037bff72221863faacdb3483fd48f8a8') in 0.077292 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Course Library/_Source_Files/FBX/SI_Food_Organic_Pear_02.fbx
+  artifactKey: Guid(aff58259d9008f445a263438f0b12e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/_Source_Files/FBX/SI_Food_Organic_Pear_02.fbx using Guid(aff58259d9008f445a263438f0b12e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d43fb975763c2167c94caf4ee6ee874') in 0.022419 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/XR/BACKUP/Course Library/_Source_Files/FBX/SI_Food_Organic_Apple_03.fbx
+  artifactKey: Guid(6294bcc7efeb481429886b9604a08df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/BACKUP/Course Library/_Source_Files/FBX/SI_Food_Organic_Apple_03.fbx using Guid(6294bcc7efeb481429886b9604a08df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd429e38881bc6a628864e0582781aa14') in 0.016920 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Course Library/_Source_Files/FBX/Items_Pizza_01.fbx
+  artifactKey: Guid(371ec5ccad2beff439ef30355f783db9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/_Source_Files/FBX/Items_Pizza_01.fbx using Guid(371ec5ccad2beff439ef30355f783db9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bd4168db38e56443035a35530d0d104') in 0.022389 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Course Library/_Source_Files/FBX/Items_Wine_01.fbx
+  artifactKey: Guid(6e1879c05b1edea4db1fad0cceb4edd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/_Source_Files/FBX/Items_Wine_01.fbx using Guid(6e1879c05b1edea4db1fad0cceb4edd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '071271d3c12ea0e37bac2e7d31c737c2') in 0.022394 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Course Library/_Source_Files/FBX/SA_Animal_CowBull.fbx
+  artifactKey: Guid(d0e7bdf7fe8decb4a8e76f79623e2144) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/_Source_Files/FBX/SA_Animal_CowBull.fbx using Guid(d0e7bdf7fe8decb4a8e76f79623e2144) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f136e3e59c7b3c8808f9797ee5e0ca6') in 0.048087 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/XR/BACKUP/Course Library/_Source_Files/FBX/SA_Animal_Horse.fbx
+  artifactKey: Guid(c4324fcdc6ce67d4e97e3c807c446974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/BACKUP/Course Library/_Source_Files/FBX/SA_Animal_Horse.fbx using Guid(c4324fcdc6ce67d4e97e3c807c446974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1b6d8b2348bc89a2d2f5a28ed2af892') in 0.053808 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Course Library/_Source_Files/FBX/SI_Food_Fish_Cooked.fbx
+  artifactKey: Guid(58c84dd1b8e47f244b4fd9839c6c8ac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/_Source_Files/FBX/SI_Food_Fish_Cooked.fbx using Guid(58c84dd1b8e47f244b4fd9839c6c8ac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72af44188fb81c963ea76e14d79be012') in 0.020842 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Course Library/_Source_Files/FBX/SimpleDogs.fbx
+  artifactKey: Guid(4c43b9e35ef380348ae2d6e753842176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/_Source_Files/FBX/SimpleDogs.fbx using Guid(4c43b9e35ef380348ae2d6e753842176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9cec8781d52736ecfe47048579d77a1') in 0.285914 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.257073 seconds.
+  path: Assets/_ARPortal/Source Files/Materials/LibraryStreet/Street_Trash.mat
+  artifactKey: Guid(3f9bf1f9b29abfb46a3b5c4a13448d77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ARPortal/Source Files/Materials/LibraryStreet/Street_Trash.mat using Guid(3f9bf1f9b29abfb46a3b5c4a13448d77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdb9b93136b1b2a8934ddad6f82bf96d') in 0.037374 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/_ARPortal/Source Files/Materials/LibraryStreet/Street_Windows_Off.mat
+  artifactKey: Guid(b9eecb3db458bdf41b2fea96f0564125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ARPortal/Source Files/Materials/LibraryStreet/Street_Windows_Off.mat using Guid(b9eecb3db458bdf41b2fea96f0564125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61e785bbd76f773e2b5e4ebef06b36fb') in 0.018469 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005586 seconds.
+  path: Assets/XR/BACKUP/_ARPortal/Source Files/Materials/JohnLemon/DiningRoom/Table.mat
+  artifactKey: Guid(147dac9aa1b5dd149a5ad652019e5ac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/BACKUP/_ARPortal/Source Files/Materials/JohnLemon/DiningRoom/Table.mat using Guid(147dac9aa1b5dd149a5ad652019e5ac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6169da72015e0b0f400f8b8eb2a16303') in 0.007976 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/XR/BACKUP/_ARPortal/Source Files/Materials/JohnLemon/DiningRoom/Wall_Diningroom.mat
+  artifactKey: Guid(af5618451dbad9c4a913f502e5c7df1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/BACKUP/_ARPortal/Source Files/Materials/JohnLemon/DiningRoom/Wall_Diningroom.mat using Guid(af5618451dbad9c4a913f502e5c7df1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fdcb46dd87c0e2830ed6b4c3f34a293') in 0.020460 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/_ARPortal/Source Files/Materials/LibraryStreet/Wink_Material.mat
+  artifactKey: Guid(46d59def54acdda4aa806c5d8344f3e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ARPortal/Source Files/Materials/LibraryStreet/Wink_Material.mat using Guid(46d59def54acdda4aa806c5d8344f3e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79a1e54c8ca7928c0203a311256fc650') in 0.019815 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/XR/BACKUP/_ARPortal/Source Files/Materials/JohnLemon/BedRoom/Wardrobe.mat
+  artifactKey: Guid(9e2335d028e7ab645970536c61cf4aac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/BACKUP/_ARPortal/Source Files/Materials/JohnLemon/BedRoom/Wardrobe.mat using Guid(9e2335d028e7ab645970536c61cf4aac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '277f823c09226fa89556f0dcbebaff17') in 0.007579 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/_ARPortal/Source Files/Materials/JohnLemon/Corridor/Window.mat
+  artifactKey: Guid(f26dae3e54d34e549842cbafb71d6754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ARPortal/Source Files/Materials/JohnLemon/Corridor/Window.mat using Guid(f26dae3e54d34e549842cbafb71d6754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2b5927de21c444419d76198b0f5072a') in 0.008167 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
   path: Assets/_ARPortal/Source Files/Materials/JohnLemon/DiningRoom/Wall_Diningroom.mat
   artifactKey: Guid(dd56e5c067218b142b206d30550bd904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_ARPortal/Source Files/Materials/JohnLemon/DiningRoom/Wall_Diningroom.mat using Guid(dd56e5c067218b142b206d30550bd904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8564186bafb72921ef86f70fcfd0ae37') in 0.019053 seconds 
+Start importing Assets/_ARPortal/Source Files/Materials/JohnLemon/DiningRoom/Wall_Diningroom.mat using Guid(dd56e5c067218b142b206d30550bd904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8564186bafb72921ef86f70fcfd0ae37') in 0.008306 seconds 
 ========================================================================
-Received Prepare
-Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Refreshing native plugins compatible for Editor in 10.04 ms, found 10 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 43 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 43 unused Assets / (0.6 MB). Loaded Objects now: 4834.
-Memory consumption went from 86.8 MB to 86.2 MB.
-Total: 5.686000 ms (FindLiveObjects: 0.636800 ms CreateObjectMapping: 0.177000 ms MarkObjects: 4.489700 ms  DeleteObjects: 0.381400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Refreshing native plugins compatible for Editor in 8.08 ms, found 10 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 43 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 43 unused Assets / (0.6 MB). Loaded Objects now: 4834.
-Memory consumption went from 86.8 MB to 86.2 MB.
-Total: 4.865300 ms (FindLiveObjects: 0.377800 ms CreateObjectMapping: 0.128200 ms MarkObjects: 4.038300 ms  DeleteObjects: 0.320300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Refreshing native plugins compatible for Editor in 8.33 ms, found 10 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 43 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 43 unused Assets / (0.6 MB). Loaded Objects now: 4834.
-Memory consumption went from 86.8 MB to 86.2 MB.
-Total: 3.871800 ms (FindLiveObjects: 0.391500 ms CreateObjectMapping: 0.128100 ms MarkObjects: 3.027000 ms  DeleteObjects: 0.324500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Refreshing native plugins compatible for Editor in 10.85 ms, found 10 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 43 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 43 unused Assets / (0.6 MB). Loaded Objects now: 4834.
-Memory consumption went from 86.8 MB to 86.2 MB.
-Total: 4.143500 ms (FindLiveObjects: 0.406800 ms CreateObjectMapping: 0.120300 ms MarkObjects: 3.274700 ms  DeleteObjects: 0.340900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/XR/BACKUP/_ARPortal/Source Files/Materials/LibraryStreet/WitchHouseLighting.mat
+  artifactKey: Guid(b31ea6ca3424b6d4cbaa32ac3944997f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/BACKUP/_ARPortal/Source Files/Materials/LibraryStreet/WitchHouseLighting.mat using Guid(b31ea6ca3424b6d4cbaa32ac3944997f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09c5893704a4e7066cf5d14399fc54b0') in 0.007459 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

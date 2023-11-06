@@ -1958,7 +1958,7 @@ GameObject:
   - component: {fileID: 1187207915}
   - component: {fileID: 1187207914}
   - component: {fileID: 1187207912}
-  - component: {fileID: 1187207917}
+  - component: {fileID: 1187207920}
   - component: {fileID: 1187207918}
   - component: {fileID: 1187207919}
   - component: {fileID: 1187207913}
@@ -2039,23 +2039,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1187207917
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1187207910}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 36c051ebba10be840af71d34eedab495, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  aRCamera: {fileID: 1441732226}
-  boxPuzzleGameObject: {fileID: 1012310548}
-  boxDestinyGameObject: {fileID: 1805938202}
-  objectOffset: {x: -0.5, y: 0, z: 0}
-  destinationOffset: {x: 0.5, y: 0, z: 0}
 --- !u!114 &1187207918
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2090,6 +2073,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scaleSlider: {fileID: 957108991}
+--- !u!114 &1187207920
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1187207910}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36c051ebba10be840af71d34eedab495, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  aRCamera: {fileID: 1441732226}
+  boxPuzzleGameObject: {fileID: 1012310548}
+  boxDestinyGameObject: {fileID: 1805938202}
+  objectOffset: {x: -0.5, y: 0, z: 0}
+  destinationOffset: {x: 0.5, y: 0, z: 0}
 --- !u!1 &1253901374
 GameObject:
   m_ObjectHideFlags: 0
@@ -2237,7 +2237,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 238e68fd68e894d1fa27387d26f026f0, type: 2}
+      objectReference: {fileID: 2100000, guid: 011d76e0217ef2b45930d81bd4e9e6fd, type: 2}
     - target: {fileID: 3849066302975023399, guid: 88793c700e879484ab567e205a57e62d,
         type: 3}
       propertyPath: m_Name
@@ -3144,7 +3144,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 8808940753066210417, guid: de4da3906a001624fabcc7838ddf2eb4, type: 3}
+  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

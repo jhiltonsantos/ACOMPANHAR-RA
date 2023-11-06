@@ -244,8 +244,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1187207922}
-        m_TargetAssemblyTypeName: ARPlacementAndPlaneDetectionPhase3, Assembly-CSharp
+      - m_Target: {fileID: 1187207925}
+        m_TargetAssemblyTypeName: ARPlacementAndPlaneDetectionObjects2Nivel2, Assembly-CSharp
         m_MethodName: DisableARPlacementAndPlaneDetection
         m_Mode: 1
         m_Arguments:
@@ -379,7 +379,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1039882157}
-        m_TargetAssemblyTypeName: GameManagerPhase3, Assembly-CSharp
+        m_TargetAssemblyTypeName: GameManagerObjects2Nivel2, Assembly-CSharp
         m_MethodName: ContinueLevel
         m_Mode: 5
         m_Arguments:
@@ -387,7 +387,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Nivel1Level4SceneAR
+          m_StringArgument: Nivel2Level4SceneAR
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &102374950
@@ -840,8 +840,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1187207922}
-        m_TargetAssemblyTypeName: ARPlacementAndPlaneDetectionPhase3, Assembly-CSharp
+      - m_Target: {fileID: 1187207925}
+        m_TargetAssemblyTypeName: ARPlacementAndPlaneDetectionObjects2Nivel2, Assembly-CSharp
         m_MethodName: EnableARPlacementAndPlaneDetection
         m_Mode: 1
         m_Arguments:
@@ -1039,8 +1039,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1187207922}
-        m_TargetAssemblyTypeName: ARPlacementAndPlaneDetectionPhase3, Assembly-CSharp
+      - m_Target: {fileID: 1187207925}
+        m_TargetAssemblyTypeName: ARPlacementAndPlaneDetectionObjects2Nivel2, Assembly-CSharp
         m_MethodName: CloseButtonEnable
         m_Mode: 1
         m_Arguments:
@@ -1500,7 +1500,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 847109636}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ec2e882e13f468469bb6112fef7b96a, type: 3}
+  m_Script: {fileID: 11500000, guid: b9101e81f864a8f4fa93694a5c61b42f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   isBeingDragged: 0
@@ -1595,7 +1595,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 3cb7a01022a204b6d871219becaca1ae, type: 2}
+      objectReference: {fileID: 2100000, guid: 88f4cb736019747448be4b519932da54, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6172b8c2ac8da3a4d8e499fff1d6e4a3, type: 3}
 --- !u!4 &928367475 stripped
@@ -1787,7 +1787,7 @@ GameObject:
   - component: {fileID: 1012310558}
   - component: {fileID: 1012310555}
   m_Layer: 0
-  m_Name: Caixa
+  m_Name: Caixa 1
   m_TagString: PecaCaixa1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1910,7 +1910,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1012310548}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ec2e882e13f468469bb6112fef7b96a, type: 3}
+  m_Script: {fileID: 11500000, guid: 4126448ca68198440a32a4804168df3c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   isBeingDragged: 0
@@ -1923,7 +1923,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1039882155}
-  - component: {fileID: 1039882156}
   - component: {fileID: 1039882157}
   m_Layer: 0
   m_Name: Game Manager
@@ -1947,29 +1946,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1039882156
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1039882154}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4ed949c786ad5904281ef0df90a5d79b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  objectsCorrect: 0
-  totalObjects: 0
-  messageText: {fileID: 1482042522}
-  resetButton: {fileID: 1556703607}
-  uIInformPanel: {fileID: 241945273}
-  tagsObjectsHaveMove:
-  - PecaCaixa1
-  - PecaCaixa2
-  arPlaneManager: {fileID: 1187207914}
-  destinationBoxes: []
-  aRPlacementAndPlaneDetectionController: {fileID: 0}
 --- !u!114 &1039882157
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1979,7 +1955,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1039882154}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c250752f08d5c9049b9b18d8fff1fd2f, type: 3}
+  m_Script: {fileID: 11500000, guid: 2e587ea2e83961448a7c2fe18f7401b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   objectsCorrect: 0
@@ -1991,8 +1967,7 @@ MonoBehaviour:
   - PecaCaixa1
   - PecaCaixa2
   arPlaneManager: {fileID: 1187207914}
-  aRPlacementAndPlaneDetectionController: {fileID: 1187207922}
-  destinationBoxes: []
+  ARPlacementAndPlaneDetectionObjects2Nivel2: {fileID: 1187207925}
 --- !u!1 &1139273494
 GameObject:
   m_ObjectHideFlags: 0
@@ -2143,7 +2118,7 @@ GameObject:
   - component: {fileID: 1148726310}
   m_Layer: 0
   m_Name: Destino 2
-  m_TagString: DestinoCaixa
+  m_TagString: Destino2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2236,16 +2211,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1148726304}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 363058681ba9b7748a05df6c0b24321a, type: 3}
+  m_Script: {fileID: 11500000, guid: bd005dc6d4abfac44b1a7855c8ae4638, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectCorrectTag1: PecaCaixa1
-  objectCorrectTag2: PecaCaixa2
-  correctColor: {r: 0.93725497, g: 0.48235297, b: 0.027450982, a: 0}
-  changeMaterialSameMovingObject1: {fileID: 2100000, guid: 5a3559dc71a3dee46a71f5627f48bb36,
-    type: 2}
-  changeMaterialSameMovingObject2: {fileID: 2100000, guid: f98c6192bf2545644bb912bfaf19f832,
-    type: 2}
+  correctMaterial: {fileID: 2100000, guid: 093a94dc4ca47a74ab817cb4fc39cc5c, type: 2}
   sAObjectRenderer: {fileID: 1963667954}
   findObjectRenderer: Dog_Beagle_01/SM_Beagle_01
 --- !u!1 &1187207910
@@ -2260,8 +2229,8 @@ GameObject:
   - component: {fileID: 1187207915}
   - component: {fileID: 1187207914}
   - component: {fileID: 1187207912}
-  - component: {fileID: 1187207923}
-  - component: {fileID: 1187207922}
+  - component: {fileID: 1187207924}
+  - component: {fileID: 1187207925}
   - component: {fileID: 1187207919}
   - component: {fileID: 1187207913}
   - component: {fileID: 1187207911}
@@ -2284,7 +2253,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 788587e994f1943f3856c1c332db429b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_AnchorPrefab: {fileID: 0}
 --- !u!114 &1187207912
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2368,7 +2336,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scaleSlider: {fileID: 957108991}
---- !u!114 &1187207922
+--- !u!114 &1187207924
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2377,28 +2345,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1187207910}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 31595c44f35f0c74c9c9015b67fb8c10, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  placeButton: {fileID: 83232193}
-  adjustButton: {fileID: 405259821}
-  closeButton: {fileID: 780322568}
-  raycastCenterImage: {fileID: 986923333}
-  scaleSlider: {fileID: 957108989}
-  selectCloseButtonScreen: SelectorNivel2LevelScene
-  minPlaneSize: 0.5
-  maxPlaneSize: 1
-  minDistance: 2
---- !u!114 &1187207923
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1187207910}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6cf6800529b73dd45a78ea8e95fbcc90, type: 3}
+  m_Script: {fileID: 11500000, guid: fd973743cca8a5e4591d691e88e6703f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   aRCamera: {fileID: 1441732226}
@@ -2410,6 +2357,27 @@ MonoBehaviour:
   destination2Offset: {x: 0.7, y: 0, z: 0}
   boxOffset1: {x: -0.7, y: 0, z: 1.2}
   boxOffset2: {x: -0.7, y: 0, z: 0}
+--- !u!114 &1187207925
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1187207910}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3445f4f22a6a88e49bb143793620c21d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  placeButton: {fileID: 83232193}
+  adjustButton: {fileID: 405259821}
+  closeButton: {fileID: 780322568}
+  raycastCenterImage: {fileID: 986923333}
+  scaleSlider: {fileID: 957108989}
+  selectCloseButtonScreen: SelectorNivel2LevelScene
+  minPlaneSize: 0.5
+  maxPlaneSize: 2
+  minDistance: 1
 --- !u!1 &1278748299
 GameObject:
   m_ObjectHideFlags: 0
@@ -3181,7 +3149,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1039882157}
-        m_TargetAssemblyTypeName: GameManagerPhase3, Assembly-CSharp
+        m_TargetAssemblyTypeName: GameManagerObjects2Nivel2, Assembly-CSharp
         m_MethodName: ResetLevel
         m_Mode: 1
         m_Arguments:
@@ -3347,10 +3315,10 @@ GameObject:
   - component: {fileID: 1805938206}
   - component: {fileID: 1805938205}
   - component: {fileID: 1805938204}
-  - component: {fileID: 1805938208}
+  - component: {fileID: 1805938209}
   m_Layer: 0
-  m_Name: Destino
-  m_TagString: DestinoCaixa
+  m_Name: Destino 1
+  m_TagString: Destino1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3434,7 +3402,7 @@ Transform:
   m_Father: {fileID: 569893423}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: -180, z: 0}
---- !u!114 &1805938208
+--- !u!114 &1805938209
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3443,16 +3411,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1805938202}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 363058681ba9b7748a05df6c0b24321a, type: 3}
+  m_Script: {fileID: 11500000, guid: 12fbf9dd9fcbe5d42aadcbda61182bcd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectCorrectTag1: PecaCaixa1
-  objectCorrectTag2: PecaCaixa2
-  correctColor: {r: 0, g: 0.8301887, b: 0.03202566, a: 0}
-  changeMaterialSameMovingObject1: {fileID: 2100000, guid: 5a3559dc71a3dee46a71f5627f48bb36,
-    type: 2}
-  changeMaterialSameMovingObject2: {fileID: 2100000, guid: f98c6192bf2545644bb912bfaf19f832,
-    type: 2}
+  correctMaterial: {fileID: 2100000, guid: 5a3559dc71a3dee46a71f5627f48bb36, type: 2}
   sAObjectRenderer: {fileID: 1429645216}
   findObjectRenderer: Dog_Beagle_01/SM_Beagle_01
 --- !u!1 &1892486914
@@ -3622,7 +3584,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 3cb7a01022a204b6d871219becaca1ae, type: 2}
+      objectReference: {fileID: 2100000, guid: 7a136bdc937f5dd4399eb2865d8e820f, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6172b8c2ac8da3a4d8e499fff1d6e4a3, type: 3}
 --- !u!4 &1963667953 stripped
@@ -3733,7 +3695,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: f98c6192bf2545644bb912bfaf19f832, type: 2}
+      objectReference: {fileID: 2100000, guid: 093a94dc4ca47a74ab817cb4fc39cc5c, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6172b8c2ac8da3a4d8e499fff1d6e4a3, type: 3}
 --- !u!4 &2016256359 stripped

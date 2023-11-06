@@ -11,6 +11,11 @@ TagManager:
   - PecaCaixa1
   - PecaCaixa2
   - PecaCaixa3
+  - DestinoBranco
+  - DestinoAmarelo
+  - Destino1
+  - Destino2
+  - Destino3
   layers:
   - Default
   - TransparentFX
