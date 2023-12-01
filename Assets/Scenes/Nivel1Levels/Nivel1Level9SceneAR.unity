@@ -1269,8 +1269,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Colocar
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8a1542087024f5741a4517f9844ef07c, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8a1542087024f5741a4517f9844ef07c, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1406,8 +1406,8 @@ MonoBehaviour:
 
 '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8a1542087024f5741a4517f9844ef07c, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8a1542087024f5741a4517f9844ef07c, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2097,7 +2097,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: aab00825104a1bb4d985da79b0938cc9, type: 2}
+      objectReference: {fileID: 2100000, guid: e9df4c140434693409780f57fac5f8ce, type: 2}
     - target: {fileID: 5690383353860687563, guid: 541cf24b56b5401458d7d7595363161e,
         type: 3}
       propertyPath: m_Name
@@ -2307,8 +2307,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Ajustar
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8a1542087024f5741a4517f9844ef07c, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8a1542087024f5741a4517f9844ef07c, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2432,7 +2432,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectCorrectTag1: PecaCaixa1
   objectCorrectTag2: PecaCaixa2
-  changeMaterialSameMovingObject1: {fileID: 2100000, guid: 3a8e94ada76e7834fb4d110ccc0cb438,
+  changeMaterialSameMovingObject1: {fileID: 2100000, guid: a47734c228690c7408645b04cd1a2550,
     type: 2}
   changeMaterialSameMovingObject2: {fileID: 2100000, guid: a47734c228690c7408645b04cd1a2550,
     type: 2}
@@ -3173,8 +3173,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Fase Conclu\xEDda"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8a1542087024f5741a4517f9844ef07c, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8a1542087024f5741a4517f9844ef07c, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3600,9 +3600,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectCorrectTag1: PecaCaixa1
   objectCorrectTag2: PecaCaixa2
-  changeMaterialSameMovingObject1: {fileID: 2100000, guid: 3a8e94ada76e7834fb4d110ccc0cb438,
+  changeMaterialSameMovingObject1: {fileID: 2100000, guid: a47734c228690c7408645b04cd1a2550,
     type: 2}
-  changeMaterialSameMovingObject2: {fileID: 2100000, guid: 3a8e94ada76e7834fb4d110ccc0cb438,
+  changeMaterialSameMovingObject2: {fileID: 2100000, guid: a47734c228690c7408645b04cd1a2550,
     type: 2}
   sAObjectRenderer: {fileID: 1032659059}
   findObjectRenderer: Animal_Doe_02/SM_Doe_03
@@ -3742,8 +3742,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Reiniciar
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8a1542087024f5741a4517f9844ef07c, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8a1542087024f5741a4517f9844ef07c, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3828,7 +3828,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: aab00825104a1bb4d985da79b0938cc9, type: 2}
+      objectReference: {fileID: 2100000, guid: e9df4c140434693409780f57fac5f8ce, type: 2}
     - target: {fileID: 5690383353860687563, guid: 541cf24b56b5401458d7d7595363161e,
         type: 3}
       propertyPath: m_Name

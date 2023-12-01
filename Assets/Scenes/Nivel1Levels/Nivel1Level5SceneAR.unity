@@ -830,7 +830,7 @@ PrefabInstance:
     - target: {fileID: 13740650, guid: 9bf484c5ec3d3bf43b2034c829f1abbe, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 238e68fd68e894d1fa27387d26f026f0, type: 2}
+      objectReference: {fileID: 2100000, guid: 4514aad96639fa647bb92898ca05bd70, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9bf484c5ec3d3bf43b2034c829f1abbe, type: 3}
 --- !u!4 &301556013 stripped
@@ -1240,8 +1240,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Colocar
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8a1542087024f5741a4517f9844ef07c, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8a1542087024f5741a4517f9844ef07c, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1377,8 +1377,8 @@ MonoBehaviour:
 
 '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8a1542087024f5741a4517f9844ef07c, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8a1542087024f5741a4517f9844ef07c, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2187,8 +2187,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Ajustar
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8a1542087024f5741a4517f9844ef07c, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8a1542087024f5741a4517f9844ef07c, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2452,11 +2452,11 @@ MonoBehaviour:
   objectCorrectTag1: PecaCaixa1
   objectCorrectTag2: PecaCaixa2
   objectCorrectTag3: PecaCaixa3
-  changeMaterialSameMovingObject1: {fileID: 2100000, guid: 07c132c0bbd4fb74fa29015a08bae59a,
+  changeMaterialSameMovingObject1: {fileID: 2100000, guid: 185ca34253615de44926902d54fb6f1d,
     type: 2}
   changeMaterialSameMovingObject2: {fileID: 2100000, guid: 185ca34253615de44926902d54fb6f1d,
     type: 2}
-  changeMaterialSameMovingObject3: {fileID: 2100000, guid: 07c132c0bbd4fb74fa29015a08bae59a,
+  changeMaterialSameMovingObject3: {fileID: 2100000, guid: 185ca34253615de44926902d54fb6f1d,
     type: 2}
   sAObjectRenderer: {fileID: 1421718973}
   findObjectRenderer: Animal_Chicken_White/SA_Animals_Chicken_White
@@ -2758,7 +2758,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 07c132c0bbd4fb74fa29015a08bae59a, type: 2}
+      objectReference: {fileID: 2100000, guid: 185ca34253615de44926902d54fb6f1d, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ac3bfecfb5be88544988f62bbc0f3c2e, type: 3}
 --- !u!4 &1300292719 stripped
@@ -2959,7 +2959,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 07c132c0bbd4fb74fa29015a08bae59a, type: 2}
+      objectReference: {fileID: 2100000, guid: 185ca34253615de44926902d54fb6f1d, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ac3bfecfb5be88544988f62bbc0f3c2e, type: 3}
 --- !u!4 &1325254148 stripped
@@ -3158,11 +3158,11 @@ MonoBehaviour:
   objectCorrectTag1: PecaCaixa1
   objectCorrectTag2: PecaCaixa2
   objectCorrectTag3: PecaCaixa3
-  changeMaterialSameMovingObject1: {fileID: 2100000, guid: 07c132c0bbd4fb74fa29015a08bae59a,
+  changeMaterialSameMovingObject1: {fileID: 2100000, guid: 185ca34253615de44926902d54fb6f1d,
     type: 2}
   changeMaterialSameMovingObject2: {fileID: 2100000, guid: 185ca34253615de44926902d54fb6f1d,
     type: 2}
-  changeMaterialSameMovingObject3: {fileID: 2100000, guid: 07c132c0bbd4fb74fa29015a08bae59a,
+  changeMaterialSameMovingObject3: {fileID: 2100000, guid: 185ca34253615de44926902d54fb6f1d,
     type: 2}
   sAObjectRenderer: {fileID: 1923544476}
   findObjectRenderer: Animal_Chicken_White/SA_Animals_Chicken_White
@@ -3240,7 +3240,7 @@ PrefabInstance:
     - target: {fileID: 13740650, guid: 9bf484c5ec3d3bf43b2034c829f1abbe, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 238e68fd68e894d1fa27387d26f026f0, type: 2}
+      objectReference: {fileID: 2100000, guid: 4514aad96639fa647bb92898ca05bd70, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9bf484c5ec3d3bf43b2034c829f1abbe, type: 3}
 --- !u!4 &1421718972 stripped
@@ -3442,8 +3442,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Fase Conclu\xEDda"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8a1542087024f5741a4517f9844ef07c, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8a1542087024f5741a4517f9844ef07c, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3870,11 +3870,11 @@ MonoBehaviour:
   objectCorrectTag1: PecaCaixa1
   objectCorrectTag2: PecaCaixa2
   objectCorrectTag3: PecaCaixa3
-  changeMaterialSameMovingObject1: {fileID: 2100000, guid: 07c132c0bbd4fb74fa29015a08bae59a,
+  changeMaterialSameMovingObject1: {fileID: 2100000, guid: 185ca34253615de44926902d54fb6f1d,
     type: 2}
   changeMaterialSameMovingObject2: {fileID: 2100000, guid: 185ca34253615de44926902d54fb6f1d,
     type: 2}
-  changeMaterialSameMovingObject3: {fileID: 2100000, guid: 07c132c0bbd4fb74fa29015a08bae59a,
+  changeMaterialSameMovingObject3: {fileID: 2100000, guid: 185ca34253615de44926902d54fb6f1d,
     type: 2}
   sAObjectRenderer: {fileID: 301556014}
   findObjectRenderer: Animal_Chicken_White/SA_Animals_Chicken_White
@@ -4095,7 +4095,7 @@ PrefabInstance:
     - target: {fileID: 13740650, guid: 9bf484c5ec3d3bf43b2034c829f1abbe, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 238e68fd68e894d1fa27387d26f026f0, type: 2}
+      objectReference: {fileID: 2100000, guid: 4514aad96639fa647bb92898ca05bd70, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9bf484c5ec3d3bf43b2034c829f1abbe, type: 3}
 --- !u!4 &1923544475 stripped
@@ -4170,8 +4170,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Reiniciar
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8a1542087024f5741a4517f9844ef07c, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8a1542087024f5741a4517f9844ef07c, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
