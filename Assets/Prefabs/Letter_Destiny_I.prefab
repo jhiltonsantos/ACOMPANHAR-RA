@@ -10,8 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6505256912528516511}
   - component: {fileID: 8833436192269036268}
-  - component: {fileID: 3667164669801725768}
-  - component: {fileID: 4316356462287182799}
+  - component: {fileID: 6604907815696970268}
   m_Layer: 0
   m_Name: Letter_Destiny_I
   m_TagString: Untagged
@@ -43,8 +42,8 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 80239137131279986}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!23 &3667164669801725768
-MeshRenderer:
+--- !u!137 &6604907815696970268
+SkinnedMeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -58,12 +57,12 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
+  m_RayTracingMode: 3
   m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 4d4d60cbacf8aa3429fb0788678f08c1, type: 2}
+  - {fileID: 2100000, guid: 3886bd3eac90d6142a08ffc1121d7a6c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -84,20 +83,18 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &4316356462287182799
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 80239137131279986}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+  m_Bones: []
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 0}
+  m_AABB:
+    m_Center: {x: -2.3, y: -0.34, z: 0.24}
+    m_Extent: {x: 1.6, y: 2.98, z: 3.87}
+  m_DirtyAABB: 0
 --- !u!1 &7879302812937876710
 GameObject:
   m_ObjectHideFlags: 0
@@ -208,7 +205,7 @@ MonoBehaviour:
   m_fontColor32:
     serializedVersion: 2
     rgba: 4289975295
-  m_fontColor: {r: 1, g: 0.827451, b: 0.7019608, a: 1}
+  m_fontColor: {r: 1, g: 0.82890224, b: 0.7028302, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:

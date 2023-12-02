@@ -15,7 +15,7 @@ public class DestinationDestino2Objects5Nivel4 : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        // Verifica se o objeto que entrou possui a tag correta (PecaCaixa1)
+        // Verifica se o objeto que entrou possui a tag correta (PecaCaixa)
         if (other.CompareTag("PecaCaixa2"))
         {
             DraggablePecaCaixa2Objects5Nivel4 draggableObject = other.GetComponent<DraggablePecaCaixa2Objects5Nivel4>();
