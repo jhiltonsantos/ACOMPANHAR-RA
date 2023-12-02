@@ -2530,7 +2530,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1039882155}
-  - component: {fileID: 1039882156}
   - component: {fileID: 1039882157}
   m_Layer: 0
   m_Name: Game Manager
@@ -2554,29 +2553,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1039882156
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1039882154}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9b63a056bd736e3488105d6b3b3c785d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  objectsCorrect: 0
-  totalObjects: 0
-  messageText: {fileID: 1482042522}
-  resetButton: {fileID: 1556703607}
-  uIInformPanel: {fileID: 241945273}
-  tagsObjectsHaveMove:
-  - PecaCaixa1
-  - PecaCaixa2
-  - PecaCaixa3
-  arPlaneManager: {fileID: 1187207914}
-  ARPlacementAndPlaneDetection: {fileID: 0}
 --- !u!114 &1039882157
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2977,11 +2953,11 @@ MonoBehaviour:
   destiny1GameObject: {fileID: 1805938202}
   destiny2GameObject: {fileID: 1148726304}
   destiny3GameObject: {fileID: 1413554707}
-  destination1Offset: {x: 0.7, y: 0, z: 1}
-  destination2Offset: {x: 0.7, y: 0, z: 0}
-  destination3Offset: {x: 0.7, y: 0, z: -1}
+  destination1Offset: {x: 0.5, y: 0, z: 0}
+  destination2Offset: {x: 1, y: 0, z: 0}
+  destination3Offset: {x: 1.5, y: 0, z: 0}
   objectExample: {fileID: 817632477}
-  objectExampleOffset: {x: 0, y: 0, z: 2}
+  objectExampleOffset: {x: 1, y: 0, z: 1}
 --- !u!114 &1187207927
 MonoBehaviour:
   m_ObjectHideFlags: 0
