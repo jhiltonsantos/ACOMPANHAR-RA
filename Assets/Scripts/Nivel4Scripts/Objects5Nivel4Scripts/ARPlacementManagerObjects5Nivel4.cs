@@ -28,6 +28,8 @@ public class ARPlacementManagerObjects5Nivel4 : MonoBehaviour
     public Vector3 destination3Offset;
     public Vector3 destination4Offset;
     public Vector3 destination5Offset;
+    public GameObject objectExampleGameObject;
+    public Vector3 objectExampleOffset;
     private GameManagerObjects5Nivel4 gameManager;
 
     private void Awake()
@@ -57,6 +59,8 @@ public class ARPlacementManagerObjects5Nivel4 : MonoBehaviour
             destiny3GameObject.transform.position = positionToBePlaced + destination3Offset;
             destiny4GameObject.transform.position = positionToBePlaced + destination4Offset;
             destiny5GameObject.transform.position = positionToBePlaced + destination5Offset;
+
+            objectExampleGameObject.transform.position = positionToBePlaced + objectExampleOffset;
         }
     }
 }

@@ -23,66 +23,66 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SelectorNivel4LevelScene.unity
     guid: 1ca1b4c5d47220d4084bf7ab481c6cea
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Nivel1Levels/Nivel1Level1SceneAR.unity
     guid: 02b52f9dd856a4347b70ef74637b1301
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Nivel1Levels/Nivel1Level2SceneAR.unity
     guid: 756374c41b573264681dea35c904b058
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Nivel1Levels/Nivel1Level3SceneAR.unity
     guid: 2009b5d5902348449890041cc36f18c2
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Nivel1Levels/Nivel1Level4SceneAR.unity
     guid: 77570befdbd7b3741a1db7ae1970043f
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Nivel1Levels/Nivel1Level5SceneAR.unity
     guid: 2cc0c56d3b108b54fb8ce2048f182908
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Nivel1Levels/Nivel1Level6SceneAR.unity
     guid: bdcdf38c1523cb940b64a68e7031ae97
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Nivel1Levels/Nivel1Level7SceneAR.unity
     guid: 393e60f87b99c1541b60a22a0cffebaf
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Nivel1Levels/Nivel1Level8SceneAR.unity
     guid: 7d83dc186716e354f85a67f3a5ecda21
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Nivel1Levels/Nivel1Level9SceneAR.unity
     guid: f7d82997014ffd14793d2bbec3ad2df3
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Nivel1Levels/Nivel1Level10SceneAR.unity
     guid: 872e0095688a36248b6d28785ef05a9a
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Nivel2Levels/Nivel2Level1SceneAR.unity
     guid: 893b7f085ad0e8d4facbdf05773108dd
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Nivel2Levels/Nivel2Level2SceneAR.unity
     guid: 8f12b6ebc6c4e334ba08aee06a16fb77
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Nivel2Levels/Nivel2Level3SceneAR.unity
     guid: b2b5f1b1870733c47bd447348da0e730
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Nivel2Levels/Nivel2Level4SceneAR.unity
     guid: 3fedf03d1514d2342b830d0c80059bec
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Nivel2Levels/Nivel2Level5SceneAR.unity
-    guid: 53a7ce4a997d63643b69bbbde3075b02
-  - enabled: 1
+    guid: 4c9bd9a93bfc8904f865fcd30d716c62
+  - enabled: 0
     path: Assets/Scenes/Nivel2Levels/Nivel2Level6SceneAR.unity
-    guid: e8ee29d88823b864fafa0a2c2b7a71c3
-  - enabled: 1
+    guid: 87bbce3d62f86854e88b7412efd67c52
+  - enabled: 0
     path: Assets/Scenes/Nivel2Levels/Nivel2Level7SceneAR.unity
-    guid: a88c6e58ff50c1b4396c1de2b7d63cac
-  - enabled: 1
+    guid: b564c1d04d22f004d888b312e1d661b8
+  - enabled: 0
     path: Assets/Scenes/Nivel2Levels/Nivel2Level8SceneAR.unity
-    guid: 9420b1604d5f5af4eb1dd00dbae16f4f
-  - enabled: 1
+    guid: 731736636b909c543b4a0da5d6cacfe2
+  - enabled: 0
     path: Assets/Scenes/Nivel2Levels/Nivel2Level9SceneAR.unity
-    guid: 1d0551b5edc4d0e4d8dcda8fe0a47009
-  - enabled: 1
+    guid: d278cb42a47d4f242b5ce9bb50d5e9a0
+  - enabled: 0
     path: Assets/Scenes/Nivel2Levels/Nivel2Level10SceneAR.unity
-    guid: fd775fe1ebb808b48bb8c07af32a3b93
+    guid: 46a91e8a057ac0f4d99ce45bb7419e1a
   - enabled: 0
     path: Assets/Scenes/Nivel3Levels/Nivel3Level1SceneAR.unity
     guid: edc387df5ac62bc45a2a02473c8ed877
@@ -113,34 +113,34 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Nivel3Levels/Nivel3Level10SceneAR.unity
     guid: 7eab7b8890a38ff42ab249f21bf74d54
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Nivel4Levels/Nivel4Level1SceneAR.unity
-    guid: 4f201f4ea5d7a684885599ff38f5bbbd
-  - enabled: 0
+    guid: 9a6bd238f476036468ead4e31cf743f0
+  - enabled: 1
     path: Assets/Scenes/Nivel4Levels/Nivel4Level2SceneAR.unity
-    guid: 9372c5640f56bea4facb32d9c340de28
-  - enabled: 0
+    guid: 61d5aa1d7bd9b4948b9b291e1a42371b
+  - enabled: 1
     path: Assets/Scenes/Nivel4Levels/Nivel4Level3SceneAR.unity
-    guid: 79e2b19b37c81734e971ccd6b86a92ee
-  - enabled: 0
+    guid: 8c0bb9b7234d42b48b1138a952916087
+  - enabled: 1
     path: Assets/Scenes/Nivel4Levels/Nivel4Level4SceneAR.unity
     guid: 4a653497d785cf249b702a727ddc72be
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Nivel4Levels/Nivel4Level5SceneAR.unity
     guid: be7b00699045d7e41bc8fb3a5bdfca6c
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Nivel4Levels/Nivel4Level6SceneAR.unity
     guid: 59f61362f063f364fa9ec7f5f992d5e9
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Nivel4Levels/Nivel4Level7SceneAR.unity
     guid: c23041d569f5afa4cb5f6f8623ef5402
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Nivel4Levels/Nivel4Level8SceneAR.unity
     guid: e31b1d1ee7f297646b53d4b6622ddcee
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Nivel4Levels/Nivel4Level9SceneAR.unity
     guid: 616c0694407f63c40b1a49e960ef0de0
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Nivel4Levels/Nivel4Level10SceneAR.unity
     guid: 5eceeb74760352d4a8d2a063c6318cd0
   m_configObjects:

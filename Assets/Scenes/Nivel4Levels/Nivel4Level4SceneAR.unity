@@ -767,6 +767,11 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6604907815696970268, guid: deb95a6dddba3c94dbbc176128ff9bd3,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8e41dc147783d2848b9ab07983f54708, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: deb95a6dddba3c94dbbc176128ff9bd3, type: 3}
 --- !u!4 &244170221 stripped
@@ -1154,6 +1159,11 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6604907815696970268, guid: a602df6c2cf1ffa4cb5a10f6028d3e99,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7c24ef96bd4946d42a2c1ad09c0db3e1, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a602df6c2cf1ffa4cb5a10f6028d3e99, type: 3}
 --- !u!4 &412182270 stripped
@@ -1290,6 +1300,11 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6604907815696970268, guid: 568cb61189b5a3f4daf986b5fafae7f7,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1d743ac58f98a964dbf45e5db67e90c9, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 568cb61189b5a3f4daf986b5fafae7f7, type: 3}
 --- !u!4 &445561311 stripped
@@ -2987,6 +3002,11 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6604907815696970268, guid: 37c3d02842d009f48a632f71f7f08373,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 243d2f63a547bb5408eb0b401ee5f4da, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 37c3d02842d009f48a632f71f7f08373, type: 3}
 --- !u!4 &1197848348 stripped
@@ -3123,6 +3143,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 847109637}
     m_Modifications:
+    - target: {fileID: 40833148684635038, guid: 4120295b387604b4baac1b4f89154912,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 243d2f63a547bb5408eb0b401ee5f4da, type: 2}
     - target: {fileID: 80239137131279986, guid: 4120295b387604b4baac1b4f89154912,
         type: 3}
       propertyPath: m_Name
@@ -3781,6 +3806,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2126075432}
     m_Modifications:
+    - target: {fileID: 40833148684635038, guid: 14786fe6b300d25428297fea27e16f63,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8e41dc147783d2848b9ab07983f54708, type: 2}
     - target: {fileID: 80239137131279986, guid: 14786fe6b300d25428297fea27e16f63,
         type: 3}
       propertyPath: m_Name
@@ -4145,6 +4175,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1919845013}
     m_Modifications:
+    - target: {fileID: 40833148684635038, guid: 1986851137144c54da36c1e9ad860f61,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7c24ef96bd4946d42a2c1ad09c0db3e1, type: 2}
     - target: {fileID: 80239137131279986, guid: 1986851137144c54da36c1e9ad860f61,
         type: 3}
       propertyPath: m_Name
@@ -4624,6 +4659,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1012310553}
     m_Modifications:
+    - target: {fileID: 40833148684635038, guid: bafcadf89d219a643a38b7856ba1c2e7,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1d743ac58f98a964dbf45e5db67e90c9, type: 2}
     - target: {fileID: 80239137131279986, guid: bafcadf89d219a643a38b7856ba1c2e7,
         type: 3}
       propertyPath: m_Name

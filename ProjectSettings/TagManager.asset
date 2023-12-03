@@ -11,11 +11,16 @@ TagManager:
   - PecaCaixa1
   - PecaCaixa2
   - PecaCaixa3
-  - DestinoBranco
-  - DestinoAmarelo
-  - Destino1
   - Destino2
   - Destino3
+  - Destino1
+  - DestinoAmarelo
+  - DestinoBranco
+  - PecaCaixa4
+  - PecaCaixa5
+  - Destino4
+  - Destino5
+  - ItemExample
   layers:
   - Default
   - TransparentFX
