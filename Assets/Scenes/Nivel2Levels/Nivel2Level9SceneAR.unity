@@ -1764,7 +1764,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 89748fefec0c4f244902fb77b17f9496, type: 2}
+      objectReference: {fileID: 2100000, guid: 3886bd3eac90d6142a08ffc1121d7a6c, type: 2}
     - target: {fileID: 2560786188542285170, guid: 583e85561d479d64d942f35e1ea9aa55,
         type: 3}
       propertyPath: m_RootOrder
@@ -1950,7 +1950,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: f50191e0205ffec40a819f122474d752, type: 2}
+      objectReference: {fileID: 2100000, guid: 3886bd3eac90d6142a08ffc1121d7a6c, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f3b4e22af08356b4cb4c59533a492759, type: 3}
 --- !u!4 &928875264 stripped
@@ -2330,6 +2330,7 @@ MonoBehaviour:
   - PecaCaixa3
   arPlaneManager: {fileID: 1187207914}
   ARPlacementAndPlaneDetection: {fileID: 1187207925}
+  messageFinish: "Fase 09 Conclu\xEDda"
 --- !u!1 &1139273494
 GameObject:
   m_ObjectHideFlags: 0
@@ -2670,7 +2671,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 4e9b0c3ae04f50a44a602ba54c3ef0f1, type: 2}
+      objectReference: {fileID: 2100000, guid: 3886bd3eac90d6142a08ffc1121d7a6c, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1ae51e0ce1730564b97c4c79e27e0ede, type: 3}
 --- !u!4 &1180938833 stripped

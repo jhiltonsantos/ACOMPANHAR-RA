@@ -197,7 +197,7 @@ PrefabInstance:
     - target: {fileID: 13785842, guid: e3245acddde40bf49aa555d6bdc14998, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 979d9531168401847abf86ba582a6bc4, type: 2}
+      objectReference: {fileID: 2100000, guid: 5529b531924b33a4dbd457d5db45bb0e, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e3245acddde40bf49aa555d6bdc14998, type: 3}
 --- !u!4 &38559943 stripped
@@ -2280,6 +2280,7 @@ MonoBehaviour:
   - PecaCaixa3
   arPlaneManager: {fileID: 1187207914}
   ARPlacementAndPlaneDetection: {fileID: 1187207925}
+  messageFinish: "Fase 04 Conclu\xEDda"
 --- !u!1 &1139273494
 GameObject:
   m_ObjectHideFlags: 0
@@ -3778,7 +3779,7 @@ PrefabInstance:
     - target: {fileID: 13785842, guid: e3245acddde40bf49aa555d6bdc14998, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 979d9531168401847abf86ba582a6bc4, type: 2}
+      objectReference: {fileID: 2100000, guid: 78da946a000ab984e8773ede95eb5536, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e3245acddde40bf49aa555d6bdc14998, type: 3}
 --- !u!4 &1714983539 stripped

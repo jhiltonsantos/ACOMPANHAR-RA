@@ -830,7 +830,7 @@ PrefabInstance:
     - target: {fileID: 13740650, guid: 9bf484c5ec3d3bf43b2034c829f1abbe, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 4514aad96639fa647bb92898ca05bd70, type: 2}
+      objectReference: {fileID: 2100000, guid: 3886bd3eac90d6142a08ffc1121d7a6c, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9bf484c5ec3d3bf43b2034c829f1abbe, type: 3}
 --- !u!4 &301556013 stripped
@@ -2051,6 +2051,7 @@ MonoBehaviour:
   destinationBoxes: []
   arPlaneManager: {fileID: 1187207914}
   aRPlacementAndPlaneDetectionController: {fileID: 1187207922}
+  messageFinish: "Fase 05 Conclu\xEDda"
 --- !u!1 &1120094135
 GameObject:
   m_ObjectHideFlags: 0
@@ -3240,7 +3241,7 @@ PrefabInstance:
     - target: {fileID: 13740650, guid: 9bf484c5ec3d3bf43b2034c829f1abbe, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 4514aad96639fa647bb92898ca05bd70, type: 2}
+      objectReference: {fileID: 2100000, guid: 3886bd3eac90d6142a08ffc1121d7a6c, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9bf484c5ec3d3bf43b2034c829f1abbe, type: 3}
 --- !u!4 &1421718972 stripped
@@ -4095,7 +4096,7 @@ PrefabInstance:
     - target: {fileID: 13740650, guid: 9bf484c5ec3d3bf43b2034c829f1abbe, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 4514aad96639fa647bb92898ca05bd70, type: 2}
+      objectReference: {fileID: 2100000, guid: 3886bd3eac90d6142a08ffc1121d7a6c, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9bf484c5ec3d3bf43b2034c829f1abbe, type: 3}
 --- !u!4 &1923544475 stripped

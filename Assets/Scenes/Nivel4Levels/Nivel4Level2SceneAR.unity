@@ -2596,6 +2596,7 @@ MonoBehaviour:
   - PecaCaixa3
   arPlaneManager: {fileID: 1187207914}
   ARPlacementAndPlaneDetection: {fileID: 1187207927}
+  messageFinish: "Fase 02 Conclu\xEDda"
 --- !u!1 &1139273494
 GameObject:
   m_ObjectHideFlags: 0
@@ -2967,9 +2968,9 @@ MonoBehaviour:
   box1GameObject: {fileID: 1012310548}
   box2GameObject: {fileID: 847109636}
   box3GameObject: {fileID: 1919845012}
-  boxOffset1: {x: -0.7, y: 0, z: 0}
-  boxOffset2: {x: -0.7, y: 0, z: 1}
-  boxOffset3: {x: -0.7, y: 0, z: -1}
+  boxOffset1: {x: -1, y: 0, z: 0}
+  boxOffset2: {x: -1, y: 0, z: 1}
+  boxOffset3: {x: -1, y: 0, z: -1}
   destiny1GameObject: {fileID: 1805938202}
   destiny2GameObject: {fileID: 1148726304}
   destiny3GameObject: {fileID: 1413554707}
@@ -2998,7 +2999,7 @@ MonoBehaviour:
   selectCloseButtonScreen: SelectorNivel4LevelScene
   minPlaneSize: 0.5
   maxPlaneSize: 2
-  minDistance: 1
+  minDistance: 0.5
 --- !u!1001 &1235877706
 PrefabInstance:
   m_ObjectHideFlags: 0

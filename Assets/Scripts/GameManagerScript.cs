@@ -14,6 +14,7 @@ public class GameManagerScript : MonoBehaviour
     public Image uIInformPanel;
     public ARPlaneManager arPlaneManager;
     public ARPlacementAndPlaneDetectionController aRPlacementAndPlaneDetectionController;
+    public string messageFinish;
 
     void Start()
     {
@@ -41,7 +42,7 @@ public class GameManagerScript : MonoBehaviour
     {
         if (objectCorrect == totalObjects)
         {
-            ShowMessage("Fase Concluída", "Reiniciar");
+            ShowMessage(messageFinish, "Reiniciar");
         }
     }
 

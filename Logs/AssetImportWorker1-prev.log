@@ -15,7 +15,7 @@ C:/Users/jhilt/Desktop/Unity3D/Backup/ACOMPANHAR_TEACCH
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-53549
+49963
 Successfully changed project path to: C:/Users/jhilt/Desktop/Unity3D/Backup/ACOMPANHAR_TEACCH
 C:/Users/jhilt/Desktop/Unity3D/Backup/ACOMPANHAR_TEACCH
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ C:/Users/jhilt/Desktop/Unity3D/Backup/ACOMPANHAR_TEACCH
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [6960] Host "[IP] 192.168.150.34 [Port] 0 [Flags] 2 [Guid] 2744732442 [EditorId] 2744732442 [Version] 1048832 [Id] WindowsEditor(7,Hilton-Windows) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [17632] Host "[IP] 192.168.150.34 [Port] 0 [Flags] 2 [Guid] 581121388 [EditorId] 581121388 [Version] 1048832 [Id] WindowsEditor(7,Hilton-Windows) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [6960] Host "[IP] 192.168.150.34 [Port] 0 [Flags] 2 [Guid] 2744732442 [EditorId] 2744732442 [Version] 1048832 [Id] WindowsEditor(7,Hilton-Windows) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [17632] Host "[IP] 192.168.150.34 [Port] 0 [Flags] 2 [Guid] 581121388 [EditorId] 581121388 [Version] 1048832 [Id] WindowsEditor(7,Hilton-Windows) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 110.96 ms, found 10 plugins.
+Refreshing native plugins compatible for Editor in 128.51 ms, found 10 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.25f1 (68ef2c4f8861)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/Resources/UnitySubsystems
@@ -67,84 +67,95 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56532
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56340
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.006055 seconds.
+Registered in 0.006723 seconds.
 Native extension for WindowsStandalone target not found
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 Native extension for iOS target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 367 ms
-Refreshing native plugins compatible for Editor in 100.27 ms, found 10 plugins.
+CommandWithNoStdoutInvokationFailure: Unable to start ADB server. Please make sure the Android SDK is installed and is properly configured in the Editor. See the Console for more details.
+  at UnityEditor.Android.Command.RunWithShellExecute (System.String command, System.String args, System.String workingdir, System.String errorMsg) [0x00060] in <c8df8c387877487dae452aacc833e6ce>:0 
+  at UnityEditor.Android.ADB.StartServer () [0x00013] in <c8df8c387877487dae452aacc833e6ce>:0 
+  at UnityEditor.Android.ADB.Run (System.String[] command, UnityEditor.Android.Command+WaitingForProcessToExit waitingForProcessToExit, System.String errorMsg) [0x0000b] in <c8df8c387877487dae452aacc833e6ce>:0 
+  at UnityEditor.Android.AndroidDeploymentTargetsExtension.GetKnownTargets (UnityEditor.DeploymentTargets.IDeploymentTargetsMainThreadContext context, UnityEditor.ProgressHandler progressHandler) [0x00284] in <c8df8c387877487dae452aacc833e6ce>:0 
+  at UnityEditor.Android.TargetScanWorker.ScanSync () [0x00039] in <c8df8c387877487dae452aacc833e6ce>:0 
+  at UnityEditor.Android.TargetExtension.OnUsbDevicesChanged (UnityEditor.Hardware.UsbDevice[] usbDevices) [0x00081] in <c8df8c387877487dae452aacc833e6ce>:0 
+  at UnityEditor.Android.TargetExtension.OnLoad () [0x0008d] in <c8df8c387877487dae452aacc833e6ce>:0 
+  at UnityEditor.Modules.ModuleManager.InitializePlatformSupportModules () [0x0009d] in <5092d70d16a64dd9a555dd50f38aead0>:0 
+
+Refreshing native plugins compatible for Editor in 93.38 ms, found 10 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.988 seconds
+- Completed reload, in  5.629 seconds
 Domain Reload Profiling:
-	ReloadAssembly (988ms)
-		BeginReloadAssembly (67ms)
+	ReloadAssembly (5630ms)
+		BeginReloadAssembly (74ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (834ms)
-			LoadAssemblies (66ms)
+		EndReloadAssembly (5463ms)
+			LoadAssemblies (72ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (101ms)
+			SetupTypeCache (96ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (23ms)
-			SetupLoadedEditorAssemblies (666ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (5283ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (460ms)
+				InitializePlatformSupportModulesInManaged (5085ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (100ms)
+				RefreshPlugins (93ms)
 				BeforeProcessingInitializeOnLoad (1ms)
 				ProcessInitializeOnLoadAttributes (70ms)
-				ProcessInitializeOnLoadMethodAttributes (35ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
-Platform modules already initialized, skipping
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
 Registering precompiled user dll's ...
-Registered in 0.007672 seconds.
+Registered in 0.007460 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\jhilt\Desktop\Unity3D\Backup\ACOMPANHAR_TEACCH\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\jhilt\Desktop\Unity3D\Backup\ACOMPANHAR_TEACCH\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 89.10 ms, found 10 plugins.
+Refreshing native plugins compatible for Editor in 92.82 ms, found 10 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Package Manager log level set to [2]
 Mono: successfully reloaded assembly
-- Completed reload, in  1.154 seconds
+- Completed reload, in  1.084 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1155ms)
-		BeginReloadAssembly (100ms)
+	ReloadAssembly (1085ms)
+		BeginReloadAssembly (97ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (18ms)
-		EndReloadAssembly (952ms)
-			LoadAssemblies (80ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (897ms)
+			LoadAssemblies (84ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (257ms)
+			SetupTypeCache (265ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (53ms)
-			SetupLoadedEditorAssemblies (523ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (461ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (24ms)
+				InitializePlatformSupportModulesInManaged (25ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (89ms)
-				BeforeProcessingInitializeOnLoad (103ms)
-				ProcessInitializeOnLoadAttributes (284ms)
+				RefreshPlugins (93ms)
+				BeforeProcessingInitializeOnLoad (96ms)
+				ProcessInitializeOnLoadAttributes (225ms)
 				ProcessInitializeOnLoadMethodAttributes (16ms)
 				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
@@ -158,12 +169,12 @@ Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pip
 Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
 Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 1.06 ms, found 10 plugins.
+Refreshing native plugins compatible for Editor in 1.13 ms, found 10 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4418 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 53 unused Assets / (0.8 MB). Loaded Objects now: 4884.
-Memory consumption went from 179.9 MB to 179.0 MB.
-Total: 3.656700 ms (FindLiveObjects: 0.398900 ms CreateObjectMapping: 0.130300 ms MarkObjects: 2.811800 ms  DeleteObjects: 0.314600 ms)
+Unloading 4421 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 53 unused Assets / (0.8 MB). Loaded Objects now: 4899.
+Memory consumption went from 187.7 MB to 186.9 MB.
+Total: 3.468000 ms (FindLiveObjects: 0.403200 ms CreateObjectMapping: 0.124800 ms MarkObjects: 2.634000 ms  DeleteObjects: 0.305300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -176,29 +187,17 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 76268.846986 seconds.
-  path: Assets/Scenes/Nivel3Levels/Nivel3Level5SceneAR.unity
-  artifactKey: Guid(a37e701a01e865d4aac9c46198c87e1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Nivel3Levels/Nivel3Level5SceneAR.unity using Guid(a37e701a01e865d4aac9c46198c87e1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e04659cb046f66df29170cbd59f0b0e3') in 0.013742 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Scenes/Nivel3Levels/Nivel3Level4SceneAR.unity
-  artifactKey: Guid(f402a518daf4222419def17b18fd7407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Nivel3Levels/Nivel3Level4SceneAR.unity using Guid(f402a518daf4222419def17b18fd7407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e97f3647fbc0ee1dff2e74610124c979') in 0.009181 seconds 
-========================================================================
 Received Prepare
 Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
 Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
 Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
 Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Refreshing native plugins compatible for Editor in 13.40 ms, found 10 plugins.
+Refreshing native plugins compatible for Editor in 9.54 ms, found 10 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 43 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 42 unused Assets / (0.6 MB). Loaded Objects now: 4885.
-Memory consumption went from 86.3 MB to 85.7 MB.
-Total: 4.379500 ms (FindLiveObjects: 0.573900 ms CreateObjectMapping: 0.164200 ms MarkObjects: 3.295800 ms  DeleteObjects: 0.344500 ms)
+Unloading 42 unused Assets / (0.6 MB). Loaded Objects now: 4900.
+Memory consumption went from 93.9 MB to 93.4 MB.
+Total: 4.245900 ms (FindLiveObjects: 0.668600 ms CreateObjectMapping: 0.136600 ms MarkObjects: 3.123200 ms  DeleteObjects: 0.316400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -216,12 +215,12 @@ Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pip
 Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
 Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
 Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Refreshing native plugins compatible for Editor in 9.82 ms, found 10 plugins.
+Refreshing native plugins compatible for Editor in 11.88 ms, found 10 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 42 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 42 unused Assets / (0.6 MB). Loaded Objects now: 4885.
-Memory consumption went from 86.2 MB to 85.6 MB.
-Total: 3.902000 ms (FindLiveObjects: 0.549900 ms CreateObjectMapping: 0.149700 ms MarkObjects: 2.888000 ms  DeleteObjects: 0.313800 ms)
+Unloading 42 unused Assets / (0.6 MB). Loaded Objects now: 4900.
+Memory consumption went from 93.8 MB to 93.2 MB.
+Total: 25.006800 ms (FindLiveObjects: 0.610400 ms CreateObjectMapping: 0.129700 ms MarkObjects: 23.849800 ms  DeleteObjects: 0.416100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -239,1358 +238,12 @@ Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pip
 Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
 Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
 Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Refreshing native plugins compatible for Editor in 11.66 ms, found 10 plugins.
+Refreshing native plugins compatible for Editor in 11.31 ms, found 10 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 42 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 42 unused Assets / (0.6 MB). Loaded Objects now: 4885.
-Memory consumption went from 86.2 MB to 85.6 MB.
-Total: 5.453200 ms (FindLiveObjects: 0.602100 ms CreateObjectMapping: 0.172200 ms MarkObjects: 4.216500 ms  DeleteObjects: 0.461400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 1853.429356 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/ColorWheel/Color-Rose.mat
-  artifactKey: Guid(2794d840d933c1d4a86d698430893ddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/ColorWheel/Color-Rose.mat using Guid(2794d840d933c1d4a86d698430893ddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77b8aceee181ee7ff52cabf29d8e6a23') in 0.108275 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/HTML/Cyan/HTML-Aqua.mat
-  artifactKey: Guid(565fd85a6a133c3489f462f3212c14c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/HTML/Cyan/HTML-Aqua.mat using Guid(565fd85a6a133c3489f462f3212c14c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18db5362f9182806313389312d01d8c1') in 0.013999 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/HTML/White/HTML-AliceBlue.mat
-  artifactKey: Guid(44f6b906ab486c34dbbeef4f07ab8761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/HTML/White/HTML-AliceBlue.mat using Guid(44f6b906ab486c34dbbeef4f07ab8761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f938f4f2e4ade90502c6b7179bb2363a') in 0.015026 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/Grayscale/Grayscale-30.mat
-  artifactKey: Guid(f033f1bd65462814baef8879fd77bc77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/Grayscale/Grayscale-30.mat using Guid(f033f1bd65462814baef8879fd77bc77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '392205ec8ec2638db84201f24e290fc1') in 0.014824 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/ColorWheel/Color-Yellow.mat
-  artifactKey: Guid(b14f8cd53a472ee428057d3bc5a9109c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/ColorWheel/Color-Yellow.mat using Guid(b14f8cd53a472ee428057d3bc5a9109c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b199e87a39935cd71000d45a2f3a05c8') in 0.014934 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/Grayscale/Unlit/Grayscale-30-Unlit.mat
-  artifactKey: Guid(93961ba446858554e80c7e060e56c579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/Grayscale/Unlit/Grayscale-30-Unlit.mat using Guid(93961ba446858554e80c7e060e56c579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3103874284d62e7aa2153e1573960fd0') in 0.016109 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/HTML/Brown/Unlit/HTML-Bisque-Unlit.mat
-  artifactKey: Guid(ed0789ff1191dd84eabab829c8e2cb22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/HTML/Brown/Unlit/HTML-Bisque-Unlit.mat using Guid(ed0789ff1191dd84eabab829c8e2cb22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '731b886262d82091e76cd85192779dd0') in 0.015031 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/ColorWheel/Unlit/Color-SpringGreen-Unlit.mat
-  artifactKey: Guid(485f0c8ce9614cf43a7097bf3a2b3141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/ColorWheel/Unlit/Color-SpringGreen-Unlit.mat using Guid(485f0c8ce9614cf43a7097bf3a2b3141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c0bbdf098524080f318ca15de4bb9da') in 0.016045 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/Grayscale/Unlit/Grayscale-100-Unlit.mat
-  artifactKey: Guid(30fd27e0a27c6714c98a5b96493e6462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/Grayscale/Unlit/Grayscale-100-Unlit.mat using Guid(30fd27e0a27c6714c98a5b96493e6462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3616f5e27d64692d31c10b2df55c4e06') in 0.014082 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/HTML/Gray/HTML-Black.mat
-  artifactKey: Guid(48df604b2df80b14e8c738e9999740e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/HTML/Gray/HTML-Black.mat using Guid(48df604b2df80b14e8c738e9999740e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be7a6293d7223b52b61b989064a2a5c0') in 0.015188 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/HTML/Purple/HTML-BlueViolet.mat
-  artifactKey: Guid(c681b8bdca49fd741ba9dda5a531c236) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/HTML/Purple/HTML-BlueViolet.mat using Guid(c681b8bdca49fd741ba9dda5a531c236) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '346f64cca75f94caaa92fe187daffab5') in 0.016546 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/HTML/Brown/HTML-Bisque.mat
-  artifactKey: Guid(58592a6680153a54eb0d184a6ab67fff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/HTML/Brown/HTML-Bisque.mat using Guid(58592a6680153a54eb0d184a6ab67fff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc2f3f427915f492232e1408c39461dd') in 0.018651 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/ColorWheel/Unlit/Color-Yellow-Unlit.mat
-  artifactKey: Guid(d3b48a9700bdd8b4b934f4f0b4adbb52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/ColorWheel/Unlit/Color-Yellow-Unlit.mat using Guid(d3b48a9700bdd8b4b934f4f0b4adbb52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7412e2118823c99c8bdf9dea88f939e') in 0.018294 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/Grayscale/Unlit/Grayscale-20-Unlit.mat
-  artifactKey: Guid(ed59057f1747f0e4982633ed75aad3d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/Grayscale/Unlit/Grayscale-20-Unlit.mat using Guid(ed59057f1747f0e4982633ed75aad3d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0281a2e9a00b60ab096925bcca1e243') in 0.016074 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/Grayscale/Unlit/Grayscale-0-Unlit.mat
-  artifactKey: Guid(1ba46ebbea3e0df42b91595717a70409) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/Grayscale/Unlit/Grayscale-0-Unlit.mat using Guid(1ba46ebbea3e0df42b91595717a70409) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bb94dbfc90361e06aa3b911049b9776') in 0.015522 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/Grayscale/Grayscale-70.mat
-  artifactKey: Guid(54d60e9ffc1357c4985ff743e04a6515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/Grayscale/Grayscale-70.mat using Guid(54d60e9ffc1357c4985ff743e04a6515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5d712fd70c12987403fed8b3f2b4822') in 0.014649 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/HTML/White/HTML-Beige.mat
-  artifactKey: Guid(10b807231a2d14f4c9776585b479147c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/HTML/White/HTML-Beige.mat using Guid(10b807231a2d14f4c9776585b479147c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4639cdf4398cbda9a013f602c661bc37') in 0.014581 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/Grayscale/Grayscale-20.mat
-  artifactKey: Guid(f50191e0205ffec40a819f122474d752) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/Grayscale/Grayscale-20.mat using Guid(f50191e0205ffec40a819f122474d752) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35129ef59d80c935e3ca9c5f446e60e5') in 0.013782 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/Grayscale/Unlit/Grayscale-40-Unlit.mat
-  artifactKey: Guid(06707385b561ca34994f96f76f5282c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/Grayscale/Unlit/Grayscale-40-Unlit.mat using Guid(06707385b561ca34994f96f76f5282c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '663e725cd7bf4b81cce88882017463fc') in 0.013018 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/HTML/White/Unlit/HTML-Azure-Unlit.mat
-  artifactKey: Guid(0c58cc4d8e260214daaef62a045a3699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/HTML/White/Unlit/HTML-Azure-Unlit.mat using Guid(0c58cc4d8e260214daaef62a045a3699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a54117f6763d6df178b42b198ff3e9d') in 0.014228 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/ColorWheel/Color-Violet.mat
-  artifactKey: Guid(4175dbb53b3611940a57fe5be6794622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/ColorWheel/Color-Violet.mat using Guid(4175dbb53b3611940a57fe5be6794622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c644a362d78836f1c86e08033721f520') in 0.014389 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/Grayscale/Grayscale-40.mat
-  artifactKey: Guid(36dcdac13b3be7a48aba769693700253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/Grayscale/Grayscale-40.mat using Guid(36dcdac13b3be7a48aba769693700253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83d38d3ba1b7a22da4caad1aab5073cd') in 0.014229 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/Grayscale/Grayscale-80.mat
-  artifactKey: Guid(6c79bdf25a30ad14a8950a6c8e4025d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/Grayscale/Grayscale-80.mat using Guid(6c79bdf25a30ad14a8950a6c8e4025d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e65207423c98383fb5d2db47c972384') in 0.014793 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/HTML/Purple/Unlit/HTML-BlueViolet-Unlit.mat
-  artifactKey: Guid(55eaaea56c45bb34391102699cce087a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/HTML/Purple/Unlit/HTML-BlueViolet-Unlit.mat using Guid(55eaaea56c45bb34391102699cce087a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a674fc9d2706369e9e7398c9d040183') in 0.012576 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/HTML/Brown/Unlit/HTML-Brown-Unlit.mat
-  artifactKey: Guid(395f2e78ad7218a4b86ec39cf40f61c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/HTML/Brown/Unlit/HTML-Brown-Unlit.mat using Guid(395f2e78ad7218a4b86ec39cf40f61c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '433fa1c5c3152eb6ca6e587fca01eaeb') in 0.013773 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/ColorWheel/Unlit/Color-Rose-Unlit.mat
-  artifactKey: Guid(8a2c5c0d7e52b114d84457ab9b52d8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/ColorWheel/Unlit/Color-Rose-Unlit.mat using Guid(8a2c5c0d7e52b114d84457ab9b52d8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99e33b3d010fbe4056571517b8093920') in 0.014385 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/ColorWheel/Color-SpringGreen.mat
-  artifactKey: Guid(2e38d5888ee95ef4abac7693e86d8cd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/ColorWheel/Color-SpringGreen.mat using Guid(2e38d5888ee95ef4abac7693e86d8cd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d9616a323a723a7774e2e1335123984') in 0.014541 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.049447 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/HTML/Brown/Unlit/HTML-BurlyWood-Unlit.mat
-  artifactKey: Guid(df89c12ccc3f30f479e28d0f945744b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/HTML/Brown/Unlit/HTML-BurlyWood-Unlit.mat using Guid(df89c12ccc3f30f479e28d0f945744b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e604880e8c448d54855c058c64c4e075') in 0.013092 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/HTML/Blue/HTML-CornflowerBlue.mat
-  artifactKey: Guid(391659e52f1e7b64b95032cbf862914b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/HTML/Blue/HTML-CornflowerBlue.mat using Guid(391659e52f1e7b64b95032cbf862914b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6630a436832bc8bb2feee2cc42789e5f') in 0.016766 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/HTML/Brown/HTML-DarkGoldenRod.mat
-  artifactKey: Guid(864806d0380f9754693628fb95eb3fe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/HTML/Brown/HTML-DarkGoldenRod.mat using Guid(864806d0380f9754693628fb95eb3fe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab9e8fe0a6ce4d74deeae8d70e755397') in 0.012781 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/HTML/Blue/Unlit/HTML-DarkBlue-Unlit.mat
-  artifactKey: Guid(93d2b29f8d44463409ecb8ba40e6a87c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/HTML/Blue/Unlit/HTML-DarkBlue-Unlit.mat using Guid(93d2b29f8d44463409ecb8ba40e6a87c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eae98de3a7ad1e24da562279dbf7a9f5') in 0.012592 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/HTML/Gray/Unlit/HTML-DarkGray-Unlit.mat
-  artifactKey: Guid(bc4effe621e6e7b489e4a901c54749c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/HTML/Gray/Unlit/HTML-DarkGray-Unlit.mat using Guid(bc4effe621e6e7b489e4a901c54749c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2e3abde7f6ac883ceb95cc57f9546db') in 0.011682 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/HTML/Green/HTML-Chartreuse.mat
-  artifactKey: Guid(f2a2023d46fe5a7458828733fb3bb521) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/HTML/Green/HTML-Chartreuse.mat using Guid(f2a2023d46fe5a7458828733fb3bb521) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b59badf241b0f826b63479895f749bfa') in 0.012889 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/HTML/Brown/Unlit/HTML-CornSilk-Unlit.mat
-  artifactKey: Guid(8bff6bcd002396243bf4ac4766463a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/HTML/Brown/Unlit/HTML-CornSilk-Unlit.mat using Guid(8bff6bcd002396243bf4ac4766463a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd726326860ef609c414ca72aba0b591') in 0.012269 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/HTML/Green/HTML-DarkCyan.mat
-  artifactKey: Guid(8adeee0b17c36074db67583278e6bdd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/HTML/Green/HTML-DarkCyan.mat using Guid(8adeee0b17c36074db67583278e6bdd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fb5ed239be01451a143db11e22b5054') in 0.012306 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/HTML/Green/Unlit/HTML-DarkGreen-Unlit.mat
-  artifactKey: Guid(b505f65a943d4fc4488003b3e176f2b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/HTML/Green/Unlit/HTML-DarkGreen-Unlit.mat using Guid(b505f65a943d4fc4488003b3e176f2b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e776b5ce693e2be0e8797c74d227c35') in 0.015157 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/HTML/Blue/HTML-DarkBlue.mat
-  artifactKey: Guid(d53f168379913e546a0f0ca8167c2653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/HTML/Blue/HTML-DarkBlue.mat using Guid(d53f168379913e546a0f0ca8167c2653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4294a200bf0f33a73fa1eb98305bb2c4') in 0.013940 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/HTML/Brown/HTML-Chocolate.mat
-  artifactKey: Guid(81e92e33b5eb3b149beb2b73b2a901fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/HTML/Brown/HTML-Chocolate.mat using Guid(81e92e33b5eb3b149beb2b73b2a901fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c370254cee5aa55ea9f15bba622b995a') in 0.038104 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/HTML/Blue/HTML-CadetBlue.mat
-  artifactKey: Guid(924d840cc27f6d34c8d1c43e687f1329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/HTML/Blue/HTML-CadetBlue.mat using Guid(924d840cc27f6d34c8d1c43e687f1329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '154ce23a79c09275c491451b4a2739ab') in 0.014225 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/HTML/Green/HTML-DarkSeaGreen.mat
-  artifactKey: Guid(4fffc460ecc4cd541b05f73ffa0441db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/HTML/Green/HTML-DarkSeaGreen.mat using Guid(4fffc460ecc4cd541b05f73ffa0441db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5018f97ab8991275c6340cf825519521') in 0.012494 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/HTML/Purple/Unlit/HTML-DarkSlateBlue-Unlit.mat
-  artifactKey: Guid(850991ce18c4a6f439e434ba05b2a925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/HTML/Purple/Unlit/HTML-DarkSlateBlue-Unlit.mat using Guid(850991ce18c4a6f439e434ba05b2a925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b37b8b9bb15a7c52f87fa8d444ad949') in 0.011750 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/HTML/Pink/Unlit/HTML-DeepPink-Unlit.mat
-  artifactKey: Guid(6e587fdab67a99c42ab0d483ca469235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/HTML/Pink/Unlit/HTML-DeepPink-Unlit.mat using Guid(6e587fdab67a99c42ab0d483ca469235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b4f101f1b1cefbf725d6d63d4b5f4d9') in 0.012494 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/HTML/Gray/HTML-DimGray.mat
-  artifactKey: Guid(a6925f495700e2545ac101f7d41e0976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/HTML/Gray/HTML-DimGray.mat using Guid(a6925f495700e2545ac101f7d41e0976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1730b621e118c5d3b7d7462bd160883') in 0.012904 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/HTML/Cyan/HTML-DarkTurquoise.mat
-  artifactKey: Guid(545952e1f442c4942bac0b8ff0199c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/HTML/Cyan/HTML-DarkTurquoise.mat using Guid(545952e1f442c4942bac0b8ff0199c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffbd4e78dc97d409f1fda19ec310f967') in 0.012528 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/HTML/Orange/Unlit/HTML-DarkOrange-Unlit.mat
-  artifactKey: Guid(a2c067786cba3c744b756fe58b8c6bf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/HTML/Orange/Unlit/HTML-DarkOrange-Unlit.mat using Guid(a2c067786cba3c744b756fe58b8c6bf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6d5e8bae9e04a830ff0c3bee286e5c4') in 0.012741 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/HTML/Red/Unlit/HTML-DarkRed-Unlit.mat
-  artifactKey: Guid(566f9ddc03f0a1d49905fc203bfd9bc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/HTML/Red/Unlit/HTML-DarkRed-Unlit.mat using Guid(566f9ddc03f0a1d49905fc203bfd9bc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e95d978fd873774321f000f84cee12ab') in 0.017142 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/HTML/Orange/HTML-DarkOrange.mat
-  artifactKey: Guid(835b9cd0a64db8f428001fb21fd81aba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/HTML/Orange/HTML-DarkOrange.mat using Guid(835b9cd0a64db8f428001fb21fd81aba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '027e349cf73d67c24aad9fee750ba97a') in 0.015613 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/HTML/Gray/HTML-DarkSlateGray.mat
-  artifactKey: Guid(f70ea5abf43bbeb4ea153c1b8d1b93a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/HTML/Gray/HTML-DarkSlateGray.mat using Guid(f70ea5abf43bbeb4ea153c1b8d1b93a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03954e3f0143c0ab0987aaf241df9942') in 0.016279 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/HTML/Red/Unlit/HTML-DarkSalmon-Unlit.mat
-  artifactKey: Guid(8e081f47e9e815841a0576a507cfde84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/HTML/Red/Unlit/HTML-DarkSalmon-Unlit.mat using Guid(8e081f47e9e815841a0576a507cfde84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bb6ec3fa7a483d5241a34f816bc7f17') in 0.015588 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/HTML/Red/HTML-DarkRed.mat
-  artifactKey: Guid(78da946a000ab984e8773ede95eb5536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/HTML/Red/HTML-DarkRed.mat using Guid(78da946a000ab984e8773ede95eb5536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c846064fbfd6070bf596b88ca76e6885') in 0.019253 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/HTML/Purple/HTML-Fuchsia.mat
-  artifactKey: Guid(46ef6326fa921964cb1306faeda58631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/HTML/Purple/HTML-Fuchsia.mat using Guid(46ef6326fa921964cb1306faeda58631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6de59b20f6bf11b9bcb348ba20ebd8d4') in 0.023425 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/HTML/White/HTML-FloralWhite.mat
-  artifactKey: Guid(809700c0c9d475a4bab2edaefd9d4c1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/HTML/White/HTML-FloralWhite.mat using Guid(809700c0c9d475a4bab2edaefd9d4c1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3cc24bd7f822c05cb8734916096a720') in 0.051991 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000116 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/HTML/Pink/HTML-HotPink.mat
-  artifactKey: Guid(fa8b506fa3cb0fc4188eaec62e7384b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/HTML/Pink/HTML-HotPink.mat using Guid(fa8b506fa3cb0fc4188eaec62e7384b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '475baa2dadfd5841f8cd8db44a5c6af8') in 0.036399 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/HTML/White/Unlit/HTML-GhostWhite-Unlit.mat
-  artifactKey: Guid(1ae5988fa80c39543917456f2a45f776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/HTML/White/Unlit/HTML-GhostWhite-Unlit.mat using Guid(1ae5988fa80c39543917456f2a45f776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6d2d74d0c10b9a5e5613e3a80c998ef') in 0.028806 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/HTML/Green/Unlit/HTML-GreenYellow-Unlit.mat
-  artifactKey: Guid(3242d38516cad194c9d5637227a60ed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/HTML/Green/Unlit/HTML-GreenYellow-Unlit.mat using Guid(3242d38516cad194c9d5637227a60ed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abd3584e486e7f24fee7d49c6cccfe01') in 0.024108 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/HTML/Gray/Unlit/HTML-Gainsboro-Unlit.mat
-  artifactKey: Guid(7da13c008eac3f6488e28826d89b4ad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/HTML/Gray/Unlit/HTML-Gainsboro-Unlit.mat using Guid(7da13c008eac3f6488e28826d89b4ad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d8a0823667108d05b87046fc43f4b65') in 0.016830 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/HTML/Yellow/Unlit/HTML-LightGoldenRodYellow-Unlit.mat
-  artifactKey: Guid(02ad03dba78d50a469678071b406d37c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/HTML/Yellow/Unlit/HTML-LightGoldenRodYellow-Unlit.mat using Guid(02ad03dba78d50a469678071b406d37c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2550d76ae4783117479249740f1a33d6') in 0.020362 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/HTML/White/Unlit/HTML-Ivory-Unlit.mat
-  artifactKey: Guid(9e6734d36f139c34d858040355223c0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/HTML/White/Unlit/HTML-Ivory-Unlit.mat using Guid(9e6734d36f139c34d858040355223c0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86cfee620355525f9b6043e37ae094bf') in 0.018044 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/HTML/Green/HTML-LightGreen.mat
-  artifactKey: Guid(e58ef1a7d3890374bbcfdec9e76005ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/HTML/Green/HTML-LightGreen.mat using Guid(e58ef1a7d3890374bbcfdec9e76005ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8767de07f7f58a6bfe68b0371bbed52d') in 0.016052 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/HTML/Pink/Unlit/HTML-LightPink-Unlit.mat
-  artifactKey: Guid(3d227cccf09b6b940941c426c09e8460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/HTML/Pink/Unlit/HTML-LightPink-Unlit.mat using Guid(3d227cccf09b6b940941c426c09e8460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '800493ed0c8ae8138bf8c2bd7e7d7e71') in 0.016241 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/HTML/Cyan/Unlit/HTML-LightCyan-Unlit.mat
-  artifactKey: Guid(30196f03e20fba9458a382842338b27d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/HTML/Cyan/Unlit/HTML-LightCyan-Unlit.mat using Guid(30196f03e20fba9458a382842338b27d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3147823982ceaafa10985223d6437428') in 0.015104 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/HTML/Green/HTML-LightSeaGreen.mat
-  artifactKey: Guid(9fed635f34156c846978ae54c3951e03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/HTML/Green/HTML-LightSeaGreen.mat using Guid(9fed635f34156c846978ae54c3951e03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '461e3c80e63d0083ee9d222a1a468546') in 0.017657 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/HTML/White/HTML-Honeydew.mat
-  artifactKey: Guid(476d52caefb2aba4d86d35a2889c4954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/HTML/White/HTML-Honeydew.mat using Guid(476d52caefb2aba4d86d35a2889c4954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da3cd9e707ad13831202a4013a7f602f') in 0.013879 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/HTML/White/Unlit/HTML-LavenderBlush-Unlit.mat
-  artifactKey: Guid(d7e9c2be2c13a52408bcca5a2af7fcd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/HTML/White/Unlit/HTML-LavenderBlush-Unlit.mat using Guid(d7e9c2be2c13a52408bcca5a2af7fcd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b25144a96f9964da92c14120d729582') in 0.013344 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/HTML/Red/Unlit/HTML-Firebrick-Unlit.mat
-  artifactKey: Guid(607b47467daa1034091fa6494a73e554) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/HTML/Red/Unlit/HTML-Firebrick-Unlit.mat using Guid(607b47467daa1034091fa6494a73e554) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8114313648099ec8850e24396850eadf') in 0.013607 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/HTML/Red/Unlit/HTML-LightCoral-Unlit.mat
-  artifactKey: Guid(8245e1ad82438e442bcde1ebeb7ef4eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/HTML/Red/Unlit/HTML-LightCoral-Unlit.mat using Guid(8245e1ad82438e442bcde1ebeb7ef4eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83bd35d9e0d6bed98cea22f50715a2bb') in 0.013246 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/HTML/Green/Unlit/HTML-Green-Unlit.mat
-  artifactKey: Guid(19255c093a11410498cbd02467f83b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/HTML/Green/Unlit/HTML-Green-Unlit.mat using Guid(19255c093a11410498cbd02467f83b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04e50dfa67869b5977e60c101252e7e7') in 0.014550 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/HTML/White/HTML-LavenderBlush.mat
-  artifactKey: Guid(9cb5387a58e1549459d0f496d6362f6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/HTML/White/HTML-LavenderBlush.mat using Guid(9cb5387a58e1549459d0f496d6362f6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef351165c65cb46ef95da7f5b39adba4') in 0.014227 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/HTML/Cyan/Unlit/HTML-DarkTurquoise-Unlit.mat
-  artifactKey: Guid(caed0825b3809174f9854c75ad8d01da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/HTML/Cyan/Unlit/HTML-DarkTurquoise-Unlit.mat using Guid(caed0825b3809174f9854c75ad8d01da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c268d3661156fefe3d295d7d7a571b7') in 0.013413 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/HTML/Blue/Unlit/HTML-LightSteelBlue-Unlit.mat
-  artifactKey: Guid(c9a59f6e0a833924cbee4790d6d4b1fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/HTML/Blue/Unlit/HTML-LightSteelBlue-Unlit.mat using Guid(c9a59f6e0a833924cbee4790d6d4b1fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f4599a8555832d4ddbd1603d106d7c7') in 0.013429 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/HTML/Yellow/Unlit/HTML-LightYellow-Unlit.mat
-  artifactKey: Guid(4130776d091f64e44a915a509ced79f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/HTML/Yellow/Unlit/HTML-LightYellow-Unlit.mat using Guid(4130776d091f64e44a915a509ced79f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e04f70721dff1cfd9928cd5270e9bb7a') in 0.026223 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/HTML/Green/HTML-MediumSeaGreen.mat
-  artifactKey: Guid(30507a43069762b4f9c17494bdc5dc0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/HTML/Green/HTML-MediumSeaGreen.mat using Guid(30507a43069762b4f9c17494bdc5dc0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bc9c8054862555ac14c116ce7a3358b') in 0.013896 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/HTML/Purple/HTML-Magenta.mat
-  artifactKey: Guid(5928944862e14d747b96410acb57f2d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/HTML/Purple/HTML-Magenta.mat using Guid(5928944862e14d747b96410acb57f2d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7f8dc02c590a365ad25d21454f2738c') in 0.016064 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/HTML/Green/HTML-LimeGreen.mat
-  artifactKey: Guid(5e88afe4592bc7644965069c59db9fd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/HTML/Green/HTML-LimeGreen.mat using Guid(5e88afe4592bc7644965069c59db9fd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a52ad5dbf888d7b31a76fba82142c61a') in 0.013301 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/HTML/White/HTML-Linen.mat
-  artifactKey: Guid(606e652f3f09cff4fadc227200c28f9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/HTML/White/HTML-Linen.mat using Guid(606e652f3f09cff4fadc227200c28f9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca7319c7def6abeebf8a840f849122d0') in 0.012754 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/HTML/Purple/HTML-MediumPurple.mat
-  artifactKey: Guid(e082ddf298023394eb670fdb81364fd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/HTML/Purple/HTML-MediumPurple.mat using Guid(e082ddf298023394eb670fdb81364fd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb06673dbfea512e3080357a5605e90f') in 0.013150 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/HTML/Purple/Unlit/HTML-MediumSlateBlue-Unlit.mat
-  artifactKey: Guid(9bbec21ed6ef34d48898dc1acbef6e05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/HTML/Purple/Unlit/HTML-MediumSlateBlue-Unlit.mat using Guid(9bbec21ed6ef34d48898dc1acbef6e05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74998b171bd2eef4fb03f07747df7868') in 0.012281 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/HTML/Blue/Unlit/HTML-MediumBlue-Unlit.mat
-  artifactKey: Guid(fcd57365e43a6b140a5700c14a5c0d09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/HTML/Blue/Unlit/HTML-MediumBlue-Unlit.mat using Guid(fcd57365e43a6b140a5700c14a5c0d09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f36df85850efdd3370a24ee2a89867f5') in 0.016781 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/HTML/Blue/HTML-MediumBlue.mat
-  artifactKey: Guid(05035d01b1fd02248ad92f001e7bb520) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/HTML/Blue/HTML-MediumBlue.mat using Guid(05035d01b1fd02248ad92f001e7bb520) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9547448bb06bbfa0cad282dd533b6a5') in 0.012823 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/HTML/Yellow/HTML-LightYellow.mat
-  artifactKey: Guid(c589112b8f053864babbedccead445a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/HTML/Yellow/HTML-LightYellow.mat using Guid(c589112b8f053864babbedccead445a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63400c6ce4e141d0753ce6798acdd8a1') in 0.014495 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/HTML/Blue/HTML-LightSkyBlue.mat
-  artifactKey: Guid(9a6979e0cef03d044b4412bfea0bf81b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/HTML/Blue/HTML-LightSkyBlue.mat using Guid(9a6979e0cef03d044b4412bfea0bf81b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0707d5b26419c55b05751e6d501a2620') in 0.013399 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/HTML/Gray/Unlit/HTML-Gray-Unlit.mat
-  artifactKey: Guid(a745635a39339b44f985166dec6c2379) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/HTML/Gray/Unlit/HTML-Gray-Unlit.mat using Guid(a745635a39339b44f985166dec6c2379) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b6319cb7fd9708e4a0b224a161a4ba9') in 0.012662 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/HTML/Yellow/Unlit/HTML-LemonChiffon-Unlit.mat
-  artifactKey: Guid(737d9419112f0184f8a36c8ddae3dd52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/HTML/Yellow/Unlit/HTML-LemonChiffon-Unlit.mat using Guid(737d9419112f0184f8a36c8ddae3dd52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05734018412e0707f5e8ac1a9baf9569') in 0.011457 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/HTML/Gray/Unlit/HTML-LightGray-Unlit.mat
-  artifactKey: Guid(a4a6ada35d7c5a849a75a8283deebdf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/HTML/Gray/Unlit/HTML-LightGray-Unlit.mat using Guid(a4a6ada35d7c5a849a75a8283deebdf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e63728ad5f7d1709f72197abc7753c60') in 0.013680 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/HTML/White/HTML-Ivory.mat
-  artifactKey: Guid(bb4172f174112d148b94cea384a82dea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/HTML/White/HTML-Ivory.mat using Guid(bb4172f174112d148b94cea384a82dea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e85448ef910c77a3e1397ea25a3ce16') in 0.014413 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/HTML/Green/HTML-Green.mat
-  artifactKey: Guid(408384492b7726540b0ed3a44abc4bc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/HTML/Green/HTML-Green.mat using Guid(408384492b7726540b0ed3a44abc4bc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e354a1b1e6654e88bc354b2b13cf2b7') in 0.013267 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/HTML/Yellow/Unlit/HTML-DarkKhaki-Unlit.mat
-  artifactKey: Guid(000ba58e261628146bc224fdf3e0aeb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/HTML/Yellow/Unlit/HTML-DarkKhaki-Unlit.mat using Guid(000ba58e261628146bc224fdf3e0aeb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b30def4e4df4ae30c8097dbf6e347bf7') in 0.013082 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/HTML/Brown/Unlit/HTML-GoldenRod-Unlit.mat
-  artifactKey: Guid(49448069f6fef7d4c98d8be8ae5c6b15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/HTML/Brown/Unlit/HTML-GoldenRod-Unlit.mat using Guid(49448069f6fef7d4c98d8be8ae5c6b15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '615f79413ceebdcc62787608d356ac60') in 0.015248 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/HTML/Green/Unlit/HTML-Chartreuse-Unlit.mat
-  artifactKey: Guid(a50c5cebae604aa448953f0bac2838b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/HTML/Green/Unlit/HTML-Chartreuse-Unlit.mat using Guid(a50c5cebae604aa448953f0bac2838b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41d984836e0be0ad638af3c549fbe761') in 0.013704 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/HTML/Purple/Unlit/HTML-DarkOrchid-Unlit.mat
-  artifactKey: Guid(d16b481cd8b291f4aa58ade87a70dcb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/HTML/Purple/Unlit/HTML-DarkOrchid-Unlit.mat using Guid(d16b481cd8b291f4aa58ade87a70dcb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7765893428b891b2cf0c5f16b8c86709') in 0.012765 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/HTML/Blue/Unlit/HTML-LightSkyBlue-Unlit.mat
-  artifactKey: Guid(132b0f7f47745384091c4ccc21d35672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/HTML/Blue/Unlit/HTML-LightSkyBlue-Unlit.mat using Guid(132b0f7f47745384091c4ccc21d35672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9faa53c1b969a464f54f8e07b0d0d983') in 0.013048 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/HTML/Red/HTML-LightCoral.mat
-  artifactKey: Guid(67a1cba4d64ee47419714eab2654b7b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/HTML/Red/HTML-LightCoral.mat using Guid(67a1cba4d64ee47419714eab2654b7b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11a21dd3f45ca75ed8568404ecc1ba37') in 0.015301 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/HTML/Purple/Unlit/HTML-MediumOrchid-Unlit.mat
-  artifactKey: Guid(8f519b3267e06fd488eb5cf4784f5856) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/HTML/Purple/Unlit/HTML-MediumOrchid-Unlit.mat using Guid(8f519b3267e06fd488eb5cf4784f5856) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5283d47d186ab41f334639ee26bb196a') in 0.014902 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/HTML/Brown/Unlit/HTML-DarkGoldenRod-Unlit.mat
-  artifactKey: Guid(fec7fc5db98b356419130da2516fdb6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/HTML/Brown/Unlit/HTML-DarkGoldenRod-Unlit.mat using Guid(fec7fc5db98b356419130da2516fdb6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48a2ace27897c9ce25b0f231a05ab0ac') in 0.014717 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/HTML/Yellow/HTML-LightGoldenRodYellow.mat
-  artifactKey: Guid(06dd51666df399c4abacf6f751e318a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/HTML/Yellow/HTML-LightGoldenRodYellow.mat using Guid(06dd51666df399c4abacf6f751e318a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a2791576051bbdf8be7547ad5c2527e') in 0.014875 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/HTML/Red/HTML-IndianRed.mat
-  artifactKey: Guid(af29e71cec736ba46bfc1c09cdb9a5a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/HTML/Red/HTML-IndianRed.mat using Guid(af29e71cec736ba46bfc1c09cdb9a5a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8bae82e4467849cc6fed4dc0ccbd836') in 0.014785 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/HTML/Gray/Unlit/HTML-DimGray-Unlit.mat
-  artifactKey: Guid(ded63ec3ece25b64cb0f0b4c8f1f07e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/HTML/Gray/Unlit/HTML-DimGray-Unlit.mat using Guid(ded63ec3ece25b64cb0f0b4c8f1f07e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4c2a58fcc1e41cbb364df08aa6c55d1') in 0.014341 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/HTML/Purple/Unlit/HTML-Indigo-Unlit.mat
-  artifactKey: Guid(ede6b9b93a0090244950889f3baf1922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/HTML/Purple/Unlit/HTML-Indigo-Unlit.mat using Guid(ede6b9b93a0090244950889f3baf1922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '746800d8e201819845e56d329ab9bf20') in 0.014622 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/HTML/Green/Unlit/HTML-LightSeaGreen-Unlit.mat
-  artifactKey: Guid(8bd897f83a4c5bc4e93b0ccfeebce3c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/HTML/Green/Unlit/HTML-LightSeaGreen-Unlit.mat using Guid(8bd897f83a4c5bc4e93b0ccfeebce3c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7144e2bced157468d8b4107aeca2fdca') in 0.013814 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/HTML/Brown/HTML-Maroon.mat
-  artifactKey: Guid(2b736139d7c3b8f49b7f1155c23d236f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/HTML/Brown/HTML-Maroon.mat using Guid(2b736139d7c3b8f49b7f1155c23d236f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7775084e24790a638136b0a7900fffa') in 0.015334 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/HTML/Green/Unlit/HTML-Lime-Unlit.mat
-  artifactKey: Guid(13e1bbb3215d2b14b83e72f48239606e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/HTML/Green/Unlit/HTML-Lime-Unlit.mat using Guid(13e1bbb3215d2b14b83e72f48239606e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0a7a8bd4ed61cff99976e6cdc838433') in 0.015723 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/HTML/Orange/Unlit/HTML-Coral-Unlit.mat
-  artifactKey: Guid(b3ff70fc3afb5d34793c9747ee5914ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/HTML/Orange/Unlit/HTML-Coral-Unlit.mat using Guid(b3ff70fc3afb5d34793c9747ee5914ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5dd72cdc078bcee493f22ae36f15862') in 0.014394 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.007306 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/HTML/Green/Unlit/HTML-MediumSpringGreen-Unlit.mat
-  artifactKey: Guid(e432e3a11c163094bbbeaf5195b546dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/HTML/Green/Unlit/HTML-MediumSpringGreen-Unlit.mat using Guid(e432e3a11c163094bbbeaf5195b546dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4eb43498e9a228c40c452e68c7ba1b7') in 0.013279 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/HTML/Pink/HTML-MediumVioletRed.mat
-  artifactKey: Guid(945ff8717e8c78b4f94f63d5ba8490d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/HTML/Pink/HTML-MediumVioletRed.mat using Guid(945ff8717e8c78b4f94f63d5ba8490d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed13928b7a905592e13680ad254973ad') in 0.015077 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/HTML/Cyan/HTML-MediumTurquoise.mat
-  artifactKey: Guid(7d2c138743f10ef4597ca2308d273115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/HTML/Cyan/HTML-MediumTurquoise.mat using Guid(7d2c138743f10ef4597ca2308d273115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '039f763c96ee976866ffbb971c4c1fb8') in 0.015140 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/HTML/Brown/Unlit/HTML-NavajoWhite-Unlit.mat
-  artifactKey: Guid(ac1584719e391ff43b947ff13fbc07cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/HTML/Brown/Unlit/HTML-NavajoWhite-Unlit.mat using Guid(ac1584719e391ff43b947ff13fbc07cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87854edaeba58b0470b36d72c5bf53cc') in 0.014147 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/HTML/White/HTML-OldLace.mat
-  artifactKey: Guid(b4350511d6bf254408ea2560a7c7d986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/HTML/White/HTML-OldLace.mat using Guid(b4350511d6bf254408ea2560a7c7d986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b233e7c24f15b6a0dfb85738a9494c7f') in 0.014407 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/HTML/Green/HTML-OliveDrab.mat
-  artifactKey: Guid(ad8d46cbc9d436a42943cd59970cb357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/HTML/Green/HTML-OliveDrab.mat using Guid(ad8d46cbc9d436a42943cd59970cb357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56312b278f7be369bfe212d2766085c5') in 0.013862 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/HTML/White/HTML-MistyRose.mat
-  artifactKey: Guid(7d7bfe02fd65c51438950b1ab0a44b03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/HTML/White/HTML-MistyRose.mat using Guid(7d7bfe02fd65c51438950b1ab0a44b03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dde4a5e27869aea03f98220d5e3f285') in 0.014434 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/HTML/Orange/Unlit/HTML-OrangeRed-Unlit.mat
-  artifactKey: Guid(a28d43b96d3cba54ca6424b39ba12647) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/HTML/Orange/Unlit/HTML-OrangeRed-Unlit.mat using Guid(a28d43b96d3cba54ca6424b39ba12647) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d51ecd7cc2edc952b9400f184466d5a') in 0.015735 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/HTML/Brown/Unlit/HTML-Olive-Unlit.mat
-  artifactKey: Guid(569ee9425e4f5ec42a049410348698b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/HTML/Brown/Unlit/HTML-Olive-Unlit.mat using Guid(569ee9425e4f5ec42a049410348698b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06ff9055d70374f9a9fc43db657f0b2a') in 0.012731 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/HTML/Blue/HTML-Navy.mat
-  artifactKey: Guid(4d3d2f024bde1dc4cacb3a5e3e45a47e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/HTML/Blue/HTML-Navy.mat using Guid(4d3d2f024bde1dc4cacb3a5e3e45a47e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8611db69df3a8295ac99f975b3826955') in 0.014357 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/HTML/Orange/Unlit/HTML-Orange-Unlit.mat
-  artifactKey: Guid(522386fc2ee03c64ea494eb267df5664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/HTML/Orange/Unlit/HTML-Orange-Unlit.mat using Guid(522386fc2ee03c64ea494eb267df5664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24140516b0d69d6e8b4f4a3b0899e6c1') in 0.015193 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/HTML/Blue/Unlit/HTML-Navy-Unlit.mat
-  artifactKey: Guid(8dbcdc148ecb7b746bf3e9996c25effe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/HTML/Blue/Unlit/HTML-Navy-Unlit.mat using Guid(8dbcdc148ecb7b746bf3e9996c25effe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f921ac4eb551f60c1c58d3c095b53d02') in 0.016801 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/HTML/Brown/HTML-Olive.mat
-  artifactKey: Guid(67461a532057a3243b8df9198a2104a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/HTML/Brown/HTML-Olive.mat using Guid(67461a532057a3243b8df9198a2104a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2019f8e4efce0df8f174898e8280e3d0') in 0.028947 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/HTML/Blue/HTML-MidnightBlue.mat
-  artifactKey: Guid(deb5c5121b7da0f409b5e6095d9e5584) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/HTML/Blue/HTML-MidnightBlue.mat using Guid(deb5c5121b7da0f409b5e6095d9e5584) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e941cab3f2ef61d97a4a99205d3c3a63') in 0.043572 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/HTML/Green/HTML-PaleGreen.mat
-  artifactKey: Guid(5af66f17e1f9c0c49bd069d3bc585cd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/HTML/Green/HTML-PaleGreen.mat using Guid(5af66f17e1f9c0c49bd069d3bc585cd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a215580c805d889deb044438930fecf') in 0.023792 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/HTML/Yellow/Unlit/HTML-PapayaWhip-Unlit.mat
-  artifactKey: Guid(1735e16b98af96944b7dbf9ec7b72021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/HTML/Yellow/Unlit/HTML-PapayaWhip-Unlit.mat using Guid(1735e16b98af96944b7dbf9ec7b72021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf2843554aede2f3dbc30f30c9d1976c') in 0.033076 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/HTML/Blue/HTML-PowderBlue.mat
-  artifactKey: Guid(1e39a023848073d4aa04cc752eb8a680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/HTML/Blue/HTML-PowderBlue.mat using Guid(1e39a023848073d4aa04cc752eb8a680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fda542fe47d1d97b817aa7965a0f4da7') in 0.019959 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/HTML/Pink/Unlit/HTML-PaleVioletRed-Unlit.mat
-  artifactKey: Guid(72b67c6650e4f8945a1604fe48591b6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/HTML/Pink/Unlit/HTML-PaleVioletRed-Unlit.mat using Guid(72b67c6650e4f8945a1604fe48591b6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13843eaeaafdd7c015967cd96d2f4e34') in 0.019134 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/HTML/Yellow/HTML-PaleGoldenRod.mat
-  artifactKey: Guid(feb2ded03e9642749ab4c10c222db013) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/HTML/Yellow/HTML-PaleGoldenRod.mat using Guid(feb2ded03e9642749ab4c10c222db013) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b261888b8f45933e47b569a855789955') in 0.021457 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/HTML/Cyan/Unlit/HTML-PaleTurquoise-Unlit.mat
-  artifactKey: Guid(67ec89c5cec0e4b40af6bf1d2f1f2b11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/HTML/Cyan/Unlit/HTML-PaleTurquoise-Unlit.mat using Guid(67ec89c5cec0e4b40af6bf1d2f1f2b11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50447291987aa492894c741f63b14053') in 0.017159 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/HTML/Brown/Unlit/HTML-Peru-Unlit.mat
-  artifactKey: Guid(58dd6c2a592870d4f97372fd4ab6488b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/HTML/Brown/Unlit/HTML-Peru-Unlit.mat using Guid(58dd6c2a592870d4f97372fd4ab6488b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc5320fa41ae3c47f509f1ead1b40c9f') in 0.014311 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/HTML/Green/Unlit/HTML-PaleGreen-Unlit.mat
-  artifactKey: Guid(5ecdf9298b807bd4d9f5cd4ef3adede6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/HTML/Green/Unlit/HTML-PaleGreen-Unlit.mat using Guid(5ecdf9298b807bd4d9f5cd4ef3adede6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0dd72e3adb2158714a3ae577d48b429') in 0.013223 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/HTML/Pink/Unlit/HTML-Pink-Unlit.mat
-  artifactKey: Guid(729975f191423d44daf002d801cdeafb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/HTML/Pink/Unlit/HTML-Pink-Unlit.mat using Guid(729975f191423d44daf002d801cdeafb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a15f30ba36cebf865c7e772fd628bec1') in 0.013392 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/HTML/Blue/Unlit/HTML-MidnightBlue-Unlit.mat
-  artifactKey: Guid(ed382b73adda42843848ef70ffdc1783) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/HTML/Blue/Unlit/HTML-MidnightBlue-Unlit.mat using Guid(ed382b73adda42843848ef70ffdc1783) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '793c17d03f21ba07c4339a3a2d944266') in 0.012470 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/HTML/Blue/Unlit/HTML-PowderBlue-Unlit.mat
-  artifactKey: Guid(b2bbe726a828625428b7df982e2d0490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/HTML/Blue/Unlit/HTML-PowderBlue-Unlit.mat using Guid(b2bbe726a828625428b7df982e2d0490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0734894e24229e22ed701b52fa33b87') in 0.012391 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.037076 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/HTML/Purple/HTML-RebeccaPurple.mat
-  artifactKey: Guid(1d41b12ec4ad1a742b3668c9f7dc18b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/HTML/Purple/HTML-RebeccaPurple.mat using Guid(1d41b12ec4ad1a742b3668c9f7dc18b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1288e562226be7775001a699274aa44') in 0.013169 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/HTML/Brown/HTML-RosyBrown.mat
-  artifactKey: Guid(4714c7106b015ed47b4f110f403acee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/HTML/Brown/HTML-RosyBrown.mat using Guid(4714c7106b015ed47b4f110f403acee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86d9b39aa09d1f2ab32329486ebe4a20') in 0.014327 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/HTML/Blue/HTML-RoyalBlue.mat
-  artifactKey: Guid(1d743ac58f98a964dbf45e5db67e90c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/HTML/Blue/HTML-RoyalBlue.mat using Guid(1d743ac58f98a964dbf45e5db67e90c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb99ebaadf78a7e0e99a16b1658a7954') in 0.015754 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/HTML/Red/HTML-Salmon.mat
-  artifactKey: Guid(8a1eb1235fb2a7d4eac2008e18f27425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/HTML/Red/HTML-Salmon.mat using Guid(8a1eb1235fb2a7d4eac2008e18f27425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '633f65813fb2db25d21c2cc6e54f1bcc') in 0.016964 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/HTML/Brown/Unlit/HTML-SandyBrown-Unlit.mat
-  artifactKey: Guid(e4354208ea027494d8540a87cff6d1b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/HTML/Brown/Unlit/HTML-SandyBrown-Unlit.mat using Guid(e4354208ea027494d8540a87cff6d1b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30812ff9e2480bdc532b1eacb1c70aab') in 0.015224 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/HTML/Green/Unlit/HTML-SeaGreen-Unlit.mat
-  artifactKey: Guid(cb3ab4cd8a1b59843b5b9501045aaecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/HTML/Green/Unlit/HTML-SeaGreen-Unlit.mat using Guid(cb3ab4cd8a1b59843b5b9501045aaecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acf9de325a4f79ddc05c437ffe16ee13') in 0.017694 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/HTML/Brown/Unlit/HTML-SaddleBrown-Unlit.mat
-  artifactKey: Guid(683621b5028e1f647a62387cd352d9bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/HTML/Brown/Unlit/HTML-SaddleBrown-Unlit.mat using Guid(683621b5028e1f647a62387cd352d9bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc32f00e741b2647f0a8e714bbbb5cc6') in 0.013608 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.445028 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/HTML/Gray/HTML-Silver.mat
-  artifactKey: Guid(d397da30c2cb8b146a5516777fa55735) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/HTML/Gray/HTML-Silver.mat using Guid(d397da30c2cb8b146a5516777fa55735) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7d9bb50809965a1c5a5837eb9596205') in 0.013399 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/HTML/Purple/Unlit/HTML-SlateBlue-Unlit.mat
-  artifactKey: Guid(c49c6c5223439fd4aaaffd9c8b23352b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/HTML/Purple/Unlit/HTML-SlateBlue-Unlit.mat using Guid(c49c6c5223439fd4aaaffd9c8b23352b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13e40134082ddfbcd9069ac6143c7523') in 0.014551 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/HTML/White/HTML-Snow.mat
-  artifactKey: Guid(5e5233338afbe384b99c8d188486a835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/HTML/White/HTML-Snow.mat using Guid(5e5233338afbe384b99c8d188486a835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0c1a7335841247022a781d4f2af56ad') in 0.015045 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/HTML/Green/HTML-Teal.mat
-  artifactKey: Guid(3251bc525b91d184a9491b428b8e4ccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/HTML/Green/HTML-Teal.mat using Guid(3251bc525b91d184a9491b428b8e4ccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be7c580957505e5f9c16280170bf2357') in 0.012802 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/HTML/Purple/HTML-SlateBlue.mat
-  artifactKey: Guid(1bb925b502fbf254eae6b82af360d4f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/HTML/Purple/HTML-SlateBlue.mat using Guid(1bb925b502fbf254eae6b82af360d4f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eef1b6c57e0d0dab3bc4bbf9fe6150c5') in 0.013531 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/HTML/Gray/HTML-SlateGray.mat
-  artifactKey: Guid(8833781f398b68f449e6e9f837d81a55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/HTML/Gray/HTML-SlateGray.mat using Guid(8833781f398b68f449e6e9f837d81a55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c61e73cfd04c6f3ac4287f491a424a8a') in 0.040242 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/HTML/Purple/Unlit/HTML-Thistle-Unlit.mat
-  artifactKey: Guid(9276505c3e52e7249a337814e18ea21d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/HTML/Purple/Unlit/HTML-Thistle-Unlit.mat using Guid(9276505c3e52e7249a337814e18ea21d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b85ddfc8df4e4ee2609976b61b1165d7') in 0.015236 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/HTML/Purple/HTML-Violet.mat
-  artifactKey: Guid(8e41dc147783d2848b9ab07983f54708) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/HTML/Purple/HTML-Violet.mat using Guid(8e41dc147783d2848b9ab07983f54708) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d1b79680e64ecdeaa0738b9a86a4d3b') in 0.014079 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/HTML/Orange/Unlit/HTML-Tomato-Unlit.mat
-  artifactKey: Guid(194f8837b7a30344583377066b28e906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/HTML/Orange/Unlit/HTML-Tomato-Unlit.mat using Guid(194f8837b7a30344583377066b28e906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86f5614c4bf9ad4ead6a75514c041a3b') in 0.011982 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/HTML/Blue/HTML-SkyBlue.mat
-  artifactKey: Guid(b7b9a94983eea2046b0db052bc0927ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/HTML/Blue/HTML-SkyBlue.mat using Guid(b7b9a94983eea2046b0db052bc0927ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a02dd95a8b10fa0cef8a4100f26c377') in 0.017741 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.117067 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/HTML/White/HTML-WhiteSmoke.mat
-  artifactKey: Guid(1a42eb86aa89eae489c98a6d3f33e459) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/HTML/White/HTML-WhiteSmoke.mat using Guid(1a42eb86aa89eae489c98a6d3f33e459) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '078d5231c97567560778b22389022eea') in 0.012367 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/HTML/Green/Unlit/HTML-YellowGreen-Unlit.mat
-  artifactKey: Guid(e969d68e1926f5f429cc1d66bf746d8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/HTML/Green/Unlit/HTML-YellowGreen-Unlit.mat using Guid(e969d68e1926f5f429cc1d66bf746d8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49a403a076a4a77101fb091f0ca33f56') in 0.014069 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/DataVisualization/Inferno/Unlit/Inferno-01-Unlit.mat
-  artifactKey: Guid(ff9175f6407bd2e4fb81318a5874a24a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/DataVisualization/Inferno/Unlit/Inferno-01-Unlit.mat using Guid(ff9175f6407bd2e4fb81318a5874a24a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba350b6c6bd031945bab3a291215bae4') in 0.013489 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/HTML/White/Unlit/HTML-WhiteSmoke-Unlit.mat
-  artifactKey: Guid(254b130fb166cc24db56c8f3f379b167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/HTML/White/Unlit/HTML-WhiteSmoke-Unlit.mat using Guid(254b130fb166cc24db56c8f3f379b167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33417bd48a13b8580bb1f3e745fb2da8') in 0.012271 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/DataVisualization/Inferno/Unlit/Inferno-06-Unlit.mat
-  artifactKey: Guid(90e70b33e9893474b9843f201869648d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/DataVisualization/Inferno/Unlit/Inferno-06-Unlit.mat using Guid(90e70b33e9893474b9843f201869648d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28d130f77c4ec24f95e8dad70d322c67') in 0.012595 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/DataVisualization/Inferno/Unlit/Inferno-03-Unlit.mat
-  artifactKey: Guid(145f1d2b49045aa4abc4b18a56b6e216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/DataVisualization/Inferno/Unlit/Inferno-03-Unlit.mat using Guid(145f1d2b49045aa4abc4b18a56b6e216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2832266e71070dcdfc3fb4ce7a5b7ef6') in 0.014036 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/DataVisualization/Inferno/Inferno-03.mat
-  artifactKey: Guid(6b3fac24d4282eb4996dc87d304c8d85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/DataVisualization/Inferno/Inferno-03.mat using Guid(6b3fac24d4282eb4996dc87d304c8d85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ff6761715bacafa7d86ec978504609e') in 0.013198 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.763907 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/DataVisualization/Inferno/Inferno-08.mat
-  artifactKey: Guid(a9267ae9ffa3b8f43973dd3aa4155f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/DataVisualization/Inferno/Inferno-08.mat using Guid(a9267ae9ffa3b8f43973dd3aa4155f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce7d0eef86f75b439a3d3e879ffd4c65') in 0.013001 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/DataVisualization/Inferno/Inferno-11.mat
-  artifactKey: Guid(4e4e01c4c72381a4c8e25bc01d6ac1e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/DataVisualization/Inferno/Inferno-11.mat using Guid(4e4e01c4c72381a4c8e25bc01d6ac1e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb8e051c367b4be5574395b95f4ba68a') in 0.014612 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/DataVisualization/Inferno/Unlit/Inferno-13-Unlit.mat
-  artifactKey: Guid(85cc6c65f4cda6548a6e192efb9d9744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/DataVisualization/Inferno/Unlit/Inferno-13-Unlit.mat using Guid(85cc6c65f4cda6548a6e192efb9d9744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92a04419e7f4412a3c8de7aa3c6487f3') in 0.013161 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/DataVisualization/Inferno/Unlit/Inferno-15-Unlit.mat
-  artifactKey: Guid(c3b6c4f0c24740b448e8d06293c4c712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/DataVisualization/Inferno/Unlit/Inferno-15-Unlit.mat using Guid(c3b6c4f0c24740b448e8d06293c4c712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f787734f2ca1b395f1f44c88592df1f9') in 0.012967 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/DataVisualization/Inferno/Inferno-10.mat
-  artifactKey: Guid(d7dc1686ce14c4948830697791f054e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/DataVisualization/Inferno/Inferno-10.mat using Guid(d7dc1686ce14c4948830697791f054e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac05258d6ad04c51c002c0006e69504c') in 0.015312 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/DataVisualization/Inferno/Unlit/Inferno-08-Unlit.mat
-  artifactKey: Guid(329fdd65143fc264db645b9a13f317d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/DataVisualization/Inferno/Unlit/Inferno-08-Unlit.mat using Guid(329fdd65143fc264db645b9a13f317d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2048a96f7f22868e5649688afb020a11') in 0.013100 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/DataVisualization/Inferno/Unlit/Inferno-18-Unlit.mat
-  artifactKey: Guid(b882701d659cd5243b4784720df2284e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/DataVisualization/Inferno/Unlit/Inferno-18-Unlit.mat using Guid(b882701d659cd5243b4784720df2284e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf7ec48e63612247ad494ef752e95872') in 0.012363 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/DataVisualization/Inferno/Inferno-17.mat
-  artifactKey: Guid(7081cb69a77fecc44838d7b4892014f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/DataVisualization/Inferno/Inferno-17.mat using Guid(7081cb69a77fecc44838d7b4892014f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98f007f19456d51f5d7faee14e5d5a04') in 0.014784 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/DataVisualization/Inferno/Inferno-20.mat
-  artifactKey: Guid(3689b54304ce1064b8a6430901feac59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/DataVisualization/Inferno/Inferno-20.mat using Guid(3689b54304ce1064b8a6430901feac59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0723f93002bc7e251c92eaa1419cd886') in 0.012435 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/DataVisualization/Inferno/Unlit/Inferno-19-Unlit.mat
-  artifactKey: Guid(b79d00f3cb54a044d9227d23f7eb6405) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/DataVisualization/Inferno/Unlit/Inferno-19-Unlit.mat using Guid(b79d00f3cb54a044d9227d23f7eb6405) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb6816181d6f8c6d8127f2d35a4efbb3') in 0.013297 seconds 
-========================================================================
-Received Prepare
-Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Refreshing native plugins compatible for Editor in 14.43 ms, found 10 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 42 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 42 unused Assets / (0.6 MB). Loaded Objects now: 4926.
-Memory consumption went from 87.5 MB to 86.9 MB.
-Total: 4.528900 ms (FindLiveObjects: 0.433800 ms CreateObjectMapping: 0.133000 ms MarkObjects: 3.521500 ms  DeleteObjects: 0.439600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 383.652166 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/DataVisualization/Magma/Unlit/Magma-01-Unlit.mat
-  artifactKey: Guid(421281004a95a2c40bc0c6d633c2596c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/DataVisualization/Magma/Unlit/Magma-01-Unlit.mat using Guid(421281004a95a2c40bc0c6d633c2596c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68ea6d9536e0133f51f7e217a1752f55') in 0.013315 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/DataVisualization/Magma/Unlit/Magma-02-Unlit.mat
-  artifactKey: Guid(f02bf0676b7dd7440b56e53ae4a27842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/DataVisualization/Magma/Unlit/Magma-02-Unlit.mat using Guid(f02bf0676b7dd7440b56e53ae4a27842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a467dd378277649d828d91206fbf227') in 0.013370 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.243837 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/DataVisualization/Magma/Unlit/Magma-03-Unlit.mat
-  artifactKey: Guid(3ac1b678b3fb0184ea74497b462e4a0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/DataVisualization/Magma/Unlit/Magma-03-Unlit.mat using Guid(3ac1b678b3fb0184ea74497b462e4a0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd008d1ce6cf0a193a5241c431cd1b9c9') in 0.016257 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/DataVisualization/Magma/Unlit/Magma-15-Unlit.mat
-  artifactKey: Guid(401a6b3fb60c0494bbcba701399b0293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/DataVisualization/Magma/Unlit/Magma-15-Unlit.mat using Guid(401a6b3fb60c0494bbcba701399b0293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '685b790387c46b4a879042a25bb70324') in 0.012442 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/DataVisualization/Magma/Unlit/Magma-12-Unlit.mat
-  artifactKey: Guid(fefd0736dbdafce4ea78eb0d594d62f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/DataVisualization/Magma/Unlit/Magma-12-Unlit.mat using Guid(fefd0736dbdafce4ea78eb0d594d62f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d898a6f96bf24104593754776a8c2a2') in 0.016185 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/DataVisualization/Magma/Unlit/Magma-04-Unlit.mat
-  artifactKey: Guid(659ed10abf9bf2540b14547878d7640c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/DataVisualization/Magma/Unlit/Magma-04-Unlit.mat using Guid(659ed10abf9bf2540b14547878d7640c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99c82726ece64b8b646422a9bd3a24e8') in 0.013574 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/DataVisualization/Magma/Magma-04.mat
-  artifactKey: Guid(32c0c19bc8d5c164fb30e51df0274ae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/DataVisualization/Magma/Magma-04.mat using Guid(32c0c19bc8d5c164fb30e51df0274ae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '610dc249caa783b12513f7b22cd120a1') in 0.013105 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/DataVisualization/Magma/Unlit/Magma-19-Unlit.mat
-  artifactKey: Guid(49d8441a738e5704d8f155a7e4d7f287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/DataVisualization/Magma/Unlit/Magma-19-Unlit.mat using Guid(49d8441a738e5704d8f155a7e4d7f287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '719b2df4d347e8bd6b2c89e92fd5915d') in 0.012053 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/DataVisualization/Magma/Magma-15.mat
-  artifactKey: Guid(94b60c2bb87dbfa499741ff6dcc6234c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/DataVisualization/Magma/Magma-15.mat using Guid(94b60c2bb87dbfa499741ff6dcc6234c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cbca312a18288b7d4d0b0773e7fddb6') in 0.017650 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/DataVisualization/Magma/Magma-13.mat
-  artifactKey: Guid(43f01a77ee2ce90448ea2603fb27a4b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/DataVisualization/Magma/Magma-13.mat using Guid(43f01a77ee2ce90448ea2603fb27a4b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c763b66b9e9974681975027f61eb8f9') in 0.012165 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/DataVisualization/Magma/Unlit/Magma-16-Unlit.mat
-  artifactKey: Guid(5e1ce02c74b942e44ad5ed3e2973727f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/DataVisualization/Magma/Unlit/Magma-16-Unlit.mat using Guid(5e1ce02c74b942e44ad5ed3e2973727f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f2d3d53323af62eb9fac72f272b94b2') in 0.014294 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/DataVisualization/Magma/Magma-05.mat
-  artifactKey: Guid(e9df4c140434693409780f57fac5f8ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/DataVisualization/Magma/Magma-05.mat using Guid(e9df4c140434693409780f57fac5f8ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80042abddd0de205474823dc2ef2a55e') in 0.013584 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/DataVisualization/Magma/Unlit/Magma-08-Unlit.mat
-  artifactKey: Guid(0ab998374f9604b41972b70810dd3e4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/DataVisualization/Magma/Unlit/Magma-08-Unlit.mat using Guid(0ab998374f9604b41972b70810dd3e4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '487a8e6ee1216121d944cce90d195e4a') in 0.011791 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/DataVisualization/Magma/Unlit/Magma-20-Unlit.mat
-  artifactKey: Guid(9c30411d9f6d87044b544e85e8c90bdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/DataVisualization/Magma/Unlit/Magma-20-Unlit.mat using Guid(9c30411d9f6d87044b544e85e8c90bdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36e28efdddb4f34662888723aff2e28b') in 0.014590 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/DataVisualization/Magma/Magma-18.mat
-  artifactKey: Guid(f4eee12bd44672d4096607cff6d44a14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/DataVisualization/Magma/Magma-18.mat using Guid(f4eee12bd44672d4096607cff6d44a14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5433645ee2466d086bca333df9c06219') in 0.013043 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/DataVisualization/Magma/Unlit/Magma-13-Unlit.mat
-  artifactKey: Guid(6179a00c0940b2f4b91fe22a40ca0b6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/DataVisualization/Magma/Unlit/Magma-13-Unlit.mat using Guid(6179a00c0940b2f4b91fe22a40ca0b6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e92113cdba2719677693ff2d75fbcd27') in 0.013442 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/DataVisualization/Magma/Unlit/Magma-18-Unlit.mat
-  artifactKey: Guid(b73f804df1a36b241ae3bcce46fbf600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/DataVisualization/Magma/Unlit/Magma-18-Unlit.mat using Guid(b73f804df1a36b241ae3bcce46fbf600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aae13d6a3ccd8ac35a6b30862d1d290c') in 0.014304 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/DataVisualization/Magma/Unlit/Magma-09-Unlit.mat
-  artifactKey: Guid(d41d4e2272bb0ec478a69dfa76e71bd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/DataVisualization/Magma/Unlit/Magma-09-Unlit.mat using Guid(d41d4e2272bb0ec478a69dfa76e71bd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bbbc0facb4d48e379d11935d69784c9') in 0.013172 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/DataVisualization/Magma/Magma-12.mat
-  artifactKey: Guid(e80d9594a2ff60d4eb79a7b809e73862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/DataVisualization/Magma/Magma-12.mat using Guid(e80d9594a2ff60d4eb79a7b809e73862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5f3c1323cf93cc786ae1552c6080436') in 0.012847 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.063127 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/DataVisualization/Plasma/Unlit/Plasma-01-Unlit.mat
-  artifactKey: Guid(21199806865b68c45995c7f4b750b997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/DataVisualization/Plasma/Unlit/Plasma-01-Unlit.mat using Guid(21199806865b68c45995c7f4b750b997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fe679cb61f8e41967ae70903bc6f2e9') in 0.014446 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/DataVisualization/Plasma/Plasma-03.mat
-  artifactKey: Guid(c36afcdb90fa93b4bb59d1e5e6557d12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/DataVisualization/Plasma/Plasma-03.mat using Guid(c36afcdb90fa93b4bb59d1e5e6557d12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11d8df07d257fa4955b692bdcff07759') in 0.015132 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/DataVisualization/Plasma/Unlit/Plasma-03-Unlit.mat
-  artifactKey: Guid(2aeb1a5b9f51f5441b278755cf0d02ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/DataVisualization/Plasma/Unlit/Plasma-03-Unlit.mat using Guid(2aeb1a5b9f51f5441b278755cf0d02ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a465718420ff20143f00055e254f4a8a') in 0.013642 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/DataVisualization/Plasma/Plasma-05.mat
-  artifactKey: Guid(9b89249ff72b73b4086eaff05c7b5099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/DataVisualization/Plasma/Plasma-05.mat using Guid(9b89249ff72b73b4086eaff05c7b5099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8a0a001cb8b68758fd097c415ce1026') in 0.015128 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/DataVisualization/Plasma/Plasma-04.mat
-  artifactKey: Guid(fac1906a09b7e954d97a5d7cdbd5a6f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/DataVisualization/Plasma/Plasma-04.mat using Guid(fac1906a09b7e954d97a5d7cdbd5a6f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9b04a8794326f8da480e8fd2b441d32') in 0.013705 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/DataVisualization/Plasma/Unlit/Plasma-05-Unlit.mat
-  artifactKey: Guid(64bbd26b4664f8a43b7e3473eed2a1b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/DataVisualization/Plasma/Unlit/Plasma-05-Unlit.mat using Guid(64bbd26b4664f8a43b7e3473eed2a1b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '823003b4836d8e5897f11ed31a92927c') in 0.012545 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.152951 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/DataVisualization/Plasma/Unlit/Plasma-07-Unlit.mat
-  artifactKey: Guid(cee8c7864bd8fd148b35cf094ca41363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/DataVisualization/Plasma/Unlit/Plasma-07-Unlit.mat using Guid(cee8c7864bd8fd148b35cf094ca41363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bcf7889ac878f76f8e8186b2326688f') in 0.011736 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/DataVisualization/Plasma/Unlit/Plasma-11-Unlit.mat
-  artifactKey: Guid(51b018fefc79c6b4d94736a2dfc103f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/DataVisualization/Plasma/Unlit/Plasma-11-Unlit.mat using Guid(51b018fefc79c6b4d94736a2dfc103f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd5e340826836875d09a78fea4c88e59') in 0.012401 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/DataVisualization/Plasma/Plasma-09.mat
-  artifactKey: Guid(bbb0152a3cb9ef64f93730b3dcdc9578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/DataVisualization/Plasma/Plasma-09.mat using Guid(bbb0152a3cb9ef64f93730b3dcdc9578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '856d6a827386e8af1bb807bbf6f93058') in 0.013296 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/DataVisualization/Plasma/Plasma-13.mat
-  artifactKey: Guid(1ca8cf87b54000d4bbb8d5145d3932e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/DataVisualization/Plasma/Plasma-13.mat using Guid(1ca8cf87b54000d4bbb8d5145d3932e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5a63c9325ebb2a3a6ab9bc73d71f0ac') in 0.015472 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/DataVisualization/Plasma/Unlit/Plasma-15-Unlit.mat
-  artifactKey: Guid(d4e5a3deefd5567459204cb058359cd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/DataVisualization/Plasma/Unlit/Plasma-15-Unlit.mat using Guid(d4e5a3deefd5567459204cb058359cd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '460d94d264a0fac4e6168c33e6ab1f2e') in 0.012075 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/DataVisualization/Plasma/Plasma-17.mat
-  artifactKey: Guid(4b06e3ca0e03f924795544e1ff9cf0b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/DataVisualization/Plasma/Plasma-17.mat using Guid(4b06e3ca0e03f924795544e1ff9cf0b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '757acddf65827c67ab0730d6800efe0a') in 0.015039 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/DataVisualization/Plasma/Plasma-18.mat
-  artifactKey: Guid(931312991e65cb94fb01b796546c4f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/DataVisualization/Plasma/Plasma-18.mat using Guid(931312991e65cb94fb01b796546c4f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9da829a77e69cc8ec9681e0148f7e9b2') in 0.013164 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/DataVisualization/Plasma/Plasma-12.mat
-  artifactKey: Guid(eac497e88967cc04eb279eae6ab3487b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/DataVisualization/Plasma/Plasma-12.mat using Guid(eac497e88967cc04eb279eae6ab3487b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c3da5a8cc8db45e32eb4fce8749f887') in 0.015477 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/DataVisualization/Plasma/Unlit/Plasma-19-Unlit.mat
-  artifactKey: Guid(a4ad4af5bd790904d91bfed693d050ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/DataVisualization/Plasma/Unlit/Plasma-19-Unlit.mat using Guid(a4ad4af5bd790904d91bfed693d050ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e27a2e7047d1aac4695eca44cd6e676') in 0.018639 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/DataVisualization/Plasma/Plasma-20.mat
-  artifactKey: Guid(db1ca6c261439ff4e8eb7b76eff93f29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/DataVisualization/Plasma/Plasma-20.mat using Guid(db1ca6c261439ff4e8eb7b76eff93f29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a317d0c7a2c1b8f76b86fecbb3526c2d') in 0.015362 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/DataVisualization/Plasma/Unlit/Plasma-14-Unlit.mat
-  artifactKey: Guid(3817c31655ff12340b8413546c60ff85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/DataVisualization/Plasma/Unlit/Plasma-14-Unlit.mat using Guid(3817c31655ff12340b8413546c60ff85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64029f3b30141fc1332d6def1ccc173a') in 0.013372 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/DataVisualization/Plasma/Plasma-14.mat
-  artifactKey: Guid(7809e21046d34864b9ab08b28956b848) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/DataVisualization/Plasma/Plasma-14.mat using Guid(7809e21046d34864b9ab08b28956b848) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53539839f03ba9101954f2af6ec18c3b') in 0.014431 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/DataVisualization/Plasma/Unlit/Plasma-12-Unlit.mat
-  artifactKey: Guid(968a90ac8a37b914b9c195dadff33203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/DataVisualization/Plasma/Unlit/Plasma-12-Unlit.mat using Guid(968a90ac8a37b914b9c195dadff33203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01d89e408feb11dc14696384e1668568') in 0.013927 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/DataVisualization/Plasma/Plasma-08.mat
-  artifactKey: Guid(6553279c470c4394583d1f7837552d82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/DataVisualization/Plasma/Plasma-08.mat using Guid(6553279c470c4394583d1f7837552d82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37a31ac4267361ec1b494f5f944b9e7d') in 0.013251 seconds 
-========================================================================
-Received Prepare
-Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Refreshing native plugins compatible for Editor in 10.36 ms, found 10 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 42 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 42 unused Assets / (0.6 MB). Loaded Objects now: 4926.
-Memory consumption went from 87.2 MB to 86.7 MB.
-Total: 6.677200 ms (FindLiveObjects: 0.542100 ms CreateObjectMapping: 0.152500 ms MarkObjects: 5.495600 ms  DeleteObjects: 0.485800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 728.802503 seconds.
-  path: Assets/Scenes/Nivel2Levels/Nivel2Level6SceneAR.unity
-  artifactKey: Guid(87bbce3d62f86854e88b7412efd67c52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Nivel2Levels/Nivel2Level6SceneAR.unity using Guid(87bbce3d62f86854e88b7412efd67c52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac8ce01fbacfe58e550a0fb9784c5747') in 0.007599 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 55.689774 seconds.
-  path: Assets/Prefabs/Animal_Doe_01.prefab
-  artifactKey: Guid(d5232d46fc6452c428c5d7bd2b14c066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Animal_Doe_01.prefab using Guid(d5232d46fc6452c428c5d7bd2b14c066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dfb6ea77bccd8340c98865e60751412') in 0.080520 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.327086 seconds.
-  path: Assets/Prefabs/Animal_Doe_02.prefab
-  artifactKey: Guid(541cf24b56b5401458d7d7595363161e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Animal_Doe_02.prefab using Guid(541cf24b56b5401458d7d7595363161e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76af66f861fcfbc72acf2ed0e416733c') in 0.050382 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.483124 seconds.
-  path: Assets/Prefabs/Animal_Horse_Brown.prefab
-  artifactKey: Guid(583e85561d479d64d942f35e1ea9aa55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Animal_Horse_Brown.prefab using Guid(583e85561d479d64d942f35e1ea9aa55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '587831cc1be0743a01b80377139d55dd') in 0.028305 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.406423 seconds.
-  path: Assets/Prefabs/Animal_Moose_01.prefab
-  artifactKey: Guid(f07f0ffe6dea90b40a675ee634a3ce09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Animal_Moose_01.prefab using Guid(f07f0ffe6dea90b40a675ee634a3ce09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fed9c90dc9a925b1ec3d7691395ef63') in 0.027471 seconds 
-========================================================================
-Received Prepare
-Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Refreshing native plugins compatible for Editor in 17.48 ms, found 10 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 42 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 42 unused Assets / (0.6 MB). Loaded Objects now: 4926.
-Memory consumption went from 89.2 MB to 88.7 MB.
-Total: 5.180700 ms (FindLiveObjects: 0.672400 ms CreateObjectMapping: 0.180100 ms MarkObjects: 3.983100 ms  DeleteObjects: 0.342700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 726.796176 seconds.
-  path: Assets/Course Library/Animals/Farm/Animal_Rooster_Brown.prefab
-  artifactKey: Guid(8d3c96c1d172ac1408e43900be08d856) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Course Library/Animals/Farm/Animal_Rooster_Brown.prefab using Guid(8d3c96c1d172ac1408e43900be08d856) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2798033d154da6fb50597be8d487eae0') in 0.046728 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.551336 seconds.
-  path: Assets/Course Library/Animals/Farm/Animal_Horse_Brown.prefab
-  artifactKey: Guid(eeb9480a66adbd54ab77d4e0bdc34d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Course Library/Animals/Farm/Animal_Horse_Brown.prefab using Guid(eeb9480a66adbd54ab77d4e0bdc34d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08822a09ee29459ea634746acc36a313') in 0.026867 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 31.173192 seconds.
-  path: Assets/Scenes/Nivel2Levels/Nivel2Level7SceneAR.unity
-  artifactKey: Guid(b564c1d04d22f004d888b312e1d661b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Nivel2Levels/Nivel2Level7SceneAR.unity using Guid(b564c1d04d22f004d888b312e1d661b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5f28c0555bd50df0e90ce793a7d2a17') in 0.007025 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 13.630722 seconds.
-  path: Assets/Scenes/Nivel2Levels/Nivel2Level8SceneAR.unity
-  artifactKey: Guid(731736636b909c543b4a0da5d6cacfe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Nivel2Levels/Nivel2Level8SceneAR.unity using Guid(731736636b909c543b4a0da5d6cacfe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07b249229bafdb00cbd7faac675d7a21') in 0.008241 seconds 
-========================================================================
-Received Prepare
-Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Refreshing native plugins compatible for Editor in 13.52 ms, found 10 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 42 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 42 unused Assets / (0.6 MB). Loaded Objects now: 4926.
-Memory consumption went from 89.8 MB to 89.2 MB.
-Total: 5.544800 ms (FindLiveObjects: 0.618000 ms CreateObjectMapping: 0.136300 ms MarkObjects: 4.426300 ms  DeleteObjects: 0.363300 ms)
+Unloading 42 unused Assets / (0.6 MB). Loaded Objects now: 4900.
+Memory consumption went from 93.8 MB to 93.3 MB.
+Total: 3.870100 ms (FindLiveObjects: 0.414400 ms CreateObjectMapping: 0.128600 ms MarkObjects: 2.971400 ms  DeleteObjects: 0.354700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -1608,160 +261,12 @@ Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pip
 Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
 Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
 Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Refreshing native plugins compatible for Editor in 10.21 ms, found 10 plugins.
+Refreshing native plugins compatible for Editor in 9.43 ms, found 10 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 42 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 42 unused Assets / (0.6 MB). Loaded Objects now: 4926.
-Memory consumption went from 89.8 MB to 89.3 MB.
-Total: 3.886700 ms (FindLiveObjects: 0.440400 ms CreateObjectMapping: 0.133900 ms MarkObjects: 3.003800 ms  DeleteObjects: 0.308200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 323.750838 seconds.
-  path: Assets/Prefabs/AR Default Plane.prefab
-  artifactKey: Guid(3adacaffa903992468a8e51a2f5ebcf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/AR Default Plane.prefab using Guid(3adacaffa903992468a8e51a2f5ebcf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '130929952722103b27a120961d37165f') in 0.018440 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 12.338211 seconds.
-  path: Assets/Scenes/Nivel2Levels/Nivel2Level8SceneAR.unity
-  artifactKey: Guid(731736636b909c543b4a0da5d6cacfe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Nivel2Levels/Nivel2Level8SceneAR.unity using Guid(731736636b909c543b4a0da5d6cacfe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09a682e06d8879d71632da35046d5050') in 0.006711 seconds 
-========================================================================
-Received Prepare
-Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Refreshing native plugins compatible for Editor in 10.19 ms, found 10 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 42 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 43 unused Assets / (0.6 MB). Loaded Objects now: 4926.
-Memory consumption went from 90.1 MB to 89.6 MB.
-Total: 3.856100 ms (FindLiveObjects: 0.433900 ms CreateObjectMapping: 0.141700 ms MarkObjects: 2.953800 ms  DeleteObjects: 0.326100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 1566.848352 seconds.
-  path: Assets/Prefabs/Animal_Fox_01.prefab
-  artifactKey: Guid(bbc3ba694ab170046b57c687b616f79c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Animal_Fox_01.prefab using Guid(bbc3ba694ab170046b57c687b616f79c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0655ae171d69c5bf4ea6a4659c1a586a') in 0.052776 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.794364 seconds.
-  path: Assets/Prefabs/Dog_Doberman_01.prefab
-  artifactKey: Guid(f3b4e22af08356b4cb4c59533a492759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Dog_Doberman_01.prefab using Guid(f3b4e22af08356b4cb4c59533a492759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0646e3ed493f60e51331a3d8a329af6c') in 0.068018 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.136229 seconds.
-  path: Assets/Prefabs/Food_Pizza_01.prefab
-  artifactKey: Guid(761c1cadce2fcd841a7f4a11d685fb5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Food_Pizza_01.prefab using Guid(761c1cadce2fcd841a7f4a11d685fb5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1476654ee70fa54ace5858636e6b79b0') in 0.014774 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 43.075775 seconds.
-  path: Assets/Course Library/Animals
-  artifactKey: Guid(46c6c9f85dce50b45a13f8e3e35905fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Course Library/Animals using Guid(46c6c9f85dce50b45a13f8e3e35905fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a128b6a21f9cdf5d0148ed094e977fa') in 0.007716 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.101840 seconds.
-  path: Assets/Course Library/Animals/Farm
-  artifactKey: Guid(99d79bbb797705143bd5c4a16a871dcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Course Library/Animals/Farm using Guid(99d79bbb797705143bd5c4a16a871dcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67116c50e1ca2c81bf35981b112077ec') in 0.007722 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.667044 seconds.
-  path: Assets/Course Library/Animals/Farm/Animal_Horse_Black.prefab
-  artifactKey: Guid(aaa4cadebba3983419e369699ef4270f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Course Library/Animals/Farm/Animal_Horse_Black.prefab using Guid(aaa4cadebba3983419e369699ef4270f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35d9b2b61865724a56f659b1b6ce2560') in 0.049179 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 21.723916 seconds.
-  path: Assets/Scenes/Nivel2Levels/Nivel2Level9SceneAR.unity
-  artifactKey: Guid(d278cb42a47d4f242b5ce9bb50d5e9a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Nivel2Levels/Nivel2Level9SceneAR.unity using Guid(d278cb42a47d4f242b5ce9bb50d5e9a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '433bcb6db4e80bf7a308319a93e9abfb') in 0.007669 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 442.030672 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/ColorWheel/Unlit/Color-Cyan-Unlit.mat
-  artifactKey: Guid(7fe0f5bc5d22082468bc9ac2b1c1de6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/ColorWheel/Unlit/Color-Cyan-Unlit.mat using Guid(7fe0f5bc5d22082468bc9ac2b1c1de6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe46fc9c54de0c8e17808a22e0dd2625') in 0.015589 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/ColorWheel/Color-Magenta.mat
-  artifactKey: Guid(ab12771943cd13746904d389960966a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/ColorWheel/Color-Magenta.mat using Guid(ab12771943cd13746904d389960966a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1325aa9f42f715bb4dcbfb1fa36a0caf') in 0.012828 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/ColorWheel/Color-Orange.mat
-  artifactKey: Guid(9c0a66a761db5a64eb7f8787ca934f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/ColorWheel/Color-Orange.mat using Guid(9c0a66a761db5a64eb7f8787ca934f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc54a1ebea5dd46ff8e58de7435d7089') in 0.014136 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/ColorWheel/Unlit/Color-Gray-Unlit.mat
-  artifactKey: Guid(e473754f750558244932897c7a8ebe48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/ColorWheel/Unlit/Color-Gray-Unlit.mat using Guid(e473754f750558244932897c7a8ebe48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75cd628586c91a9061cbbdd033e2d004') in 0.012292 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/ColorWheel/Unlit/Color-Green-Unlit.mat
-  artifactKey: Guid(b17e42f0cb6ccdc4b82d225c54703153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/ColorWheel/Unlit/Color-Green-Unlit.mat using Guid(b17e42f0cb6ccdc4b82d225c54703153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4da736417de54b1f36dc1f0f23707385') in 0.015636 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/ColorWheel/Unlit/Color-Magenta-Unlit.mat
-  artifactKey: Guid(dc28f22f197530141860100be446078f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/ColorWheel/Unlit/Color-Magenta-Unlit.mat using Guid(dc28f22f197530141860100be446078f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7f372c7c56f8b2f6c9c12def95b0cb9') in 0.015498 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/ColorWheel/Color-Red.mat
-  artifactKey: Guid(fe5e6ce0b35f29b4c954184ebe51a04f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/ColorWheel/Color-Red.mat using Guid(fe5e6ce0b35f29b4c954184ebe51a04f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5d7900a6f1e7403880dae10d32aa544') in 0.013577 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/ColorWheel/Unlit/Color-Orange-Unlit.mat
-  artifactKey: Guid(6c4d8394d6450f541a60feacd4333dca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/ColorWheel/Unlit/Color-Orange-Unlit.mat using Guid(6c4d8394d6450f541a60feacd4333dca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51fb5a4837b94fdffaabe1a1936964c8') in 0.012544 seconds 
-========================================================================
-Received Prepare
-Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Refreshing native plugins compatible for Editor in 9.76 ms, found 10 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 42 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 42 unused Assets / (0.6 MB). Loaded Objects now: 4926.
-Memory consumption went from 91.8 MB to 91.2 MB.
-Total: 4.392400 ms (FindLiveObjects: 0.423800 ms CreateObjectMapping: 0.130300 ms MarkObjects: 3.494200 ms  DeleteObjects: 0.343300 ms)
+Unloading 42 unused Assets / (0.6 MB). Loaded Objects now: 4900.
+Memory consumption went from 93.8 MB to 93.3 MB.
+Total: 3.687800 ms (FindLiveObjects: 0.455900 ms CreateObjectMapping: 0.130100 ms MarkObjects: 2.758500 ms  DeleteObjects: 0.342500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -1779,12 +284,12 @@ Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pip
 Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
 Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
 Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Refreshing native plugins compatible for Editor in 11.33 ms, found 10 plugins.
+Refreshing native plugins compatible for Editor in 10.06 ms, found 10 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 42 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 42 unused Assets / (0.6 MB). Loaded Objects now: 4926.
-Memory consumption went from 91.8 MB to 91.2 MB.
-Total: 4.660200 ms (FindLiveObjects: 0.620600 ms CreateObjectMapping: 0.161000 ms MarkObjects: 3.518400 ms  DeleteObjects: 0.359400 ms)
+Unloading 42 unused Assets / (0.6 MB). Loaded Objects now: 4900.
+Memory consumption went from 93.8 MB to 93.2 MB.
+Total: 4.073800 ms (FindLiveObjects: 0.442300 ms CreateObjectMapping: 0.120900 ms MarkObjects: 3.170500 ms  DeleteObjects: 0.339400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -1797,150 +302,25 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 3446.496863 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/DataVisualization/Cividis/Unlit/Cividis-01-Unlit.mat
-  artifactKey: Guid(29b8ab584be7fca4fa7283c998b6002d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/DataVisualization/Cividis/Unlit/Cividis-01-Unlit.mat using Guid(29b8ab584be7fca4fa7283c998b6002d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0fbc72a7a94f67bdafd1eeba43d9f71') in 0.019907 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/DataVisualization/Cividis/Unlit/Cividis-19-Unlit.mat
-  artifactKey: Guid(3c26a16db896fa04ab42784c90a00425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/DataVisualization/Cividis/Unlit/Cividis-19-Unlit.mat using Guid(3c26a16db896fa04ab42784c90a00425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5bf59be2f14c194f03130f9df0cc14c') in 0.012233 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/ColorWheel/Unlit/Color-Chartreuse-Unlit.mat
-  artifactKey: Guid(410bfd0775cea944a93b29d4d3188a0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/ColorWheel/Unlit/Color-Chartreuse-Unlit.mat using Guid(410bfd0775cea944a93b29d4d3188a0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3266a2d2251fd09185d4d1e4ba08adad') in 0.012903 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/DataVisualization/Cividis/Cividis-18.mat
-  artifactKey: Guid(f4a991d702961bb4d81102abe3e2d398) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/DataVisualization/Cividis/Cividis-18.mat using Guid(f4a991d702961bb4d81102abe3e2d398) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd486062aa90ad290dc93fa20e82e167c') in 0.016379 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/DataVisualization/Cividis/Cividis-14.mat
-  artifactKey: Guid(3cdec2aff66ab9144896a4e0a01b302d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/DataVisualization/Cividis/Cividis-14.mat using Guid(3cdec2aff66ab9144896a4e0a01b302d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c64fc0fcd0efcd676a9ff77b05ba5631') in 0.015438 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/DataVisualization/Cividis/Unlit/Cividis-20-Unlit.mat
-  artifactKey: Guid(6056755b717c11b48a3160c65353e7a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/DataVisualization/Cividis/Unlit/Cividis-20-Unlit.mat using Guid(6056755b717c11b48a3160c65353e7a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a1a2d152a2333d9055f71f89e881417') in 0.013262 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/ColorWheel/Color-Blue.mat
-  artifactKey: Guid(a31807f2a27e98f4c9ab967509e96f74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/ColorWheel/Color-Blue.mat using Guid(a31807f2a27e98f4c9ab967509e96f74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b46707bd5c55deda14c881d8072c8fa') in 0.013149 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/ColorWheel/Color-Chartreuse.mat
-  artifactKey: Guid(08decb581832ffa4990ff44c3cecca52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/ColorWheel/Color-Chartreuse.mat using Guid(08decb581832ffa4990ff44c3cecca52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98f29bdc50b9195bc0ad1a41b6fdcf26') in 0.018446 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/DataVisualization/Cividis/Cividis-13.mat
-  artifactKey: Guid(9a282212abe34e64da5481ea7ceed75f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/DataVisualization/Cividis/Cividis-13.mat using Guid(9a282212abe34e64da5481ea7ceed75f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebe7a80b5a29199b8848c480e3cd2307') in 0.014160 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/ColorWheel/Color-Cyan.mat
-  artifactKey: Guid(b9fe028d7e06a8b45b5854f28a5b4dea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/ColorWheel/Color-Cyan.mat using Guid(b9fe028d7e06a8b45b5854f28a5b4dea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c5f48af1ef9ea69f3ed3ceeff6a0418') in 0.012582 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/DataVisualization/Cividis/Unlit/Cividis-05-Unlit.mat
-  artifactKey: Guid(2e2f239734378e348ab10ef7823fcd63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/DataVisualization/Cividis/Unlit/Cividis-05-Unlit.mat using Guid(2e2f239734378e348ab10ef7823fcd63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d00e1ac349e48635d97f508af54e91d') in 0.011595 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/DataVisualization/Cividis/Unlit/Cividis-11-Unlit.mat
-  artifactKey: Guid(d27908186e0c9de47beaf103563f5a1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/DataVisualization/Cividis/Unlit/Cividis-11-Unlit.mat using Guid(d27908186e0c9de47beaf103563f5a1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b27fea53ffaa1bbee2c46da57e06fd54') in 0.015958 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/DataVisualization/Cividis/Cividis-11.mat
-  artifactKey: Guid(e5e23b018ee627e4a9e57100198dc3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/DataVisualization/Cividis/Cividis-11.mat using Guid(e5e23b018ee627e4a9e57100198dc3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e2340703fe8f7d822b60510f3fa5a6b') in 0.012798 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/DataVisualization/Cividis/Cividis-10.mat
-  artifactKey: Guid(c029572d4646d254198eaedf0c7fcc67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/DataVisualization/Cividis/Cividis-10.mat using Guid(c029572d4646d254198eaedf0c7fcc67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ec6fb15f7a556e0607892b26a7570fe') in 0.014065 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/DataVisualization/Cividis/Cividis-19.mat
-  artifactKey: Guid(0930f1f3a48ad3449b0e02972fbba5f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/DataVisualization/Cividis/Cividis-19.mat using Guid(0930f1f3a48ad3449b0e02972fbba5f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2555ed0ec294ca9ddf72322542dca22e') in 0.014778 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/DataVisualization/Cividis/Cividis-08.mat
-  artifactKey: Guid(eec6141aa6a9fc848925add29d596181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/DataVisualization/Cividis/Cividis-08.mat using Guid(eec6141aa6a9fc848925add29d596181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58945e54b32e518f7d52c48482a231d5') in 0.013584 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/ColorWheel/Unlit/Color-Blue-Unlit.mat
-  artifactKey: Guid(8b6a5f04b6f74364484d3bdc1d98202d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/ColorWheel/Unlit/Color-Blue-Unlit.mat using Guid(8b6a5f04b6f74364484d3bdc1d98202d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd2c043b0a6092b69ff986f752cd4b0e') in 0.012528 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/DataVisualization/Cividis/Unlit/Cividis-03-Unlit.mat
-  artifactKey: Guid(7532acb6c50beb64a9a52c009d941258) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/DataVisualization/Cividis/Unlit/Cividis-03-Unlit.mat using Guid(7532acb6c50beb64a9a52c009d941258) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc76daa4dfbe1d280557fb91dcf55e8f') in 0.015753 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/DataVisualization/Cividis/Cividis-02.mat
-  artifactKey: Guid(6b0c9faf7e477a14aac0ea4b2e111678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/DataVisualization/Cividis/Cividis-02.mat using Guid(6b0c9faf7e477a14aac0ea4b2e111678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17715ce47781a81dabd5bbe95a7e2699') in 0.014114 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/ColorWheel/Unlit/Color-Black-Unlit.mat
-  artifactKey: Guid(5098a8e5513f8f643bfd7611f9d97ad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/ColorWheel/Unlit/Color-Black-Unlit.mat using Guid(5098a8e5513f8f643bfd7611f9d97ad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3f8b92e29c5d4e465609fdb96304fb6') in 0.014813 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/DataVisualization/Cividis/Cividis-03.mat
-  artifactKey: Guid(e6efc276c18ab7f4086e454470095943) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/DataVisualization/Cividis/Cividis-03.mat using Guid(e6efc276c18ab7f4086e454470095943) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dc96c54607d5659be76aad7bd62d654') in 0.014280 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/DataVisualization/Cividis/Cividis-20.mat
-  artifactKey: Guid(8d225ce1fd15b9448a4af909898039f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/DataVisualization/Cividis/Cividis-20.mat using Guid(8d225ce1fd15b9448a4af909898039f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c0ec092ccd53981b2bcd583154d2872') in 0.013834 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/DataVisualization/Cividis/Cividis-16.mat
-  artifactKey: Guid(3da4b52360a80c44fbc70d9cbe587773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/DataVisualization/Cividis/Cividis-16.mat using Guid(3da4b52360a80c44fbc70d9cbe587773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '619ffeb84e6c14d5bee68545ba25821b') in 0.014651 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Packages/com.zigurous.materials.colors/Materials/DataVisualization/Cividis/Unlit/Cividis-09-Unlit.mat
-  artifactKey: Guid(55fbccc72d76ff54394fbe617b9c6d3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.zigurous.materials.colors/Materials/DataVisualization/Cividis/Unlit/Cividis-09-Unlit.mat using Guid(55fbccc72d76ff54394fbe617b9c6d3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d1409620e8d433179f9465e390e3d60') in 0.013856 seconds 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+Received Prepare
+Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Refreshing native plugins compatible for Editor in 9.56 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 42 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 42 unused Assets / (0.6 MB). Loaded Objects now: 4900.
+Memory consumption went from 93.8 MB to 93.2 MB.
+Total: 3.843200 ms (FindLiveObjects: 0.408500 ms CreateObjectMapping: 0.139200 ms MarkObjects: 2.976400 ms  DeleteObjects: 0.318300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

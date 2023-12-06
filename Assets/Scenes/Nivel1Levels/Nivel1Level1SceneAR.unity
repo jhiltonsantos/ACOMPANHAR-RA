@@ -1735,6 +1735,7 @@ MonoBehaviour:
   uIInformPanel: {fileID: 241945273}
   arPlaneManager: {fileID: 1187207914}
   aRPlacementAndPlaneDetectionController: {fileID: 1187207918}
+  messageFinish: "Fase 01 Conclu\xEDda"
 --- !u!1 &1090654130
 GameObject:
   m_ObjectHideFlags: 0
@@ -2237,7 +2238,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 011d76e0217ef2b45930d81bd4e9e6fd, type: 2}
+      objectReference: {fileID: 2100000, guid: 3886bd3eac90d6142a08ffc1121d7a6c, type: 2}
     - target: {fileID: 3849066302975023399, guid: 88793c700e879484ab567e205a57e62d,
         type: 3}
       propertyPath: m_Name
@@ -2699,7 +2700,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Fase Conclu\xEDda"
+  m_text: "Fase 01 Conclu\xEDda"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

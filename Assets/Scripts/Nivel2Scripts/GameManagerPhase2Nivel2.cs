@@ -15,6 +15,7 @@ public class GameManagerPhase2Nivel2 : MonoBehaviour
     public List<string> tagsObjectsHaveMove;
     public ARPlaneManager arPlaneManager;
     public ARPlacementAndPlaneDetectionPhase2Nivel2 ARPlacementAndPlaneDetectionPhase1Nivel2;
+    public string messageFinish;
 
     public void Start()
     {
@@ -59,7 +60,7 @@ public class GameManagerPhase2Nivel2 : MonoBehaviour
     {
         if (objectsCorrect == totalObjects)
         {
-            ShowMessage("Nível Concluído", "Reiniciar");
+            ShowMessage(messageFinish, "Reiniciar");
         }
     }
 

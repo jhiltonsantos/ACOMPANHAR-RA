@@ -784,7 +784,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 58592a6680153a54eb0d184a6ab67fff, type: 2}
+      objectReference: {fileID: 2100000, guid: 3886bd3eac90d6142a08ffc1121d7a6c, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1ae51e0ce1730564b97c4c79e27e0ede, type: 3}
 --- !u!4 &226860381 stripped
@@ -1992,6 +1992,7 @@ MonoBehaviour:
   arPlaneManager: {fileID: 1187207914}
   destinationBoxes: []
   aRPlacementAndPlaneDetectionController: {fileID: 1187207921}
+  messageFinish: "Fase 08 Conclu\xEDda"
 --- !u!1 &1131276335
 GameObject:
   m_ObjectHideFlags: 0
@@ -3006,7 +3007,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 58592a6680153a54eb0d184a6ab67fff, type: 2}
+      objectReference: {fileID: 2100000, guid: 3886bd3eac90d6142a08ffc1121d7a6c, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1ae51e0ce1730564b97c4c79e27e0ede, type: 3}
 --- !u!4 &1411173830 stripped

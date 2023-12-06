@@ -2010,6 +2010,7 @@ MonoBehaviour:
   - PecaCaixa2
   arPlaneManager: {fileID: 1187207914}
   ARPlacementAndPlaneDetectionPhase1Nivel2: {fileID: 1187207924}
+  messageFinish: "Fase 06 Conclu\xEDda"
 --- !u!1 &1139273494
 GameObject:
   m_ObjectHideFlags: 0
@@ -2317,7 +2318,7 @@ PrefabInstance:
     - target: {fileID: 13735102, guid: c35f3b540532d1747b95a8a2eea9991d, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: a212161c6f7c3ed4782fce3fbae0a7d8, type: 2}
+      objectReference: {fileID: 2100000, guid: 3886bd3eac90d6142a08ffc1121d7a6c, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c35f3b540532d1747b95a8a2eea9991d, type: 3}
 --- !u!4 &1156911476 stripped
@@ -3576,7 +3577,7 @@ PrefabInstance:
     - target: {fileID: 13766312, guid: 294a8b13b48d45e4aa4cd0f1941ed64a, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 979d9531168401847abf86ba582a6bc4, type: 2}
+      objectReference: {fileID: 2100000, guid: 3886bd3eac90d6142a08ffc1121d7a6c, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 294a8b13b48d45e4aa4cd0f1941ed64a, type: 3}
 --- !u!4 &2036150099 stripped

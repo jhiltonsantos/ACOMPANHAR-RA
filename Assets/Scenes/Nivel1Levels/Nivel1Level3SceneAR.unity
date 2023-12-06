@@ -1595,7 +1595,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 88f4cb736019747448be4b519932da54, type: 2}
+      objectReference: {fileID: 2100000, guid: 3886bd3eac90d6142a08ffc1121d7a6c, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6172b8c2ac8da3a4d8e499fff1d6e4a3, type: 3}
 --- !u!4 &928367475 stripped
@@ -1923,7 +1923,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1039882155}
-  - component: {fileID: 1039882156}
   - component: {fileID: 1039882157}
   m_Layer: 0
   m_Name: Game Manager
@@ -1947,29 +1946,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1039882156
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1039882154}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4ed949c786ad5904281ef0df90a5d79b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  objectsCorrect: 0
-  totalObjects: 0
-  messageText: {fileID: 1482042522}
-  resetButton: {fileID: 1556703607}
-  uIInformPanel: {fileID: 241945273}
-  tagsObjectsHaveMove:
-  - PecaCaixa1
-  - PecaCaixa2
-  arPlaneManager: {fileID: 1187207914}
-  destinationBoxes: []
-  aRPlacementAndPlaneDetectionController: {fileID: 0}
 --- !u!114 &1039882157
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1993,6 +1969,7 @@ MonoBehaviour:
   arPlaneManager: {fileID: 1187207914}
   aRPlacementAndPlaneDetectionController: {fileID: 1187207922}
   destinationBoxes: []
+  messageFinish: "Fase 03 Conclu\xEDda"
 --- !u!1 &1139273494
 GameObject:
   m_ObjectHideFlags: 0
@@ -3608,7 +3585,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 88f4cb736019747448be4b519932da54, type: 2}
+      objectReference: {fileID: 2100000, guid: 3886bd3eac90d6142a08ffc1121d7a6c, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6172b8c2ac8da3a4d8e499fff1d6e4a3, type: 3}
 --- !u!4 &1963667953 stripped

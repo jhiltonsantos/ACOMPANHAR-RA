@@ -3175,6 +3175,7 @@ MonoBehaviour:
   - PecaCaixa5
   arPlaneManager: {fileID: 1187207914}
   ARPlacementAndPlaneDetection: {fileID: 1187207920}
+  messageFinish: "Fase 08 Conclu\xEDda"
 --- !u!1001 &1059185939
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3756,7 +3757,7 @@ MonoBehaviour:
   selectCloseButtonScreen: SelectorNivel4LevelScene
   minPlaneSize: 0.5
   maxPlaneSize: 2
-  minDistance: 1
+  minDistance: 0.5
 --- !u!114 &1187207921
 MonoBehaviour:
   m_ObjectHideFlags: 0

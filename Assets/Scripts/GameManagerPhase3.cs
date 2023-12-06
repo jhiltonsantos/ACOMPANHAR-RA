@@ -16,6 +16,7 @@ public class GameManagerPhase3 : MonoBehaviour
     public ARPlaneManager arPlaneManager;
     public ARPlacementAndPlaneDetectionPhase3 aRPlacementAndPlaneDetectionController;
     public List<DestinationBoxPhase3Script> destinationBoxes = new List<DestinationBoxPhase3Script>();
+    public string messageFinish;
 
     public void Start()
     {
@@ -57,7 +58,7 @@ public class GameManagerPhase3 : MonoBehaviour
     {
         if (objectsCorrect == totalObjects)
         {
-            ShowMessage("Nível Concluído", "Reiniciar");
+            ShowMessage(messageFinish, "Reiniciar");
         }
     } // OK
 

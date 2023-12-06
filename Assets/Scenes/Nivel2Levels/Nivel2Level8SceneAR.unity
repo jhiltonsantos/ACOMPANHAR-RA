@@ -2138,6 +2138,7 @@ MonoBehaviour:
   - PecaCaixa2
   arPlaneManager: {fileID: 1187207914}
   ARPlacementAndPlaneDetectionPhase1Nivel2: {fileID: 1187207924}
+  messageFinish: "Fase 08 Conclu\xEDda"
 --- !u!1 &1139273494
 GameObject:
   m_ObjectHideFlags: 0
