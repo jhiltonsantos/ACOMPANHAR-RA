@@ -95,6 +95,8 @@
      <Compile Include="Assets\ExampleAssets\Scripts\ARFeatheredPlaneMeshVisualizer.cs" />
      <Compile Include="Assets\Scripts\Nivel2Scripts\Objects3Nivel2Scripts\DraggablePecaCaixa2Objects3Nivel2.cs" />
      <Compile Include="Assets\Scripts\Nivel2Scripts\Objects3Nivel2Scripts\DestinationDestino3Objects3Nivel2.cs" />
+     <Compile Include="Assets\Scripts\Nivel3Scripts\Objects3Nivel3Scripts\DestinationObjects3Nivel3Change2Materials.cs" />
+     <Compile Include="Assets\Scripts\Nivel3Scripts\Objects3Nivel3Scripts\DraggableObjects3Nivel3Change2Materials.cs" />
      <Compile Include="Assets\Scripts\ARPlacementAndPlaneDetectionPhase3.cs" />
      <Compile Include="Assets\Scripts\Nivel2Scripts\GameManagerPhase2Nivel2.cs" />
      <Compile Include="Assets\Scripts\CubeObjectScript.cs" />
@@ -111,7 +113,6 @@
      <Compile Include="Assets\Scripts\Nivel2Scripts\Objects3Nivel2Scripts\DraggablePecaCaixa1Objects3Nivel2.cs" />
      <Compile Include="Assets\Scripts\Nivel4Scripts\Objects2Nivel4Scripts\DestinationObjects2Nivel4.cs" />
      <Compile Include="Assets\Scripts\Nivel2Scripts\DestinationBoxPhase1ScriptNivel2.cs" />
-     <Compile Include="Assets\Challenge 1\Scripts\PlayerControllerX.cs" />
      <Compile Include="Assets\Scripts\Nivel2Scripts\ARPlacementAndPlaneDetectionPhase3Nivel2.cs" />
      <Compile Include="Assets\Scripts\Nivel2Scripts\ARPlacementAndPlaneDetectionPhase2Nivel2.cs" />
      <Compile Include="Assets\Scripts\Nivel2Scripts\Objects2Nivel2Scripts\DestinationDestino2Objects2Nivel2.cs" />
@@ -126,7 +127,6 @@
      <Compile Include="Assets\Scripts\Nivel4Scripts\Objects5Nivel4Scripts\DraggablePecaCaixa1Objects5Nivel4.cs" />
      <Compile Include="Assets\Scripts\DestinationBoxPhase4Script.cs" />
      <Compile Include="Assets\Scripts\Nivel2Scripts\Objects3Nivel2Scripts\DestinationDestino1Objects3Nivel2.cs" />
-     <Compile Include="Assets\Challenge 1\Scripts\FollowPlayerX.cs" />
      <Compile Include="Assets\Scripts\Nivel4Scripts\Objects4Nivel4Scripts\DestinationObjects4Nivel4.cs" />
      <Compile Include="Assets\Scripts\Nivel4Scripts\Objects4Nivel4Scripts\DraggableObjects4Nivel4.cs" />
      <Compile Include="Assets\Scripts\Nivel3Scripts\Objects3Nivel3Scripts\ARPlacementManagerObject3Nivel3.cs" />
@@ -137,7 +137,6 @@
      <Compile Include="Assets\Scripts\Nivel4Scripts\Objects5Nivel4Scripts\IDraggableObjects5Nivel4.cs" />
      <Compile Include="Assets\Scripts\DestinationBoxPhase3Script.cs" />
      <Compile Include="Assets\Scripts\Nivel2Scripts\Objects3Nivel2Scripts\DraggablePecaCaixa3Objects3Nivel2.cs" />
-     <Compile Include="Assets\Challenge 3\_Source_Files\SpinObjectsX.cs" />
      <Compile Include="Assets\Scripts\Nivel4Scripts\Objects5Nivel4Scripts\ARPlacementAndPlaneDetectionObjects5Nivel4.cs" />
      <Compile Include="Assets\Scripts\Nivel2Scripts\Objects2Nivel2Scripts\DraggablePecaCaixa2Objects2Nivel2.cs" />
      <Compile Include="Assets\Scripts\Nivel4Scripts\Objects5Nivel4Scripts\DraggablePecaCaixa3Objects5Nivel4.cs" />
@@ -162,8 +161,6 @@
      <Compile Include="Assets\Scripts\ARPlacementManager.cs" />
      <Compile Include="Assets\Scripts\Nivel2Scripts\Objects3Nivel2Scripts\ARPlacementAndPlaneDetectionObjects3Nivel2.cs" />
      <Compile Include="Assets\Scripts\Nivel4Scripts\Objects3Nivel4Scripts\GameManagerObjects3Nivel4.cs" />
-     <Compile Include="Assets\Scripts\Nivel3Scripts\Objects3Nivel3Scripts\DestinationObjects3Nivel3Change2Materials.cs" />
-     <Compile Include="Assets\Scripts\Nivel3Scripts\Objects3Nivel3Scripts\DraggableObjects3Nivel3Change2Materials.cs" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Masking.shader" />
      <None Include="Assets\XR\BACKUP\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
