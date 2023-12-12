@@ -571,7 +571,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Nivel2Level5SceneAR
+          m_StringArgument: Nivel2Level8SceneAR
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &102374950
@@ -2118,10 +2118,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 847109636}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aa4324579ed939145abb462c49aec4fb, type: 3}
+  m_Script: {fileID: 11500000, guid: 2abfd0ede4789424f9cf0dbb2a8b723a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   isBeingDragged: 0
+  objectCorrectDestination: Destino2
 --- !u!1 &957108989
 GameObject:
   m_ObjectHideFlags: 0
@@ -2428,10 +2429,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1012310548}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 15fbd9a632151804f887572f3c96a437, type: 3}
+  m_Script: {fileID: 11500000, guid: 2abfd0ede4789424f9cf0dbb2a8b723a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   isBeingDragged: 0
+  objectCorrectDestination: Destino1
 --- !u!1 &1039882154
 GameObject:
   m_ObjectHideFlags: 0
@@ -2731,12 +2733,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 1148726304}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 42c4908280132084ab7b9ce6f0e8f386, type: 3}
+  m_Script: {fileID: 11500000, guid: d52dff2a758d23a43988186aeb4ed7da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   correctMaterial: {fileID: 2100000, guid: 3a8e94ada76e7834fb4d110ccc0cb438, type: 2}
   sAObjectRenderer: {fileID: 1892309505}
   findObjectRenderer: Animal_Doe_01/SM_Doe_02
+  objectCorrectDraggable: PecaCaixa2
 --- !u!1 &1187207910
 GameObject:
   m_ObjectHideFlags: 0
@@ -2859,9 +2862,9 @@ MonoBehaviour:
   box1GameObject: {fileID: 1012310548}
   box2GameObject: {fileID: 847109636}
   box3GameObject: {fileID: 1919845012}
-  boxOffset1: {x: -0.7, y: 0, z: 1}
+  boxOffset1: {x: -0.7, y: 0, z: -1}
   boxOffset2: {x: -0.7, y: 0, z: 0}
-  boxOffset3: {x: -0.7, y: 0, z: -1}
+  boxOffset3: {x: -0.7, y: 0, z: 1}
   destiny1GameObject: {fileID: 1805938202}
   destiny2GameObject: {fileID: 1148726304}
   destiny3GameObject: {fileID: 1413554707}
@@ -2888,7 +2891,8 @@ MonoBehaviour:
   selectCloseButtonScreen: SelectorNivel2LevelScene
   minPlaneSize: 0.5
   maxPlaneSize: 2
-  minDistance: 1
+  minDistance: 0.25
+  maxActivePlanes: 1
 --- !u!1 &1278885958
 GameObject:
   m_ObjectHideFlags: 0
@@ -3239,12 +3243,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 1413554707}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 611e862e1883372489c4793c0d34d3b9, type: 3}
+  m_Script: {fileID: 11500000, guid: d52dff2a758d23a43988186aeb4ed7da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   correctMaterial: {fileID: 2100000, guid: 3a8e94ada76e7834fb4d110ccc0cb438, type: 2}
   sAObjectRenderer: {fileID: 639104765}
   findObjectRenderer: Animal_Moose_01/SM_Moose_Male_01
+  objectCorrectDraggable: PecaCaixa3
 --- !u!1 &1441732225
 GameObject:
   m_ObjectHideFlags: 0
@@ -3854,12 +3859,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 1805938202}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0f5a5c26779800546a16a8e58b8f10f4, type: 3}
+  m_Script: {fileID: 11500000, guid: d52dff2a758d23a43988186aeb4ed7da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  correctMaterial: {fileID: 2100000, guid: a47734c228690c7408645b04cd1a2550, type: 2}
+  correctMaterial: {fileID: 2100000, guid: 3a8e94ada76e7834fb4d110ccc0cb438, type: 2}
   sAObjectRenderer: {fileID: 38559944}
   findObjectRenderer: Animal_Fox_01/SM_Fox_01
+  objectCorrectDraggable: PecaCaixa1
 --- !u!1001 &1892309503
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4105,10 +4111,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1919845012}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 27251c0ae49ab2347b06411c05552d06, type: 3}
+  m_Script: {fileID: 11500000, guid: 2abfd0ede4789424f9cf0dbb2a8b723a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   isBeingDragged: 0
+  objectCorrectDestination: Destino3
 --- !u!1 &2063195817
 GameObject:
   m_ObjectHideFlags: 0

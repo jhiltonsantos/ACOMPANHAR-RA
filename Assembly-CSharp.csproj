@@ -22,7 +22,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\bin\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE;UNITY_2021_3_25;UNITY_2021_3;UNITY_2021;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_RUNTIME_PERMISSIONS;ENABLE_ENGINE_CODE_STRIPPING;ENABLE_ONSCREEN_KEYBOARD;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;ENABLE_VIDEO;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;PLATFORM_ANDROID;TEXTCORE_1_0_OR_NEWER;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;UNITY_CAN_SHOW_SPLASH_SCREEN;UNITY_HAS_GOOGLEVR;UNITY_HAS_TANGO;ENABLE_SPATIALTRACKING;ENABLE_ETC_COMPRESSION;PLATFORM_EXTENDS_VULKAN_DEVICE;PLATFORM_HAS_MULTIPLE_SWAPCHAINS;UNITY_ANDROID_SUPPORTS_SHADOWFILES;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_STANDARD_2_0;NET_STANDARD;NET_STANDARD_2_1;NETSTANDARD;NETSTANDARD2_1;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_INPUT_SYSTEM;ENABLE_LEGACY_INPUT_MANAGER;TEXTCORE_FONT_ENGINE_1_5_OR_NEWER;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER;DEVELOPMENT_BUILD</DefineConstants>
+    <DefineConstants>DEBUG;TRACE;UNITY_2021_3_25;UNITY_2021_3;UNITY_2021;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_RUNTIME_PERMISSIONS;ENABLE_ENGINE_CODE_STRIPPING;ENABLE_ONSCREEN_KEYBOARD;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;ENABLE_VIDEO;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;PLATFORM_ANDROID;TEXTCORE_1_0_OR_NEWER;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;UNITY_CAN_SHOW_SPLASH_SCREEN;UNITY_HAS_GOOGLEVR;UNITY_HAS_TANGO;ENABLE_SPATIALTRACKING;ENABLE_ETC_COMPRESSION;PLATFORM_EXTENDS_VULKAN_DEVICE;PLATFORM_HAS_MULTIPLE_SWAPCHAINS;UNITY_ANDROID_SUPPORTS_SHADOWFILES;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_STANDARD_2_0;NET_STANDARD;NET_STANDARD_2_1;NETSTANDARD;NETSTANDARD2_1;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_INPUT_SYSTEM;ENABLE_LEGACY_INPUT_MANAGER;TEXTCORE_FONT_ENGINE_1_5_OR_NEWER;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
@@ -36,30 +36,20 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\Nivel2Scripts\Objects3Nivel2Scripts\DestinationDestino2Objects3Nivel2.cs" />
      <Compile Include="Assets\Scripts\Nivel4Scripts\Objects4Nivel4Scripts\ARPlacementAndPlaneDetectionObjects4Nivel4.cs" />
-     <Compile Include="Assets\Scripts\Nivel2Scripts\DraggableObjectPhase3Nivel2.cs" />
-     <Compile Include="Assets\Scripts\Nivel2Scripts\DestinationObjectChildrenScriptNivel2.cs" />
-     <Compile Include="Assets\Scripts\Nivel2Scripts\DraggableObjectPhase4Nivel2.cs" />
      <Compile Include="Assets\Scripts\Nivel3Scripts\Objects2Nivel3Scripts\ARPlacementAndPlaneDetectionObjects2Nivel3.cs" />
      <Compile Include="Assets\Scripts\ARPlacementAndPlaneDetectionController.cs" />
      <Compile Include="Assets\Scripts\ARPlacementAndPlaneDetectionPhase2.cs" />
-     <Compile Include="Assets\Scripts\Nivel2Scripts\ARPlacementManagerPhase4Nivel2.cs" />
-     <Compile Include="Assets\Scripts\Nivel2Scripts\GameManagerPhase4Nivel2.cs" />
      <Compile Include="Assets\Scripts\Nivel4Scripts\Objects5Nivel4Scripts\DestinationDestino1Objects5Nivel4.cs" />
      <Compile Include="Assets\Scripts\Nivel3Scripts\Objects3Nivel3Scripts\GameManagerObjects3Nivel3.cs" />
      <Compile Include="Assets\Scripts\Nivel3Scripts\Objects2Nivel3Scripts\ARPlacementManagerObjects2Nivel3.cs" />
      <Compile Include="Assets\Scripts\Nivel4Scripts\Objects5Nivel4Scripts\ARPlacementManagerObjects5Nivel4.cs" />
-     <Compile Include="Assets\Scripts\Nivel2Scripts\DestinationBoxDestinoAmareloPhase2Nivel2.cs" />
-     <Compile Include="Assets\Scripts\Nivel2Scripts\GameManagerPhase3Nivel2.cs" />
      <Compile Include="Assets\Scripts\Nivel4Scripts\Objects4Nivel4Scripts\IDraggableObjects3Nivel4.cs" />
-     <Compile Include="Assets\Scripts\Nivel2Scripts\DraggableObjectPhase1Nivel2.cs" />
      <Compile Include="Assets\Scripts\Nivel3Scripts\Objects3Nivel3Scripts\IDraggableObjects3Nivel3.cs" />
      <Compile Include="Assets\Scripts\Nivel4Scripts\Objects5Nivel4Scripts\DraggablePecaCaixa2Objects5Nivel4.cs" />
      <Compile Include="Assets\Scripts\DestinationBoxPhase2Script.cs" />
-     <Compile Include="Assets\Scripts\Nivel2Scripts\ARPlacementManagerPhase3Nivel2.cs" />
+     <Compile Include="Assets\Scripts\Nivel2Scripts\Objects3Nivel2Scripts\IDraggableObjects3Nivel2.cs" />
      <Compile Include="Assets\Scripts\Nivel4Scripts\Objects2Nivel4Scripts\ARPlacementAndPlaneDetectionObjects2Nivel4.cs" />
-     <Compile Include="Assets\Scripts\Nivel2Scripts\GameManagerPhase1Nivel2.cs" />
      <Compile Include="Assets\Scripts\Nivel3Scripts\Objects3Nivel3Scripts\DestinationObjects3Nivel3.cs" />
      <Compile Include="Assets\Scripts\Nivel3Scripts\Objects2Nivel3Scripts\GameManagerObjects2Nivel3.cs" />
      <Compile Include="Assets\Scripts\Nivel4Scripts\Objects3Nivel4Scripts\DraggablePecaCaixa2Objects3Nivel4.cs" />
@@ -68,23 +58,19 @@
      <Compile Include="Assets\Scripts\ARPlacementManagerPhase4.cs" />
      <Compile Include="Assets\Scripts\GameManagerPhase1.cs" />
      <Compile Include="Assets\Scripts\Nivel3Scripts\Objects3Nivel3Scripts\ARPlacementAndPlaneDetectionObjects3Nivel3.cs" />
-     <Compile Include="Assets\Scripts\Nivel2Scripts\ARPlacementManagerNivel2.cs" />
-     <Compile Include="Assets\Scripts\Nivel2Scripts\Objects2Nivel2Scripts\DraggablePecaCaixa1Objects2Nivel2.cs" />
      <Compile Include="Assets\Scripts\NivelMenuScipt.cs" />
      <Compile Include="Assets\Scripts\Nivel4Scripts\Objects3Nivel4Scripts\DraggablePecaCaixa1Objects3Nivel4.cs" />
      <Compile Include="Assets\Scripts\Nivel4Scripts\Objects3Nivel4Scripts\ARPlacementManagerObject3Nivel4.cs" />
      <Compile Include="Assets\Scripts\DraggableObjectPhase2.cs" />
-     <Compile Include="Assets\Scripts\Nivel2Scripts\IDraggableObjectPhase2Nivel2.cs" />
      <Compile Include="Assets\Scripts\Nivel2Scripts\Objects2Nivel2Scripts\IDraggableObjects2Nivel2.cs" />
      <Compile Include="Assets\Scripts\Nivel4Scripts\Objects5Nivel4Scripts\DraggablePecaCaixa4Objects5Nivel4.cs" />
      <Compile Include="Assets\Scripts\Nivel4Scripts\Objects5Nivel4Scripts\DestinationDestino4Objects5Nivel4.cs" />
      <Compile Include="Assets\Scripts\Nivel4Scripts\Objects2Nivel4Scripts\ARPlacementManagerObjects2Nivel4.cs" />
-     <Compile Include="Assets\Scripts\Nivel2Scripts\DestinationBoxDestinoBrancoPhase2Nivel2.cs" />
+     <Compile Include="Assets\Scripts\Nivel2Scripts\Objects2Nivel2Scripts\DestinationObjects2Nivel2.cs" />
      <Compile Include="Assets\Scripts\Nivel4Scripts\Objects4Nivel4Scripts\ARPlacementManagerObject4Nivel4.cs" />
      <Compile Include="Assets\Scripts\Nivel4Scripts\Objects3Nivel4Scripts\DestinationDestino1Objects3Nivel4.cs" />
      <Compile Include="Assets\Scripts\Nivel4Scripts\Objects3Nivel4Scripts\IDraggableObjects3Nivel4.cs" />
      <Compile Include="Assets\Scripts\Nivel4Scripts\Objects4Nivel4Scripts\GameManagerObjects4Nivel4.cs" />
-     <Compile Include="Assets\Scripts\Nivel2Scripts\ARPlacementManagerPhase2Nivel2.cs" />
      <Compile Include="Assets\Scripts\DestinationObjectChildrenScript.cs" />
      <Compile Include="Assets\Scripts\Nivel4Scripts\Objects5Nivel4Scripts\GameManagerObjects5Nivel4.cs" />
      <Compile Include="Assets\Course Library\_Source_Files\Scripts\DestroyAfterDelay.cs" />
@@ -93,40 +79,25 @@
      <Compile Include="Assets\Scripts\Nivel2Scripts\Objects2Nivel2Scripts\GameManagerObjects2Nivel2.cs" />
      <Compile Include="Assets\Scripts\Nivel4Scripts\Objects3Nivel4Scripts\DestinationDestino2Objects3Nivel4.cs" />
      <Compile Include="Assets\ExampleAssets\Scripts\ARFeatheredPlaneMeshVisualizer.cs" />
-     <Compile Include="Assets\Scripts\Nivel2Scripts\Objects3Nivel2Scripts\DraggablePecaCaixa2Objects3Nivel2.cs" />
-     <Compile Include="Assets\Scripts\Nivel2Scripts\Objects3Nivel2Scripts\DestinationDestino3Objects3Nivel2.cs" />
      <Compile Include="Assets\Scripts\Nivel3Scripts\Objects3Nivel3Scripts\DestinationObjects3Nivel3Change2Materials.cs" />
      <Compile Include="Assets\Scripts\Nivel3Scripts\Objects3Nivel3Scripts\DraggableObjects3Nivel3Change2Materials.cs" />
      <Compile Include="Assets\Scripts\ARPlacementAndPlaneDetectionPhase3.cs" />
-     <Compile Include="Assets\Scripts\Nivel2Scripts\GameManagerPhase2Nivel2.cs" />
      <Compile Include="Assets\Scripts\CubeObjectScript.cs" />
-     <Compile Include="Assets\Scripts\Nivel2Scripts\DraggableObjectPecaCaixa2Phase2Nivel2.cs" />
      <Compile Include="Assets\Scripts\Nivel4Scripts\Objects5Nivel4Scripts\DestinationDestino5Objects5Nivel4.cs" />
      <Compile Include="Assets\Scripts\Nivel2Scripts\Objects2Nivel2Scripts\ARPlacementAndPlaneDetectionObjects2Nivel2.cs" />
      <Compile Include="Assets\Scripts\Nivel4Scripts\Objects3Nivel4Scripts\DestinationDestino3Objects3Nivel4.cs" />
-     <Compile Include="Assets\Scripts\Nivel2Scripts\DestinationBoxPhase2ScriptNivel2.cs" />
      <Compile Include="Assets\Scripts\Nivel3Scripts\Objects3Nivel3Scripts\DraggableObjects3Nivel3.cs" />
-     <Compile Include="Assets\Scripts\Nivel2Scripts\DraggableObjectPecaCaixa1Phase2Nivel2.cs" />
-     <Compile Include="Assets\Scripts\Nivel2Scripts\DestinationBoxPhase4ScriptNivel2.cs" />
      <Compile Include="Assets\Scripts\DraggableObject.cs" />
      <Compile Include="Assets\Scripts\Nivel4Scripts\Objects5Nivel4Scripts\DraggablePecaCaixa5Objects5Nivel4.cs" />
-     <Compile Include="Assets\Scripts\Nivel2Scripts\Objects3Nivel2Scripts\DraggablePecaCaixa1Objects3Nivel2.cs" />
      <Compile Include="Assets\Scripts\Nivel4Scripts\Objects2Nivel4Scripts\DestinationObjects2Nivel4.cs" />
-     <Compile Include="Assets\Scripts\Nivel2Scripts\DestinationBoxPhase1ScriptNivel2.cs" />
-     <Compile Include="Assets\Scripts\Nivel2Scripts\ARPlacementAndPlaneDetectionPhase3Nivel2.cs" />
-     <Compile Include="Assets\Scripts\Nivel2Scripts\ARPlacementAndPlaneDetectionPhase2Nivel2.cs" />
-     <Compile Include="Assets\Scripts\Nivel2Scripts\Objects2Nivel2Scripts\DestinationDestino2Objects2Nivel2.cs" />
      <Compile Include="Assets\Scripts\GameManagerPhase3.cs" />
      <Compile Include="Assets\Scripts\GameManagerScript.cs" />
      <Compile Include="Assets\Scripts\ARPlacementManagerPhase3.cs" />
-     <Compile Include="Assets\Scripts\Nivel2Scripts\DestinationBoxPhase3ScriptNivel2.cs" />
      <Compile Include="Assets\ExampleAssets\Scripts\AnchorCreator.cs" />
      <Compile Include="Assets\Scripts\Nivel4Scripts\Objects5Nivel4Scripts\DestinationDestino3Objects5Nivel4.cs" />
      <Compile Include="Assets\Scripts\Nivel4Scripts\Objects2Nivel4Scripts\GameManagerObjects2Nivel4.cs" />
-     <Compile Include="Assets\Scripts\Nivel2Scripts\Objects2Nivel2Scripts\DestinationDestino1Objects2Nivel2.cs" />
      <Compile Include="Assets\Scripts\Nivel4Scripts\Objects5Nivel4Scripts\DraggablePecaCaixa1Objects5Nivel4.cs" />
      <Compile Include="Assets\Scripts\DestinationBoxPhase4Script.cs" />
-     <Compile Include="Assets\Scripts\Nivel2Scripts\Objects3Nivel2Scripts\DestinationDestino1Objects3Nivel2.cs" />
      <Compile Include="Assets\Scripts\Nivel4Scripts\Objects4Nivel4Scripts\DestinationObjects4Nivel4.cs" />
      <Compile Include="Assets\Scripts\Nivel4Scripts\Objects4Nivel4Scripts\DraggableObjects4Nivel4.cs" />
      <Compile Include="Assets\Scripts\Nivel3Scripts\Objects3Nivel3Scripts\ARPlacementManagerObject3Nivel3.cs" />
@@ -136,28 +107,26 @@
      <Compile Include="Assets\Scripts\SelectorNivelMenuScript.cs" />
      <Compile Include="Assets\Scripts\Nivel4Scripts\Objects5Nivel4Scripts\IDraggableObjects5Nivel4.cs" />
      <Compile Include="Assets\Scripts\DestinationBoxPhase3Script.cs" />
-     <Compile Include="Assets\Scripts\Nivel2Scripts\Objects3Nivel2Scripts\DraggablePecaCaixa3Objects3Nivel2.cs" />
      <Compile Include="Assets\Scripts\Nivel4Scripts\Objects5Nivel4Scripts\ARPlacementAndPlaneDetectionObjects5Nivel4.cs" />
-     <Compile Include="Assets\Scripts\Nivel2Scripts\Objects2Nivel2Scripts\DraggablePecaCaixa2Objects2Nivel2.cs" />
      <Compile Include="Assets\Scripts\Nivel4Scripts\Objects5Nivel4Scripts\DraggablePecaCaixa3Objects5Nivel4.cs" />
-     <Compile Include="Assets\Scripts\Nivel2Scripts\DraggableObjectPhase2Nivel2.cs" />
      <Compile Include="Assets\Scripts\SelectorLevelsMenuScript.cs" />
      <Compile Include="Assets\Scripts\ARPlacementManagerPhase2.cs" />
      <Compile Include="Assets\Scripts\Nivel3Scripts\Objects2Nivel3Scripts\DestinationObjects2Nivel3.cs" />
      <Compile Include="Assets\Scripts\Nivel4Scripts\Objects3Nivel4Scripts\ARPlacementAndPlaneDetectionObjects3Nivel4.cs" />
      <Compile Include="Assets\Scripts\MenuManagerScript.cs" />
      <Compile Include="Assets\Scripts\Nivel2Scripts\Objects3Nivel2Scripts\ARPlacementManagerObject3Nivel2.cs" />
-     <Compile Include="Assets\Scripts\Nivel2Scripts\ARPlacementAndPlaneDetectionPhase1Nivel2.cs" />
      <Compile Include="Assets\Scripts\DraggableObjectPhase4.cs" />
      <Compile Include="Assets\Scripts\Nivel2Scripts\Objects2Nivel2Scripts\ARPlacementManagerObjects2Nivel2.cs" />
      <Compile Include="Assets\Scripts\Nivel2Scripts\Objects3Nivel2Scripts\GameManagerObjects3Nivel2.cs" />
-     <Compile Include="Assets\Scripts\Nivel2Scripts\ARPlacementAndPlaneDetectionPhase4Nivel2.cs" />
+     <Compile Include="Assets\Scripts\Nivel2Scripts\Objects3Nivel2Scripts\DestinationObjects3Nivel2.cs" />
      <Compile Include="Assets\Scripts\Nivel3Scripts\Objects2Nivel3Scripts\DraggableObjects2Nivel3.cs" />
+     <Compile Include="Assets\Scripts\Nivel2Scripts\Objects3Nivel2Scripts\DraggableObjects3Nivel2.cs" />
      <Compile Include="Assets\Scripts\DraggableObjectPhase3.cs" />
      <Compile Include="Assets\Scripts\Nivel4Scripts\Objects5Nivel4Scripts\DestinationDestino2Objects5Nivel4.cs" />
      <Compile Include="Assets\Scripts\GameManagerPhase2.cs" />
      <Compile Include="Assets\Scripts\DestinationBoxScript.cs" />
      <Compile Include="Assets\Scripts\ReturnButtonEventScript.cs" />
+     <Compile Include="Assets\Scripts\Nivel2Scripts\Objects2Nivel2Scripts\DraggableObjects2Nivel2.cs" />
      <Compile Include="Assets\Scripts\ARPlacementManager.cs" />
      <Compile Include="Assets\Scripts\Nivel2Scripts\Objects3Nivel2Scripts\ARPlacementAndPlaneDetectionObjects3Nivel2.cs" />
      <Compile Include="Assets\Scripts\Nivel4Scripts\Objects3Nivel4Scripts\GameManagerObjects3Nivel4.cs" />

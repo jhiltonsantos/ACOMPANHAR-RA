@@ -763,6 +763,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1805938207}
     m_Modifications:
+    - target: {fileID: 495668, guid: c35f3b540532d1747b95a8a2eea9991d, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 13735102, guid: c35f3b540532d1747b95a8a2eea9991d, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -1063,6 +1067,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1148726305}
     m_Modifications:
+    - target: {fileID: 495668, guid: c35f3b540532d1747b95a8a2eea9991d, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 13735102, guid: c35f3b540532d1747b95a8a2eea9991d, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -2743,7 +2751,8 @@ MonoBehaviour:
   selectCloseButtonScreen: SelectorNivel1LevelScene
   minPlaneSize: 0.5
   maxPlaneSize: 2
-  minDistance: 1
+  minDistance: 0.25
+  maxActivePlanes: 1
 --- !u!114 &1187207923
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3763,6 +3772,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1413554708}
     m_Modifications:
+    - target: {fileID: 495668, guid: c35f3b540532d1747b95a8a2eea9991d, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 13735102, guid: c35f3b540532d1747b95a8a2eea9991d, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 

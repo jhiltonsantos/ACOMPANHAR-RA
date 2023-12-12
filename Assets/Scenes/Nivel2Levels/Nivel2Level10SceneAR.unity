@@ -3334,10 +3334,11 @@ MonoBehaviour:
   closeButton: {fileID: 780322568}
   raycastCenterImage: {fileID: 986923333}
   scaleSlider: {fileID: 957108989}
-  selectCloseButtonScreen: SelectorNivel3LevelScene
+  selectCloseButtonScreen: SelectorNivel2LevelScene
   minPlaneSize: 0.5
   maxPlaneSize: 2
-  minDistance: 0.5
+  minDistance: 0.25
+  maxActivePlanes: 1
 --- !u!1001 &1193132298
 PrefabInstance:
   m_ObjectHideFlags: 0

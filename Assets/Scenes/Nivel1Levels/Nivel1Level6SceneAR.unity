@@ -2006,7 +2006,8 @@ MonoBehaviour:
   selectCloseButtonScreen: SelectorNivel1LevelScene
   minPlaneSize: 0.5
   maxPlaneSize: 2
-  minDistance: 0.5
+  minDistance: 0.25
+  maxActivePlanes: 1
 --- !u!114 &1187207919
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -22,6 +22,7 @@ public class ARPlacementAndPlaneDetectionObjects5Nivel4 : MonoBehaviour
     public float maxPlaneSize = 2f;
     // Distância mínima entre os planos para evitar sobreposição (em metros)
     public float minDistance = 0.5f;
+    public int maxActivePlanes = 1;
 
     private void Awake()
     {
@@ -71,6 +72,15 @@ public class ARPlacementAndPlaneDetectionObjects5Nivel4 : MonoBehaviour
         scaleSlider.SetActive(true);
         raycastCenterImage.SetActive(true);
         adjustButton.SetActive(false);
+        DisableExtraPlanes();
+    }
+
+    private void DisableExtraPlanes()
+    {
+        for (int i = maxActivePlanes; i < activePlanes.Count; i++)
+        {
+            activePlanes[i].gameObject.SetActive(false);
+        }
     }
 
     public void CloseButtonEnable()

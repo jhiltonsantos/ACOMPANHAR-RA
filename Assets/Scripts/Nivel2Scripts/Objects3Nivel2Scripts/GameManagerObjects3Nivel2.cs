@@ -32,8 +32,8 @@ public class GameManagerObjects3Nivel2 : MonoBehaviour
 
             foreach (GameObject obj in taggedObjects)
             {
-                // Verifique se o objeto implementa a interface IDraggableObjectPhase2Nivel2
-                IDraggableObjectPhase2Nivel2 draggableObject = obj.GetComponent<IDraggableObjectPhase2Nivel2>();
+                // Verifique se o objeto implementa a interface IDraggableObjects3Nivel2
+                IDraggableObjects3Nivel2 draggableObject = obj.GetComponent<IDraggableObjects3Nivel2>();
 
                 if (draggableObject != null)
                 {
@@ -74,12 +74,6 @@ public class GameManagerObjects3Nivel2 : MonoBehaviour
 
     public void ContinueLevel(string nextScene)
     {
-        DraggableObjectPhase2Nivel2[] draggableObjects = FindObjectsOfType<DraggableObjectPhase2Nivel2>();
-        foreach (DraggableObjectPhase2Nivel2 draggableObject in draggableObjects)
-        {
-            draggableObject.ResetPosition();
-        }
-
         objectsCorrect = 0;
         // Reset AR Planes
         ResetARPlanes();

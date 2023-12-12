@@ -1186,7 +1186,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 093a94dc4ca47a74ab817cb4fc39cc5c, type: 2}
+      objectReference: {fileID: 2100000, guid: 1100fbf62f8f9654cb1b21a029809d04, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6172b8c2ac8da3a4d8e499fff1d6e4a3, type: 3}
 --- !u!4 &479619497 stripped
@@ -3190,7 +3190,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fee105fbdff37fa469951263b9e34c9a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  correctMaterial: {fileID: 2100000, guid: 093a94dc4ca47a74ab817cb4fc39cc5c, type: 2}
+  correctMaterial: {fileID: 2100000, guid: 1100fbf62f8f9654cb1b21a029809d04, type: 2}
   sAObjectRenderer: {fileID: 1748044385}
   findObjectRenderer: Dog_Beagle_01/SM_Beagle_01
   objectCorrectDraggable: PecaCaixa2
@@ -3351,7 +3351,8 @@ MonoBehaviour:
   selectCloseButtonScreen: SelectorNivel3LevelScene
   minPlaneSize: 0.5
   maxPlaneSize: 2
-  minDistance: 0.5
+  minDistance: 0.25
+  maxActivePlanes: 1
 --- !u!1 &1278885958
 GameObject:
   m_ObjectHideFlags: 0
@@ -4707,7 +4708,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 093a94dc4ca47a74ab817cb4fc39cc5c, type: 2}
+      objectReference: {fileID: 2100000, guid: 1100fbf62f8f9654cb1b21a029809d04, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6172b8c2ac8da3a4d8e499fff1d6e4a3, type: 3}
 --- !u!4 &1854392524 stripped

@@ -244,8 +244,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1187207924}
-        m_TargetAssemblyTypeName: ARPlacementAndPlaneDetectionPhase2Nivel2, Assembly-CSharp
+      - m_Target: {fileID: 1187207920}
+        m_TargetAssemblyTypeName: ARPlacementAndPlaneDetectionObjects2Nivel2, Assembly-CSharp
         m_MethodName: DisableARPlacementAndPlaneDetection
         m_Mode: 1
         m_Arguments:
@@ -378,8 +378,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1039882157}
-        m_TargetAssemblyTypeName: GameManagerPhase2Nivel2, Assembly-CSharp
+      - m_Target: {fileID: 1039882158}
+        m_TargetAssemblyTypeName: GameManagerObjects2Nivel2, Assembly-CSharp
         m_MethodName: ContinueLevel
         m_Mode: 5
         m_Arguments:
@@ -764,9 +764,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1187207924}
-        m_TargetAssemblyTypeName: ARPlacementAndPlaneDetectionPhase2Nivel2, Assembly-CSharp
-        m_MethodName: EnableARPlacementAndPlaneDetection
+      - m_Target: {fileID: 1187207920}
+        m_TargetAssemblyTypeName: ARPlacementAndPlaneDetectionObjects2Nivel2, Assembly-CSharp
+        m_MethodName: DisableARPlacementAndPlaneDetection
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -845,7 +845,7 @@ Transform:
   - {fileID: 1012310553}
   - {fileID: 847109637}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &545684700
 PrefabInstance:
@@ -872,17 +872,17 @@ PrefabInstance:
     - target: {fileID: 3849066302975492575, guid: 88793c700e879484ab567e205a57e62d,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.17857143
+      value: 0.15625
       objectReference: {fileID: 0}
     - target: {fileID: 3849066302975492575, guid: 88793c700e879484ab567e205a57e62d,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.17857143
+      value: 0.15625
       objectReference: {fileID: 0}
     - target: {fileID: 3849066302975492575, guid: 88793c700e879484ab567e205a57e62d,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.17857143
+      value: 0.15625
       objectReference: {fileID: 0}
     - target: {fileID: 3849066302975492575, guid: 88793c700e879484ab567e205a57e62d,
         type: 3}
@@ -973,7 +973,7 @@ Transform:
   - {fileID: 1805938207}
   - {fileID: 1148726305}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &780322568
 GameObject:
@@ -1058,8 +1058,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1187207924}
-        m_TargetAssemblyTypeName: ARPlacementAndPlaneDetectionPhase2Nivel2, Assembly-CSharp
+      - m_Target: {fileID: 1187207920}
+        m_TargetAssemblyTypeName: ARPlacementAndPlaneDetectionObjects2Nivel2, Assembly-CSharp
         m_MethodName: CloseButtonEnable
         m_Mode: 1
         m_Arguments:
@@ -1389,14 +1389,13 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 847109637}
-  - component: {fileID: 847109643}
   - component: {fileID: 847109642}
   - component: {fileID: 847109641}
   - component: {fileID: 847109640}
-  - component: {fileID: 847109644}
+  - component: {fileID: 847109645}
   - component: {fileID: 847109638}
   m_Layer: 0
-  m_Name: Pinto Amarelo
+  m_Name: Peca 2
   m_TagString: PecaCaixa2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1502,15 +1501,7 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &847109643
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 847109636}
-  m_Mesh: {fileID: 0}
---- !u!114 &847109644
+--- !u!114 &847109645
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1519,10 +1510,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 847109636}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: af585b8b34ed80645af073c36c2b5bc5, type: 3}
+  m_Script: {fileID: 11500000, guid: 25f2086d99a96be45baa0f252c7f1f2e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   isBeingDragged: 0
+  objectCorrectDestination: Destino2
 --- !u!1 &957108989
 GameObject:
   m_ObjectHideFlags: 0
@@ -1870,14 +1862,13 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1012310553}
-  - component: {fileID: 1012310552}
   - component: {fileID: 1012310551}
   - component: {fileID: 1012310550}
   - component: {fileID: 1012310557}
-  - component: {fileID: 1012310558}
+  - component: {fileID: 1012310559}
   - component: {fileID: 1012310555}
   m_Layer: 0
-  m_Name: Pinto Branco
+  m_Name: Peca 1
   m_TagString: PecaCaixa1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1938,14 +1929,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &1012310552
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1012310548}
-  m_Mesh: {fileID: 0}
 --- !u!4 &1012310553
 Transform:
   m_ObjectHideFlags: 0
@@ -1991,7 +1974,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectColor: {r: 0.9811321, g: 0.8110873, b: 0.31007475, a: 0}
---- !u!114 &1012310558
+--- !u!114 &1012310559
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2000,10 +1983,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1012310548}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5e159103e34984e4889d08d1065646e9, type: 3}
+  m_Script: {fileID: 11500000, guid: 25f2086d99a96be45baa0f252c7f1f2e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   isBeingDragged: 0
+  objectCorrectDestination: Destino1
 --- !u!1 &1039882154
 GameObject:
   m_ObjectHideFlags: 0
@@ -2013,7 +1997,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1039882155}
-  - component: {fileID: 1039882157}
+  - component: {fileID: 1039882158}
   m_Layer: 0
   m_Name: Game Manager
   m_TagString: Untagged
@@ -2034,9 +2018,9 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1039882157
+--- !u!114 &1039882158
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2045,7 +2029,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1039882154}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3f1774d3fadc7464097af695a3f9a608, type: 3}
+  m_Script: {fileID: 11500000, guid: 2e587ea2e83961448a7c2fe18f7401b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   objectsCorrect: 0
@@ -2057,7 +2041,7 @@ MonoBehaviour:
   - PecaCaixa1
   - PecaCaixa2
   arPlaneManager: {fileID: 1187207914}
-  ARPlacementAndPlaneDetectionPhase1Nivel2: {fileID: 1187207924}
+  ARPlacementAndPlaneDetectionObjects2Nivel2: {fileID: 1187207920}
   messageFinish: "Fase 02 Conclu\xEDda"
 --- !u!1 &1139273494
 GameObject:
@@ -2208,8 +2192,8 @@ GameObject:
   - component: {fileID: 1148726307}
   - component: {fileID: 1148726310}
   m_Layer: 0
-  m_Name: Destino Amarelo
-  m_TagString: DestinoAmarelo
+  m_Name: Destino 2
+  m_TagString: Destino2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2302,12 +2286,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 1148726304}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4dae5bf7644ca8b48aecd56934c7c144, type: 3}
+  m_Script: {fileID: 11500000, guid: a4e8b3169d84fd04f9215241f19df900, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  correctMaterial: {fileID: 2100000, guid: 185ca34253615de44926902d54fb6f1d, type: 2}
+  correctMaterial: {fileID: 2100000, guid: 07c132c0bbd4fb74fa29015a08bae59a, type: 2}
   sAObjectRenderer: {fileID: 1769536751}
   findObjectRenderer: Animal_Chick/SA_Animal_Chick
+  objectCorrectDraggable: PecaCaixa2
 --- !u!1 &1187207910
 GameObject:
   m_ObjectHideFlags: 0
@@ -2320,11 +2305,10 @@ GameObject:
   - component: {fileID: 1187207915}
   - component: {fileID: 1187207914}
   - component: {fileID: 1187207912}
-  - component: {fileID: 1187207923}
-  - component: {fileID: 1187207924}
+  - component: {fileID: 1187207921}
+  - component: {fileID: 1187207920}
   - component: {fileID: 1187207919}
   - component: {fileID: 1187207913}
-  - component: {fileID: 1187207911}
   m_Layer: 0
   m_Name: AR Session Origin
   m_TagString: Untagged
@@ -2332,18 +2316,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1187207911
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1187207910}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 788587e994f1943f3856c1c332db429b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1187207912
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2405,14 +2377,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1187207910}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1441732230}
-  m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_Father: {fileID: 1278885961}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1187207919
 MonoBehaviour:
@@ -2427,7 +2399,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scaleSlider: {fileID: 957108991}
---- !u!114 &1187207923
+--- !u!114 &1187207920
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2436,28 +2408,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1187207910}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c9536becc72bae4e961d973167549ef, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  aRCamera: {fileID: 1441732226}
-  box1GameObject: {fileID: 1012310548}
-  box2GameObject: {fileID: 847109636}
-  destiny1GameObject: {fileID: 1805938202}
-  destiny2GameObject: {fileID: 1148726304}
-  destination1Offset: {x: 0.7, y: 0, z: 1.2}
-  destination2Offset: {x: 0.7, y: 0, z: 0}
-  boxOffset1: {x: -0.7, y: 0, z: 1.2}
-  boxOffset2: {x: -0.7, y: 0, z: 0}
---- !u!114 &1187207924
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1187207910}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 637ee2bdf0fec1e478e537e4b35db36f, type: 3}
+  m_Script: {fileID: 11500000, guid: 3445f4f22a6a88e49bb143793620c21d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   placeButton: {fileID: 83232193}
@@ -2468,7 +2419,29 @@ MonoBehaviour:
   selectCloseButtonScreen: SelectorNivel2LevelScene
   minPlaneSize: 0.5
   maxPlaneSize: 2
-  minDistance: 1
+  minDistance: 0.25
+  maxActivePlanes: 1
+--- !u!114 &1187207921
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1187207910}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd973743cca8a5e4591d691e88e6703f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  aRCamera: {fileID: 1441732226}
+  box1GameObject: {fileID: 1012310548}
+  box2GameObject: {fileID: 847109636}
+  destiny1GameObject: {fileID: 1805938202}
+  destiny2GameObject: {fileID: 1148726304}
+  destination1Offset: {x: 0.7, y: 0, z: 0}
+  destination2Offset: {x: 0.7, y: 0, z: 1.5}
+  boxOffset1: {x: -0.7, y: 0, z: 1.5}
+  boxOffset2: {x: -0.7, y: 0, z: 0}
 --- !u!1 &1278885958
 GameObject:
   m_ObjectHideFlags: 0
@@ -2525,9 +2498,10 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1187207916}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1304977264
 PrefabInstance:
@@ -2554,17 +2528,17 @@ PrefabInstance:
     - target: {fileID: 3849066302975492575, guid: 88793c700e879484ab567e205a57e62d,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.17857143
+      value: 0.15625
       objectReference: {fileID: 0}
     - target: {fileID: 3849066302975492575, guid: 88793c700e879484ab567e205a57e62d,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.17857143
+      value: 0.15625
       objectReference: {fileID: 0}
     - target: {fileID: 3849066302975492575, guid: 88793c700e879484ab567e205a57e62d,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.17857143
+      value: 0.15625
       objectReference: {fileID: 0}
     - target: {fileID: 3849066302975492575, guid: 88793c700e879484ab567e205a57e62d,
         type: 3}
@@ -2729,7 +2703,7 @@ RectTransform:
   - {fileID: 957108990}
   - {fileID: 780322569}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -3329,8 +3303,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1039882157}
-        m_TargetAssemblyTypeName: GameManagerPhase2Nivel2, Assembly-CSharp
+      - m_Target: {fileID: 1039882158}
+        m_TargetAssemblyTypeName: GameManagerObjects2Nivel2, Assembly-CSharp
         m_MethodName: ResetLevel
         m_Mode: 1
         m_Arguments:
@@ -3482,7 +3456,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1756868432
 GameObject:
@@ -3580,8 +3554,8 @@ GameObject:
   - component: {fileID: 1805938204}
   - component: {fileID: 1805938208}
   m_Layer: 0
-  m_Name: Destino Branco
-  m_TagString: DestinoBranco
+  m_Name: Destino 1
+  m_TagString: Destino1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3674,12 +3648,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 1805938202}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6fde628de27a0f94992e82000b7ebbc7, type: 3}
+  m_Script: {fileID: 11500000, guid: a4e8b3169d84fd04f9215241f19df900, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   correctMaterial: {fileID: 2100000, guid: dc043a9656f81bc488510dcda2b382ab, type: 2}
   sAObjectRenderer: {fileID: 1304977266}
   findObjectRenderer: Animal_Chick/SA_Animal_Chick
+  objectCorrectDraggable: PecaCaixa1
 --- !u!1 &2063195817
 GameObject:
   m_ObjectHideFlags: 0

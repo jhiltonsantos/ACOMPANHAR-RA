@@ -79,6 +79,10 @@ public class GameManagerPhase1 : MonoBehaviour
         {
             arPlaneManager.enabled = false;
             arPlaneManager.SetTrackablesActive(false);
+            foreach (var plane in arPlaneManager.trackables)
+            {
+                Destroy(plane.gameObject);
+            }
             arPlaneManager.enabled = true;
             arPlaneManager.SetTrackablesActive(true);
         }

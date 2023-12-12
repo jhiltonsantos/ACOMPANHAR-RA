@@ -1524,17 +1524,17 @@ PrefabInstance:
     - target: {fileID: 299169541723451893, guid: 6172b8c2ac8da3a4d8e499fff1d6e4a3,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 299169541723451893, guid: 6172b8c2ac8da3a4d8e499fff1d6e4a3,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 299169541723451893, guid: 6172b8c2ac8da3a4d8e499fff1d6e4a3,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 299169541723451893, guid: 6172b8c2ac8da3a4d8e499fff1d6e4a3,
         type: 3}
@@ -2351,7 +2351,8 @@ MonoBehaviour:
   selectCloseButtonScreen: SelectorNivel1LevelScene
   minPlaneSize: 0.5
   maxPlaneSize: 1
-  minDistance: 2
+  minDistance: 0.25
+  maxActivePlanes: 1
 --- !u!114 &1187207923
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2369,10 +2370,10 @@ MonoBehaviour:
   box2GameObject: {fileID: 847109636}
   destiny1GameObject: {fileID: 1805938202}
   destiny2GameObject: {fileID: 1148726304}
-  destination1Offset: {x: 0.7, y: 0, z: 1.2}
-  destination2Offset: {x: 0.7, y: 0, z: 0}
-  boxOffset1: {x: -0.7, y: 0, z: 1.2}
-  boxOffset2: {x: -0.7, y: 0, z: 0}
+  destination1Offset: {x: 0.7, y: 0, z: 0.6}
+  destination2Offset: {x: 0.7, y: 0, z: -0.6}
+  boxOffset1: {x: -0.7, y: 0, z: 0.6}
+  boxOffset2: {x: -0.7, y: 0, z: -0.6}
 --- !u!1 &1278748299
 GameObject:
   m_ObjectHideFlags: 0
@@ -3509,22 +3510,22 @@ PrefabInstance:
     - target: {fileID: 299169541723451893, guid: 6172b8c2ac8da3a4d8e499fff1d6e4a3,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 299169541723451893, guid: 6172b8c2ac8da3a4d8e499fff1d6e4a3,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 299169541723451893, guid: 6172b8c2ac8da3a4d8e499fff1d6e4a3,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 299169541723451893, guid: 6172b8c2ac8da3a4d8e499fff1d6e4a3,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 299169541723451893, guid: 6172b8c2ac8da3a4d8e499fff1d6e4a3,
         type: 3}

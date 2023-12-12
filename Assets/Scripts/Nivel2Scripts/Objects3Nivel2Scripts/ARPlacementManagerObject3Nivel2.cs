@@ -20,18 +20,13 @@ public class ARPlacementManagerObject3Nivel2 : MonoBehaviour
     public Vector3 destination1Offset;
     public Vector3 destination2Offset;
     public Vector3 destination3Offset;
-    private GameManagerPhase4Nivel2 gameManager;
+    private GameManagerObjects3Nivel2 gameManager;
 
     private void Awake()
     {
         m_ARRaycastManager = GetComponent<ARRaycastManager>();
-        gameManager = FindObjectOfType<GameManagerPhase4Nivel2>();
+        gameManager = FindObjectOfType<GameManagerObjects3Nivel2>();
 
-        DestinationBoxPhase4ScriptNivel2[] DestinationBoxPhase1ScriptNivel2s = FindObjectsOfType<DestinationBoxPhase4ScriptNivel2>();
-        foreach (DestinationBoxPhase4ScriptNivel2 DestinationBoxPhase1ScriptNivel2 in DestinationBoxPhase1ScriptNivel2s)
-        {
-            gameManager.destinationBoxes.Add(DestinationBoxPhase1ScriptNivel2);
-        }
     }
 
     void Update()

@@ -244,8 +244,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1187207924}
-        m_TargetAssemblyTypeName: ARPlacementAndPlaneDetectionPhase2Nivel2, Assembly-CSharp
+      - m_Target: {fileID: 1187207920}
+        m_TargetAssemblyTypeName: ARPlacementAndPlaneDetectionObjects2Nivel2, Assembly-CSharp
         m_MethodName: DisableARPlacementAndPlaneDetection
         m_Mode: 1
         m_Arguments:
@@ -378,8 +378,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1039882157}
-        m_TargetAssemblyTypeName: GameManagerPhase2Nivel2, Assembly-CSharp
+      - m_Target: {fileID: 1039882156}
+        m_TargetAssemblyTypeName: GameManagerObjects2Nivel2, Assembly-CSharp
         m_MethodName: ContinueLevel
         m_Mode: 5
         m_Arguments:
@@ -387,7 +387,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Nivel2Level3SceneAR
+          m_StringArgument: Nivel2Level9SceneAR
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &102374950
@@ -865,8 +865,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1187207924}
-        m_TargetAssemblyTypeName: ARPlacementAndPlaneDetectionPhase2Nivel2, Assembly-CSharp
+      - m_Target: {fileID: 1187207920}
+        m_TargetAssemblyTypeName: ARPlacementAndPlaneDetectionObjects2Nivel2, Assembly-CSharp
         m_MethodName: EnableARPlacementAndPlaneDetection
         m_Mode: 1
         m_Arguments:
@@ -1154,8 +1154,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1187207924}
-        m_TargetAssemblyTypeName: ARPlacementAndPlaneDetectionPhase2Nivel2, Assembly-CSharp
+      - m_Target: {fileID: 1187207920}
+        m_TargetAssemblyTypeName: ARPlacementAndPlaneDetectionObjects2Nivel2, Assembly-CSharp
         m_MethodName: CloseButtonEnable
         m_Mode: 1
         m_Arguments:
@@ -1492,7 +1492,7 @@ GameObject:
   - component: {fileID: 847109644}
   - component: {fileID: 847109638}
   m_Layer: 0
-  m_Name: Pinto Amarelo
+  m_Name: Caixa 2
   m_TagString: PecaCaixa2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1615,10 +1615,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 847109636}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: af585b8b34ed80645af073c36c2b5bc5, type: 3}
+  m_Script: {fileID: 11500000, guid: 25f2086d99a96be45baa0f252c7f1f2e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   isBeingDragged: 0
+  objectCorrectDestination: Destino2
 --- !u!1 &957108989
 GameObject:
   m_ObjectHideFlags: 0
@@ -1957,7 +1958,7 @@ GameObject:
   - component: {fileID: 1012310558}
   - component: {fileID: 1012310555}
   m_Layer: 0
-  m_Name: Pinto Branco
+  m_Name: Caixa 1
   m_TagString: PecaCaixa1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2080,10 +2081,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1012310548}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5e159103e34984e4889d08d1065646e9, type: 3}
+  m_Script: {fileID: 11500000, guid: 25f2086d99a96be45baa0f252c7f1f2e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   isBeingDragged: 0
+  objectCorrectDestination: Destino1
 --- !u!1 &1039882154
 GameObject:
   m_ObjectHideFlags: 0
@@ -2093,7 +2095,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1039882155}
-  - component: {fileID: 1039882157}
+  - component: {fileID: 1039882156}
   m_Layer: 0
   m_Name: Game Manager
   m_TagString: Untagged
@@ -2116,7 +2118,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1039882157
+--- !u!114 &1039882156
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2125,7 +2127,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1039882154}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3f1774d3fadc7464097af695a3f9a608, type: 3}
+  m_Script: {fileID: 11500000, guid: 2e587ea2e83961448a7c2fe18f7401b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   objectsCorrect: 0
@@ -2137,7 +2139,7 @@ MonoBehaviour:
   - PecaCaixa1
   - PecaCaixa2
   arPlaneManager: {fileID: 1187207914}
-  ARPlacementAndPlaneDetectionPhase1Nivel2: {fileID: 1187207924}
+  ARPlacementAndPlaneDetectionObjects2Nivel2: {fileID: 1187207920}
   messageFinish: "Fase 08 Conclu\xEDda"
 --- !u!1 &1139273494
 GameObject:
@@ -2286,10 +2288,10 @@ GameObject:
   - component: {fileID: 1148726309}
   - component: {fileID: 1148726308}
   - component: {fileID: 1148726307}
-  - component: {fileID: 1148726310}
+  - component: {fileID: 1148726311}
   m_Layer: 0
-  m_Name: Destino Amarelo
-  m_TagString: DestinoAmarelo
+  m_Name: Destino 2
+  m_TagString: Destino2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2373,7 +2375,7 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1148726304}
   m_Mesh: {fileID: 0}
---- !u!114 &1148726310
+--- !u!114 &1148726311
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2382,12 +2384,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 1148726304}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4dae5bf7644ca8b48aecd56934c7c144, type: 3}
+  m_Script: {fileID: 11500000, guid: a4e8b3169d84fd04f9215241f19df900, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  correctMaterial: {fileID: 2100000, guid: 185ca34253615de44926902d54fb6f1d, type: 2}
+  correctMaterial: {fileID: 2100000, guid: 07c132c0bbd4fb74fa29015a08bae59a, type: 2}
   sAObjectRenderer: {fileID: 1682698929}
   findObjectRenderer: Animal_Rooster_Brown/SA_Animals_Rooster_Brown
+  objectCorrectDraggable: PecaCaixa2
 --- !u!1 &1187207910
 GameObject:
   m_ObjectHideFlags: 0
@@ -2400,11 +2403,10 @@ GameObject:
   - component: {fileID: 1187207915}
   - component: {fileID: 1187207914}
   - component: {fileID: 1187207912}
-  - component: {fileID: 1187207923}
-  - component: {fileID: 1187207924}
+  - component: {fileID: 1187207921}
+  - component: {fileID: 1187207920}
   - component: {fileID: 1187207919}
   - component: {fileID: 1187207913}
-  - component: {fileID: 1187207911}
   m_Layer: 0
   m_Name: AR Session Origin
   m_TagString: Untagged
@@ -2412,18 +2414,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1187207911
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1187207910}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 788587e994f1943f3856c1c332db429b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1187207912
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2507,7 +2497,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scaleSlider: {fileID: 957108991}
---- !u!114 &1187207923
+--- !u!114 &1187207920
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2516,28 +2506,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1187207910}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c9536becc72bae4e961d973167549ef, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  aRCamera: {fileID: 1441732226}
-  box1GameObject: {fileID: 1012310548}
-  box2GameObject: {fileID: 847109636}
-  destiny1GameObject: {fileID: 1805938202}
-  destiny2GameObject: {fileID: 1148726304}
-  destination1Offset: {x: 0.7, y: 0, z: 1.2}
-  destination2Offset: {x: 0.7, y: 0, z: 0}
-  boxOffset1: {x: -0.7, y: 0, z: 1.2}
-  boxOffset2: {x: -0.7, y: 0, z: 0}
---- !u!114 &1187207924
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1187207910}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 637ee2bdf0fec1e478e537e4b35db36f, type: 3}
+  m_Script: {fileID: 11500000, guid: 3445f4f22a6a88e49bb143793620c21d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   placeButton: {fileID: 83232193}
@@ -2548,7 +2517,29 @@ MonoBehaviour:
   selectCloseButtonScreen: SelectorNivel2LevelScene
   minPlaneSize: 0.5
   maxPlaneSize: 2
-  minDistance: 1
+  minDistance: 0.25
+  maxActivePlanes: 1
+--- !u!114 &1187207921
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1187207910}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd973743cca8a5e4591d691e88e6703f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  aRCamera: {fileID: 1441732226}
+  box1GameObject: {fileID: 1012310548}
+  box2GameObject: {fileID: 847109636}
+  destiny1GameObject: {fileID: 1805938202}
+  destiny2GameObject: {fileID: 1148726304}
+  destination1Offset: {x: 0.7, y: 0, z: 0}
+  destination2Offset: {x: 0.7, y: 0, z: 1.5}
+  boxOffset1: {x: -0.7, y: 0, z: 1.5}
+  boxOffset2: {x: -0.7, y: 0, z: 0}
 --- !u!1 &1278885958
 GameObject:
   m_ObjectHideFlags: 0
@@ -3213,8 +3204,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1039882157}
-        m_TargetAssemblyTypeName: GameManagerPhase2Nivel2, Assembly-CSharp
+      - m_Target: {fileID: 1039882156}
+        m_TargetAssemblyTypeName: GameManagerObjects2Nivel2, Assembly-CSharp
         m_MethodName: ResetLevel
         m_Mode: 1
         m_Arguments:
@@ -3547,8 +3538,8 @@ GameObject:
   - component: {fileID: 1805938204}
   - component: {fileID: 1805938208}
   m_Layer: 0
-  m_Name: Destino Branco
-  m_TagString: DestinoBranco
+  m_Name: Destino 1
+  m_TagString: Destino1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3641,12 +3632,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 1805938202}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6fde628de27a0f94992e82000b7ebbc7, type: 3}
+  m_Script: {fileID: 11500000, guid: a4e8b3169d84fd04f9215241f19df900, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   correctMaterial: {fileID: 2100000, guid: 07c132c0bbd4fb74fa29015a08bae59a, type: 2}
   sAObjectRenderer: {fileID: 163355595}
   findObjectRenderer: Animal_Chicken_White/SA_Animals_Chicken_White
+  objectCorrectDraggable: PecaCaixa1
 --- !u!1 &2063195817
 GameObject:
   m_ObjectHideFlags: 0

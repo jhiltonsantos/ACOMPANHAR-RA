@@ -4,6 +4,7 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using System.Collections.Generic;
 using UnityEngine.XR.ARFoundation;
+using System.Collections;
 
 public class GameManagerObjects3Nivel3 : MonoBehaviour
 {
@@ -80,15 +81,27 @@ public class GameManagerObjects3Nivel3 : MonoBehaviour
         SceneManager.LoadScene(nextScene);
     }
 
-    private void ResetARPlanes()
+    private IEnumerator ResetARPlanesCoroutine()
     {
         if (arPlaneManager != null)
         {
             arPlaneManager.enabled = false;
             arPlaneManager.SetTrackablesActive(false);
+
+            foreach (var plane in arPlaneManager.trackables)
+            {
+                Destroy(plane.gameObject);
+                yield return null; // Aguarde um frame
+            }
+
             arPlaneManager.enabled = true;
             arPlaneManager.SetTrackablesActive(true);
         }
+    }
+
+    public void ResetARPlanes()
+    {
+        StartCoroutine(ResetARPlanesCoroutine());
     }
 
     #region UI Callback Manager

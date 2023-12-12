@@ -2611,10 +2611,10 @@ MonoBehaviour:
   box2GameObject: {fileID: 847109636}
   destiny1GameObject: {fileID: 1805938202}
   destiny2GameObject: {fileID: 1148726304}
-  destination1Offset: {x: 0.7, y: 0, z: 1.2}
-  destination2Offset: {x: 0.7, y: 0, z: 0}
-  boxOffset1: {x: -0.7, y: 0, z: 1.2}
-  boxOffset2: {x: -0.7, y: 0, z: 0}
+  destination1Offset: {x: 0.7, y: 0, z: 0.6}
+  destination2Offset: {x: 0.7, y: 0, z: -0.6}
+  boxOffset1: {x: -0.7, y: 0, z: 0.6}
+  boxOffset2: {x: -0.7, y: 0, z: -0.6}
 --- !u!114 &1187207921
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2635,7 +2635,8 @@ MonoBehaviour:
   selectCloseButtonScreen: SelectorNivel1LevelScene
   minPlaneSize: 0.5
   maxPlaneSize: 2
-  minDistance: 1
+  minDistance: 0.25
+  maxActivePlanes: 1
 --- !u!1 &1278885958
 GameObject:
   m_ObjectHideFlags: 0

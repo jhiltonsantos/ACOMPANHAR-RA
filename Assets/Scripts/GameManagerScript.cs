@@ -3,6 +3,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using UnityEngine.XR.ARFoundation;
+using System.Collections;
 
 public class GameManagerScript : MonoBehaviour
 {
@@ -55,7 +56,6 @@ public class GameManagerScript : MonoBehaviour
         }
 
         objectCorrect = 0;
-        // Reset AR Planes
         ResetARPlanes();
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
@@ -69,20 +69,31 @@ public class GameManagerScript : MonoBehaviour
         }
 
         objectCorrect = 0;
-        // Reset AR Planes
         ResetARPlanes();
         SceneManager.LoadScene(nextScene);
     }
 
-    private void ResetARPlanes()
+    private IEnumerator ResetARPlanesCoroutine()
     {
         if (arPlaneManager != null)
         {
             arPlaneManager.enabled = false;
             arPlaneManager.SetTrackablesActive(false);
+
+            foreach (var plane in arPlaneManager.trackables)
+            {
+                Destroy(plane.gameObject);
+                yield return null; // Aguarde um frame
+            }
+
             arPlaneManager.enabled = true;
             arPlaneManager.SetTrackablesActive(true);
         }
+    }
+
+    public void ResetARPlanes()
+    {
+        StartCoroutine(ResetARPlanesCoroutine());
     }
 
     #region UI Callback Manager
@@ -100,7 +111,7 @@ public class GameManagerScript : MonoBehaviour
         messageText.gameObject.SetActive(true);
         resetButton.gameObject.SetActive(true);
         uIInformPanel.gameObject.SetActive(true);
-        
+
         aRPlacementAndPlaneDetectionController.SetButtonsDisable();
 
     }

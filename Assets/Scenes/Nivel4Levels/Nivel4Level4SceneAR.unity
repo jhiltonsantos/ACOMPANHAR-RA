@@ -2915,7 +2915,8 @@ MonoBehaviour:
   selectCloseButtonScreen: SelectorNivel4LevelScene
   minPlaneSize: 0.5
   maxPlaneSize: 2
-  minDistance: 0.5
+  minDistance: 0.25
+  maxActivePlanes: 1
 --- !u!1001 &1197848347
 PrefabInstance:
   m_ObjectHideFlags: 0

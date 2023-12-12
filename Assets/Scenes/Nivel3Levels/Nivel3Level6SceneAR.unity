@@ -3384,10 +3384,11 @@ MonoBehaviour:
   closeButton: {fileID: 780322568}
   raycastCenterImage: {fileID: 986923333}
   scaleSlider: {fileID: 957108989}
-  selectCloseButtonScreen: SelectorNivel4LevelScene
+  selectCloseButtonScreen: SelectorNivel3LevelScene
   minPlaneSize: 0.5
   maxPlaneSize: 2
-  minDistance: 0.5
+  minDistance: 0.25
+  maxActivePlanes: 1
 --- !u!114 &1187207921
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3416,11 +3417,11 @@ MonoBehaviour:
   destiny3GameObject: {fileID: 1413554707}
   destiny4GameObject: {fileID: 1572785836}
   destiny5GameObject: {fileID: 455674695}
-  destination1Offset: {x: 0.7, y: 0, z: 2}
-  destination2Offset: {x: 0.7, y: 0, z: 1}
+  destination1Offset: {x: 2.1, y: 0, z: 0}
+  destination2Offset: {x: 1.4, y: 0, z: 0}
   destination3Offset: {x: 0.7, y: 0, z: 0}
-  destination4Offset: {x: 0.7, y: 0, z: -1}
-  destination5Offset: {x: 0.7, y: 0, z: -2}
+  destination4Offset: {x: 1.7, y: 0, z: -0.8}
+  destination5Offset: {x: 1, y: 0, z: -0.8}
   objectExampleGameObject: {fileID: 0}
   objectExampleOffset: {x: 0, y: 0, z: 0}
 --- !u!1 &1278885958

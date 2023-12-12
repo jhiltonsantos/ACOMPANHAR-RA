@@ -2060,7 +2060,8 @@ MonoBehaviour:
   selectCloseButtonScreen: SelectorNivel1LevelScene
   minPlaneSize: 0.5
   maxPlaneSize: 2
-  minDistance: 0.5
+  minDistance: 0.25
+  maxActivePlanes: 1
 --- !u!114 &1187207919
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2257,17 +2258,17 @@ PrefabInstance:
     - target: {fileID: 3849066302975492575, guid: 88793c700e879484ab567e205a57e62d,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.17857143
+      value: 0.15625
       objectReference: {fileID: 0}
     - target: {fileID: 3849066302975492575, guid: 88793c700e879484ab567e205a57e62d,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.17857143
+      value: 0.15625
       objectReference: {fileID: 0}
     - target: {fileID: 3849066302975492575, guid: 88793c700e879484ab567e205a57e62d,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.17857143
+      value: 0.15625
       objectReference: {fileID: 0}
     - target: {fileID: 3849066302975492575, guid: 88793c700e879484ab567e205a57e62d,
         type: 3}
