@@ -15,8 +15,9 @@ public class GameManagerPhase3 : MonoBehaviour
     public List<string> tagsObjectsHaveMove;
     public ARPlaneManager arPlaneManager;
     public ARPlacementAndPlaneDetectionPhase3 aRPlacementAndPlaneDetectionController;
-    public List<DestinationBoxPhase3Script> destinationBoxes = new List<DestinationBoxPhase3Script>();
+    public List<DestinationBoxPhase3Script> destinationBoxes = new();
     public string messageFinish;
+    public AudioSource messageSound;
 
     public void Start()
     {
@@ -92,6 +93,7 @@ public class GameManagerPhase3 : MonoBehaviour
         objectsCorrect = 0;
         // Reset AR Planes
         ResetARPlanes();
+        aRPlacementAndPlaneDetectionController.SetAllPlanesActiveOrDeactive(false);
         SceneManager.LoadScene(nextScene);
     }
 
@@ -106,6 +108,7 @@ public class GameManagerPhase3 : MonoBehaviour
                 Destroy(plane.gameObject);
             }
             arPlaneManager.enabled = true;
+            aRPlacementAndPlaneDetectionController.SetAllPlanesActiveOrDeactive(false);
             arPlaneManager.SetTrackablesActive(true);
         }
     }
@@ -120,6 +123,7 @@ public class GameManagerPhase3 : MonoBehaviour
 
     public void ShowMessage(string message, string buttonText)
     {
+        messageSound?.Play();
         messageText.text = message;
         resetButton.GetComponentInChildren<TextMeshProUGUI>().text = buttonText;
 

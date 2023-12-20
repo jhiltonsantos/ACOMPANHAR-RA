@@ -17,6 +17,7 @@ public class GameManagerObjects3Nivel4 : MonoBehaviour
     public ARPlaneManager arPlaneManager;
     public ARPlacementAndPlaneDetectionObjects3Nivel4 ARPlacementAndPlaneDetection;
     public string messageFinish;
+    public AudioSource messageSound;
 
     public void Start()
     {
@@ -70,6 +71,7 @@ public class GameManagerObjects3Nivel4 : MonoBehaviour
         objectsCorrect = 0;
         // Reset AR Planes
         ResetARPlanes();
+        ARPlacementAndPlaneDetection.SetAllPlanesActiveOrDeactive(false);
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
@@ -78,6 +80,7 @@ public class GameManagerObjects3Nivel4 : MonoBehaviour
         objectsCorrect = 0;
         // Reset AR Planes
         ResetARPlanes();
+        ARPlacementAndPlaneDetection.SetAllPlanesActiveOrDeactive(false);
         SceneManager.LoadScene(nextScene);
     }
 
@@ -114,6 +117,7 @@ public class GameManagerObjects3Nivel4 : MonoBehaviour
 
     public void ShowMessage(string message, string buttonText)
     {
+        messageSound?.Play();
         messageText.text = message;
         resetButton.GetComponentInChildren<TextMeshProUGUI>().text = buttonText;
 

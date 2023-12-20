@@ -58,21 +58,10 @@ public class ARPlacementAndPlaneDetectionPhase2 : MonoBehaviour
         m_ARPlacementManager.enabled = true;
         SetAllPlanesActiveOrDeactive(true);
 
-        foreach (var plane in m_ARPlaneManager.trackables)
-        {
-            if (plane.size.x < minPlaneSize || plane.size.x > maxPlaneSize)
-            {
-                plane.gameObject.SetActive(false);
-            }
-        }
-
-        DisablePlaneOverlap(minDistance);
-
         placeButton.SetActive(true);
         scaleSlider.SetActive(true);
         raycastCenterImage.SetActive(true);
         adjustButton.SetActive(false);
-        DisableExtraPlanes();
     }
 
     private void DisableExtraPlanes()
@@ -85,6 +74,7 @@ public class ARPlacementAndPlaneDetectionPhase2 : MonoBehaviour
 
     public void CloseButtonEnable()
     {
+        SetAllPlanesActiveOrDeactive(false);
         SceneManager.LoadScene(selectCloseButtonScreen);
     }
 
@@ -100,7 +90,7 @@ public class ARPlacementAndPlaneDetectionPhase2 : MonoBehaviour
         adjustButton.SetActive(false);
     }
 
-    private void SetAllPlanesActiveOrDeactive(bool value)
+    public void SetAllPlanesActiveOrDeactive(bool value)
     {
         foreach (var plane in m_ARPlaneManager.trackables)
         {

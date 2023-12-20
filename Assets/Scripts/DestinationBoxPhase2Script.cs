@@ -18,11 +18,20 @@ public class DestinationBoxPhase2Script : MonoBehaviour
     private void Start()
     {
         objectRenderer = GetComponent<Renderer>();
-        originalMaterial = objectRenderer.material;
-        sAObjectRenderer = transform.Find(findObjectRenderer).GetComponent<Renderer>();
-        gameManager = FindObjectOfType<GameManagerPhase2>();
+
+        // Verifique se o objectRenderer foi atribuído corretamente
+        if (objectRenderer != null)
+        {
+            originalMaterial = objectRenderer.material;
+            sAObjectRenderer = transform.Find(findObjectRenderer)?.GetComponent<Renderer>();
+            gameManager = FindObjectOfType<GameManagerPhase2>();
+        }
+        else
+        {
+            Debug.LogError("Renderer component not found on the object.", this);
+        }
     }
-    
+
     #region "Estado dos objetos"
     private void OnTriggerEnter(Collider other)
     {

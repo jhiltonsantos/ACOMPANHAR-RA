@@ -13,10 +13,11 @@ public class GameManagerPhase4 : MonoBehaviour
     public Button resetButton;
     public Image uIInformPanel;
     public List<string> tagsObjectsHaveMove;
-    public List<DestinationBoxPhase4Script> destinationBoxes = new List<DestinationBoxPhase4Script>();
+    public List<DestinationBoxPhase4Script> destinationBoxes = new();
     public ARPlaneManager arPlaneManager;
     public ARPlacementAndPlaneDetectionPhase4 aRPlacementAndPlaneDetectionController;
     public string messageFinish;
+    public AudioSource messageSound;
 
     public void Start()
     {
@@ -77,6 +78,7 @@ public class GameManagerPhase4 : MonoBehaviour
         objectsCorrect = 0;
         // Reset AR Planes
         ResetARPlanes();
+        aRPlacementAndPlaneDetectionController.SetAllPlanesActiveOrDeactive(false);
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
@@ -90,6 +92,7 @@ public class GameManagerPhase4 : MonoBehaviour
         objectsCorrect = 0;
         // Reset AR Planes
         ResetARPlanes();
+        aRPlacementAndPlaneDetectionController.SetAllPlanesActiveOrDeactive(false);
         SceneManager.LoadScene(nextScene);
     }
 
@@ -118,6 +121,7 @@ public class GameManagerPhase4 : MonoBehaviour
 
     public void ShowMessage(string message, string buttonText)
     {
+        messageSound?.Play();
         messageText.text = message;
         resetButton.GetComponentInChildren<TextMeshProUGUI>().text = buttonText;
 

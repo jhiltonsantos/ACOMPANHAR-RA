@@ -21,6 +21,8 @@ TagManager:
   - Destino4
   - Destino5
   - ItemExample
+  - PecaCaixa6
+  - Destino6
   layers:
   - Default
   - TransparentFX

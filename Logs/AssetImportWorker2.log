@@ -1,0 +1,1039 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.25f1 (68ef2c4f8861) revision 6876972'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit Professional' Language: 'pt' Physical Memory: 16335 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.25f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/jhilt/Desktop/Unity3D/Backup/ACOMPANHAR_TEACCH
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+55681
+Successfully changed project path to: C:/Users/jhilt/Desktop/Unity3D/Backup/ACOMPANHAR_TEACCH
+C:/Users/jhilt/Desktop/Unity3D/Backup/ACOMPANHAR_TEACCH
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [40568] Host "[IP] 192.168.150.34 [Port] 0 [Flags] 2 [Guid] 2991959024 [EditorId] 2991959024 [Version] 1048832 [Id] WindowsEditor(7,Hilton-Windows) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [40568] Host "[IP] 192.168.150.34 [Port] 0 [Flags] 2 [Guid] 2991959024 [EditorId] 2991959024 [Version] 1048832 [Id] WindowsEditor(7,Hilton-Windows) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 155.05 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.25f1 (68ef2c4f8861)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/jhilt/Desktop/Unity3D/Backup/ACOMPANHAR_TEACCH/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Radeon RX 5500 XT (ID=0x7340)
+    Vendor:   ATI
+    VRAM:     8151 MB
+    Driver:   31.0.23013.1023
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56404
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006320 seconds.
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 234 ms
+Refreshing native plugins compatible for Editor in 93.71 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.160 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1160ms)
+		BeginReloadAssembly (79ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (840ms)
+			LoadAssemblies (77ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (250ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (22ms)
+			SetupLoadedEditorAssemblies (524ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (323ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (94ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (68ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.008305 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\jhilt\Desktop\Unity3D\Backup\ACOMPANHAR_TEACCH\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\jhilt\Desktop\Unity3D\Backup\ACOMPANHAR_TEACCH\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 97.40 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Package Manager log level set to [2]
+Mono: successfully reloaded assembly
+- Completed reload, in  1.385 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1385ms)
+		BeginReloadAssembly (106ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (1185ms)
+			LoadAssemblies (88ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (344ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (72ms)
+			SetupLoadedEditorAssemblies (632ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (32ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (98ms)
+				BeforeProcessingInitializeOnLoad (100ms)
+				ProcessInitializeOnLoadAttributes (373ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.88 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4401 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 53 unused Assets / (0.8 MB). Loaded Objects now: 4879.
+Memory consumption went from 187.1 MB to 186.3 MB.
+Total: 3.715500 ms (FindLiveObjects: 0.479300 ms CreateObjectMapping: 0.125700 ms MarkObjects: 2.782500 ms  DeleteObjects: 0.327300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 34938.648467 seconds.
+  path: Assets/Scenes/Nivel2Levels/Nivel2Level4SceneAR.unity
+  artifactKey: Guid(8db95b4448acfe140a6919ca92db859c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Nivel2Levels/Nivel2Level4SceneAR.unity using Guid(8db95b4448acfe140a6919ca92db859c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a808296b4ca80f60180fa0685742009') in 0.008877 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 31.626080 seconds.
+  path: Assets/Scenes/Nivel2Levels/Nivel2Level6SceneAR.unity
+  artifactKey: Guid(87bbce3d62f86854e88b7412efd67c52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Nivel2Levels/Nivel2Level6SceneAR.unity using Guid(87bbce3d62f86854e88b7412efd67c52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8382126fb145cf478b2e69b0c0b13be1') in 0.007744 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.457238 seconds.
+  path: Assets/Scenes/Nivel2Levels/Nivel2Level7SceneAR.unity
+  artifactKey: Guid(b564c1d04d22f004d888b312e1d661b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Nivel2Levels/Nivel2Level7SceneAR.unity using Guid(b564c1d04d22f004d888b312e1d661b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c5d87af23a54e6e71c4b1d699b5a2c1') in 0.008294 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009656 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\jhilt\Desktop\Unity3D\Backup\ACOMPANHAR_TEACCH\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\jhilt\Desktop\Unity3D\Backup\ACOMPANHAR_TEACCH\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.14 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.972 seconds
+Domain Reload Profiling:
+	ReloadAssembly (972ms)
+		BeginReloadAssembly (130ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (38ms)
+		EndReloadAssembly (753ms)
+			LoadAssemblies (85ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (266ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (312ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (25ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (69ms)
+				ProcessInitializeOnLoadAttributes (191ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Refreshing native plugins compatible for Editor in 5.04 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4328 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (0.6 MB). Loaded Objects now: 4883.
+Memory consumption went from 180.3 MB to 179.7 MB.
+Total: 3.489700 ms (FindLiveObjects: 0.389800 ms CreateObjectMapping: 0.114600 ms MarkObjects: 2.676700 ms  DeleteObjects: 0.307300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 62.454243 seconds.
+  path: Assets/Scenes/Nivel2Levels/Nivel2Level8SceneAR.unity
+  artifactKey: Guid(731736636b909c543b4a0da5d6cacfe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Nivel2Levels/Nivel2Level8SceneAR.unity using Guid(731736636b909c543b4a0da5d6cacfe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25e1fc5d4054122175b7e5f3b1056b1d') in 0.014368 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.767510 seconds.
+  path: Assets/Scenes/Nivel2Levels/Nivel2Level7SceneAR.unity
+  artifactKey: Guid(b564c1d04d22f004d888b312e1d661b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Nivel2Levels/Nivel2Level7SceneAR.unity using Guid(b564c1d04d22f004d888b312e1d661b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9828888b3936046d712ce44ac27cea4b') in 0.002052 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.157901 seconds.
+  path: Assets/Scenes/Nivel2Levels/Nivel2Level9SceneAR.unity
+  artifactKey: Guid(d278cb42a47d4f242b5ce9bb50d5e9a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Nivel2Levels/Nivel2Level9SceneAR.unity using Guid(d278cb42a47d4f242b5ce9bb50d5e9a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ddfc8193cdee6beb09ac0f2ebd3c002') in 0.007497 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.262238 seconds.
+  path: Assets/Scenes/Nivel2Levels/Nivel2Level10SceneAR.unity
+  artifactKey: Guid(c8fa844a3af41c246a96f13a4b99d0f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Nivel2Levels/Nivel2Level10SceneAR.unity using Guid(c8fa844a3af41c246a96f13a4b99d0f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7aa89c5f45e676fe75c1114a9928cd89') in 0.007252 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.447840 seconds.
+  path: Assets/Scenes/Nivel2Levels/Nivel2Level9SceneAR.unity
+  artifactKey: Guid(d278cb42a47d4f242b5ce9bb50d5e9a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Nivel2Levels/Nivel2Level9SceneAR.unity using Guid(d278cb42a47d4f242b5ce9bb50d5e9a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e30bcabb6399c02eced0155d3abd38f3') in 0.001926 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.682869 seconds.
+  path: Assets/Scenes/Nivel2Levels/Nivel2Level10SceneAR.unity
+  artifactKey: Guid(c8fa844a3af41c246a96f13a4b99d0f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Nivel2Levels/Nivel2Level10SceneAR.unity using Guid(c8fa844a3af41c246a96f13a4b99d0f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '677ebec4e7addaad287d5539c065d45f') in 0.001900 seconds 
+========================================================================
+Received Prepare
+Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Refreshing native plugins compatible for Editor in 9.23 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 43 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 42 unused Assets / (0.6 MB). Loaded Objects now: 4884.
+Memory consumption went from 93.9 MB to 93.4 MB.
+Total: 3.406400 ms (FindLiveObjects: 0.344300 ms CreateObjectMapping: 0.110700 ms MarkObjects: 2.661600 ms  DeleteObjects: 0.289200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 302.693918 seconds.
+  path: Assets/Scenes/Nivel3Levels/Nivel3Level1SceneAR.unity
+  artifactKey: Guid(bc288ac66d1f3f140a9311f6dda0e0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Nivel3Levels/Nivel3Level1SceneAR.unity using Guid(bc288ac66d1f3f140a9311f6dda0e0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a369277f6a176dc5f5d459a721170cf2') in 0.008493 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006955 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\jhilt\Desktop\Unity3D\Backup\ACOMPANHAR_TEACCH\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\jhilt\Desktop\Unity3D\Backup\ACOMPANHAR_TEACCH\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.13 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.997 seconds
+Domain Reload Profiling:
+	ReloadAssembly (998ms)
+		BeginReloadAssembly (132ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (37ms)
+		EndReloadAssembly (763ms)
+			LoadAssemblies (91ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (272ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (311ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (25ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (69ms)
+				ProcessInitializeOnLoadAttributes (189ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Refreshing native plugins compatible for Editor in 5.12 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4327 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (0.6 MB). Loaded Objects now: 4887.
+Memory consumption went from 180.2 MB to 179.6 MB.
+Total: 3.630000 ms (FindLiveObjects: 0.418600 ms CreateObjectMapping: 0.117900 ms MarkObjects: 2.755000 ms  DeleteObjects: 0.337500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 58.498531 seconds.
+  path: Assets/Scenes/Nivel3Levels/Nivel3Level2SceneAR.unity
+  artifactKey: Guid(6bb9b950882dfa94eab5dd7ccdf133de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Nivel3Levels/Nivel3Level2SceneAR.unity using Guid(6bb9b950882dfa94eab5dd7ccdf133de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34bf147aafdda573afcc344c66c2df08') in 0.014064 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006720 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\jhilt\Desktop\Unity3D\Backup\ACOMPANHAR_TEACCH\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\jhilt\Desktop\Unity3D\Backup\ACOMPANHAR_TEACCH\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.17 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.976 seconds
+Domain Reload Profiling:
+	ReloadAssembly (976ms)
+		BeginReloadAssembly (131ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (755ms)
+			LoadAssemblies (85ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (254ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (315ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (28ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (74ms)
+				ProcessInitializeOnLoadAttributes (186ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Refreshing native plugins compatible for Editor in 5.24 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4328 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (0.6 MB). Loaded Objects now: 4891.
+Memory consumption went from 180.3 MB to 179.7 MB.
+Total: 4.157300 ms (FindLiveObjects: 0.380600 ms CreateObjectMapping: 0.117500 ms MarkObjects: 3.230000 ms  DeleteObjects: 0.428100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 38.568659 seconds.
+  path: Assets/Scenes/Nivel3Levels/Nivel3Level3SceneAR.unity
+  artifactKey: Guid(0242610573012f747a3b4c446df311c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Nivel3Levels/Nivel3Level3SceneAR.unity using Guid(0242610573012f747a3b4c446df311c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf9bb0e3d56b5f1387eea7e4bf67bc9f') in 0.016488 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.381718 seconds.
+  path: Assets/Scenes/Nivel3Levels/Nivel3Level4SceneAR.unity
+  artifactKey: Guid(c6ba3f84b4285a542918a0724f2045fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Nivel3Levels/Nivel3Level4SceneAR.unity using Guid(c6ba3f84b4285a542918a0724f2045fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36e6cd007c07a4d50c74c39235b765fe') in 0.007687 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008223 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\jhilt\Desktop\Unity3D\Backup\ACOMPANHAR_TEACCH\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\jhilt\Desktop\Unity3D\Backup\ACOMPANHAR_TEACCH\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.16 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.018 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1018ms)
+		BeginReloadAssembly (136ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (792ms)
+			LoadAssemblies (98ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (309ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (316ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (25ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (75ms)
+				ProcessInitializeOnLoadAttributes (190ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Refreshing native plugins compatible for Editor in 5.09 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4328 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (0.6 MB). Loaded Objects now: 4895.
+Memory consumption went from 180.3 MB to 179.7 MB.
+Total: 3.549200 ms (FindLiveObjects: 0.358800 ms CreateObjectMapping: 0.116000 ms MarkObjects: 2.714400 ms  DeleteObjects: 0.359000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 48.464528 seconds.
+  path: Assets/Scenes/Nivel3Levels/Nivel3Level4SceneAR.unity
+  artifactKey: Guid(c6ba3f84b4285a542918a0724f2045fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Nivel3Levels/Nivel3Level4SceneAR.unity using Guid(c6ba3f84b4285a542918a0724f2045fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '863a9b337badd71238d1e0c290a7668a') in 0.008420 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.310334 seconds.
+  path: Assets/Scenes/Nivel3Levels/Nivel3Level6SceneAR.unity
+  artifactKey: Guid(9dea9523c6b9aab4494a214a3461b572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Nivel3Levels/Nivel3Level6SceneAR.unity using Guid(9dea9523c6b9aab4494a214a3461b572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb8d5806eb36cb73b95dd303a6bc1df5') in 0.008242 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.199256 seconds.
+  path: Assets/Scenes/Nivel3Levels/Nivel3Level5SceneAR.unity
+  artifactKey: Guid(62999f80d8f34784fa507d544748a750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Nivel3Levels/Nivel3Level5SceneAR.unity using Guid(62999f80d8f34784fa507d544748a750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f6db0611789caa91c889ca351870a2f') in 0.007119 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.992579 seconds.
+  path: Assets/Scenes/Nivel3Levels/Nivel3Level7SceneAR.unity
+  artifactKey: Guid(ac6ddefe97a73d84493026a8ac64548a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Nivel3Levels/Nivel3Level7SceneAR.unity using Guid(ac6ddefe97a73d84493026a8ac64548a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72e1ab3b78a4aca29af1b07c3e2ab56f') in 0.008219 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.738293 seconds.
+  path: Assets/Scenes/Nivel3Levels/Nivel3Level8SceneAR.unity
+  artifactKey: Guid(d921067dd106cc84c9619ab7e89a8a73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Nivel3Levels/Nivel3Level8SceneAR.unity using Guid(d921067dd106cc84c9619ab7e89a8a73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf35daedd005aeb425144cf9eaa68379') in 0.007940 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.312983 seconds.
+  path: Assets/Scenes/Nivel3Levels/Nivel3Level8SceneAR.unity
+  artifactKey: Guid(d921067dd106cc84c9619ab7e89a8a73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Nivel3Levels/Nivel3Level8SceneAR.unity using Guid(d921067dd106cc84c9619ab7e89a8a73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7246062516e71d1c30f630ad5438dfac') in 0.002081 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.936092 seconds.
+  path: Assets/Scenes/Nivel3Levels/Nivel3Level9SceneAR.unity
+  artifactKey: Guid(331cc420f2e032d4ba3fc9286cd55416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Nivel3Levels/Nivel3Level9SceneAR.unity using Guid(331cc420f2e032d4ba3fc9286cd55416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7a12ee1214479236b74c1c205b4f842') in 0.007009 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.380375 seconds.
+  path: Assets/Scenes/Nivel3Levels/Nivel3Level10SceneAR.unity
+  artifactKey: Guid(a08e804ff991f8a41be107c9266e5e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Nivel3Levels/Nivel3Level10SceneAR.unity using Guid(a08e804ff991f8a41be107c9266e5e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5523cc3a9a5172df364a2eda15a0952a') in 0.008049 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 55.089382 seconds.
+  path: Assets/Scenes/Nivel4Levels/Nivel4Level1SceneAR.unity
+  artifactKey: Guid(539d6d8cf89734b47b578f01c0ee8c5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Nivel4Levels/Nivel4Level1SceneAR.unity using Guid(539d6d8cf89734b47b578f01c0ee8c5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0a27d1410f5f323a079194ad6e60ea5') in 0.008585 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006789 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\jhilt\Desktop\Unity3D\Backup\ACOMPANHAR_TEACCH\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\jhilt\Desktop\Unity3D\Backup\ACOMPANHAR_TEACCH\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.15 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.048 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1048ms)
+		BeginReloadAssembly (127ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (796ms)
+			LoadAssemblies (88ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (292ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (316ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (25ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (74ms)
+				ProcessInitializeOnLoadAttributes (192ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Refreshing native plugins compatible for Editor in 4.91 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4328 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (0.6 MB). Loaded Objects now: 4899.
+Memory consumption went from 180.3 MB to 179.7 MB.
+Total: 3.402900 ms (FindLiveObjects: 0.379200 ms CreateObjectMapping: 0.116800 ms MarkObjects: 2.582600 ms  DeleteObjects: 0.323600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 170.111178 seconds.
+  path: Assets/Scenes/Nivel4Levels/Nivel4Level2SceneAR.unity
+  artifactKey: Guid(37f913a652eeff84ea9c280d4d2c228f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Nivel4Levels/Nivel4Level2SceneAR.unity using Guid(37f913a652eeff84ea9c280d4d2c228f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fc43447268aabaaa443f8e2eb126573') in 0.014544 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.479737 seconds.
+  path: Assets/Scenes/Nivel4Levels/Nivel4Level3SceneAR.unity
+  artifactKey: Guid(7235241e8640e094a9bb5b707f4795c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Nivel4Levels/Nivel4Level3SceneAR.unity using Guid(7235241e8640e094a9bb5b707f4795c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45da16baf9e647e0c80df88fbc36cc24') in 0.007236 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 40.162254 seconds.
+  path: Assets/Scenes/Nivel4Levels/Nivel4Level4SceneAR.unity
+  artifactKey: Guid(e45db2ee2ec1fd74199c4146782302ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Nivel4Levels/Nivel4Level4SceneAR.unity using Guid(e45db2ee2ec1fd74199c4146782302ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9d23a6f8bd5abfa7e0dcd7bee248c25') in 0.008535 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.315231 seconds.
+  path: Assets/Scenes/Nivel4Levels/Nivel4Level5SceneAR.unity
+  artifactKey: Guid(806d0287e2a301d4d8dbbafc7d9e36d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Nivel4Levels/Nivel4Level5SceneAR.unity using Guid(806d0287e2a301d4d8dbbafc7d9e36d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b68d3e41404e38606b2df123f175ade') in 0.007215 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.541046 seconds.
+  path: Assets/Scenes/Nivel4Levels/Nivel4Level6SceneAR.unity
+  artifactKey: Guid(fd4ee0c6ebe7b2540a1cd3c5ef7c2a0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Nivel4Levels/Nivel4Level6SceneAR.unity using Guid(fd4ee0c6ebe7b2540a1cd3c5ef7c2a0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7805e1d5d75d2fc6eee71ac0872a999') in 0.006884 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008091 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\jhilt\Desktop\Unity3D\Backup\ACOMPANHAR_TEACCH\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\jhilt\Desktop\Unity3D\Backup\ACOMPANHAR_TEACCH\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.16 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.015 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1016ms)
+		BeginReloadAssembly (137ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (781ms)
+			LoadAssemblies (92ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (296ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (309ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (25ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (70ms)
+				ProcessInitializeOnLoadAttributes (188ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Refreshing native plugins compatible for Editor in 5.07 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4328 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (0.6 MB). Loaded Objects now: 4903.
+Memory consumption went from 180.3 MB to 179.8 MB.
+Total: 3.428100 ms (FindLiveObjects: 0.376900 ms CreateObjectMapping: 0.116100 ms MarkObjects: 2.615200 ms  DeleteObjects: 0.319400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 42.788542 seconds.
+  path: Assets/Scenes/Nivel4Levels/Nivel4Level7SceneAR.unity
+  artifactKey: Guid(61d5aa1d7bd9b4948b9b291e1a42371b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Nivel4Levels/Nivel4Level7SceneAR.unity using Guid(61d5aa1d7bd9b4948b9b291e1a42371b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76440c1d3774e3633da57fbccefba996') in 0.014007 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.771817 seconds.
+  path: Assets/Scenes/Nivel4Levels/Nivel4Level8SceneAR.unity
+  artifactKey: Guid(40f77eaa3709ddb4885e41132945ad08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Nivel4Levels/Nivel4Level8SceneAR.unity using Guid(40f77eaa3709ddb4885e41132945ad08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76106fe517ab374d8b635041b31cfdc0') in 0.007140 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.170254 seconds.
+  path: Assets/Scenes/Nivel4Levels/Nivel4Level9SceneAR.unity
+  artifactKey: Guid(5fc468dc58d3b9244a70371b6c27414c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Nivel4Levels/Nivel4Level9SceneAR.unity using Guid(5fc468dc58d3b9244a70371b6c27414c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7aefcdc1b16bac2b07682c72685917ea') in 0.027008 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.319066 seconds.
+  path: Assets/Scenes/Nivel4Levels/Nivel4Level10SceneAR.unity
+  artifactKey: Guid(afacfe5b5f687854e8e9aa923ab69f75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Nivel4Levels/Nivel4Level10SceneAR.unity using Guid(afacfe5b5f687854e8e9aa923ab69f75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00d810a2613b7a40138a404758973c20') in 0.008473 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.548599 seconds.
+  path: Assets/Scenes/MainMenuScene.unity
+  artifactKey: Guid(03be7cf141fa9694a8a927024e095e2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainMenuScene.unity using Guid(03be7cf141fa9694a8a927024e095e2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '252491d324700f6eaeab5e3d93248289') in 0.007964 seconds 
+========================================================================
+Received Prepare
+Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Refreshing native plugins compatible for Editor in 9.27 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 43 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 42 unused Assets / (0.6 MB). Loaded Objects now: 4904.
+Memory consumption went from 94.0 MB to 93.4 MB.
+Total: 3.852900 ms (FindLiveObjects: 0.359400 ms CreateObjectMapping: 0.108800 ms MarkObjects: 3.031500 ms  DeleteObjects: 0.352400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 271.418475 seconds.
+  path: Assets/Scenes/Nivel3Levels/Nivel3Level1SceneAR.unity
+  artifactKey: Guid(bc288ac66d1f3f140a9311f6dda0e0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Nivel3Levels/Nivel3Level1SceneAR.unity using Guid(bc288ac66d1f3f140a9311f6dda0e0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '255757758a5463ca6a6a094cda8245df') in 0.002299 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.688040 seconds.
+  path: Assets/Scenes/Nivel3Levels/Nivel3Level2SceneAR.unity
+  artifactKey: Guid(6bb9b950882dfa94eab5dd7ccdf133de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Nivel3Levels/Nivel3Level2SceneAR.unity using Guid(6bb9b950882dfa94eab5dd7ccdf133de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fda8bc29eaaa73124d234d922c596f8') in 0.001822 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 96.430077 seconds.
+  path: Assets/Scenes/Nivel3Levels/Nivel3Level6SceneAR.unity
+  artifactKey: Guid(9dea9523c6b9aab4494a214a3461b572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Nivel3Levels/Nivel3Level6SceneAR.unity using Guid(9dea9523c6b9aab4494a214a3461b572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '276dcb9ff87f3a131dadde666b0387c9') in 0.002287 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 43.594545 seconds.
+  path: Assets/Scenes/Nivel3Levels/Nivel3Level9SceneAR.unity
+  artifactKey: Guid(331cc420f2e032d4ba3fc9286cd55416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Nivel3Levels/Nivel3Level9SceneAR.unity using Guid(331cc420f2e032d4ba3fc9286cd55416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82ebd19bee12297d5d55cc0797235b80') in 0.007665 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.894330 seconds.
+  path: Assets/Scenes/Nivel3Levels/Nivel3Level10SceneAR.unity
+  artifactKey: Guid(a08e804ff991f8a41be107c9266e5e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Nivel3Levels/Nivel3Level10SceneAR.unity using Guid(a08e804ff991f8a41be107c9266e5e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73fa810abd6c42d8e61ce1ea1f6f8ad2') in 0.002474 seconds 
+========================================================================
+Received Prepare
+Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Refreshing native plugins compatible for Editor in 12.03 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 42 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 42 unused Assets / (0.6 MB). Loaded Objects now: 4904.
+Memory consumption went from 93.9 MB to 93.3 MB.
+Total: 5.763200 ms (FindLiveObjects: 0.378400 ms CreateObjectMapping: 0.126100 ms MarkObjects: 4.664500 ms  DeleteObjects: 0.593200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Refreshing native plugins compatible for Editor in 11.73 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 42 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 42 unused Assets / (0.6 MB). Loaded Objects now: 4904.
+Memory consumption went from 93.9 MB to 93.3 MB.
+Total: 3.637400 ms (FindLiveObjects: 0.395900 ms CreateObjectMapping: 0.110200 ms MarkObjects: 2.777200 ms  DeleteObjects: 0.353100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 346.469934 seconds.
+  path: Assets/Scenes/Nivel4Levels/Nivel4Level3SceneAR.unity
+  artifactKey: Guid(7235241e8640e094a9bb5b707f4795c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Nivel4Levels/Nivel4Level3SceneAR.unity using Guid(7235241e8640e094a9bb5b707f4795c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8fdf28f5b4bb4d72b2e1d8232279bfd') in 0.007863 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 193.572187 seconds.
+  path: Assets/Scenes/Nivel4Levels/Nivel4Level2SceneAR.unity
+  artifactKey: Guid(37f913a652eeff84ea9c280d4d2c228f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Nivel4Levels/Nivel4Level2SceneAR.unity using Guid(37f913a652eeff84ea9c280d4d2c228f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18415e5315a3157455f5c4b18d558531') in 0.002160 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.235757 seconds.
+  path: Assets/Scenes/Nivel4Levels/Nivel4Level1SceneAR.unity
+  artifactKey: Guid(539d6d8cf89734b47b578f01c0ee8c5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Nivel4Levels/Nivel4Level1SceneAR.unity using Guid(539d6d8cf89734b47b578f01c0ee8c5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24e81fb2f9772157f053af38242d55f8') in 0.002226 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.419280 seconds.
+  path: Assets/Scenes/Nivel4Levels/Nivel4Level4SceneAR.unity
+  artifactKey: Guid(e45db2ee2ec1fd74199c4146782302ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Nivel4Levels/Nivel4Level4SceneAR.unity using Guid(e45db2ee2ec1fd74199c4146782302ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdc79df7dafad59e40571075aa340478') in 0.002169 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.837956 seconds.
+  path: Assets/Scenes/Nivel4Levels/Nivel4Level5SceneAR.unity
+  artifactKey: Guid(806d0287e2a301d4d8dbbafc7d9e36d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Nivel4Levels/Nivel4Level5SceneAR.unity using Guid(806d0287e2a301d4d8dbbafc7d9e36d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e36b9c3b6cd90f0a7f85847fe4d80aed') in 0.001978 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.570044 seconds.
+  path: Assets/Scenes/Nivel4Levels/Nivel4Level6SceneAR.unity
+  artifactKey: Guid(fd4ee0c6ebe7b2540a1cd3c5ef7c2a0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Nivel4Levels/Nivel4Level6SceneAR.unity using Guid(fd4ee0c6ebe7b2540a1cd3c5ef7c2a0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d8c2ab37ddb43a8be62c15ae4ed6d93') in 0.002233 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.552543 seconds.
+  path: Assets/Scenes/Nivel4Levels/Nivel4Level7SceneAR.unity
+  artifactKey: Guid(61d5aa1d7bd9b4948b9b291e1a42371b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Nivel4Levels/Nivel4Level7SceneAR.unity using Guid(61d5aa1d7bd9b4948b9b291e1a42371b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1c44a4cdfa8b8d39116f9f05b2b0a78') in 0.002181 seconds 
+========================================================================
+Received Prepare
+Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Refreshing native plugins compatible for Editor in 9.27 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 42 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 42 unused Assets / (0.6 MB). Loaded Objects now: 4904.
+Memory consumption went from 93.9 MB to 93.3 MB.
+Total: 3.933400 ms (FindLiveObjects: 0.370200 ms CreateObjectMapping: 0.117000 ms MarkObjects: 3.121700 ms  DeleteObjects: 0.323800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 182.323967 seconds.
+  path: Assets/Scenes/Nivel4Levels/Nivel4Level3SceneAR.unity
+  artifactKey: Guid(7235241e8640e094a9bb5b707f4795c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Nivel4Levels/Nivel4Level3SceneAR.unity using Guid(7235241e8640e094a9bb5b707f4795c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '376c236bb06f73af9aa83767d37b37cd') in 0.007052 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.420053 seconds.
+  path: Assets/Scenes/Nivel4Levels/Nivel4Level7SceneAR.unity
+  artifactKey: Guid(61d5aa1d7bd9b4948b9b291e1a42371b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Nivel4Levels/Nivel4Level7SceneAR.unity using Guid(61d5aa1d7bd9b4948b9b291e1a42371b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ec5285e9c949444565cfa7dad849825') in 0.002037 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.553372 seconds.
+  path: Assets/Scenes/Nivel4Levels/Nivel4Level8SceneAR.unity
+  artifactKey: Guid(40f77eaa3709ddb4885e41132945ad08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Nivel4Levels/Nivel4Level8SceneAR.unity using Guid(40f77eaa3709ddb4885e41132945ad08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13f19865ca442a7c07c32462d3a2f1ba') in 0.001988 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.392916 seconds.
+  path: Assets/Scenes/Nivel4Levels/Nivel4Level9SceneAR.unity
+  artifactKey: Guid(5fc468dc58d3b9244a70371b6c27414c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Nivel4Levels/Nivel4Level9SceneAR.unity using Guid(5fc468dc58d3b9244a70371b6c27414c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65d695b9d3850a47b75bd9eaf8e0c6e3') in 0.001922 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.375274 seconds.
+  path: Assets/Scenes/Nivel4Levels/Nivel4Level9SceneAR.unity
+  artifactKey: Guid(5fc468dc58d3b9244a70371b6c27414c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Nivel4Levels/Nivel4Level9SceneAR.unity using Guid(5fc468dc58d3b9244a70371b6c27414c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '689ae3bfa5924e69bc4ec7b0140ae089') in 0.001846 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.450584 seconds.
+  path: Assets/Scenes/Nivel4Levels/Nivel4Level10SceneAR.unity
+  artifactKey: Guid(afacfe5b5f687854e8e9aa923ab69f75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Nivel4Levels/Nivel4Level10SceneAR.unity using Guid(afacfe5b5f687854e8e9aa923ab69f75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69946faaa3a8f2a72a9e77231734677f') in 0.001973 seconds 
+========================================================================
+Received Prepare
+Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Refreshing native plugins compatible for Editor in 10.19 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 42 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 42 unused Assets / (0.6 MB). Loaded Objects now: 4904.
+Memory consumption went from 93.9 MB to 93.3 MB.
+Total: 4.328600 ms (FindLiveObjects: 0.511000 ms CreateObjectMapping: 0.142200 ms MarkObjects: 3.295700 ms  DeleteObjects: 0.378500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 66.027404 seconds.
+  path: Assets/Scenes/Nivel4Levels/Nivel4Level3SceneAR.unity
+  artifactKey: Guid(7235241e8640e094a9bb5b707f4795c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Nivel4Levels/Nivel4Level3SceneAR.unity using Guid(7235241e8640e094a9bb5b707f4795c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1c511b73341a402cc7ae61cb88735d9') in 0.007646 seconds 
+========================================================================
+Received Prepare
+Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Refreshing native plugins compatible for Editor in 9.64 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 42 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 42 unused Assets / (0.6 MB). Loaded Objects now: 4904.
+Memory consumption went from 93.9 MB to 93.4 MB.
+Total: 4.658400 ms (FindLiveObjects: 0.372800 ms CreateObjectMapping: 0.119400 ms MarkObjects: 3.805900 ms  DeleteObjects: 0.359400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Custom/PortalWindowShader': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Refreshing native plugins compatible for Editor in 9.13 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 42 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 42 unused Assets / (0.6 MB). Loaded Objects now: 4904.
+Memory consumption went from 93.9 MB to 93.4 MB.
+Total: 3.383300 ms (FindLiveObjects: 0.362000 ms CreateObjectMapping: 0.116700 ms MarkObjects: 2.596100 ms  DeleteObjects: 0.307800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

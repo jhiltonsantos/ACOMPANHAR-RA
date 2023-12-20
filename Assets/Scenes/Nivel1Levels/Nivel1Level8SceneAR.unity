@@ -448,17 +448,17 @@ PrefabInstance:
     - target: {fileID: 7371467692777121997, guid: 1ae51e0ce1730564b97c4c79e27e0ede,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.06
+      value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: 7371467692777121997, guid: 1ae51e0ce1730564b97c4c79e27e0ede,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.06
+      value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: 7371467692777121997, guid: 1ae51e0ce1730564b97c4c79e27e0ede,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.06
+      value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: 7371467692777121997, guid: 1ae51e0ce1730564b97c4c79e27e0ede,
         type: 3}
@@ -713,17 +713,17 @@ PrefabInstance:
     - target: {fileID: 7371467692777121997, guid: 1ae51e0ce1730564b97c4c79e27e0ede,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.06
+      value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: 7371467692777121997, guid: 1ae51e0ce1730564b97c4c79e27e0ede,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.06
+      value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: 7371467692777121997, guid: 1ae51e0ce1730564b97c4c79e27e0ede,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.06
+      value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: 7371467692777121997, guid: 1ae51e0ce1730564b97c4c79e27e0ede,
         type: 3}
@@ -1947,6 +1947,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1039882155}
   - component: {fileID: 1039882156}
+  - component: {fileID: 1039882157}
   m_Layer: 0
   m_Name: Game Manager
   m_TagString: Untagged
@@ -1993,6 +1994,103 @@ MonoBehaviour:
   destinationBoxes: []
   aRPlacementAndPlaneDetectionController: {fileID: 1187207921}
   messageFinish: "Fase 08 Conclu\xEDda"
+  messageSound: {fileID: 1039882157}
+--- !u!82 &1039882157
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1039882154}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 100ab9f761ff9af49993b063334d5079, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 0.5
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &1131276335
 GameObject:
   m_ObjectHideFlags: 0
@@ -2259,7 +2357,7 @@ MonoBehaviour:
   changeMaterialSameMovingObject2: {fileID: 2100000, guid: 185ca34253615de44926902d54fb6f1d,
     type: 2}
   sAObjectRenderer: {fileID: 226860382}
-  findObjectRenderer: Animal_Cow_White/CowRig_ROOTSHJnt/SA_Animals_Cow_White
+  findObjectRenderer: Animal_Cow_White/CowRig_SHJntGrp/SA_Animals_Cow_White
 --- !u!65 &1148726307
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2343,17 +2441,17 @@ PrefabInstance:
     - target: {fileID: 7371467692777121997, guid: 1ae51e0ce1730564b97c4c79e27e0ede,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.06
+      value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: 7371467692777121997, guid: 1ae51e0ce1730564b97c4c79e27e0ede,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.06
+      value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: 7371467692777121997, guid: 1ae51e0ce1730564b97c4c79e27e0ede,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.06
+      value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: 7371467692777121997, guid: 1ae51e0ce1730564b97c4c79e27e0ede,
         type: 3}
@@ -2937,17 +3035,17 @@ PrefabInstance:
     - target: {fileID: 7371467692777121997, guid: 1ae51e0ce1730564b97c4c79e27e0ede,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.06
+      value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: 7371467692777121997, guid: 1ae51e0ce1730564b97c4c79e27e0ede,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.06
+      value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: 7371467692777121997, guid: 1ae51e0ce1730564b97c4c79e27e0ede,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.06
+      value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: 7371467692777121997, guid: 1ae51e0ce1730564b97c4c79e27e0ede,
         type: 3}
@@ -3036,6 +3134,7 @@ GameObject:
   - component: {fileID: 1441732229}
   - component: {fileID: 1441732228}
   - component: {fileID: 1441732227}
+  - component: {fileID: 1441732231}
   m_Layer: 0
   m_Name: AR Camera
   m_TagString: Untagged
@@ -3150,6 +3249,14 @@ Transform:
   m_Father: {fileID: 1187207916}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!81 &1441732231
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1441732225}
+  m_Enabled: 1
 --- !u!1 &1482042520
 GameObject:
   m_ObjectHideFlags: 0
@@ -3718,7 +3825,7 @@ MonoBehaviour:
   changeMaterialSameMovingObject2: {fileID: 2100000, guid: 185ca34253615de44926902d54fb6f1d,
     type: 2}
   sAObjectRenderer: {fileID: 1411173831}
-  findObjectRenderer: Animal_Cow_White/CowRig_ROOTSHJnt/SA_Animals_Cow_White
+  findObjectRenderer: Animal_Cow_White/CowRig_SHJntGrp/SA_Animals_Cow_White
 --- !u!1 &1939384834
 GameObject:
   m_ObjectHideFlags: 0

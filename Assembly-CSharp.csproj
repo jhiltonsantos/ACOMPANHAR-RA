@@ -37,6 +37,7 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\Nivel4Scripts\Objects4Nivel4Scripts\ARPlacementAndPlaneDetectionObjects4Nivel4.cs" />
+     <Compile Include="Assets\Scripts\Nivel4Scripts\Objects6Nivel4Scripts\ARPlacementManagerObjects6Nivel4.cs" />
      <Compile Include="Assets\Scripts\Nivel3Scripts\Objects2Nivel3Scripts\ARPlacementAndPlaneDetectionObjects2Nivel3.cs" />
      <Compile Include="Assets\Scripts\ARPlacementAndPlaneDetectionController.cs" />
      <Compile Include="Assets\Scripts\ARPlacementAndPlaneDetectionPhase2.cs" />
@@ -49,6 +50,7 @@
      <Compile Include="Assets\Scripts\Nivel4Scripts\Objects5Nivel4Scripts\DraggablePecaCaixa2Objects5Nivel4.cs" />
      <Compile Include="Assets\Scripts\DestinationBoxPhase2Script.cs" />
      <Compile Include="Assets\Scripts\Nivel2Scripts\Objects3Nivel2Scripts\IDraggableObjects3Nivel2.cs" />
+     <Compile Include="Assets\Scripts\Nivel4Scripts\Objects6Nivel4Scripts\DestinationObjects6Nivel4.cs" />
      <Compile Include="Assets\Scripts\Nivel4Scripts\Objects2Nivel4Scripts\ARPlacementAndPlaneDetectionObjects2Nivel4.cs" />
      <Compile Include="Assets\Scripts\Nivel3Scripts\Objects3Nivel3Scripts\DestinationObjects3Nivel3.cs" />
      <Compile Include="Assets\Scripts\Nivel3Scripts\Objects2Nivel3Scripts\GameManagerObjects2Nivel3.cs" />
@@ -64,6 +66,7 @@
      <Compile Include="Assets\Scripts\DraggableObjectPhase2.cs" />
      <Compile Include="Assets\Scripts\Nivel2Scripts\Objects2Nivel2Scripts\IDraggableObjects2Nivel2.cs" />
      <Compile Include="Assets\Scripts\Nivel4Scripts\Objects5Nivel4Scripts\DraggablePecaCaixa4Objects5Nivel4.cs" />
+     <Compile Include="Assets\Scripts\Nivel4Scripts\Objects6Nivel4Scripts\ARPlacementAndPlaneDetectionObjects6Nivel4.cs" />
      <Compile Include="Assets\Scripts\Nivel4Scripts\Objects5Nivel4Scripts\DestinationDestino4Objects5Nivel4.cs" />
      <Compile Include="Assets\Scripts\Nivel4Scripts\Objects2Nivel4Scripts\ARPlacementManagerObjects2Nivel4.cs" />
      <Compile Include="Assets\Scripts\Nivel2Scripts\Objects2Nivel2Scripts\DestinationObjects2Nivel2.cs" />
@@ -74,6 +77,7 @@
      <Compile Include="Assets\Scripts\DestinationObjectChildrenScript.cs" />
      <Compile Include="Assets\Scripts\Nivel4Scripts\Objects5Nivel4Scripts\GameManagerObjects5Nivel4.cs" />
      <Compile Include="Assets\Course Library\_Source_Files\Scripts\DestroyAfterDelay.cs" />
+     <Compile Include="Assets\Scripts\Nivel4Scripts\Objects6Nivel4Scripts\DraggableObjects6Nivel4.cs" />
      <Compile Include="Assets\Scripts\GameManagerPhase4.cs" />
      <Compile Include="Assets\Scripts\Nivel4Scripts\Objects2Nivel4Scripts\IDraggableObjects2Nivel4.cs" />
      <Compile Include="Assets\Scripts\Nivel2Scripts\Objects2Nivel2Scripts\GameManagerObjects2Nivel2.cs" />
@@ -86,6 +90,7 @@
      <Compile Include="Assets\Scripts\Nivel4Scripts\Objects5Nivel4Scripts\DestinationDestino5Objects5Nivel4.cs" />
      <Compile Include="Assets\Scripts\Nivel2Scripts\Objects2Nivel2Scripts\ARPlacementAndPlaneDetectionObjects2Nivel2.cs" />
      <Compile Include="Assets\Scripts\Nivel4Scripts\Objects3Nivel4Scripts\DestinationDestino3Objects3Nivel4.cs" />
+     <Compile Include="Assets\Scripts\Nivel4Scripts\Objects6Nivel4Scripts\GameManagerObjects6Nivel4.cs" />
      <Compile Include="Assets\Scripts\Nivel3Scripts\Objects3Nivel3Scripts\DraggableObjects3Nivel3.cs" />
      <Compile Include="Assets\Scripts\DraggableObject.cs" />
      <Compile Include="Assets\Scripts\Nivel4Scripts\Objects5Nivel4Scripts\DraggablePecaCaixa5Objects5Nivel4.cs" />
@@ -112,6 +117,7 @@
      <Compile Include="Assets\Scripts\SelectorLevelsMenuScript.cs" />
      <Compile Include="Assets\Scripts\ARPlacementManagerPhase2.cs" />
      <Compile Include="Assets\Scripts\Nivel3Scripts\Objects2Nivel3Scripts\DestinationObjects2Nivel3.cs" />
+     <Compile Include="Assets\Scripts\Nivel4Scripts\Objects6Nivel4Scripts\IDraggableObjects6Nivel4.cs" />
      <Compile Include="Assets\Scripts\Nivel4Scripts\Objects3Nivel4Scripts\ARPlacementAndPlaneDetectionObjects3Nivel4.cs" />
      <Compile Include="Assets\Scripts\MenuManagerScript.cs" />
      <Compile Include="Assets\Scripts\Nivel2Scripts\Objects3Nivel2Scripts\ARPlacementManagerObject3Nivel2.cs" />
@@ -130,6 +136,12 @@
      <Compile Include="Assets\Scripts\ARPlacementManager.cs" />
      <Compile Include="Assets\Scripts\Nivel2Scripts\Objects3Nivel2Scripts\ARPlacementAndPlaneDetectionObjects3Nivel2.cs" />
      <Compile Include="Assets\Scripts\Nivel4Scripts\Objects3Nivel4Scripts\GameManagerObjects3Nivel4.cs" />
+     <Compile Include="Assets\Scripts\RandomStartAudio.cs" />
+     <Compile Include="Assets\Scripts\ControlvolumeAudio.cs" />
+     <Compile Include="Assets\Scripts\AudioManager.cs" />
+     <Compile Include="Assets\Scripts\StartAudioNivel1.cs" />
+     <Compile Include="Assets\Scripts\MenuAudioManager.cs" />
+     <Compile Include="Assets\Scripts\FaseAudioManager.cs" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Masking.shader" />
      <None Include="Assets\XR\BACKUP\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />

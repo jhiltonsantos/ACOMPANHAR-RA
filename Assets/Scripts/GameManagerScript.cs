@@ -16,6 +16,7 @@ public class GameManagerScript : MonoBehaviour
     public ARPlaneManager arPlaneManager;
     public ARPlacementAndPlaneDetectionController aRPlacementAndPlaneDetectionController;
     public string messageFinish;
+    public AudioSource messageSound;
 
     void Start()
     {
@@ -57,6 +58,7 @@ public class GameManagerScript : MonoBehaviour
 
         objectCorrect = 0;
         ResetARPlanes();
+        aRPlacementAndPlaneDetectionController.SetAllPlanesActiveOrDeactive(false);
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
@@ -70,6 +72,7 @@ public class GameManagerScript : MonoBehaviour
 
         objectCorrect = 0;
         ResetARPlanes();
+        aRPlacementAndPlaneDetectionController.SetAllPlanesActiveOrDeactive(false);
         SceneManager.LoadScene(nextScene);
     }
 
@@ -103,8 +106,10 @@ public class GameManagerScript : MonoBehaviour
         resetButton.gameObject.SetActive(false);
         uIInformPanel.gameObject.SetActive(false);
     }
+    
     public void ShowMessage(string message, string buttonText)
     {
+        messageSound?.Play();
         messageText.text = message;
         resetButton.GetComponentInChildren<TextMeshProUGUI>().text = buttonText;
 

@@ -18,6 +18,7 @@ public class GameManagerPhase2 : MonoBehaviour
     public List<DestinationBoxPhase2Script> destinationBoxes = new List<DestinationBoxPhase2Script>();
     public ARPlacementAndPlaneDetectionPhase2 aRPlacementAndPlaneDetectionController;
     public string messageFinish;
+    public AudioSource messageSound;
 
     public void Start()
     {
@@ -78,6 +79,7 @@ public class GameManagerPhase2 : MonoBehaviour
 
         objectsCorrect = 0;
         ResetARPlanes();
+        aRPlacementAndPlaneDetectionController.SetAllPlanesActiveOrDeactive(false);
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
@@ -91,6 +93,7 @@ public class GameManagerPhase2 : MonoBehaviour
 
         objectsCorrect = 0;
         ResetARPlanes();
+        aRPlacementAndPlaneDetectionController.SetAllPlanesActiveOrDeactive(false);
         SceneManager.LoadScene(nextScene);
     }
 
@@ -127,6 +130,7 @@ public class GameManagerPhase2 : MonoBehaviour
 
     public void ShowMessage(string message, string buttonText)
     {
+        messageSound?.Play();
         messageText.text = message;
         resetButton.GetComponentInChildren<TextMeshProUGUI>().text = buttonText;
 
