@@ -18,7 +18,7 @@ Desenvolvido para dispositivos móveis, o aplicativo utiliza a câmera do aparel
 
 ## Artigo
 
-Para mais detalhes sobre o projeto [leia o artigo](https://www.linkedin.com/in/hiltonsantos9/overlay/projects/704397904/multiple-media-viewer/?profileId=ACoAACxJnqwBeBRLH43g3CP9HHY9ssDO_-LiMrk&treasuryMediaId=1712248865701&type=DOCUMENT)
+Para mais detalhes sobre o projeto [leia o artigo](https://sol.sbc.org.br/index.php/ercas/article/view/29690)
 
 ## itch.io do Projeto
 
